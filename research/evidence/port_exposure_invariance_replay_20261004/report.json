@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "train_sources": 192,
+  "counts": {
+    "both_usable": 177,
+    "at_least_one_abstained": 15
+  },
+  "median_relative_difference": 0.036024286431850835,
+  "report_sha256": "cbd0eb51543e4e0e7c22f2dee30a9b946facda8b2d4632e35f2f3b2d6494047c",
+  "auditor_sha256": "8f70485f1a59b07a4a1dc3934989b0da193a0a05eb0c2ad0c53bd0911eadb51c",
+  "independent_warp_and_estimator": true,
+  "no_label_files_read": true,
+  "no_fitting": true,
+  "no_detector_inference": true,
+  "no_deployment": true,
+  "not_recognition_accuracy": true
+}
