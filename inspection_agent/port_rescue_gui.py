@@ -13,8 +13,8 @@ from inspection_agent.context_port_recheck import run_context_port_recheck as ru
 from inspection_agent.optional_port_crop_review import sha
 from inspection_agent.teacher_student_port_support import (run_teacher_student_review,
     support_runtime_fingerprint, POLICY_ID as STUDENT_POLICY_ID)
-from inspection_agent.paired_median_geometry import (run_paired_median_review as run_feature_residual_review,
-    median_runtime_fingerprint as residual_runtime_fingerprint, POLICY_ID as FEATURE_POLICY_ID)
+from inspection_agent.paired_native_pose import (run_native_pose_review as run_feature_residual_review,
+    native_pose_runtime_fingerprint as residual_runtime_fingerprint, POLICY_ID as FEATURE_POLICY_ID)
 
 
 def report_digest(report):
@@ -67,7 +67,7 @@ class RescueWorker(QThread):
             if self.binding.get('feature',False):
                 result = run_feature_residual_review(self.report_snapshot,
                     project=Path(__file__).resolve().parents[1], enabled=True, scene=self.binding['scene'],
-                    supplementary_enabled=self.binding['supplementary'],student_enabled=True,feature_enabled=True,resolution_enabled=True,paired_enabled=True,median_enabled=True)
+                    supplementary_enabled=self.binding['supplementary'],student_enabled=True,feature_enabled=True,resolution_enabled=True,paired_enabled=True,median_enabled=True,native_pose_enabled=True)
             elif self.binding.get('student',False):
                 result = run_teacher_student_review(self.report_snapshot,
                     project=Path(__file__).resolve().parents[1], enabled=True, scene=self.binding['scene'],
@@ -185,13 +185,14 @@ def finish_port_rescue(window, payload):
         supplementary_hints=result.get('supplementary_hints',[]), supplementary_policy=result.get('supplementary_policy'),
         recheck_policy=result.get('recheck_policy'),teacher_student_policy=result.get('teacher_student_policy'),
         feature_residual_policy=result.get('feature_residual_policy'),resolution_policy=result.get('resolution_policy'),
-        paired_geometry_policy=result.get('paired_geometry_policy'),median_geometry_policy=result.get('median_geometry_policy'))
+        paired_geometry_policy=result.get('paired_geometry_policy'),median_geometry_policy=result.get('median_geometry_policy'),
+        native_pose_policy=result.get('native_pose_policy'))
     window._write_report(report)
     if result['status'] == 'applied':
         window.rescue_view.load(Path(payload['evidence']) / 'overlay.jpg')
         window.tabs.setCurrentWidget(window.rescue_view)
         window.rescue_status.setText(f"补漏：{len(result['rescue_hints'])} 个主要线索，{len(result.get('supplementary_hints',[]))} 个附加线索；需人工复核。证据：{payload['evidence']}")
-        optional_failure=(result.get('median_geometry_policy') or {}).get('fallback_reason') or (result.get('paired_geometry_policy') or {}).get('fallback_reason') or (result.get('resolution_policy') or {}).get('fallback_reason') or (result.get('feature_residual_policy') or {}).get('fallback_reason') or (result.get('teacher_student_policy') or {}).get('fallback_reason')
+        optional_failure=(result.get('native_pose_policy') or {}).get('fallback_reason') or (result.get('median_geometry_policy') or {}).get('fallback_reason') or (result.get('paired_geometry_policy') or {}).get('fallback_reason') or (result.get('resolution_policy') or {}).get('fallback_reason') or (result.get('feature_residual_policy') or {}).get('fallback_reason') or (result.get('teacher_student_policy') or {}).get('fallback_reason')
         if optional_failure:
             window.rescue_status.setText(window.rescue_status.text()+'；增强未应用，保留旧检测：'+str(optional_failure))
     else:

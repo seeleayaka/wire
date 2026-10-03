@@ -1,0 +1,86 @@
+{
+  "positive": {
+    "stage": "train",
+    "image": "disconnected_003.JPG",
+    "reasons": [
+      "ALL_new_native_pose_source"
+    ],
+    "upstream": "applied",
+    "raw_new_cues": 1,
+    "accepted": 1,
+    "current": {
+      "tp": 7,
+      "unmatched": 0,
+      "fn": 3,
+      "predictions": 7,
+      "targets": 10
+    },
+    "trial": {
+      "tp": 8,
+      "unmatched": 0,
+      "fn": 2,
+      "predictions": 8,
+      "targets": 10
+    },
+    "gained": [
+      3
+    ],
+    "lost": [],
+    "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_live_20261004\\train\\disconnected_003\\20261004_002608\\initial_report.json",
+    "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_live_20261004\\train\\disconnected_003\\20261004_002608\\native_pose_ports.json",
+    "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_live_20261004\\train\\disconnected_003\\20261004_002608\\native_pose_overlay.jpg"
+  },
+  "pins": {
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_live_20261004\\train\\disconnected_003\\20261004_002608\\initial_report.json": "bd4c55ad80a755a55c84a5eb7dc8c80f640cb8dbf28c1cc2d5b60b7e4ca27553",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_live_20261004\\train\\disconnected_003\\20261004_002608\\aligned.jpg": "ca5c6490b297bc0cc1d3f6a13f8b428fc18d21fcd982359a0b97c18436e48ad7",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_003.JPG": "c43bea91ae66c7227b6a79b91612043d7141c6c5e9934ce8b9b861be843e8e65",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_073.JPG": "09f81923e44089603ccfb5989e370d07cc27f2e929ebfc70de945a08947b19ac",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_live_20261004\\train\\disconnected_003\\20261004_002608\\native_pose_ports.json": "bab0aee3a7a4cc0e86a35b7293c005c36d636630e3521d06c0889bf1c75c7adb",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\verify_native_portable_complete_sam.py": "0d654ab620595436bd666e6d866749a56a1c01af154ad41cf71785d8e0d9af99"
+  },
+  "runtime_fingerprint": {
+    "accepted": {
+      "accepted": {
+        "accepted": {
+          "accepted_feature": {
+            "accepted": {
+              "teacher": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+              "student": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+              "manifest": "362fe4ae4a4d9f14ceefee4bd2184fd54efe1de18a02a557583b669eb523196e",
+              "support_code": "aae3fb97dc7735042370245ac591bd8ef68ed92b43182c368bcf8b472b4529db",
+              "context_code": "fbcf4f4b529e0617d69939704a7c494fc1c6a00a44d3fa66c0ea7bb24e508342",
+              "calibration": "bf8a034e398402de4e9c22ed13dedcbb410e717989f2202b1adc49712844e86d"
+            },
+            "feature": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+            "manifest": "115219f1f41b7675c2fb85401caba62b1d3dc2720b3647e297b0f1636b34abcc",
+            "feature_code": "0af358788bf2da0e49169544f2ce7c024334c2274dc1eac6af858ffdcd14e79c"
+          },
+          "resolution_code": "56e1c14f32e6e67cb1eb66ba4e02427c8c90e679aff1883772a8541def66f222",
+          "resolution_manifest": "478cda48b165b5eb4142bddf57d7399dd68fa3dde559950a5d32cbd6718f4866",
+          "predict_code": "093b0c9ec940c48a4863a302d98ed0fe36e6e6d0f4f68c1da96a80a406a168dd",
+          "tiling_code": "113a9b57ec431103afb35153f1f07868417715cd6829756a1350471cba8a239d"
+        },
+        "head": "238f517bfdbe5e81f6c98e28c33750fa02de75cf25ec0c93b8876fe72657004a",
+        "manifest": "2b716d54aaf4a0f12d37b2bc5a79c505b872308205850e438238d41c10f96637",
+        "backend": "ca5c08414b2721e01fb701ac4067efbac55d1f7df03e2dc3076410ee80115269",
+        "features": "da8b7e3d1f351ba85b6391c47ae42df8a6d1f95dc7ef5adf039d849d4d84ec75",
+        "encoder": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+      },
+      "head": "238f517bfdbe5e81f6c98e28c33750fa02de75cf25ec0c93b8876fe72657004a",
+      "encoder": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+      "manifest": "7bca50fff73d7448bad5c4dc7e370adcab0bd0745108b79b5174dfcfb4e3a582",
+      "backend": "def85003b459eea6d2185ade90e836763c605796355d1dfd930a31d423367014",
+      "geometry": "6e488dea2c324c69b3e9bc1f8420e1fc7ec4806cc956d1d72c3585492fc9414e"
+    },
+    "head": "9459ba29715a9f511ddc48a9a99014d2a239cfe65ccc32fe5e2de9122ab72467",
+    "encoder": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+    "manifest": "ad8daa84d3c7d8cd499635226f1c4bc716369d2366c1f1efbeef5bb0038db9e3",
+    "backend": "b6c59369ec3d6ae51dfc0ad577b4cb508454c452e295e8e7129feea368cdbc11",
+    "geometry": "3d96b6e6ce941f8e1468bdfd57ecc93b2679d43c282f66bf8b7df8499457c023"
+  },
+  "checkpoint_sha256": "9999e2341ceef5e136daa386eecb55cb414446a00ac2b55eb2dfd2f7c3cf8c9e",
+  "reference_cache_copy_sha_verified": true,
+  "selected_training_integration_only": true,
+  "actual_qt_fixture_code": true,
+  "field_accuracy": false
+}

@@ -59,7 +59,22 @@ def main():
                 temp.rename(target)
             finally:
                 if temp.exists():temp.unlink()
-    sam=manifest['sam3'];target=ROOT/sam['path'];target.parent.mkdir(parents=True,exist_ok=True)
+    for alias in manifest.get('model_aliases',[]):
+        source=(ROOT/alias['source']).resolve();target=(ROOT/alias['path']).resolve()
+        if not source.is_relative_to(ROOT) or not target.is_relative_to(ROOT):raise ValueError('Unsafe model alias path')
+        expected=allowed.get(alias['source'])
+        if not expected or expected['sha256']!=alias['sha256']:raise ValueError('Unverified alias source')
+        verified(source,alias['sha256'])
+        if target.exists():verified(target,alias['sha256']);continue
+        target.parent.mkdir(parents=True,exist_ok=True)
+        fd,temp_name=tempfile.mkstemp(prefix=target.name+'.restore-',dir=target.parent);os.close(fd);temp=Path(temp_name)
+        try:
+            shutil.copyfile(source,temp);verified(temp,alias['sha256']);temp.rename(target)
+        finally:
+            if temp.exists():temp.unlink()
+    sam=manifest['sam3'];target=(ROOT/sam['path']).resolve()
+    if not target.is_relative_to(ROOT):raise ValueError('Unsafe SAM path')
+    target.parent.mkdir(parents=True,exist_ok=True)
     if target.exists():verified(target,sam['sha256'])
     else:
         fd,temp_name=tempfile.mkstemp(prefix='sam3.restore-',dir=target.parent);os.close(fd);temp=Path(temp_name)

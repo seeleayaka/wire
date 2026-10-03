@@ -1,6 +1,13 @@
 {
   "repository": "https://github.com/seeleayaka/wire",
   "release_tag": "backup-20261004",
+  "model_aliases": [
+    {
+      "source": "research/artifacts/paired_pose_native_training_20261004/full/last_head.pt",
+      "path": "output/paired_pose_native_20261004/last_head.pt",
+      "sha256": "9459ba29715a9f511ddc48a9a99014d2a239cfe65ccc32fe5e2de9122ab72467"
+    }
+  ],
   "sam3": {
     "path": "models/sam3/sam3.pt",
     "bytes": 3450062241,
