@@ -1,0 +1,39 @@
+{
+  "status": "pass",
+  "experiment_status": "rejected",
+  "sources": 192,
+  "training_examples": 9808,
+  "raw_proposals": 969,
+  "pixel_descriptors_recomputed": 10777,
+  "descriptor_implementation_shared": true,
+  "missing_training_examples": 2,
+  "missing_raw_candidates": 0,
+  "missing_candidates_force_other_replayed": true,
+  "independent_grouped_scaling_head_score_and_selector_GT_replay": true,
+  "stages": {
+    "source_train_oof": {
+      "qualifies": false,
+      "summary": {
+        "current": {
+          "tp": 295,
+          "unmatched": 4,
+          "fn": 49,
+          "predictions": 299,
+          "targets": 344
+        },
+        "trial": {
+          "tp": 297,
+          "unmatched": 12,
+          "fn": 47,
+          "predictions": 309,
+          "targets": 344
+        }
+      }
+    }
+  },
+  "source_report_sha256": "c51daa8abfbc8c20a4f61ca00b000667feb52f8735862996e2672fe2c6176b1e",
+  "auditor_sha256": "77e87d6d03fb96ecb7e5161cc93eacdd521630e1f70720ff4a719878711ebfd8",
+  "no_deployment": true,
+  "field_accuracy": false,
+  "seconds": 383.58
+}

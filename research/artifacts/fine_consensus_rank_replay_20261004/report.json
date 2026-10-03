@@ -1,0 +1,33 @@
+{
+  "status": "pass",
+  "sources": 192,
+  "candidates": 969,
+  "summary": {
+    "qualifies": true,
+    "summary": {
+      "current": {
+        "tp": 295,
+        "unmatched": 4,
+        "fn": 49,
+        "predictions": 299,
+        "targets": 344
+      },
+      "trial": {
+        "tp": 298,
+        "unmatched": 4,
+        "fn": 46,
+        "predictions": 302,
+        "targets": 344
+      }
+    },
+    "normal_cues": 0
+  },
+  "independent_voter_IoU_median_rank_duplicate_and_GT_replay": true,
+  "cached_original_pixel_head_scores_recomputed": true,
+  "upstream_feature_audit_sha256": "7c6a861097c8264a879bd86bdd28a2f81f9a78ff6c6417e06fc6f2dba00a6d28",
+  "source_report_sha256": "64b1a23bbdefff5941337435a5cbb1eea512fb1ebb823329376d310e0e17c2a2",
+  "auditor_sha256": "9470fd6fdc982c71ad5a62b119a62c741f5c8d90df822e0dd73c7e4b0772ba59",
+  "no_new_detector_inference": true,
+  "no_deployment": true,
+  "field_accuracy": false
+}

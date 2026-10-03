@@ -25,9 +25,45 @@ same .98/3SHA/.85/5+5. Ten geometry/contrast/immutability/standardization tests
 PASS; all119 fine source alignments exactly match descriptor provenance.
 Stopped184.58sec during feature extraction: insufficient valid body/ring
 coverage, no optimizer/head/recognition metrics. Preserve code/plan/output.
-ACTIVE79965 ALL192 geometry readiness,9808training+969raw,no GT/labels fitted.
+FINISHED79965 ALL192 geometry readiness203.02sec,9808training+969raw:
+2training examples (same source/box,original and reference twin) have ring
+coverage.84053156<.85; ZERO969raw candidates invalid. No GT/labels used.
 Any revision needs explicit missing-input abstention, not lower coverage or
 filtered training examples. No E changes or promised gain.
+FINISHED/rejected7042/PID12808 paired_core_ring_missing_20261004,446.72sec:
+OOF297/12 versus295/4,2TP8extra unmatched. Independent ALL192/10777pixel
+descriptors/scaling/head/selector/GT replay PASS383.58sec (shared descriptor
+implementation, independently checked grouping/scaling/score/GT). No fullhead,
+held-outs or deployment. Explicitly retain ALL
+9808 rows with zero descriptor+presence0 for missing geometry, valid46stats+
+presence1; FORCE missing raw candidates toOTHER before existing selector.
+16generic testsPASS, no coverage/semantic threshold reduction. Separate new
+plan/code/output; original failed experiment pins independently still match.
+Latest public9c3fc6327873955ae3e1943638af59c6e53399a7 PUSHED+remote verified:
+2867files,secret0,byte-drift0. Original model/SAM Release unchanged.
+ALL9 original fine additions visually reviewed, no GT edits:5individual matches
+include3already covered targets;3of4 sub-.5IoU cues also nearest an already
+covered target, one near a NEW target. Thus6duplicates/1localization miss/
+2newtarget matches, not7proven physical false faults. First render assertion
+confused individual GT matches with net gained targets; corrected separatev2.
+Fixed IoMin.5 duplicate exclusion FINISHED12.14sec:297/5 vs295/4,removes6
+extra duplicate cues but1extra unmatched remains. Relative source-OOF fine
+geometry coverage3->3,zero newpotential; reject,no semantic phase. Independent
+ALL192/969 replay PASS (first atomic progress replace sharing lock preserved;
+separatev2 bounded8x.05sec retry only, no algorithm changes).
+NEW SOURCE PASS fine_consensus_rank_20261004:298/344,4unmatched vs295/4,
+3newtargets,nooldloss,zeronormal;4.28sec. Fixed median best-voter-IoU ranking
+within parent instead of semantic-p maximization, same p98/3SHA/IoMin.5/5+5,
+original boxes/scores unchanged. ALL192/969 independent voter-IoU/median/rank/
+novelty/head-score/GT replay PASS. This is NOT installed E or field accuracy.
+ACTIVE64267/PID14892 fine_consensus_rank_holdouts_20261004: fresh ALL48INNER
+fine960/720 teacher+student, originalSIFT/DINO/head, samefixedranking; requires
+strictTP>68/noextraunmatched/nooldloss/zeronormals before conditionalALL30OUTER.
+No threshold/GT changes, training, E install or SAM run. Original actual pairing
+ACTIVE34932/PID17572 now OUTER. ALL48INNER independently replayed:original
+actual67/80+0unmatched versus exposure68/80+1,zero lost targets/one gained,
+24normal safety abstentions each. Partial-only,not field accuracy; full78pending.
+All19 novel/rank/voter source/frame/scale/ordering/probability/budget tests PASS.
 
 ## Earlier checkpoint details (completed workers below are historical)
 
