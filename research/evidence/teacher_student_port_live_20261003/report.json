@@ -1,0 +1,127 @@
+{
+  "status": "complete",
+  "cases": [
+    {
+      "image": "normal_006.JPG",
+      "status": "fallback",
+      "fallback_reason": "local_alignment_not_supported",
+      "primary": 0,
+      "supplementary": 0,
+      "student_policy": {
+        "policy_id": "teacher_preserved_student_cross_support_v1_20261003",
+        "enabled": true,
+        "experimental": true,
+        "maximum_total_primary": 5,
+        "maximum_total_supplementary": 5,
+        "teacher_preserved": true,
+        "automatic_fault_verdict": false,
+        "added_hints": 0,
+        "correlated_models_not_physical_evidence": true
+      },
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\teacher_student_port_live_20261003\\normal_006\\evidence.json",
+      "seconds": 0.0,
+      "sam_pending": false,
+      "split": "test01",
+      "baseline_metrics": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "metrics": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      }
+    },
+    {
+      "image": "disconnected_005.JPG",
+      "status": "applied",
+      "fallback_reason": null,
+      "primary": 4,
+      "supplementary": 0,
+      "student_policy": {
+        "policy_id": "teacher_preserved_student_cross_support_v1_20261003",
+        "enabled": true,
+        "experimental": true,
+        "maximum_total_primary": 5,
+        "maximum_total_supplementary": 5,
+        "teacher_preserved": true,
+        "automatic_fault_verdict": false,
+        "added_hints": 0,
+        "correlated_models_not_physical_evidence": true,
+        "confirmed_native_candidates": 0,
+        "reference_inference_performed": false,
+        "fallback_reason": null
+      },
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\teacher_student_port_live_20261003\\disconnected_005\\evidence.json",
+      "seconds": 27.8,
+      "sam_pending": false,
+      "split": "test01",
+      "baseline_metrics": {
+        "tp": 4,
+        "unmatched": 0,
+        "fn": 6,
+        "predictions": 4,
+        "targets": 10
+      },
+      "metrics": {
+        "tp": 4,
+        "unmatched": 0,
+        "fn": 6,
+        "predictions": 4,
+        "targets": 10
+      }
+    },
+    {
+      "image": "disconnected_008.JPG",
+      "status": "applied",
+      "fallback_reason": null,
+      "primary": 5,
+      "supplementary": 4,
+      "student_policy": {
+        "policy_id": "teacher_preserved_student_cross_support_v1_20261003",
+        "enabled": true,
+        "experimental": true,
+        "maximum_total_primary": 5,
+        "maximum_total_supplementary": 5,
+        "teacher_preserved": true,
+        "automatic_fault_verdict": false,
+        "added_hints": 1,
+        "correlated_models_not_physical_evidence": true,
+        "confirmed_native_candidates": 1,
+        "reference_inference_performed": true,
+        "fallback_reason": null
+      },
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\teacher_student_port_live_20261003\\fresh_initial_train\\20261003_010545\\evidence.json",
+      "seconds": 40.01,
+      "sam_pending": true,
+      "split": "train01",
+      "baseline_metrics": {
+        "tp": 8,
+        "unmatched": 0,
+        "fn": 4,
+        "predictions": 8,
+        "targets": 12
+      },
+      "metrics": {
+        "tp": 9,
+        "unmatched": 0,
+        "fn": 3,
+        "predictions": 9,
+        "targets": 12
+      }
+    }
+  ],
+  "seconds": 107.59,
+  "new_sam": false,
+  "original_reports_unchanged": true,
+  "production_gui_not_changed": true,
+  "operator_confirmation": false,
+  "not_complete_fusion_acceptance": true,
+  "policy_hash": "d9ffd2348d47e3df16e4990a246ee2fcf04e3e2fc97b57b17d49ccca2f1d7a9d",
+  "backend_hash": "092a24d6cef27ac2e7c37406b81e55c3e74e8a66d231b7bef7bd10ad5336c1ce"
+}

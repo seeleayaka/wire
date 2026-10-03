@@ -1,0 +1,4 @@
+# Additional dependencies for optional port-model evaluation, from the working environment.
+ultralytics==8.4.121
+psutil
+scikit-learn

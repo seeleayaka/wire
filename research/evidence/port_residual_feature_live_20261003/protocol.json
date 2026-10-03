@@ -1,0 +1,30 @@
+{
+  "pins": {
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\verify_port_residual_live.py": "09da62ce17210aa9517691f07277f06991fceee945d8d1fbb896d9adbaf435a8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\port_residual_feature_backend.py": "f4aeff1571545520805b0c46fa29b5dc07298e6f22351a4fc570425af75cb018",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\port_residual_feature_support.py": "9422ca541da10513933d3b3cdbe22c410cd9290e1ab52eab9b92dc2edb027257",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\port_feature_adaptation_20261003\\full\\runs\\rectports\\weights\\last.pt": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_073.JPG": "09f81923e44089603ccfb5989e370d07cc27f2e929ebfc70de945a08947b19ac",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_003.JPG": "c43bea91ae66c7227b6a79b91612043d7141c6c5e9934ce8b9b861be843e8e65",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_029.JPG": "f2cbe8a151852a8fe7f1d78b76db183e0a25f4aec448b90a061a9998ecf69bf2",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_030.JPG": "53e08cc9fb17a9c4814dc3de0e4839ae91bf1abafac3efefecc2443f125c8d67",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_033.JPG": "65a56eb09b8f17caee156a6709bacfb8aa7d9a277d78a40280176a08d94225a9",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_034.JPG": "9c173802906155fdd7d9a66b3e067e6610c46e69abf180e052174ccf396e1361"
+  },
+  "images": [
+    "disconnected_003.JPG",
+    "damaged_029.JPG",
+    "damaged_030.JPG",
+    "damaged_033.JPG",
+    "damaged_034.JPG"
+  ],
+  "positive_selection": "First training-control case with residual gain",
+  "negative_selection": "ALL broader training source-only current cues, no per-image policy",
+  "new_initial_registration_and_dino": true,
+  "new_source_reference_model_inference": true,
+  "new_sam": false,
+  "sam_pending": true,
+  "previously_seen_training_diagnostic": true,
+  "automatic_deployment": false,
+  "field_accuracy": false
+}

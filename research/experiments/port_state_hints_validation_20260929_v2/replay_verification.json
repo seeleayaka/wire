@@ -1,0 +1,10 @@
+{
+  "cases_exact_replay": 30,
+  "calibration_rebuilt_exact": true,
+  "parents_unchanged": true,
+  "hints_order_stable": true,
+  "source_fingerprints_verified": 60,
+  "no_model_inference": true,
+  "extra_precise_fragments": 1,
+  "additional_normal_hints": 0
+}

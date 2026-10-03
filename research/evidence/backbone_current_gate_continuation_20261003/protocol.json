@@ -1,0 +1,34 @@
+{
+  "pins": {
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\run_backbone_current_policy_gate.py": "02366d362bc219c1890486ae5f2d964629e3c3898c3ea756318c34cd1f98af93",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\evaluate_backbone_against_current_policy.py": "c6df834dd2a77d6af4f0ea75de65652247c808f27b71bb3774382335edac478f",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\current_port_baseline_audit.py": "8b7704fb591ca4d2b584a3e55236621c18a3b453289b83511b8c80d2b04bee0c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\evaluate_full_backbone_acceptance.py": "de14f67b070bca7cf8008059566c985157bf79295eeb8cc6e9286f16313d3122"
+  },
+  "current_runtime_fingerprint": {
+    "accepted_feature": {
+      "accepted": {
+        "teacher": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+        "student": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+        "manifest": "362fe4ae4a4d9f14ceefee4bd2184fd54efe1de18a02a557583b669eb523196e",
+        "support_code": "aae3fb97dc7735042370245ac591bd8ef68ed92b43182c368bcf8b472b4529db",
+        "context_code": "fbcf4f4b529e0617d69939704a7c494fc1c6a00a44d3fa66c0ea7bb24e508342",
+        "calibration": "bf8a034e398402de4e9c22ed13dedcbb410e717989f2202b1adc49712844e86d"
+      },
+      "feature": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+      "manifest": "115219f1f41b7675c2fb85401caba62b1d3dc2720b3647e297b0f1636b34abcc",
+      "feature_code": "0af358788bf2da0e49169544f2ce7c024334c2274dc1eac6af858ffdcd14e79c"
+    },
+    "resolution_code": "56e1c14f32e6e67cb1eb66ba4e02427c8c90e679aff1883772a8541def66f222",
+    "resolution_manifest": "478cda48b165b5eb4142bddf57d7399dd68fa3dde559950a5d32cbd6718f4866",
+    "predict_code": "093b0c9ec940c48a4863a302d98ed0fe36e6e6d0f4f68c1da96a80a406a168dd",
+    "tiling_code": "113a9b57ec431103afb35153f1f07868417715cd6829756a1350471cba8a239d"
+  },
+  "max_wait_minutes": 180,
+  "no_duplicate_training": true,
+  "no_original_pipeline_edits": true,
+  "no_automatic_deployment": true,
+  "source_gate_only": true,
+  "local_machine_required": true,
+  "field_accuracy": false
+}

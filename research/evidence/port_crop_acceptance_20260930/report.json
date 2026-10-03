@@ -1,0 +1,352 @@
+{
+  "status": "complete",
+  "phase": "outer_validation",
+  "split": "val01",
+  "threshold": 0.25,
+  "config": {
+    "tile_size": 1280,
+    "tile_stride": 960,
+    "edge_margin": 16,
+    "cross_tile_nms_iou": 0.5,
+    "predict_imgsz": 960,
+    "predict_conf_floor": 0.001,
+    "predict_iou": 0.7,
+    "predict_max_det": 300,
+    "batch_tiles": 2,
+    "minimum_hint_conf": 0.25,
+    "normal_maximum_quantile": 0.95,
+    "maximum_new_hints_per_image": 1
+  },
+  "baseline": {
+    "fault_images_with_overlap": 15,
+    "source_fragments": 245,
+    "overlap_fragments": 164,
+    "iou_ge_01": 25,
+    "iou_ge_05": 5,
+    "mean_best_iou": 0.040564561525989494,
+    "fault_regions": 71,
+    "normal_regions": 37,
+    "normal_images_with_added_hints": 0
+  },
+  "proposed": {
+    "fault_images_with_overlap": 15,
+    "source_fragments": 245,
+    "overlap_fragments": 164,
+    "iou_ge_01": 30,
+    "iou_ge_05": 10,
+    "mean_best_iou": 0.05868125038399576,
+    "fault_regions": 77,
+    "normal_regions": 37,
+    "normal_images_with_added_hints": 0
+  },
+  "per_image": [
+    {
+      "image": "damaged_007.JPG",
+      "new_hints": 0,
+      "extra_precise": 0,
+      "extra_overlap": 0
+    },
+    {
+      "image": "damaged_012.JPG",
+      "new_hints": 0,
+      "extra_precise": 0,
+      "extra_overlap": 0
+    },
+    {
+      "image": "damaged_020.JPG",
+      "new_hints": 0,
+      "extra_precise": 0,
+      "extra_overlap": 0
+    },
+    {
+      "image": "damaged_031.JPG",
+      "new_hints": 1,
+      "extra_precise": 0,
+      "extra_overlap": 0
+    },
+    {
+      "image": "damaged_035.JPG",
+      "new_hints": 0,
+      "extra_precise": 0,
+      "extra_overlap": 0
+    },
+    {
+      "image": "disconnected_002.JPG",
+      "new_hints": 1,
+      "extra_precise": 1,
+      "extra_overlap": 0
+    },
+    {
+      "image": "disconnected_006.JPG",
+      "new_hints": 1,
+      "extra_precise": 1,
+      "extra_overlap": 0
+    },
+    {
+      "image": "disconnected_011.JPG",
+      "new_hints": 1,
+      "extra_precise": 1,
+      "extra_overlap": 0
+    },
+    {
+      "image": "disconnected_027.JPG",
+      "new_hints": 1,
+      "extra_precise": 1,
+      "extra_overlap": 0
+    },
+    {
+      "image": "disconnected_048.JPG",
+      "new_hints": 1,
+      "extra_precise": 1,
+      "extra_overlap": 0
+    },
+    {
+      "image": "misrouted_012.JPG",
+      "new_hints": 0,
+      "extra_precise": 0,
+      "extra_overlap": 0
+    },
+    {
+      "image": "misrouted_025.JPG",
+      "new_hints": 0,
+      "extra_precise": 0,
+      "extra_overlap": 0
+    },
+    {
+      "image": "misrouted_034.JPG",
+      "new_hints": 0,
+      "extra_precise": 0,
+      "extra_overlap": 0
+    },
+    {
+      "image": "misrouted_040.JPG",
+      "new_hints": 0,
+      "extra_precise": 0,
+      "extra_overlap": 0
+    },
+    {
+      "image": "misrouted_050.JPG",
+      "new_hints": 0,
+      "extra_precise": 0,
+      "extra_overlap": 0
+    },
+    {
+      "image": "normal_001.JPG",
+      "new_hints": 0,
+      "extra_precise": 0,
+      "extra_overlap": 0
+    },
+    {
+      "image": "normal_004.JPG",
+      "new_hints": 0,
+      "extra_precise": 0,
+      "extra_overlap": 0
+    },
+    {
+      "image": "normal_007.JPG",
+      "new_hints": 0,
+      "extra_precise": 0,
+      "extra_overlap": 0
+    },
+    {
+      "image": "normal_036.JPG",
+      "new_hints": 0,
+      "extra_precise": 0,
+      "extra_overlap": 0
+    },
+    {
+      "image": "normal_041.JPG",
+      "new_hints": 0,
+      "extra_precise": 0,
+      "extra_overlap": 0
+    },
+    {
+      "image": "normal_061.JPG",
+      "new_hints": 0,
+      "extra_precise": 0,
+      "extra_overlap": 0
+    },
+    {
+      "image": "normal_067.JPG",
+      "new_hints": 0,
+      "extra_precise": 0,
+      "extra_overlap": 0
+    },
+    {
+      "image": "normal_078.JPG",
+      "new_hints": 0,
+      "extra_precise": 0,
+      "extra_overlap": 0
+    },
+    {
+      "image": "normal_082.JPG",
+      "new_hints": 0,
+      "extra_precise": 0,
+      "extra_overlap": 0
+    },
+    {
+      "image": "normal_083.JPG",
+      "new_hints": 0,
+      "extra_precise": 0,
+      "extra_overlap": 0
+    },
+    {
+      "image": "normal_099.JPG",
+      "new_hints": 0,
+      "extra_precise": 0,
+      "extra_overlap": 0
+    },
+    {
+      "image": "normal_100.JPG",
+      "new_hints": 0,
+      "extra_precise": 0,
+      "extra_overlap": 0
+    },
+    {
+      "image": "normal_105.JPG",
+      "new_hints": 0,
+      "extra_precise": 0,
+      "extra_overlap": 0
+    },
+    {
+      "image": "normal_126.JPG",
+      "new_hints": 0,
+      "extra_precise": 0,
+      "extra_overlap": 0
+    },
+    {
+      "image": "normal_144.JPG",
+      "new_hints": 0,
+      "extra_precise": 0,
+      "extra_overlap": 0
+    }
+  ],
+  "accepted_for_further_integration_review": true,
+  "formal_detection_changed": false,
+  "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+  "calibration_sha256": "bf8a034e398402de4e9c22ed13dedcbb410e717989f2202b1adc49712844e86d",
+  "source_manifest": [
+    {
+      "image": "damaged_007.JPG",
+      "sha256": "fe47d64d920f9e4a03d599eb4d78e9c9e35751736fa78833fa6e78a7c1225031"
+    },
+    {
+      "image": "damaged_012.JPG",
+      "sha256": "aebd3db9492adbffd703404099ab2ea7b6b2edeb8d3aa78a4f36ad0223ba3b03"
+    },
+    {
+      "image": "damaged_020.JPG",
+      "sha256": "804cb34d743963571dd0d5b83c83303c09f7e3484544b04ee9980b24e623d965"
+    },
+    {
+      "image": "damaged_031.JPG",
+      "sha256": "1c43e0b7e13f50013acb4ca13c5a0cefcae6b5f7a7c28785aba9014a1ddb7974"
+    },
+    {
+      "image": "damaged_035.JPG",
+      "sha256": "7ba0f1dd0dab53f691f1df8b22b65dd903897d3ebbc8a2eb662a3c286b39f12b"
+    },
+    {
+      "image": "disconnected_002.JPG",
+      "sha256": "21a5d15783144163c45c2c407faec1749541f1c600ed57c22103c7643d6028de"
+    },
+    {
+      "image": "disconnected_006.JPG",
+      "sha256": "247cb2763124cedb042f2d2b6a0043f16f03eb424dec2a236507d0fa1ac85d21"
+    },
+    {
+      "image": "disconnected_011.JPG",
+      "sha256": "55e5aabc92477389e8ae353e2316e6e53842e64ebe67472077810f67394d5e1a"
+    },
+    {
+      "image": "disconnected_027.JPG",
+      "sha256": "8bd43c6126551663a7f1593fa8867ab9c4d30ef96c295862f8d4107b35a3d8b8"
+    },
+    {
+      "image": "disconnected_048.JPG",
+      "sha256": "2e12bec6767e0c809df2dd38951c963c765f25af693161fcdb8541bdb60942b8"
+    },
+    {
+      "image": "misrouted_012.JPG",
+      "sha256": "8c64daf54611173e0b0e79c419226b62bc398b161df2c01281513b59ba2420cb"
+    },
+    {
+      "image": "misrouted_025.JPG",
+      "sha256": "af2ef0128ca9db98e6c692bade32912dc57c5e8962adbf88ffef3b47002045e1"
+    },
+    {
+      "image": "misrouted_034.JPG",
+      "sha256": "6b4a0abc5805411723703e1d1c8372b6cd2227b2fade15e6197e3b4c48b8777e"
+    },
+    {
+      "image": "misrouted_040.JPG",
+      "sha256": "bff0544f34bb6dfbe913ce95d50bc14b13571bdc73114a77103ce806a4d8524c"
+    },
+    {
+      "image": "misrouted_050.JPG",
+      "sha256": "6cb6ac66c22c9bc9fcf66b9aba19c866553093428d5eb9e14c63ba29d2e91054"
+    },
+    {
+      "image": "normal_001.JPG",
+      "sha256": "c01fe31fa2c7cf3ba8fc6584d703bed087c6629d434fa9c936f14b751036fc58"
+    },
+    {
+      "image": "normal_004.JPG",
+      "sha256": "0ad24668d8194b75d2d8d61028d4b8a4b1d129e8cbb9ecfa94793cafadea2416"
+    },
+    {
+      "image": "normal_007.JPG",
+      "sha256": "4745577a97c8e9408314f1934be3cf07b2b731f6d0326c80b6629cfa89e2511b"
+    },
+    {
+      "image": "normal_036.JPG",
+      "sha256": "770096d26add84bc0b99cf2ea0e368da078cc94b7e5fb65829c9ef101c96d0dc"
+    },
+    {
+      "image": "normal_041.JPG",
+      "sha256": "4f16216debe5b7eec9442a495c24d6ce55dc209f775b01ec442e9eeb1eff7029"
+    },
+    {
+      "image": "normal_061.JPG",
+      "sha256": "54432c8da1acc8fe6397edcb360b807fc3d19fcdee4897dea1d3a74e87f92de8"
+    },
+    {
+      "image": "normal_067.JPG",
+      "sha256": "c0dd25ecd349cf4e0a2bec9e9dc0a8ac5145fc3d5169084acda97284ff0306d5"
+    },
+    {
+      "image": "normal_078.JPG",
+      "sha256": "6e40d8903db803f1b6cf0327a0e0b37792503122e51ea743baae0369114d219e"
+    },
+    {
+      "image": "normal_082.JPG",
+      "sha256": "029c675e68537ae710a3a3aa86b1cf3e55fd8e8b3370f9ad7948cf08027190a2"
+    },
+    {
+      "image": "normal_083.JPG",
+      "sha256": "cc68f3e1fa1a5aaccced5ae417649f49e9b0f1d090321ab8d39247dac7330aaf"
+    },
+    {
+      "image": "normal_099.JPG",
+      "sha256": "050137d1be779afcb81cecb419e48e8c146b463507739e54bc35e0ca9b088add"
+    },
+    {
+      "image": "normal_100.JPG",
+      "sha256": "5cde7ae803f6e02a3ae83c44bbb55ce128ccdf147e0b2647cde2ca200787086b"
+    },
+    {
+      "image": "normal_105.JPG",
+      "sha256": "732e611416218ce0a558a2dac2175ff8c27d055b82920d52675128882d085e58"
+    },
+    {
+      "image": "normal_126.JPG",
+      "sha256": "29c87e0a428f9271e51490e7fa8ad2b57dc56609a36701093ad518109be8a9c8"
+    },
+    {
+      "image": "normal_144.JPG",
+      "sha256": "fce5359b1ea3c786a2ccdb2420f09a9811f4432224673c6fe04bc0200024fe9c"
+    }
+  ],
+  "reference_sha256": "09f81923e44089603ccfb5989e370d07cc27f2e929ebfc70de945a08947b19ac",
+  "warning": "Same scene/camera and prior val exposure; source-fragment box metrics, not field accuracy, cable identity, or continuity. An accepted gate only merits further review."
+}

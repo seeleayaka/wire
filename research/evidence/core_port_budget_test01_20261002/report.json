@@ -1,0 +1,626 @@
+{
+  "status": "complete",
+  "summary": {
+    "top1": {
+      "tp": 5,
+      "unmatched": 3,
+      "fn": 53,
+      "predictions": 8,
+      "targets": 58
+    },
+    "bounded_expand": {
+      "tp": 24,
+      "unmatched": 3,
+      "fn": 34,
+      "predictions": 27,
+      "targets": 58
+    }
+  },
+  "cases": [
+    {
+      "image": "damaged_005.JPG",
+      "metrics": {
+        "top1": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "bounded_expand": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "cached_prediction_sha256": "86e17e079315ae530546f1bba6850aaa74186f1abfda19889215477f44a707f0"
+    },
+    {
+      "image": "damaged_014.JPG",
+      "metrics": {
+        "top1": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "bounded_expand": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "cached_prediction_sha256": "c7c32a19e861468729f27bae23d257605af54dc6211e3f076ee33e1f662cda29"
+    },
+    {
+      "image": "damaged_019.JPG",
+      "metrics": {
+        "top1": {
+          "tp": 0,
+          "unmatched": 1,
+          "fn": 0,
+          "predictions": 1,
+          "targets": 0
+        },
+        "bounded_expand": {
+          "tp": 0,
+          "unmatched": 1,
+          "fn": 0,
+          "predictions": 1,
+          "targets": 0
+        }
+      },
+      "cached_prediction_sha256": "3ccaa57b41399662713427893b91a571ff44234669b3132d823e341ad8006dd6"
+    },
+    {
+      "image": "damaged_032.JPG",
+      "metrics": {
+        "top1": {
+          "tp": 0,
+          "unmatched": 1,
+          "fn": 0,
+          "predictions": 1,
+          "targets": 0
+        },
+        "bounded_expand": {
+          "tp": 0,
+          "unmatched": 1,
+          "fn": 0,
+          "predictions": 1,
+          "targets": 0
+        }
+      },
+      "cached_prediction_sha256": "0a85c0f59c385f50d640f25fbddb909e2f2450aeaa98e7b6fffbc6653c808e5e"
+    },
+    {
+      "image": "damaged_036.JPG",
+      "metrics": {
+        "top1": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "bounded_expand": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "cached_prediction_sha256": "74a4385a624e642e290f897757e5a63041cb4d1af6abe1efb7170195ae9bee84"
+    },
+    {
+      "image": "disconnected_005.JPG",
+      "metrics": {
+        "top1": {
+          "tp": 1,
+          "unmatched": 0,
+          "fn": 9,
+          "predictions": 1,
+          "targets": 10
+        },
+        "bounded_expand": {
+          "tp": 4,
+          "unmatched": 0,
+          "fn": 6,
+          "predictions": 4,
+          "targets": 10
+        }
+      },
+      "cached_prediction_sha256": "3efeb8bd3562bcaa6b156522196640e75e67bac460034e4fedbf63a3f8697882"
+    },
+    {
+      "image": "disconnected_007.JPG",
+      "metrics": {
+        "top1": {
+          "tp": 1,
+          "unmatched": 0,
+          "fn": 11,
+          "predictions": 1,
+          "targets": 12
+        },
+        "bounded_expand": {
+          "tp": 5,
+          "unmatched": 0,
+          "fn": 7,
+          "predictions": 5,
+          "targets": 12
+        }
+      },
+      "cached_prediction_sha256": "7bb9aba4ec151ace98095d534a4201931552c2620851c5c550a6b6f36061ad86"
+    },
+    {
+      "image": "disconnected_016.JPG",
+      "metrics": {
+        "top1": {
+          "tp": 1,
+          "unmatched": 0,
+          "fn": 13,
+          "predictions": 1,
+          "targets": 14
+        },
+        "bounded_expand": {
+          "tp": 5,
+          "unmatched": 0,
+          "fn": 9,
+          "predictions": 5,
+          "targets": 14
+        }
+      },
+      "cached_prediction_sha256": "79db70fa7c17f6d9734f8a85b65ed90bf3782e1a427e2324c03ed36d44b3ed75"
+    },
+    {
+      "image": "disconnected_035.JPG",
+      "metrics": {
+        "top1": {
+          "tp": 1,
+          "unmatched": 0,
+          "fn": 9,
+          "predictions": 1,
+          "targets": 10
+        },
+        "bounded_expand": {
+          "tp": 5,
+          "unmatched": 0,
+          "fn": 5,
+          "predictions": 5,
+          "targets": 10
+        }
+      },
+      "cached_prediction_sha256": "18a671e1b6ee14dce6a8528d741d808c3b40cf4e55b0ac4f1c70efd443596382"
+    },
+    {
+      "image": "disconnected_047.JPG",
+      "metrics": {
+        "top1": {
+          "tp": 1,
+          "unmatched": 0,
+          "fn": 11,
+          "predictions": 1,
+          "targets": 12
+        },
+        "bounded_expand": {
+          "tp": 5,
+          "unmatched": 0,
+          "fn": 7,
+          "predictions": 5,
+          "targets": 12
+        }
+      },
+      "cached_prediction_sha256": "81081d5180e3987af7728c99d3f5b2408d91551d7ca9f3ce9308caef0e0b225f"
+    },
+    {
+      "image": "misrouted_001.JPG",
+      "metrics": {
+        "top1": {
+          "tp": 0,
+          "unmatched": 1,
+          "fn": 0,
+          "predictions": 1,
+          "targets": 0
+        },
+        "bounded_expand": {
+          "tp": 0,
+          "unmatched": 1,
+          "fn": 0,
+          "predictions": 1,
+          "targets": 0
+        }
+      },
+      "cached_prediction_sha256": "02bf80c735eccd0a7f0e97d43c4a735eefb7a5e7d468ea32959a8bb0c5b3430d"
+    },
+    {
+      "image": "misrouted_020.JPG",
+      "metrics": {
+        "top1": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "bounded_expand": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "cached_prediction_sha256": "a3e8ab29ea8e221b1238479687d75e0d8a33a9a5f60bf459df740198f425027e"
+    },
+    {
+      "image": "misrouted_024.JPG",
+      "metrics": {
+        "top1": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "bounded_expand": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "cached_prediction_sha256": "71ab8c915b155ec4302866a808f8e8ffd361a36b11328dc6b2c115c4fa980a88"
+    },
+    {
+      "image": "misrouted_035.JPG",
+      "metrics": {
+        "top1": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "bounded_expand": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "cached_prediction_sha256": "148c13365d27573371d5a83f4afedb08b63b7881b35399b1c46c12d0dcfa991a"
+    },
+    {
+      "image": "misrouted_036.JPG",
+      "metrics": {
+        "top1": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "bounded_expand": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "cached_prediction_sha256": "f3504ad68d9cdea86dd4e8bfc5a1bc2773a43717c1624489cfa4d26103aae303"
+    },
+    {
+      "image": "normal_006.JPG",
+      "metrics": {
+        "top1": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "bounded_expand": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "cached_prediction_sha256": "9cb2f4a0d9276f2e83e03e4acfd0b6c8052221fe866615c1f6bcb2bbd26dcc8d"
+    },
+    {
+      "image": "normal_009.JPG",
+      "metrics": {
+        "top1": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "bounded_expand": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "cached_prediction_sha256": "5995748255aa8ef7873e4388729c3fa399ac21aa46deb128279df04e8fc22a99"
+    },
+    {
+      "image": "normal_017.JPG",
+      "metrics": {
+        "top1": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "bounded_expand": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "cached_prediction_sha256": "9ee869d8e513cb92941080a10e59e77c77f4592f6ec9aa009647695430ecff96"
+    },
+    {
+      "image": "normal_044.JPG",
+      "metrics": {
+        "top1": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "bounded_expand": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "cached_prediction_sha256": "de2d85df10ee03f20be9fea5888d0672a79a24e73d50ff62dd87f5ca9624825d"
+    },
+    {
+      "image": "normal_050.JPG",
+      "metrics": {
+        "top1": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "bounded_expand": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "cached_prediction_sha256": "b26de7a47f4921364b798cbbe4cf6c2f5b76f9fe2bf82e9149e32f1b84cf8dc6"
+    },
+    {
+      "image": "normal_062.JPG",
+      "metrics": {
+        "top1": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "bounded_expand": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "cached_prediction_sha256": "14a1b23662c847c21c1d6cf4c003e4df8d53c29966233245081d0440ef6813d1"
+    },
+    {
+      "image": "normal_066.JPG",
+      "metrics": {
+        "top1": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "bounded_expand": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "cached_prediction_sha256": "0aea0915d5a39c0176501f5dce4bcd65676f763cd4d91b39da3ffed2d7fe8463"
+    },
+    {
+      "image": "normal_079.JPG",
+      "metrics": {
+        "top1": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "bounded_expand": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "cached_prediction_sha256": "11f8236f05fe762b23e7311d65e737053e40d4cbf1534371ac5d96298e12a8f1"
+    },
+    {
+      "image": "normal_086.JPG",
+      "metrics": {
+        "top1": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "bounded_expand": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "cached_prediction_sha256": "0afd0854d407941eb1ff579f4e32a70eb8d6ebd5682ac7156553354a1d69df91"
+    },
+    {
+      "image": "normal_096.JPG",
+      "metrics": {
+        "top1": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "bounded_expand": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "cached_prediction_sha256": "c719f003a0e47ee1a11f7f862301c6f971d679a1263d9bcb7e76db9b5b907470"
+    },
+    {
+      "image": "normal_102.JPG",
+      "metrics": {
+        "top1": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "bounded_expand": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "cached_prediction_sha256": "c12f8795b7ae707c675fb9bb11cfd4669d727ccfc16c249efa519ff5173a60b9"
+    },
+    {
+      "image": "normal_104.JPG",
+      "metrics": {
+        "top1": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "bounded_expand": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "cached_prediction_sha256": "6d8b5127f59b2b36907ac88c6db60a138e2350cc8ff97bc16a20938937ed98ba"
+    },
+    {
+      "image": "normal_119.JPG",
+      "metrics": {
+        "top1": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "bounded_expand": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "cached_prediction_sha256": "3e077a2fb4c75216c6e0dcbff4f3a6ed356a31e7a2b1d729c7e4fe34e387c846"
+    },
+    {
+      "image": "normal_132.JPG",
+      "metrics": {
+        "top1": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "bounded_expand": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "cached_prediction_sha256": "64c34416419ae0751c6c87cf495339b66011e467348e1f410a211d736355f4ab"
+    },
+    {
+      "image": "normal_136.JPG",
+      "metrics": {
+        "top1": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "bounded_expand": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "cached_prediction_sha256": "1027d6fcf87f0d445ab5ed200c1c95684b4230f83b6eed606bcbd12a332af6da"
+    }
+  ],
+  "new_inference": false,
+  "predictor": "same frozen960 model, full cached30 source predictions from20261002",
+  "already_inspected_test_set": true,
+  "not_independent_unseen_accuracy": true,
+  "formal_policy_changed": false
+}

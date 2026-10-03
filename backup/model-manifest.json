@@ -1,0 +1,261 @@
+{
+  "repository": "https://github.com/seeleayaka/wire",
+  "release_tag": "backup-20261004",
+  "sam3": {
+    "path": "models/sam3/sam3.pt",
+    "bytes": 3450062241,
+    "sha256": "9999e2341ceef5e136daa386eecb55cb414446a00ac2b55eb2dfd2f7c3cf8c9e",
+    "parts": [
+      {
+        "name": "sam3.pt.part01",
+        "bytes": 1073741824,
+        "sha256": "ae3e9a1161e41c7d010931cb196b387508c569029a18ec498c534d906b5bc9ba"
+      },
+      {
+        "name": "sam3.pt.part02",
+        "bytes": 1073741824,
+        "sha256": "98e99dfa173a39d546b9501fd969e86da61436c0c8b490aeab5b7caafcbc8499"
+      },
+      {
+        "name": "sam3.pt.part03",
+        "bytes": 1073741824,
+        "sha256": "b63a88d92ee802b9d6a8dfe81681bdc7555edd63eba51cfd3549031aa0d265c1"
+      },
+      {
+        "name": "sam3.pt.part04",
+        "bytes": 228836769,
+        "sha256": "e4e4d0153a10fcc4bdb3813de7d04a0ecddee6591c66029ebb35563424043145"
+      }
+    ]
+  },
+  "model_archive": {
+    "name": "wire-models-20261004.zip",
+    "sha256": "c81201b97a0afeaac9f42c11f75681de52a8a3ad8c5375e355c0d2c816ebf605",
+    "entries": [
+      {
+        "path": "models/wire_harness_yolov8s_seg_best.pt",
+        "bytes": 23929844,
+        "sha256": "16314ec92f98d238f5bc9e5e3b8da1da815391c405cbcdb1d9f15b0b5d69b6fa"
+      },
+      {
+        "path": "models/yolov8s-seg.pt",
+        "bytes": 23914764,
+        "sha256": "0bac0770b55e5eb5b76a61bc535673288dcec36c2bc0cd25ee0d584c632f3413"
+      },
+      {
+        "path": "models/dinov2/weights/dinov2_vits14_pretrain.pth",
+        "bytes": 88283115,
+        "sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+      },
+      {
+        "path": "models/LightGlue/lightglue/weights/sift_lightglue_v0-1_arxiv.pth",
+        "bytes": 47632573,
+        "sha256": "5b52b8d9982d43532dc042606b346bb9594c9f5a4bd6f64362c63866287b4ac0"
+      },
+      {
+        "path": "output/electric_wires_cpu_poc_20260824/yolov8s_seg_32samples_cpu/weights/best.pt",
+        "bytes": 23801140,
+        "sha256": "b982428156d1565d6090379fd003469937339d0081f9e2dd0d2e26387d0ee0c3"
+      },
+      {
+        "path": "output/electric_wires_cpu_poc_20260824/yolov8s_seg_32samples_cpu/weights/last.pt",
+        "bytes": 23801140,
+        "sha256": "03322fb989c05eee10824e8f3046bd5bdeae9b6735feecba8ef2c881f3d1c642"
+      },
+      {
+        "path": "output/electric_wires_cpu_poc_20260824/yolov8s_seg_64samples_cpu_30e/weights/best.pt",
+        "bytes": 23803252,
+        "sha256": "a9362a23a5063d7471146051a1d15e1b31927dc7d5b8e860ac5bf86fc46ee6ef"
+      },
+      {
+        "path": "output/electric_wires_cpu_poc_20260824/yolov8s_seg_64samples_cpu_30e/weights/last.pt",
+        "bytes": 23803252,
+        "sha256": "d30a5bc8d417c29e00136bd0a12d14d1ef4d2af341c2d717e79f0b1ac7e875fa"
+      },
+      {
+        "path": "output/mendeley_cable_finetune_20260826/from_last_20e/weights/best.pt",
+        "bytes": 23837044,
+        "sha256": "c5a6af8a533cc5f8e2eeb6a6e1af0d1875a246c51c53d7ae31a54462ab3da54c"
+      },
+      {
+        "path": "output/mendeley_cable_finetune_20260826/from_last_20e/weights/last.pt",
+        "bytes": 23837044,
+        "sha256": "383ddd8b2677b21abec9a5036360a35f17cd7b7a5fc1524ebffc263c66bb3174"
+      },
+      {
+        "path": "output/mendeley_cable_prelabel_20260825/teacher_6img_30e/weights/best.pt",
+        "bytes": 23836596,
+        "sha256": "144fd32e490675d0ccade27d9d9b3edce088a8c9207568af255a6a2a343ad8dd"
+      },
+      {
+        "path": "output/mendeley_cable_prelabel_20260825/teacher_6img_30e/weights/last.pt",
+        "bytes": 23836596,
+        "sha256": "f1e0ac6176729a9efd73009a818b5479890efa49e20f25d914b2ff1c6a603a3c"
+      },
+      {
+        "path": "output/mendeley_cable_prelabel_20260825/teacher_6img_generic_30e/weights/best.pt",
+        "bytes": 23836596,
+        "sha256": "5604b4d3b59514e262a3c11ca112dc628e19f29ecb985243383df25651c4eaa4"
+      },
+      {
+        "path": "output/mendeley_cable_prelabel_20260825/teacher_6img_generic_30e/weights/last.pt",
+        "bytes": 23836596,
+        "sha256": "0d0da94a56b8c2dd41e4a460d6e3c171ae06d9faf648d52a34bf936bc888b29a"
+      },
+      {
+        "path": "output/mendeley_cable_seg_smoke_20260825/mendeley_cable_3img_smoke/weights/best.pt",
+        "bytes": 23833780,
+        "sha256": "c8dd7f8af8524a931ef07e80c6815deac85b76c70aee93fc47d5c3aee11cf04d"
+      },
+      {
+        "path": "output/mendeley_cable_seg_smoke_20260825/mendeley_cable_3img_smoke/weights/last.pt",
+        "bytes": 23833780,
+        "sha256": "21f292386523ada9831079920b4746175b469ffcb52a92a4424cde6527b1adcb"
+      },
+      {
+        "path": "output/mendeley_cable_train9_20260825/generic_30e/weights/best.pt",
+        "bytes": 23836532,
+        "sha256": "05903d5fc2d41bbc11f71e7e5945103dcaf4d8a0c23a6883f2de7426fbb5e921"
+      },
+      {
+        "path": "output/mendeley_cable_train9_20260825/generic_30e/weights/last.pt",
+        "bytes": 23836532,
+        "sha256": "8466c366121d973b81a3eee7cfc5bfcd4f1eb050d6a496dcc3ce94742059c3cc"
+      },
+      {
+        "path": "output/mendeley_damage_grid_roi_cpu_20260825/best.pt",
+        "bytes": 354635,
+        "sha256": "e2f289164db31918b7bf20cb7e1f7bcc1c85bf8f467db4ab4d785e04993466cb"
+      },
+      {
+        "path": "output/mendeley_jack_roi_cpu_20260825/best.pt",
+        "bytes": 353419,
+        "sha256": "b104da667207bccd0034584cd8244000b953dccbde24a4509615c6ff02842093"
+      },
+      {
+        "path": "output/mendeley_path_grid_roi_cpu_20260825/best.pt",
+        "bytes": 353803,
+        "sha256": "102a205c5d3db82af858551e65f8a3615281ec4eef75954adf9f301a41cbb7e9"
+      },
+      {
+        "path": "output/mendeley_plug_grid_roi_cpu_20260825/best.pt",
+        "bytes": 353803,
+        "sha256": "c264b4efc59e9b9b812a2abc835e99a34f266c20633fb2ac839995e372fda2af"
+      },
+      {
+        "path": "output/mendeley_port_state_cpu_poc_20260825/yolov8s_rectports_3e_960/weights/best.pt",
+        "bytes": 23882228,
+        "sha256": "d742d17ad429694769b9f31ddaa1086aff2928a839ac064e8a3ae73854041405"
+      },
+      {
+        "path": "output/mendeley_port_state_cpu_poc_20260825/yolov8s_rectports_3e_960/weights/last.pt",
+        "bytes": 23882228,
+        "sha256": "abefe38c9f7ce874bc8559a44fe7d7f1c176f9e82ac49a2c2320161ba18fd981"
+      },
+      {
+        "path": "output/paired_port_geometry_20261003/last_head.pt",
+        "bytes": 75893,
+        "sha256": "238f517bfdbe5e81f6c98e28c33750fa02de75cf25ec0c93b8876fe72657004a"
+      },
+      {
+        "path": "output/port_crop_training_fixed_20260929/full/runs/rectports/weights/best.pt",
+        "bytes": 23914036,
+        "sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824"
+      },
+      {
+        "path": "output/port_crop_training_fixed_20260929/full/runs/rectports/weights/last.pt",
+        "bytes": 23914036,
+        "sha256": "5ec18caf9fdd2a28f56286bf28f8b2ce4afd41d62a48a6f05001c695e53450af"
+      },
+      {
+        "path": "output/port_crop_training_runtime_audit_20260929/port_crop_training_smoke_elevated_20260929/runs/rectports/weights/best.pt",
+        "bytes": 23913140,
+        "sha256": "2a2cdee10bb235a1e12bcd3fb978b08b5c05d156e351c6dbdbf07dde54291d11"
+      },
+      {
+        "path": "output/port_crop_training_runtime_audit_20260929/port_crop_training_smoke_elevated_20260929/runs/rectports/weights/last.pt",
+        "bytes": 23913140,
+        "sha256": "4095b983a08d3359f7da344873d6b3fa7f273171cfa193162842474d75b0f629"
+      },
+      {
+        "path": "output/port_crop_training_smoke_fixed_20260929/runs/rectports/weights/best.pt",
+        "bytes": 23913140,
+        "sha256": "645da5836b3f5253b2cc6015257c0905adc862148c0665980ec16457ccb6e853"
+      },
+      {
+        "path": "output/port_crop_training_smoke_fixed_20260929/runs/rectports/weights/last.pt",
+        "bytes": 23913140,
+        "sha256": "0871e219ab2ed6b1f089dd9249cb45da5abc607943751935f340df20cbbfcb58"
+      },
+      {
+        "path": "output/port_feature_residual_20261003/last.pt",
+        "bytes": 23913396,
+        "sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc"
+      },
+      {
+        "path": "output/port_student_multiscale_20261003/last.pt",
+        "bytes": 23913460,
+        "sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4"
+      },
+      {
+        "path": "research/artifacts/paired_pose_native_training_20261004/full/last_head.pt",
+        "bytes": 75893,
+        "sha256": "9459ba29715a9f511ddc48a9a99014d2a239cfe65ccc32fe5e2de9122ab72467"
+      },
+      {
+        "path": "research/artifacts/paired_pose_native_training_20261004/heads_oof/fold0_head.pt",
+        "bytes": 75645,
+        "sha256": "bf39ada32e5c7b956d8520f88043cfd1e24b40cdb3cf129d4e93070985ec0c11"
+      },
+      {
+        "path": "research/artifacts/paired_pose_native_training_20261004/heads_oof/fold1_head.pt",
+        "bytes": 75645,
+        "sha256": "4d22a3de1b46ced5d341f96472a56989c86ee77a18d14785a23934de61dbd8a8"
+      },
+      {
+        "path": "research/artifacts/paired_pose_native_training_20261004/heads_oof/fold2_head.pt",
+        "bytes": 75645,
+        "sha256": "0e94a1a932c295e937d3ca238b4bb2eff305ff2e5a932a43b8a6f4c2f117ceeb"
+      }
+    ]
+  },
+  "source_git_head": "3bf2583d6598f5a7da678449cb6b646379c7f1cb",
+  "original_dirty_changes_included": true,
+  "private_images_and_credentials_excluded": true,
+  "accepted_source_metrics": {
+    "train": [
+      289,
+      344,
+      4
+    ],
+    "inner": [
+      65,
+      80,
+      0
+    ],
+    "outer": [
+      33,
+      56,
+      1
+    ]
+  },
+  "candidate_source_metrics": {
+    "train": [
+      295,
+      344,
+      4
+    ],
+    "inner": [
+      68,
+      80,
+      0
+    ],
+    "outer": [
+      40,
+      56,
+      1
+    ]
+  },
+  "candidate_not_deployed": true,
+  "not_field_accuracy": true
+}

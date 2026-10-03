@@ -1,0 +1,4498 @@
+{
+  "status": "complete",
+  "qualifies": false,
+  "summary": {
+    "current": {
+      "tp": 274,
+      "unmatched": 4,
+      "fn": 70,
+      "predictions": 278,
+      "targets": 344
+    },
+    "trial": {
+      "tp": 277,
+      "unmatched": 8,
+      "fn": 67,
+      "predictions": 285,
+      "targets": 344
+    }
+  },
+  "cases": [
+    {
+      "image": "disconnected_001.JPG",
+      "metrics": {
+        "current": {
+          "tp": 7,
+          "unmatched": 0,
+          "fn": 3,
+          "predictions": 7,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 7,
+          "unmatched": 0,
+          "fn": 3,
+          "predictions": 7,
+          "targets": 10
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "disconnected_003.JPG",
+      "metrics": {
+        "current": {
+          "tp": 7,
+          "unmatched": 0,
+          "fn": 3,
+          "predictions": 7,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 7,
+          "unmatched": 0,
+          "fn": 3,
+          "predictions": 7,
+          "targets": 10
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": [
+        [
+          0.0025861505419015884,
+          0.025932351127266884,
+          0.9714815616607666
+        ]
+      ]
+    },
+    {
+      "image": "disconnected_008.JPG",
+      "metrics": {
+        "current": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 3,
+          "predictions": 9,
+          "targets": 12
+        },
+        "trial": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 3,
+          "predictions": 9,
+          "targets": 12
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "disconnected_009.JPG",
+      "metrics": {
+        "current": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 3,
+          "predictions": 9,
+          "targets": 12
+        },
+        "trial": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 3,
+          "predictions": 9,
+          "targets": 12
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "disconnected_010.JPG",
+      "metrics": {
+        "current": {
+          "tp": 8,
+          "unmatched": 0,
+          "fn": 4,
+          "predictions": 8,
+          "targets": 12
+        },
+        "trial": {
+          "tp": 8,
+          "unmatched": 0,
+          "fn": 4,
+          "predictions": 8,
+          "targets": 12
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "disconnected_012.JPG",
+      "metrics": {
+        "current": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 5,
+          "predictions": 9,
+          "targets": 14
+        },
+        "trial": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 5,
+          "predictions": 9,
+          "targets": 14
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "disconnected_013.JPG",
+      "metrics": {
+        "current": {
+          "tp": 10,
+          "unmatched": 0,
+          "fn": 4,
+          "predictions": 10,
+          "targets": 14
+        },
+        "trial": {
+          "tp": 10,
+          "unmatched": 0,
+          "fn": 4,
+          "predictions": 10,
+          "targets": 14
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "disconnected_014.JPG",
+      "metrics": {
+        "current": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 5,
+          "predictions": 9,
+          "targets": 14
+        },
+        "trial": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 5,
+          "predictions": 9,
+          "targets": 14
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_002.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_003.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_005.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_008.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_010.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_012.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_013.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_015.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "damaged_001.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "damaged_002.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "damaged_003.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "damaged_004.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "damaged_006.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "damaged_008.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "damaged_009.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "damaged_010.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "misrouted_002.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "misrouted_003.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "misrouted_004.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "misrouted_006.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "misrouted_007.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "misrouted_008.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "misrouted_009.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "misrouted_011.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "damaged_011.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "damaged_013.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "damaged_015.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "damaged_021.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "damaged_022.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "damaged_023.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "damaged_025.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "damaged_027.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "damaged_028.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "damaged_029.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 1,
+          "fn": 0,
+          "predictions": 1,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 1,
+          "fn": 0,
+          "predictions": 1,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "damaged_030.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 1,
+          "fn": 0,
+          "predictions": 1,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 1,
+          "fn": 0,
+          "predictions": 1,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "damaged_033.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 1,
+          "fn": 0,
+          "predictions": 1,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 1,
+          "fn": 0,
+          "predictions": 1,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "damaged_034.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 1,
+          "fn": 0,
+          "predictions": 1,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 1,
+          "fn": 0,
+          "predictions": 1,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "damaged_038.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "damaged_039.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "damaged_041.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "damaged_042.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "damaged_043.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "damaged_044.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "damaged_046.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "damaged_047.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "damaged_048.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "damaged_049.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "damaged_050.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "misrouted_013.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "misrouted_014.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "misrouted_015.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "misrouted_016.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "misrouted_018.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "misrouted_019.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "misrouted_021.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "misrouted_022.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "misrouted_026.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "misrouted_029.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "misrouted_030.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "misrouted_031.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "misrouted_032.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "misrouted_033.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "misrouted_037.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "misrouted_038.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "misrouted_041.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "misrouted_043.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "misrouted_044.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "misrouted_045.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "misrouted_046.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "misrouted_047.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "misrouted_048.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "misrouted_049.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_016.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_018.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_019.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_020.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_021.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_022.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_023.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_025.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_026.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_027.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_029.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_031.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_032.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_033.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_034.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_035.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_037.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_039.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_040.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_045.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_046.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_048.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_051.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_052.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_054.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_055.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_056.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_057.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_058.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_063.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_064.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_065.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_068.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_069.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_070.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_071.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_073.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_074.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_075.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_076.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_077.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_080.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_081.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_085.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_087.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_088.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_089.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_090.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_091.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_092.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_094.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_095.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_097.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_098.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_101.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_103.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_106.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_108.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_109.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_110.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_111.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_112.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_114.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_116.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_117.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_118.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_121.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_122.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_123.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_125.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_127.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_128.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_130.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_131.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_133.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_134.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_135.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_137.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_139.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_140.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_141.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_142.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_143.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_145.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_146.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_147.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_149.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "normal_150.JPG",
+      "metrics": {
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "trial": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "disconnected_015.JPG",
+      "metrics": {
+        "current": {
+          "tp": 10,
+          "unmatched": 0,
+          "fn": 4,
+          "predictions": 10,
+          "targets": 14
+        },
+        "trial": {
+          "tp": 10,
+          "unmatched": 0,
+          "fn": 4,
+          "predictions": 10,
+          "targets": 14
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "disconnected_017.JPG",
+      "metrics": {
+        "current": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 5,
+          "predictions": 9,
+          "targets": 14
+        },
+        "trial": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 5,
+          "predictions": 9,
+          "targets": 14
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "disconnected_018.JPG",
+      "metrics": {
+        "current": {
+          "tp": 5,
+          "unmatched": 0,
+          "fn": 3,
+          "predictions": 5,
+          "targets": 8
+        },
+        "trial": {
+          "tp": 5,
+          "unmatched": 0,
+          "fn": 3,
+          "predictions": 5,
+          "targets": 8
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "disconnected_019.JPG",
+      "metrics": {
+        "current": {
+          "tp": 8,
+          "unmatched": 0,
+          "fn": 2,
+          "predictions": 8,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 8,
+          "unmatched": 0,
+          "fn": 2,
+          "predictions": 8,
+          "targets": 10
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "disconnected_021.JPG",
+      "metrics": {
+        "current": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 1,
+          "predictions": 9,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 9,
+          "unmatched": 1,
+          "fn": 1,
+          "predictions": 10,
+          "targets": 10
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 1,
+      "probabilities": [
+        [
+          0.0006233501480892301,
+          0.00032462424132972956,
+          0.9990519881248474
+        ]
+      ]
+    },
+    {
+      "image": "disconnected_022.JPG",
+      "metrics": {
+        "current": {
+          "tp": 10,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 10,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 10,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 10,
+          "targets": 10
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "disconnected_023.JPG",
+      "metrics": {
+        "current": {
+          "tp": 10,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 10,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 10,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 10,
+          "targets": 10
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "disconnected_024.JPG",
+      "metrics": {
+        "current": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 1,
+          "predictions": 9,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 1,
+          "predictions": 9,
+          "targets": 10
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "disconnected_025.JPG",
+      "metrics": {
+        "current": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 1,
+          "predictions": 9,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 1,
+          "predictions": 9,
+          "targets": 10
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "disconnected_026.JPG",
+      "metrics": {
+        "current": {
+          "tp": 8,
+          "unmatched": 0,
+          "fn": 2,
+          "predictions": 8,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 1,
+          "predictions": 9,
+          "targets": 10
+        }
+      },
+      "gained": [
+        6
+      ],
+      "lost": [],
+      "additions": 1,
+      "probabilities": [
+        [
+          0.009196428582072258,
+          0.9851068258285522,
+          0.005696746055036783
+        ]
+      ]
+    },
+    {
+      "image": "disconnected_029.JPG",
+      "metrics": {
+        "current": {
+          "tp": 8,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 8,
+          "targets": 8
+        },
+        "trial": {
+          "tp": 8,
+          "unmatched": 1,
+          "fn": 0,
+          "predictions": 9,
+          "targets": 8
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 1,
+      "probabilities": [
+        [
+          0.0005500271217897534,
+          0.0002756759349722415,
+          0.9991742968559265
+        ]
+      ]
+    },
+    {
+      "image": "disconnected_030.JPG",
+      "metrics": {
+        "current": {
+          "tp": 7,
+          "unmatched": 0,
+          "fn": 3,
+          "predictions": 7,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 7,
+          "unmatched": 0,
+          "fn": 3,
+          "predictions": 7,
+          "targets": 10
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "disconnected_031.JPG",
+      "metrics": {
+        "current": {
+          "tp": 6,
+          "unmatched": 0,
+          "fn": 2,
+          "predictions": 6,
+          "targets": 8
+        },
+        "trial": {
+          "tp": 7,
+          "unmatched": 0,
+          "fn": 1,
+          "predictions": 7,
+          "targets": 8
+        }
+      },
+      "gained": [
+        6
+      ],
+      "lost": [],
+      "additions": 1,
+      "probabilities": [
+        [
+          0.001194874639622867,
+          0.9939325451850891,
+          0.00487246410921216
+        ]
+      ]
+    },
+    {
+      "image": "disconnected_032.JPG",
+      "metrics": {
+        "current": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 1,
+          "predictions": 9,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 1,
+          "predictions": 9,
+          "targets": 10
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "disconnected_033.JPG",
+      "metrics": {
+        "current": {
+          "tp": 10,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 10,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 10,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 10,
+          "targets": 10
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "disconnected_038.JPG",
+      "metrics": {
+        "current": {
+          "tp": 7,
+          "unmatched": 0,
+          "fn": 3,
+          "predictions": 7,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 8,
+          "unmatched": 0,
+          "fn": 2,
+          "predictions": 8,
+          "targets": 10
+        }
+      },
+      "gained": [
+        0
+      ],
+      "lost": [],
+      "additions": 1,
+      "probabilities": [
+        [
+          0.00037015718407928944,
+          0.9974283576011658,
+          0.0022014963906258345
+        ]
+      ]
+    },
+    {
+      "image": "disconnected_039.JPG",
+      "metrics": {
+        "current": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 1,
+          "predictions": 9,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 1,
+          "predictions": 9,
+          "targets": 10
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "disconnected_041.JPG",
+      "metrics": {
+        "current": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 1,
+          "predictions": 9,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 1,
+          "predictions": 9,
+          "targets": 10
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "disconnected_042.JPG",
+      "metrics": {
+        "current": {
+          "tp": 8,
+          "unmatched": 0,
+          "fn": 2,
+          "predictions": 8,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 8,
+          "unmatched": 1,
+          "fn": 2,
+          "predictions": 9,
+          "targets": 10
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 1,
+      "probabilities": [
+        [
+          0.000521965092048049,
+          0.0006949689122848213,
+          0.9987830519676208
+        ]
+      ]
+    },
+    {
+      "image": "disconnected_043.JPG",
+      "metrics": {
+        "current": {
+          "tp": 8,
+          "unmatched": 0,
+          "fn": 2,
+          "predictions": 8,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 8,
+          "unmatched": 1,
+          "fn": 2,
+          "predictions": 9,
+          "targets": 10
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 1,
+      "probabilities": [
+        [
+          0.00041135671199299395,
+          0.0003338771057315171,
+          0.9992547631263733
+        ]
+      ]
+    },
+    {
+      "image": "disconnected_044.JPG",
+      "metrics": {
+        "current": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 1,
+          "predictions": 9,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 1,
+          "predictions": 9,
+          "targets": 10
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "disconnected_045.JPG",
+      "metrics": {
+        "current": {
+          "tp": 10,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 10,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 10,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 10,
+          "targets": 10
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "disconnected_049.JPG",
+      "metrics": {
+        "current": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 3,
+          "predictions": 9,
+          "targets": 12
+        },
+        "trial": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 3,
+          "predictions": 9,
+          "targets": 12
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    },
+    {
+      "image": "disconnected_050.JPG",
+      "metrics": {
+        "current": {
+          "tp": 10,
+          "unmatched": 0,
+          "fn": 2,
+          "predictions": 10,
+          "targets": 12
+        },
+        "trial": {
+          "tp": 10,
+          "unmatched": 0,
+          "fn": 2,
+          "predictions": 10,
+          "targets": 12
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "probabilities": []
+    }
+  ],
+  "normal_cues": 0,
+  "seconds": 2.53,
+  "reference_pending": true,
+  "validation_pending": true,
+  "field_accuracy": false,
+  "production_changed": false
+}

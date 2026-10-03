@@ -1,0 +1,601 @@
+{
+  "status": "complete",
+  "qualifies_live_diagnostic": true,
+  "cases": [
+    {
+      "stage": "train",
+      "image": "disconnected_001.JPG",
+      "reasons": [
+        "ALL_full_head_training_candidate"
+      ],
+      "current": {
+        "tp": 7,
+        "unmatched": 0,
+        "fn": 3,
+        "predictions": 7,
+        "targets": 10
+      },
+      "trial": {
+        "tp": 8,
+        "unmatched": 0,
+        "fn": 2,
+        "predictions": 8,
+        "targets": 10
+      },
+      "gained": [
+        2
+      ],
+      "lost": [],
+      "expected_candidates": 1,
+      "accepted": 1,
+      "current_hint_count": 7,
+      "new_hint_count": 8,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\disconnected_001\\20261003_175705\\initial_report.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\disconnected_001\\20261003_175705\\paired_geometry_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\disconnected_001\\20261003_175705\\paired_geometry_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "train",
+      "image": "disconnected_009.JPG",
+      "reasons": [
+        "ALL_full_head_training_candidate"
+      ],
+      "current": {
+        "tp": 9,
+        "unmatched": 0,
+        "fn": 3,
+        "predictions": 9,
+        "targets": 12
+      },
+      "trial": {
+        "tp": 10,
+        "unmatched": 0,
+        "fn": 2,
+        "predictions": 10,
+        "targets": 12
+      },
+      "gained": [
+        4
+      ],
+      "lost": [],
+      "expected_candidates": 1,
+      "accepted": 1,
+      "current_hint_count": 9,
+      "new_hint_count": 10,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\disconnected_009\\20261003_175848\\initial_report.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\disconnected_009\\20261003_175848\\paired_geometry_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\disconnected_009\\20261003_175848\\paired_geometry_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "train",
+      "image": "disconnected_010.JPG",
+      "reasons": [
+        "ALL_full_head_training_candidate"
+      ],
+      "current": {
+        "tp": 8,
+        "unmatched": 0,
+        "fn": 4,
+        "predictions": 8,
+        "targets": 12
+      },
+      "trial": {
+        "tp": 9,
+        "unmatched": 0,
+        "fn": 3,
+        "predictions": 9,
+        "targets": 12
+      },
+      "gained": [
+        10
+      ],
+      "lost": [],
+      "expected_candidates": 1,
+      "accepted": 1,
+      "current_hint_count": 8,
+      "new_hint_count": 9,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\disconnected_010\\20261003_180032\\initial_report.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\disconnected_010\\20261003_180032\\paired_geometry_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\disconnected_010\\20261003_180032\\paired_geometry_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "train",
+      "image": "disconnected_017.JPG",
+      "reasons": [
+        "ALL_full_head_training_candidate"
+      ],
+      "current": {
+        "tp": 9,
+        "unmatched": 0,
+        "fn": 5,
+        "predictions": 9,
+        "targets": 14
+      },
+      "trial": {
+        "tp": 10,
+        "unmatched": 0,
+        "fn": 4,
+        "predictions": 10,
+        "targets": 14
+      },
+      "gained": [
+        0
+      ],
+      "lost": [],
+      "expected_candidates": 1,
+      "accepted": 1,
+      "current_hint_count": 9,
+      "new_hint_count": 10,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\disconnected_017\\20261003_180214\\initial_report.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\disconnected_017\\20261003_180214\\paired_geometry_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\disconnected_017\\20261003_180214\\paired_geometry_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "train",
+      "image": "disconnected_018.JPG",
+      "reasons": [
+        "ALL_full_head_training_candidate"
+      ],
+      "current": {
+        "tp": 5,
+        "unmatched": 0,
+        "fn": 3,
+        "predictions": 5,
+        "targets": 8
+      },
+      "trial": {
+        "tp": 6,
+        "unmatched": 0,
+        "fn": 2,
+        "predictions": 6,
+        "targets": 8
+      },
+      "gained": [
+        4
+      ],
+      "lost": [],
+      "expected_candidates": 1,
+      "accepted": 1,
+      "current_hint_count": 5,
+      "new_hint_count": 6,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\disconnected_018\\20261003_180409\\initial_report.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\disconnected_018\\20261003_180409\\paired_geometry_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\disconnected_018\\20261003_180409\\paired_geometry_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "train",
+      "image": "disconnected_021.JPG",
+      "reasons": [
+        "ALL_full_head_training_candidate"
+      ],
+      "current": {
+        "tp": 9,
+        "unmatched": 0,
+        "fn": 1,
+        "predictions": 9,
+        "targets": 10
+      },
+      "trial": {
+        "tp": 10,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 10,
+        "targets": 10
+      },
+      "gained": [
+        8
+      ],
+      "lost": [],
+      "expected_candidates": 1,
+      "accepted": 1,
+      "current_hint_count": 9,
+      "new_hint_count": 10,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\disconnected_021\\20261003_180548\\initial_report.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\disconnected_021\\20261003_180548\\paired_geometry_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\disconnected_021\\20261003_180548\\paired_geometry_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "train",
+      "image": "disconnected_030.JPG",
+      "reasons": [
+        "ALL_full_head_training_candidate"
+      ],
+      "current": {
+        "tp": 7,
+        "unmatched": 0,
+        "fn": 3,
+        "predictions": 7,
+        "targets": 10
+      },
+      "trial": {
+        "tp": 9,
+        "unmatched": 0,
+        "fn": 1,
+        "predictions": 9,
+        "targets": 10
+      },
+      "gained": [
+        0,
+        3
+      ],
+      "lost": [],
+      "expected_candidates": 2,
+      "accepted": 2,
+      "current_hint_count": 7,
+      "new_hint_count": 9,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\disconnected_030\\20261003_180748\\initial_report.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\disconnected_030\\20261003_180748\\paired_geometry_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\disconnected_030\\20261003_180748\\paired_geometry_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "train",
+      "image": "disconnected_038.JPG",
+      "reasons": [
+        "ALL_full_head_training_candidate"
+      ],
+      "current": {
+        "tp": 8,
+        "unmatched": 0,
+        "fn": 2,
+        "predictions": 8,
+        "targets": 10
+      },
+      "trial": {
+        "tp": 9,
+        "unmatched": 0,
+        "fn": 1,
+        "predictions": 9,
+        "targets": 10
+      },
+      "gained": [
+        3
+      ],
+      "lost": [],
+      "expected_candidates": 1,
+      "accepted": 1,
+      "current_hint_count": 8,
+      "new_hint_count": 9,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\disconnected_038\\20261003_180943\\initial_report.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\disconnected_038\\20261003_180943\\paired_geometry_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\disconnected_038\\20261003_180943\\paired_geometry_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "inner",
+      "image": "disconnected_020.JPG",
+      "reasons": [
+        "ALL_geometry_inner_candidate"
+      ],
+      "current": {
+        "tp": 9,
+        "unmatched": 0,
+        "fn": 1,
+        "predictions": 9,
+        "targets": 10
+      },
+      "trial": {
+        "tp": 10,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 10,
+        "targets": 10
+      },
+      "gained": [
+        6
+      ],
+      "lost": [],
+      "expected_candidates": 1,
+      "accepted": 1,
+      "current_hint_count": 9,
+      "new_hint_count": 10,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\inner\\disconnected_020\\20261003_181156\\initial_report.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\inner\\disconnected_020\\20261003_181156\\paired_geometry_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\inner\\disconnected_020\\20261003_181156\\paired_geometry_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "train",
+      "image": "damaged_029.JPG",
+      "reasons": [
+        "ALL_old_cue_control"
+      ],
+      "current": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "trial": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "gained": [],
+      "lost": [],
+      "expected_candidates": 0,
+      "accepted": 0,
+      "current_hint_count": 1,
+      "new_hint_count": 1,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\damaged_029\\20261003_181355\\initial_report.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\damaged_029\\20261003_181355\\paired_geometry_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\damaged_029\\20261003_181355\\paired_geometry_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "train",
+      "image": "damaged_030.JPG",
+      "reasons": [
+        "ALL_old_cue_control"
+      ],
+      "current": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "trial": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "gained": [],
+      "lost": [],
+      "expected_candidates": 0,
+      "accepted": 0,
+      "current_hint_count": 1,
+      "new_hint_count": 1,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\damaged_030\\20261003_181518\\initial_report.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\damaged_030\\20261003_181518\\paired_geometry_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\damaged_030\\20261003_181518\\paired_geometry_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "train",
+      "image": "damaged_033.JPG",
+      "reasons": [
+        "ALL_old_cue_control"
+      ],
+      "current": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "trial": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "gained": [],
+      "lost": [],
+      "expected_candidates": 0,
+      "accepted": 0,
+      "current_hint_count": 1,
+      "new_hint_count": 1,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\damaged_033\\20261003_181643\\initial_report.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\damaged_033\\20261003_181643\\paired_geometry_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\damaged_033\\20261003_181643\\paired_geometry_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "train",
+      "image": "damaged_034.JPG",
+      "reasons": [
+        "ALL_old_cue_control"
+      ],
+      "current": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "trial": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "gained": [],
+      "lost": [],
+      "expected_candidates": 0,
+      "accepted": 0,
+      "current_hint_count": 1,
+      "new_hint_count": 1,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\damaged_034\\20261003_181807\\initial_report.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\damaged_034\\20261003_181807\\paired_geometry_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\train\\damaged_034\\20261003_181807\\paired_geometry_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "inner",
+      "image": "disconnected_040.JPG",
+      "reasons": [
+        "ALL_rejected_paired_inner_source"
+      ],
+      "current": {
+        "tp": 8,
+        "unmatched": 0,
+        "fn": 2,
+        "predictions": 8,
+        "targets": 10
+      },
+      "trial": {
+        "tp": 8,
+        "unmatched": 0,
+        "fn": 2,
+        "predictions": 8,
+        "targets": 10
+      },
+      "gained": [],
+      "lost": [],
+      "expected_candidates": 0,
+      "accepted": 0,
+      "current_hint_count": 8,
+      "new_hint_count": 8,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\inner\\disconnected_040\\20261003_181938\\initial_report.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\inner\\disconnected_040\\20261003_181938\\paired_geometry_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\inner\\disconnected_040\\20261003_181938\\paired_geometry_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "outer",
+      "image": "disconnected_006.JPG",
+      "reasons": [
+        "ALL_rejected_committee_outer_source"
+      ],
+      "current": {
+        "tp": 6,
+        "unmatched": 0,
+        "fn": 6,
+        "predictions": 6,
+        "targets": 12
+      },
+      "trial": {
+        "tp": 6,
+        "unmatched": 0,
+        "fn": 6,
+        "predictions": 6,
+        "targets": 12
+      },
+      "gained": [],
+      "lost": [],
+      "expected_candidates": 0,
+      "accepted": 0,
+      "current_hint_count": 6,
+      "new_hint_count": 6,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\outer\\disconnected_006\\20261003_182108\\initial_report.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\outer\\disconnected_006\\20261003_182108\\paired_geometry_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_20261003\\outer\\disconnected_006\\20261003_182108\\paired_geometry_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "train",
+      "image": "normal_002.JPG",
+      "reasons": [
+        "first_normal_control"
+      ],
+      "upstream_status": "fallback",
+      "upstream_path": "safety_abstention_local_alignment",
+      "current": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "trial": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "gained": [],
+      "lost": [],
+      "expected_candidates": 0,
+      "accepted": 0,
+      "current_hint_count": 0,
+      "new_hint_count": 0,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_resume_20261003\\train\\normal_002\\20261003_183035\\initial_report.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_resume_20261003\\train\\normal_002\\20261003_183035\\paired_geometry_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_resume_20261003\\train\\normal_002\\20261003_183035\\paired_geometry_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "inner",
+      "image": "normal_011.JPG",
+      "reasons": [
+        "first_normal_control"
+      ],
+      "upstream_status": "fallback",
+      "upstream_path": "safety_abstention_local_alignment",
+      "current": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "trial": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "gained": [],
+      "lost": [],
+      "expected_candidates": 0,
+      "accepted": 0,
+      "current_hint_count": 0,
+      "new_hint_count": 0,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_resume_20261003\\inner\\normal_011\\20261003_183058\\initial_report.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_resume_20261003\\inner\\normal_011\\20261003_183058\\paired_geometry_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_resume_20261003\\inner\\normal_011\\20261003_183058\\paired_geometry_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "outer",
+      "image": "normal_001.JPG",
+      "reasons": [
+        "first_normal_control"
+      ],
+      "upstream_status": "fallback",
+      "upstream_path": "safety_abstention_local_alignment",
+      "current": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "trial": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "gained": [],
+      "lost": [],
+      "expected_candidates": 0,
+      "accepted": 0,
+      "current_hint_count": 0,
+      "new_hint_count": 0,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_resume_20261003\\outer\\normal_001\\20261003_183117\\initial_report.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_resume_20261003\\outer\\normal_001\\20261003_183117\\paired_geometry_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_resume_20261003\\outer\\normal_001\\20261003_183117\\paired_geometry_overlay.jpg",
+      "sam_pending": true
+    }
+  ],
+  "gains": {
+    "train": 9,
+    "inner": 1,
+    "outer": 0
+  },
+  "reused15_completed_actual_workflows": true,
+  "fresh3_normal_controls": true,
+  "original_failure": "test_requires_applied_even_for_explicit_safety_abstention",
+  "safety_abstentions": 3,
+  "seconds": 60.05,
+  "sam_pending": true,
+  "field_accuracy": false
+}

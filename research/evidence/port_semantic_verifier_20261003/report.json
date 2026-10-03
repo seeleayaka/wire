@@ -1,0 +1,52 @@
+{
+  "status": "complete",
+  "qualifies_crop_feasibility": true,
+  "overall": {
+    "tp": 263,
+    "fp": 1,
+    "targets": 344,
+    "precision": 0.9962121212121212,
+    "recall": 0.7645348837209303,
+    "qualifies": true
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "tp": 91,
+      "fp": 0,
+      "targets": 116,
+      "precision": 1.0,
+      "recall": 0.7844827586206896,
+      "qualifies": true
+    },
+    {
+      "fold": 1,
+      "tp": 84,
+      "fp": 1,
+      "targets": 108,
+      "precision": 0.9882352941176471,
+      "recall": 0.7777777777777778,
+      "qualifies": true
+    },
+    {
+      "fold": 2,
+      "tp": 88,
+      "fp": 0,
+      "targets": 120,
+      "precision": 1.0,
+      "recall": 0.7333333333333333,
+      "qualifies": true
+    }
+  ],
+  "samples": 857,
+  "counts": [
+    513,
+    171,
+    173
+  ],
+  "seconds": 356.53,
+  "detector_success_not_evaluated": true,
+  "no_validation_evaluation": true,
+  "field_accuracy": false,
+  "production_changed": false
+}

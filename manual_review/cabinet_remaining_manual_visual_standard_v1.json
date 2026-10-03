@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "annotation_kind": "human_visual_visible_change_groups_for_qualitative_review_only",
+  "purpose": "Raw-image, human-only visible-change record for cabinet inspection images not covered by the earlier material-2 qualitative standard. It is a future review oracle, not an electrical diagnosis, training label, threshold-calibration set, hit-rate, false-positive-rate, or production metric.",
+  "annotation_protocol": {
+    "method": "The reviewer compared only the raw reference and raw inspection image side by side. No registration output, candidate region, heatmap, DINO, SAM3, or prior algorithm output was displayed.",
+    "unit": "One visually separable altered conductor/component group. Broad AI re-rendering, labels, text and viewpoint differences are never counted as local groups.",
+    "coordinate_space": "Each inspection is resized to its own reference image size solely for manual review; boxes are [left, top, right, bottom] in that reference-sized canvas, without geometric registration.",
+    "eligibility": "All included local groups are qualitative-only because the images are AI-generated variants with broad incidental changes. They must not be pooled into a numeric algorithm evaluation."
+  },
+  "materials": [
+    {
+      "material": "2",
+      "reference_image": "C:\\Users\\HUAWEI\\Desktop\\案例\\线材柜子\\2\\2.png",
+      "canvas_size": [575, 517],
+      "already_covered": "cabinet_material2_qualitative_manual_standard_v1.json covers four other material-2 inspection images.",
+      "images": [
+        {
+          "image": "ChatGPT Image 2026年8月25日 16_21_25 (3).png",
+          "status": "qualitative_only",
+          "groups": [
+            {"id": "M2R01", "bbox": [360, 176, 380, 263], "description": "A white conductor hangs below the upper rail and ends at a visibly exposed copper tip."}
+          ]
+        },
+        {
+          "image": "ChatGPT Image 2026年8月25日 16_21_26 (4).png",
+          "status": "qualitative_only",
+          "groups": [
+            {"id": "M2R01", "bbox": [242, 176, 267, 263], "description": "Short white upper-middle conductor has a free exposed copper end."},
+            {"id": "M2R02", "bbox": [366, 95, 407, 271], "description": "Long white conductor descends through the upper-right breaker row and ends exposed."},
+            {"id": "M2R03", "bbox": [175, 456, 285, 517], "description": "Loose blue conductor at the lower-left foreground ends with exposed copper."},
+            {"id": "M2R04", "bbox": [512, 337, 555, 440], "description": "Green/yellow lower-right conductor is visibly free and ends exposed."}
+          ]
+        },
+        {
+          "image": "ChatGPT Image 2026年8月25日 16_24_00 (3).png",
+          "status": "qualitative_only",
+          "groups": [
+            {"id": "M2R01", "bbox": [282, 82, 355, 204], "description": "White conductor crosses the upper breaker area diagonally and ends with exposed copper."},
+            {"id": "M2R02", "bbox": [252, 316, 320, 392], "description": "Circular dark opening appears on the lower CP3 breaker face where the reference face is intact."},
+            {"id": "M2R03", "bbox": [378, 342, 433, 442], "description": "Green/yellow conductor below the middle row ends loose with exposed copper."}
+          ]
+        },
+        {
+          "image": "ChatGPT Image 2026年8月25日 16_24_01 (4).png",
+          "status": "qualitative_only",
+          "groups": [
+            {"id": "M2R01", "bbox": [284, 76, 350, 277], "description": "Long white conductor hangs from the upper row with a free copper end."},
+            {"id": "M2R02", "bbox": [248, 335, 300, 486], "description": "Second white conductor hangs through the lower-middle area and ends exposed."},
+            {"id": "M2R03", "bbox": [353, 432, 435, 517], "description": "Green/yellow foreground conductor at the lower right has a loose exposed end."}
+          ]
+        }
+      ]
+    },
+    {
+      "material": "1",
+      "reference_image": "C:\\Users\\HUAWEI\\Desktop\\案例\\线材柜子\\1\\1.png",
+      "canvas_size": [620, 622],
+      "images": [
+        {
+          "image": "ChatGPT Image 2026年8月25日 16_13_46 (1).png",
+          "status": "qualitative_only",
+          "groups": [
+            {"id": "M1R01", "bbox": [303, 165, 355, 261], "description": "White conductor in the upper terminal area terminates visibly free with exposed copper."},
+            {"id": "M1R02", "bbox": [370, 530, 425, 604], "description": "Blue foreground cable has a visibly exposed copper end."}
+          ]
+        },
+        {
+          "image": "ChatGPT Image 2026年8月25日 16_13_46 (2).png",
+          "status": "qualitative_only",
+          "groups": [
+            {"id": "M1R01", "bbox": [327, 112, 425, 249], "description": "White conductor crosses the upper terminal block outside the normal bundle routing."},
+            {"id": "M1R02", "bbox": [207, 452, 331, 566], "description": "Long white/green foreground lead is separated from the cabinet routing and ends loose."}
+          ]
+        },
+        {
+          "image": "ChatGPT Image 2026年8月25日 16_13_47 (3).png",
+          "status": "qualitative_only",
+          "groups": [
+            {"id": "M1R01", "bbox": [135, 92, 165, 143], "description": "Upper-left contactor area contains a short white conductor ending in exposed copper."},
+            {"id": "M1R02", "bbox": [278, 140, 340, 237], "description": "Upper-middle white conductor ends free with exposed copper above the rail."},
+            {"id": "M1R03", "bbox": [470, 198, 535, 304], "description": "Green/yellow conductor beside the right upper terminal section ends loose."},
+            {"id": "M1R04", "bbox": [118, 388, 350, 523], "description": "Red/black foreground lead crosses the lower cabinet space unlike the reference routing."}
+          ]
+        },
+        {
+          "image": "ChatGPT Image 2026年8月25日 16_18_03 (1).png",
+          "status": "qualitative_only",
+          "groups": [
+            {"id": "M1R01", "bbox": [296, 92, 353, 266], "description": "Long white conductor with a blue tip hangs from the upper-middle section."},
+            {"id": "M1R02", "bbox": [425, 368, 505, 496], "description": "Green/yellow conductor beside the lower-right terminal area ends loose."}
+          ]
+        },
+        {
+          "image": "ChatGPT Image 2026年8月25日 16_18_03 (2).png",
+          "status": "qualitative_only",
+          "groups": [
+            {"id": "M1R01", "bbox": [328, 152, 354, 231], "description": "Short blue-tipped conductor hangs free above the middle rail."},
+            {"id": "M1R02", "bbox": [246, 520, 390, 622], "description": "Blue foreground cable is rerouted across the cabinet and has an exposed end."}
+          ]
+        },
+        {
+          "image": "ChatGPT Image 2026年8月25日 16_18_04 (3).png",
+          "status": "excluded_overlay_contaminated",
+          "groups": [],
+          "exclusion_reason": "The raw file includes red numbered callouts and pointers. It is not an unadorned inspection image, so neither the overlays nor the underlying visual differences are used as a manual test oracle."
+        }
+      ]
+    },
+    {
+      "material": "5",
+      "reference_image": "C:\\Users\\HUAWEI\\Desktop\\案例\\线材柜子\\5\\5.png",
+      "canvas_size": [582, 543],
+      "images": [
+        {
+          "image": "ChatGPT Image 2026年8月25日 16_32_16 (1).png",
+          "status": "excluded_overlay_contaminated",
+          "groups": [],
+          "exclusion_reason": "The image contains a black Chinese title describing the fault; it cannot be used as an unadorned test image."
+        },
+        {
+          "image": "ChatGPT Image 2026年8月25日 16_32_17 (2).png",
+          "status": "qualitative_only",
+          "groups": [
+            {"id": "M5R01", "bbox": [442, 207, 504, 352], "description": "White/yellow conductor is visibly separated at the right side and ends at an exposed copper tip."}
+          ]
+        },
+        {
+          "image": "ChatGPT Image 2026年8月25日 16_32_17 (3).png",
+          "status": "excluded_overlay_contaminated",
+          "groups": [],
+          "exclusion_reason": "The image contains a black Chinese title describing the fault; it cannot be used as an unadorned test image."
+        },
+        {
+          "image": "ChatGPT Image 2026年8月25日 16_32_18 (4).png",
+          "status": "qualitative_only",
+          "groups": [
+            {"id": "M5R01", "bbox": [410, 176, 485, 313], "description": "Red conductor forms a conspicuous free loop across the upper-right/middle rail."}
+          ]
+        },
+        {
+          "image": "ChatGPT Image 2026年8月25日 16_41_54 (1).png",
+          "status": "qualitative_only",
+          "groups": [
+            {"id": "M5R01", "bbox": [385, 318, 415, 404], "description": "Short red conductor hangs freely below the lower contactor."}
+          ]
+        },
+        {
+          "image": "ChatGPT Image 2026年8月25日 16_41_55 (2).png",
+          "status": "qualitative_only",
+          "groups": [
+            {"id": "M5R01", "bbox": [408, 77, 492, 488], "description": "Long green/yellow conductor descends from the upper terminals to a loose exposed end at lower right."}
+          ]
+        },
+        {
+          "image": "ChatGPT Image 2026年8月25日 16_41_55 (3).png",
+          "status": "qualitative_only",
+          "groups": [
+            {"id": "M5R01", "bbox": [328, 54, 460, 412], "description": "Large white conductor loops across the upper terminals and hangs down to an exposed copper end."},
+            {"id": "M5R02", "bbox": [278, 400, 338, 510], "description": "Second white conductor hangs from the lower-middle area and ends exposed."}
+          ]
+        },
+        {
+          "image": "ChatGPT Image 2026年8月25日 16_41_56 (4).png",
+          "status": "qualitative_only",
+          "groups": [
+            {"id": "M5R01", "bbox": [435, 88, 520, 296], "description": "Upper-right white conductor is visibly loose and ends in exposed copper."},
+            {"id": "M5R02", "bbox": [372, 290, 435, 409], "description": "Red conductor makes a free loop at the lower-right terminal block."},
+            {"id": "M5R03", "bbox": [440, 355, 505, 531], "description": "Lower-right green/yellow and white lead group is visibly separated and ends exposed."}
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "This is a human visual change record, not proof of electrical disconnection, terminal identity, continuity, or miswiring.",
+    "The source images are AI-generated variants with broad nonlocal changes, so only the named visually separable local groups are recorded.",
+    "The three overlay-contaminated files are recorded for traceability but deliberately excluded from testing."
+  ]
+}

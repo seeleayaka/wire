@@ -1,0 +1,15 @@
+{
+  "frozen_before_training_control_inference": true,
+  "hypothesis": "The multiscale-trained student's novel reliable cues may survive a fresh 2x magnified context even if the old teacher cannot recognize them",
+  "proposal_rule": "Existing student_consistent additions not overlapping accepted cross_model_supported selection; at most 6; source-only selection unchanged",
+  "student_context": "Two distinct 640px windows shifted -80/+80, input960; each same-class score > .75, each box IoU >= .5 with original student seed and pair IoU >= .5; artificial-edge margin16",
+  "selection": "Preserve all teacher and previously accepted student cues, add original student seed coordinates only in remaining supplementary slots",
+  "budgets": {"primary":5,"supplementary_including_rechecks_and_student":5},
+  "training_acceptance": "32 train controls: >67/98 TP, unmatched0, normal cues0; reject with no heldout evaluation if no positive gain",
+  "holdout_acceptance": "inner >61/80 TP, unmatched0; outer>=31/56 TP, unmatched<=1; normal cues do not increase",
+  "same_camera_sets_previously_seen": true,
+  "no_validation_parameter_search": true,
+  "source_only_not_deployment": true,
+  "no_annotation_coordinates_in_inference": true,
+  "same_image_model_confirmations_are_correlated": true
+}

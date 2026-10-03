@@ -1,0 +1,2934 @@
+{
+  "status": "complete",
+  "summary": {
+    "teacher": {
+      "tp": 0,
+      "unmatched": 3,
+      "fn": 0,
+      "predictions": 3,
+      "targets": 0
+    },
+    "current": {
+      "tp": 0,
+      "unmatched": 4,
+      "fn": 0,
+      "predictions": 4,
+      "targets": 0
+    }
+  },
+  "groups": {
+    "damaged": {
+      "teacher": {
+        "tp": 0,
+        "unmatched": 3,
+        "fn": 0,
+        "predictions": 3,
+        "targets": 0
+      },
+      "current": {
+        "tp": 0,
+        "unmatched": 4,
+        "fn": 0,
+        "predictions": 4,
+        "targets": 0
+      }
+    },
+    "misrouted": {
+      "teacher": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "current": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      }
+    },
+    "normal": {
+      "teacher": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "current": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      }
+    }
+  },
+  "cases": [
+    {
+      "image": "damaged_011.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "c891a466e553a66d64953809e0d11a2f62f4936cbce5b8cb34f0f235f60b682d"
+    },
+    {
+      "image": "damaged_013.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "4d2c2f304d42ded12dcdd81f2aa18cf465e8eb6860f2faa336509200feee179c"
+    },
+    {
+      "image": "damaged_015.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "626a47dcbd0733427f950613829cc8d1f7b4a24870b9cb2105e21d87da8328ea"
+    },
+    {
+      "image": "damaged_021.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "011419ffa1034e7f296d28777f92c321d4130fa4c006e09ed971494330351a96"
+    },
+    {
+      "image": "damaged_022.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "82d683569749997c9eeee978abd64f73e716d762825e7c81fd97713ec743f304"
+    },
+    {
+      "image": "damaged_023.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e0e1ac02d8ffac3e930337b2a7b7ac1dd1c92aec3cc9fbe5133e68b8cc6ac131"
+    },
+    {
+      "image": "damaged_025.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "c267a031b3ba066c5fa6750fc917075b5d1225e315870baf34849aa2f858ab8f"
+    },
+    {
+      "image": "damaged_027.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "582e47136aaf0c1d9de8b1faecf3711c560c7860dde88a686911488d5bf8dd13"
+    },
+    {
+      "image": "damaged_028.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "21644495d8e135b6f93a1ca52360d0c630ddf96170f88cfe37bcc8b549bfdac4"
+    },
+    {
+      "image": "damaged_029.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 1,
+          "fn": 0,
+          "predictions": 1,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 1,
+          "fn": 0,
+          "predictions": 1,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "af69fac429bc6c7f724123ed721872191e0d36f43ae89dca6f774c0d830a04ce"
+    },
+    {
+      "image": "damaged_030.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 1,
+          "fn": 0,
+          "predictions": 1,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 1,
+          "fn": 0,
+          "predictions": 1,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "af07f5623124f69b71daac0d162f63063b84c4a99cfb951c8f815680673cf76c"
+    },
+    {
+      "image": "damaged_033.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 1,
+          "fn": 0,
+          "predictions": 1,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 1,
+          "fn": 0,
+          "predictions": 1,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "f520ebd983e0959f6607fc26e736ae148461a9a1eaf8fcfc16d6e02b362d4ff2"
+    },
+    {
+      "image": "damaged_034.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 1,
+          "fn": 0,
+          "predictions": 1,
+          "targets": 0
+        }
+      },
+      "student_additions": 1,
+      "label_sha256": "c74007b0b04699b4c8cf25f79600e6d26d4d63a60da00c4925297363c1af561a"
+    },
+    {
+      "image": "damaged_038.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "674235b6aac79a270a295fd8ec9f3debe4ddd1152095721a5458b318e2e89176"
+    },
+    {
+      "image": "damaged_039.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "ccb3f0d1861ba144fa978cb42ad96e2b3c82edc934e10a61b014a9d1785289cb"
+    },
+    {
+      "image": "damaged_041.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "d65a21d91fb1438375d0c92fcbd0177fa3ee56d3c22404c74f72e46da8556c55"
+    },
+    {
+      "image": "damaged_042.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "40ea48a4ab6736c3b527c56301eb17b10002f318e20f21d88c8275e9db738301"
+    },
+    {
+      "image": "damaged_043.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "4c5843f7959b2b8f5e9937f567017f550bf7b0022c9575e3a73b2fe20809b4cb"
+    },
+    {
+      "image": "damaged_044.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "0d19da1de9f088c35f1abe0bec93f54c027516e04dc23db73e0372ef57f2eb2b"
+    },
+    {
+      "image": "damaged_046.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "eafebb9ff4e7d2a3b9c5be1fbe974ca2b9fd17b97604cfca121974a971b071c0"
+    },
+    {
+      "image": "damaged_047.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e4bef6f018d44d251eac5c2da3fde105f779f471ae6d2aaa8fd90af66b37ba04"
+    },
+    {
+      "image": "damaged_048.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "cda356519a7b37a0a867f0256e0f634fe4a51f6aef6fb8349cee86776471898c"
+    },
+    {
+      "image": "damaged_049.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "d6112fe166f94e6821c0e0e43ff2936b47ed46ea742b675afe091ba15eee9b6c"
+    },
+    {
+      "image": "damaged_050.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "4ef66a7410dff030e92abda5674163947fc7cac58caf1cea8ff52e4da1178a74"
+    },
+    {
+      "image": "misrouted_013.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "0acd9a387f506ee40211bc383cfcb918789ad21ebade2084741de91ea3781c57"
+    },
+    {
+      "image": "misrouted_014.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "8a41d6b1c3551122f5a4a8d745534e4af684168e39135ef45e9a4cee17cd5479"
+    },
+    {
+      "image": "misrouted_015.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "d7f46b5d7c713855bb47344f1f9be581df55f258db1a1e891ffb28b352904851"
+    },
+    {
+      "image": "misrouted_016.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "37611f1a548a063b64c8fa616f1210f54b4bd903d5bb5e2317e7c7279c0adf0e"
+    },
+    {
+      "image": "misrouted_018.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "9d9ca74ffa2f11b1e84ff4efd958a06e9757d30e8519c13e902faa1d2e04b062"
+    },
+    {
+      "image": "misrouted_019.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "cf444da774765e67f991c20e1455e188780dc7173966e85240e8aadd9b858c5d"
+    },
+    {
+      "image": "misrouted_021.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "d171e24665447169250a39d30bf408f1035a7f013151b022a7835a09305aab41"
+    },
+    {
+      "image": "misrouted_022.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "c2696cab3909a5d224921f443cd369cdd3fdbdb248bc197db42b37af2e6770aa"
+    },
+    {
+      "image": "misrouted_026.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "8b92b2856f678db519727cff523c246719c02074076979020fc40e39669d70c2"
+    },
+    {
+      "image": "misrouted_029.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "1dde238c991e61d42b22f907a7d27a9911f2428289e3ed22088529164a082475"
+    },
+    {
+      "image": "misrouted_030.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "1450a8f6b590d3b7166af36cf0b68d3a5ea83fae0fdb95b1370512c4939bd4dd"
+    },
+    {
+      "image": "misrouted_031.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "6294628f4b277231bc9cac92fbd06296dedbf7209090b6da0f0a96850fc9745a"
+    },
+    {
+      "image": "misrouted_032.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "a4d9d14ef740d98bbdc213884a4d3289bc4b2331bd005a55f23331c7bb50d8d6"
+    },
+    {
+      "image": "misrouted_033.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "17a2c9822a1c7fc9ea31b0dd99fecc3d6c5391bf79fa15dc1c5c2f9afdd0abce"
+    },
+    {
+      "image": "misrouted_037.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "8cedc9492421e7056368ab87da796000bd0fead303ba72aa01f284ea4a343ab4"
+    },
+    {
+      "image": "misrouted_038.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "bf1ccf935ba5227d3e51695f8fb4c3e8337209c1323517ab74bdc619a2742f02"
+    },
+    {
+      "image": "misrouted_041.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "bdca0e7777aad5e09641b7f7a22b100a5b04e7025f7d57a459e902b7103a9dee"
+    },
+    {
+      "image": "misrouted_043.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "29d3881589dcd240c736bdd8498f655718ddf594915cd9cbdd4beb82c873e664"
+    },
+    {
+      "image": "misrouted_044.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "06c7d34edd7a68cb7da73145c09f727cbaa6f6eb233b5ec06f10edecc1f1d0ea"
+    },
+    {
+      "image": "misrouted_045.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "85434d4cee2bd5287899d1604b70568fee4c926df66c888e9dedf714b9983715"
+    },
+    {
+      "image": "misrouted_046.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "11e5d8f49255e4dd1c083f2f7a3cd6ff1a4a2eba6ef7f1ae622cac6ec33f36a5"
+    },
+    {
+      "image": "misrouted_047.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "fce170461e0b8007798715ee613a74c551e7e874ba23444dc9fb243fcc5d7ba5"
+    },
+    {
+      "image": "misrouted_048.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "6403682a33281aa226c530709d6b7832fa2820d40d3d759f22a64605b2b2a4ca"
+    },
+    {
+      "image": "misrouted_049.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "05422fc6b0ba9ad946f940a50e131a85c01d66859e5bb7f70f42488f92ca8666"
+    },
+    {
+      "image": "normal_016.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_018.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_019.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_020.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_021.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_022.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_023.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_025.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_026.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_027.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_029.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_031.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_032.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_033.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_034.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_035.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_037.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_039.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_040.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_045.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_046.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_048.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_051.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_052.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_054.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_055.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_056.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_057.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_058.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_063.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_064.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_065.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_068.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_069.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_070.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_071.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_073.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_074.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_075.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_076.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_077.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_080.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_081.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_085.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_087.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_088.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_089.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_090.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_091.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_092.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_094.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_095.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_097.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_098.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_101.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_103.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_106.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_108.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_109.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_110.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_111.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_112.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_114.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_116.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_117.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_118.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_121.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_122.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_123.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_125.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_127.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_128.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_130.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_131.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_133.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_134.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_135.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_137.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_139.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_140.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_141.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_142.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_143.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_145.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_146.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_147.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_149.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "normal_150.JPG",
+      "metrics": {
+        "teacher": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "current": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      },
+      "student_additions": 0,
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "seconds": 3165.53,
+  "training_only": true,
+  "source_only": true,
+  "reference_gates_not_evaluated": true,
+  "production_changed": false,
+  "purpose": "Measure broader training control burden, not a new field accuracy claim",
+  "student_added_unmatched": 1
+}

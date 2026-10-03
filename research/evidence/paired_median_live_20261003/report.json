@@ -1,0 +1,706 @@
+{
+  "status": "complete",
+  "qualifies_live_diagnostic": true,
+  "cases": [
+    {
+      "stage": "train",
+      "image": "disconnected_012.JPG",
+      "reasons": [
+        "ALL_new_median_candidates"
+      ],
+      "upstream_path": "applied",
+      "current": {
+        "tp": 9,
+        "unmatched": 0,
+        "fn": 5,
+        "predictions": 9,
+        "targets": 14
+      },
+      "trial": {
+        "tp": 10,
+        "unmatched": 0,
+        "fn": 4,
+        "predictions": 10,
+        "targets": 14
+      },
+      "gained": [
+        2
+      ],
+      "lost": [],
+      "expected_candidates": 1,
+      "accepted": 1,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_012\\20261003_211046\\initial_report.json",
+      "current_evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_012\\20261003_211046\\current_paired_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_012\\20261003_211046\\median_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_012\\20261003_211046\\median_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "train",
+      "image": "disconnected_042.JPG",
+      "reasons": [
+        "ALL_new_median_candidates"
+      ],
+      "upstream_path": "applied",
+      "current": {
+        "tp": 8,
+        "unmatched": 0,
+        "fn": 2,
+        "predictions": 8,
+        "targets": 10
+      },
+      "trial": {
+        "tp": 9,
+        "unmatched": 0,
+        "fn": 1,
+        "predictions": 9,
+        "targets": 10
+      },
+      "gained": [
+        9
+      ],
+      "lost": [],
+      "expected_candidates": 1,
+      "accepted": 1,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_042\\20261003_211235\\initial_report.json",
+      "current_evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_042\\20261003_211235\\current_paired_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_042\\20261003_211235\\median_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_042\\20261003_211235\\median_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "train",
+      "image": "disconnected_043.JPG",
+      "reasons": [
+        "ALL_new_median_candidates"
+      ],
+      "upstream_path": "applied",
+      "current": {
+        "tp": 8,
+        "unmatched": 0,
+        "fn": 2,
+        "predictions": 8,
+        "targets": 10
+      },
+      "trial": {
+        "tp": 9,
+        "unmatched": 0,
+        "fn": 1,
+        "predictions": 9,
+        "targets": 10
+      },
+      "gained": [
+        4
+      ],
+      "lost": [],
+      "expected_candidates": 1,
+      "accepted": 1,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_043\\20261003_211443\\initial_report.json",
+      "current_evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_043\\20261003_211443\\current_paired_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_043\\20261003_211443\\median_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_043\\20261003_211443\\median_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "inner",
+      "image": "disconnected_004.JPG",
+      "reasons": [
+        "ALL_new_median_candidates"
+      ],
+      "upstream_path": "applied",
+      "current": {
+        "tp": 5,
+        "unmatched": 0,
+        "fn": 5,
+        "predictions": 5,
+        "targets": 10
+      },
+      "trial": {
+        "tp": 6,
+        "unmatched": 0,
+        "fn": 4,
+        "predictions": 6,
+        "targets": 10
+      },
+      "gained": [
+        0
+      ],
+      "lost": [],
+      "expected_candidates": 1,
+      "accepted": 1,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\inner\\disconnected_004\\20261003_211717\\initial_report.json",
+      "current_evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\inner\\disconnected_004\\20261003_211717\\current_paired_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\inner\\disconnected_004\\20261003_211717\\median_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\inner\\disconnected_004\\20261003_211717\\median_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "train",
+      "image": "disconnected_001.JPG",
+      "reasons": [
+        "ALL_current_paired_candidates"
+      ],
+      "upstream_path": "applied",
+      "current": {
+        "tp": 8,
+        "unmatched": 0,
+        "fn": 2,
+        "predictions": 8,
+        "targets": 10
+      },
+      "trial": {
+        "tp": 8,
+        "unmatched": 0,
+        "fn": 2,
+        "predictions": 8,
+        "targets": 10
+      },
+      "gained": [],
+      "lost": [],
+      "expected_candidates": 0,
+      "accepted": 0,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_001\\20261003_211904\\initial_report.json",
+      "current_evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_001\\20261003_211904\\current_paired_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_001\\20261003_211904\\median_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_001\\20261003_211904\\median_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "train",
+      "image": "disconnected_009.JPG",
+      "reasons": [
+        "ALL_current_paired_candidates"
+      ],
+      "upstream_path": "applied",
+      "current": {
+        "tp": 10,
+        "unmatched": 0,
+        "fn": 2,
+        "predictions": 10,
+        "targets": 12
+      },
+      "trial": {
+        "tp": 10,
+        "unmatched": 0,
+        "fn": 2,
+        "predictions": 10,
+        "targets": 12
+      },
+      "gained": [],
+      "lost": [],
+      "expected_candidates": 0,
+      "accepted": 0,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_009\\20261003_212052\\initial_report.json",
+      "current_evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_009\\20261003_212052\\current_paired_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_009\\20261003_212052\\median_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_009\\20261003_212052\\median_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "train",
+      "image": "disconnected_010.JPG",
+      "reasons": [
+        "ALL_current_paired_candidates"
+      ],
+      "upstream_path": "applied",
+      "current": {
+        "tp": 9,
+        "unmatched": 0,
+        "fn": 3,
+        "predictions": 9,
+        "targets": 12
+      },
+      "trial": {
+        "tp": 9,
+        "unmatched": 0,
+        "fn": 3,
+        "predictions": 9,
+        "targets": 12
+      },
+      "gained": [],
+      "lost": [],
+      "expected_candidates": 0,
+      "accepted": 0,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_010\\20261003_212237\\initial_report.json",
+      "current_evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_010\\20261003_212237\\current_paired_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_010\\20261003_212237\\median_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_010\\20261003_212237\\median_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "train",
+      "image": "disconnected_017.JPG",
+      "reasons": [
+        "ALL_current_paired_candidates"
+      ],
+      "upstream_path": "applied",
+      "current": {
+        "tp": 10,
+        "unmatched": 0,
+        "fn": 4,
+        "predictions": 10,
+        "targets": 14
+      },
+      "trial": {
+        "tp": 10,
+        "unmatched": 0,
+        "fn": 4,
+        "predictions": 10,
+        "targets": 14
+      },
+      "gained": [],
+      "lost": [],
+      "expected_candidates": 0,
+      "accepted": 0,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_017\\20261003_212421\\initial_report.json",
+      "current_evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_017\\20261003_212421\\current_paired_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_017\\20261003_212421\\median_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_017\\20261003_212421\\median_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "train",
+      "image": "disconnected_018.JPG",
+      "reasons": [
+        "ALL_current_paired_candidates"
+      ],
+      "upstream_path": "applied",
+      "current": {
+        "tp": 6,
+        "unmatched": 0,
+        "fn": 2,
+        "predictions": 6,
+        "targets": 8
+      },
+      "trial": {
+        "tp": 6,
+        "unmatched": 0,
+        "fn": 2,
+        "predictions": 6,
+        "targets": 8
+      },
+      "gained": [],
+      "lost": [],
+      "expected_candidates": 0,
+      "accepted": 0,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_018\\20261003_212615\\initial_report.json",
+      "current_evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_018\\20261003_212615\\current_paired_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_018\\20261003_212615\\median_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_018\\20261003_212615\\median_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "train",
+      "image": "disconnected_021.JPG",
+      "reasons": [
+        "ALL_current_paired_candidates"
+      ],
+      "upstream_path": "applied",
+      "current": {
+        "tp": 10,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 10,
+        "targets": 10
+      },
+      "trial": {
+        "tp": 10,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 10,
+        "targets": 10
+      },
+      "gained": [],
+      "lost": [],
+      "expected_candidates": 0,
+      "accepted": 0,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_021\\20261003_212810\\initial_report.json",
+      "current_evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_021\\20261003_212810\\current_paired_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_021\\20261003_212810\\median_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_021\\20261003_212810\\median_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "train",
+      "image": "disconnected_030.JPG",
+      "reasons": [
+        "ALL_current_paired_candidates"
+      ],
+      "upstream_path": "applied",
+      "current": {
+        "tp": 9,
+        "unmatched": 0,
+        "fn": 1,
+        "predictions": 9,
+        "targets": 10
+      },
+      "trial": {
+        "tp": 9,
+        "unmatched": 0,
+        "fn": 1,
+        "predictions": 9,
+        "targets": 10
+      },
+      "gained": [],
+      "lost": [],
+      "expected_candidates": 0,
+      "accepted": 0,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_030\\20261003_213051\\initial_report.json",
+      "current_evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_030\\20261003_213051\\current_paired_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_030\\20261003_213051\\median_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_030\\20261003_213051\\median_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "train",
+      "image": "disconnected_038.JPG",
+      "reasons": [
+        "ALL_current_paired_candidates"
+      ],
+      "upstream_path": "applied",
+      "current": {
+        "tp": 9,
+        "unmatched": 0,
+        "fn": 1,
+        "predictions": 9,
+        "targets": 10
+      },
+      "trial": {
+        "tp": 9,
+        "unmatched": 0,
+        "fn": 1,
+        "predictions": 9,
+        "targets": 10
+      },
+      "gained": [],
+      "lost": [],
+      "expected_candidates": 0,
+      "accepted": 0,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_038\\20261003_213328\\initial_report.json",
+      "current_evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_038\\20261003_213328\\current_paired_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_038\\20261003_213328\\median_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\disconnected_038\\20261003_213328\\median_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "train",
+      "image": "normal_002.JPG",
+      "reasons": [
+        "first_normal_control"
+      ],
+      "upstream_path": "safety_abstention_local_alignment",
+      "current": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "trial": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "gained": [],
+      "lost": [],
+      "expected_candidates": 0,
+      "accepted": 0,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\normal_002\\20261003_213629\\initial_report.json",
+      "current_evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\normal_002\\20261003_213629\\current_paired_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\normal_002\\20261003_213629\\median_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\normal_002\\20261003_213629\\median_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "inner",
+      "image": "disconnected_020.JPG",
+      "reasons": [
+        "ALL_current_paired_candidates"
+      ],
+      "upstream_path": "applied",
+      "current": {
+        "tp": 10,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 10,
+        "targets": 10
+      },
+      "trial": {
+        "tp": 10,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 10,
+        "targets": 10
+      },
+      "gained": [],
+      "lost": [],
+      "expected_candidates": 0,
+      "accepted": 0,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\inner\\disconnected_020\\20261003_213707\\initial_report.json",
+      "current_evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\inner\\disconnected_020\\20261003_213707\\current_paired_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\inner\\disconnected_020\\20261003_213707\\median_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\inner\\disconnected_020\\20261003_213707\\median_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "inner",
+      "image": "normal_011.JPG",
+      "reasons": [
+        "first_normal_control"
+      ],
+      "upstream_path": "safety_abstention_local_alignment",
+      "current": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "trial": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "gained": [],
+      "lost": [],
+      "expected_candidates": 0,
+      "accepted": 0,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\inner\\normal_011\\20261003_213938\\initial_report.json",
+      "current_evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\inner\\normal_011\\20261003_213938\\current_paired_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\inner\\normal_011\\20261003_213938\\median_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\inner\\normal_011\\20261003_213938\\median_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "outer",
+      "image": "normal_001.JPG",
+      "reasons": [
+        "first_normal_control"
+      ],
+      "upstream_path": "safety_abstention_local_alignment",
+      "current": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "trial": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "gained": [],
+      "lost": [],
+      "expected_candidates": 0,
+      "accepted": 0,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\outer\\normal_001\\20261003_214015\\initial_report.json",
+      "current_evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\outer\\normal_001\\20261003_214015\\current_paired_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\outer\\normal_001\\20261003_214015\\median_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\outer\\normal_001\\20261003_214015\\median_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "train",
+      "image": "damaged_029.JPG",
+      "reasons": [
+        "ALL_old_cue_controls"
+      ],
+      "upstream_path": "applied",
+      "current": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "trial": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "gained": [],
+      "lost": [],
+      "expected_candidates": 0,
+      "accepted": 0,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\damaged_029\\20261003_214052\\initial_report.json",
+      "current_evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\damaged_029\\20261003_214052\\current_paired_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\damaged_029\\20261003_214052\\median_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\damaged_029\\20261003_214052\\median_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "train",
+      "image": "damaged_030.JPG",
+      "reasons": [
+        "ALL_old_cue_controls"
+      ],
+      "upstream_path": "applied",
+      "current": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "trial": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "gained": [],
+      "lost": [],
+      "expected_candidates": 0,
+      "accepted": 0,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\damaged_030\\20261003_214244\\initial_report.json",
+      "current_evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\damaged_030\\20261003_214244\\current_paired_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\damaged_030\\20261003_214244\\median_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\damaged_030\\20261003_214244\\median_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "train",
+      "image": "damaged_033.JPG",
+      "reasons": [
+        "ALL_old_cue_controls"
+      ],
+      "upstream_path": "applied",
+      "current": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "trial": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "gained": [],
+      "lost": [],
+      "expected_candidates": 0,
+      "accepted": 0,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\damaged_033\\20261003_214434\\initial_report.json",
+      "current_evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\damaged_033\\20261003_214434\\current_paired_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\damaged_033\\20261003_214434\\median_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\damaged_033\\20261003_214434\\median_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "train",
+      "image": "damaged_034.JPG",
+      "reasons": [
+        "ALL_old_cue_controls"
+      ],
+      "upstream_path": "applied",
+      "current": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "trial": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "gained": [],
+      "lost": [],
+      "expected_candidates": 0,
+      "accepted": 0,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\damaged_034\\20261003_214624\\initial_report.json",
+      "current_evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\damaged_034\\20261003_214624\\current_paired_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\damaged_034\\20261003_214624\\median_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\train\\damaged_034\\20261003_214624\\median_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "inner",
+      "image": "disconnected_040.JPG",
+      "reasons": [
+        "ALL_previous_rejected_risk_sources"
+      ],
+      "upstream_path": "applied",
+      "current": {
+        "tp": 8,
+        "unmatched": 0,
+        "fn": 2,
+        "predictions": 8,
+        "targets": 10
+      },
+      "trial": {
+        "tp": 8,
+        "unmatched": 0,
+        "fn": 2,
+        "predictions": 8,
+        "targets": 10
+      },
+      "gained": [],
+      "lost": [],
+      "expected_candidates": 0,
+      "accepted": 0,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\inner\\disconnected_040\\20261003_214829\\initial_report.json",
+      "current_evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\inner\\disconnected_040\\20261003_214829\\current_paired_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\inner\\disconnected_040\\20261003_214829\\median_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\inner\\disconnected_040\\20261003_214829\\median_overlay.jpg",
+      "sam_pending": true
+    },
+    {
+      "stage": "outer",
+      "image": "disconnected_006.JPG",
+      "reasons": [
+        "ALL_previous_rejected_risk_sources"
+      ],
+      "upstream_path": "applied",
+      "current": {
+        "tp": 6,
+        "unmatched": 0,
+        "fn": 6,
+        "predictions": 6,
+        "targets": 12
+      },
+      "trial": {
+        "tp": 6,
+        "unmatched": 0,
+        "fn": 6,
+        "predictions": 6,
+        "targets": 12
+      },
+      "gained": [],
+      "lost": [],
+      "expected_candidates": 0,
+      "accepted": 0,
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\outer\\disconnected_006\\20261003_215032\\initial_report.json",
+      "current_evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\outer\\disconnected_006\\20261003_215032\\current_paired_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\outer\\disconnected_006\\20261003_215032\\median_ports.json",
+      "overlay": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_median_live_20261003\\outer\\disconnected_006\\20261003_215032\\median_overlay.jpg",
+      "sam_pending": true
+    }
+  ],
+  "gains": {
+    "train": 3,
+    "inner": 1,
+    "outer": 0
+  },
+  "safety_abstentions": 3,
+  "seconds": 2534.49,
+  "sam_pending": true,
+  "validation_reused": true,
+  "field_accuracy": false
+}

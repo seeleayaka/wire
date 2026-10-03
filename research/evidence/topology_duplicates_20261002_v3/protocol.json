@@ -1,0 +1,11 @@
+{
+  "mask_iou_review_threshold": 0.8,
+  "exact_only_deduplication": true,
+  "inference": false,
+  "no_nearest_assignment": true,
+  "no_threshold_tuning": true,
+  "cases": [
+    "cabinet_1",
+    "cabinet_2"
+  ]
+}

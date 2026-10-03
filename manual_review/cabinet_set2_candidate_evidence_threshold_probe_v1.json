@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "kind": "read_only_candidate_evidence_threshold_probe",
+  "purpose": "Post-hoc inspection of numeric evidence fields in the 23 saved cabinet set-2 candidates. It does not modify the mainline, candidate order, threshold, or output contract.",
+  "sources": [
+    "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\cabinet_set2_mainline_20260826_batch01\\report.json",
+    "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\cabinet_set2_mainline_20260826_batch02\\report.json",
+    "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\cabinet_set2_mainline_20260826_batch03\\report.json",
+    "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\cabinet_set2_mainline_20260826_batch04\\report.json"
+  ],
+  "label_basis": "The earlier manual selected/unrelated visual-difference review. It is diagnostic evidence only, not a declared electrical-fault ground truth.",
+  "confidence_field": {
+    "distinct_values": ["possible_difference"],
+    "conclusion": "confidence is a fixed text contract label, not a calibrated numeric confidence; it cannot be thresholded."
+  },
+  "observed_ranges": {
+    "selected_visual_evidence": {
+      "count": 18,
+      "difference_score": [119.66, 213.89],
+      "dino_mean_max": [0.16588, 0.37032],
+      "cross_evidence_pixel_ratio_max": [0.1604, 0.5648]
+    },
+    "unrelated_visual_candidates": {
+      "count": 5,
+      "difference_score": [146.83, 172.66],
+      "dino_mean_max": [0.12056, 0.24042],
+      "cross_evidence_pixel_ratio_max": [0.0028, 0.4506]
+    }
+  },
+  "post_hoc_rule_results": [
+    {
+      "rule": "difference_score >= 173",
+      "kept_total": 4,
+      "selected_visual_evidence_kept": 4,
+      "unrelated_visual_candidates_kept": 0,
+      "finding": "A score-only cutoff eliminates all five unrelated candidates but also removes 14 of 18 selected visual-evidence candidates."
+    },
+    {
+      "rule": "dino_mean_max >= 0.16",
+      "kept_total": 20,
+      "selected_visual_evidence_kept": 18,
+      "unrelated_visual_candidates_kept": 2,
+      "finding": "Removes three clearly weak candidates without removing a selected visual-evidence candidate in this same set."
+    },
+    {
+      "rule": "cross_evidence_pixel_ratio_max >= 0.16",
+      "kept_total": 21,
+      "selected_visual_evidence_kept": 18,
+      "unrelated_visual_candidates_kept": 3,
+      "finding": "Removes only the two candidates with almost no traditional/DINO overlap."
+    },
+    {
+      "rule": "dino_mean_max >= 0.16 AND cross_evidence_pixel_ratio_max >= 0.16",
+      "kept_total": 20,
+      "selected_visual_evidence_kept": 18,
+      "unrelated_visual_candidates_kept": 2,
+      "finding": "Best of the tested simple numerical gates, but the two remaining unrelated candidates have strong numeric evidence; a scalar threshold alone cannot reject them."
+    }
+  ],
+  "recommended_experimental_gate": {
+    "numeric_pre_gate": "dino_mean_max >= 0.16 AND cross_evidence_pixel_ratio_max >= 0.16",
+    "required_following_gate": "wire-zone and free-end/elongated-conductor evidence",
+    "why": "The remaining unrelated candidates are normal routed wire/terminal-detail changes with DINO and cross evidence above the numerical pre-gate. They need spatial/shape context, not a higher global threshold."
+  },
+  "safety_boundary": "Do not call the numeric pre-gate a fault confidence threshold or deploy it from this eight-image AI-generated diagnostic set. Validate the same rule on separately declared zero-fault and controlled-fault pairs before adopting it."
+}

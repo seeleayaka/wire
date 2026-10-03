@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "graph_id": "wrong2-visible-anchor-expected-contract",
+  "scene_type": "cabinet_visible_anchor_probe",
+  "nodes": [
+    {"id": "ANCHOR_M004_A"},
+    {"id": "ANCHOR_M004_B"}
+  ],
+  "connections": [
+    {
+      "id": "expected_visible_segment_m004",
+      "from": "ANCHOR_M004_A",
+      "to": "ANCHOR_M004_B"
+    }
+  ]
+}

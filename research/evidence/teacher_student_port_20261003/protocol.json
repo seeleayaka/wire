@@ -1,0 +1,20 @@
+{
+  "frozen_before_new_training_control_scoring": true,
+  "reason": "Candidate replacement loses teacher hits; preserve teacher and test complementary cues on training controls first",
+  "teacher_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+  "student_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+  "variants": ["cross_model_supported", "student_consistent"],
+  "choice": "First variant with train tp > 66, unmatched <= 0 and normal cues = 0, otherwise reject both",
+  "maximum_primary": 5,
+  "maximum_supplementary_including_original_recheck": 5,
+  "preserve_all_teacher_cues_exactly": true,
+  "student_score": 0.75,
+  "teacher_support_score": 0.25,
+  "teacher_support_iou": 0.5,
+  "student_consistency": "At least two distinct source tiles each > .5, or the already frozen strict dual recheck each > .75",
+  "heldout_requirement": "Inner more than 57/80 at unmatched 0; outer >=31/56 at unmatched <=1; no new normal cues; primary unchanged",
+  "heldout_policy_changes_forbidden": true,
+  "heldout_sets_previously_seen": true,
+  "source_only_pass_not_deployment": true,
+  "same_photo_same_family_models_are_correlated": true
+}

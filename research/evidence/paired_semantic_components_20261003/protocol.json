@@ -1,0 +1,46 @@
+{
+  "pins": {
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\heads_oof\\fold0_head.pt": "189b3f604bdb379bd1277878a0866e081e4d8a397510ed2af2009028b9107e5b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\heads_oof\\fold1_head.pt": "c2fe5ba06fc4b33681f3d78d932705f115fddf62e2f52eb871115f2361331f09",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\heads_oof\\fold2_head.pt": "93fc7e03f048f526eecf90873a3c9fc20d7e0e9e94fb8adefdbdb62ccb00472c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\evaluate_paired_semantic_committee.py": "203e958e34787177cd55b6519906b37fdf45db1198dc20e33f5d2c98573f99b8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\paired_semantic_committee.py": "deb05f8582712232dea6d7b7bb0ae8834eb758cfb9807f4b005907e99700fa9d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\features.pt": "67535bd345a7b406979cafa2f28d2905521f37c11516c074e9d48013d08fa1d8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\samples.json": "c893463e421b1fc2fe1a699b99cb6b0173131f68d83774592ed2e3dd4c508e56",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\report.json": "87853ff01b54ef1b1a6bdea4afdce491ea36a6c96f1751c1acb436716b585a2e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_semantic_committee_preregistration_20261003\\PLAN.md": "983237358113896b2aa4ba7f021d9bfc9fa6c99d3dd10f9ebf91db569770e66d",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_073.JPG": "09f81923e44089603ccfb5989e370d07cc27f2e929ebfc70de945a08947b19ac",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\audit_paired_semantic_components.py": "94d4274b9945000248897dbbcbd9d2699ccf2f47444d590b2b43489bbd783796",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\paired_semantic_components.py": "b3474470919397f0041f04c561758d431db65c0e8316dd77efe46749cd365f8c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_semantic_component_preregistration_20261003\\PLAN.md": "6804f2e1d24ef8da0d109dcae169f3fbfc0568bbe5361d318ad0777f8319d190"
+  },
+  "runtime_fingerprint": {
+    "accepted_feature": {
+      "accepted": {
+        "teacher": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+        "student": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+        "manifest": "362fe4ae4a4d9f14ceefee4bd2184fd54efe1de18a02a557583b669eb523196e",
+        "support_code": "aae3fb97dc7735042370245ac591bd8ef68ed92b43182c368bcf8b472b4529db",
+        "context_code": "fbcf4f4b529e0617d69939704a7c494fc1c6a00a44d3fa66c0ea7bb24e508342",
+        "calibration": "bf8a034e398402de4e9c22ed13dedcbb410e717989f2202b1adc49712844e86d"
+      },
+      "feature": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+      "manifest": "115219f1f41b7675c2fb85401caba62b1d3dc2720b3647e297b0f1636b34abcc",
+      "feature_code": "0af358788bf2da0e49169544f2ce7c024334c2274dc1eac6af858ffdcd14e79c"
+    },
+    "resolution_code": "56e1c14f32e6e67cb1eb66ba4e02427c8c90e679aff1883772a8541def66f222",
+    "resolution_manifest": "478cda48b165b5eb4142bddf57d7399dd68fa3dde559950a5d32cbd6718f4866",
+    "predict_code": "093b0c9ec940c48a4863a302d98ed0fe36e6e6d0f4f68c1da96a80a406a168dd",
+    "tiling_code": "113a9b57ec431103afb35153f1f07868417715cd6829756a1350471cba8a239d"
+  },
+  "cached_source_only": true,
+  "exact_distinct_detection_components": true,
+  "cross_head_same_class_iou": 0.5,
+  "original_floor": 0.05,
+  "old_prefix_and_shared5plus5_preserved": true,
+  "no_GT_component_inputs": true,
+  "no_automatic_deployment": true,
+  "training_committee_not_OOF": true,
+  "validation_reused": true,
+  "field_accuracy": false
+}

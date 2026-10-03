@@ -1,0 +1,58 @@
+{
+  "status": "complete",
+  "tests": 119,
+  "cases": [
+    {
+      "image": "normal_006.JPG",
+      "status": "fallback",
+      "primary": 0,
+      "supplementary": 0,
+      "recheck": {
+        "policy_id": "primary5_supplement5_context_recheck_v1_20261002",
+        "enabled": true,
+        "maximum_proposals": 6,
+        "seed_score": 0.5,
+        "both_view_score": 0.75,
+        "crop_size": 1280,
+        "predict_imgsz": 960,
+        "agreement_iou": 0.5,
+        "maximum_total_primary": 5,
+        "maximum_total_supplementary": 5,
+        "source_reference_fresh": false,
+        "same_photo_not_independent_physical_evidence": true,
+        "automatic_fault_verdict": false,
+        "added_hints": 0
+      },
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\context_port_gui_20261002_v2\\normal_006\\port_rescue_24ad2a9abbf649fc97a0658af5f94463"
+    },
+    {
+      "image": "disconnected_005.JPG",
+      "status": "applied",
+      "primary": 4,
+      "supplementary": 0,
+      "recheck": {
+        "policy_id": "primary5_supplement5_context_recheck_v1_20261002",
+        "enabled": true,
+        "maximum_proposals": 6,
+        "seed_score": 0.5,
+        "both_view_score": 0.75,
+        "crop_size": 1280,
+        "predict_imgsz": 960,
+        "agreement_iou": 0.5,
+        "maximum_total_primary": 5,
+        "maximum_total_supplementary": 5,
+        "source_reference_fresh": true,
+        "same_photo_not_independent_physical_evidence": true,
+        "automatic_fault_verdict": false,
+        "added_hints": 0,
+        "proposals": 0
+      },
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\context_port_gui_20261002_v2\\disconnected_005\\port_rescue_8c7217cd658d4536a57b2eb56e2039bf"
+    }
+  ],
+  "default_off": true,
+  "real_button_worker_callback": true,
+  "stale_result_rejected": true,
+  "original_reports_unchanged": true,
+  "new_sam": false
+}

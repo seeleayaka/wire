@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "annotation_kind": "manual_visible_change_group_draft",
+  "purpose": "Candidate-coverage review only. These are visible image-change groups, not electrical fault truth, Labelme annotations, or training labels.",
+  "source_basis": "Manual reference-versus-aligned-image comparison, with candidate boxes cross-checked afterwards.",
+  "reference_image": "C:\\Users\\HUAWEI\\Desktop\\案例\\线材柜子\\4\\right.png",
+  "coordinate_space": {
+    "image_size": [1080, 712],
+    "origin": "top_left",
+    "bbox_format": "[left, top, right, bottom]"
+  },
+  "review_policy": {
+    "unit_of_annotation": "one connected visible change group",
+    "eligible_confidences_for_future_coverage": ["high", "medium"],
+    "candidate_coverage_rule": "A candidate box intersects the group box.",
+    "excluded_content": [
+      "ambiguous global AI repaint or frame variation",
+      "subtle label-level or photometric mutation that cannot be reliably grouped"
+    ],
+    "not_for": ["Labelme import", "model training", "electrical diagnosis", "field accuracy reporting"]
+  },
+  "images": [
+    {
+      "image": "wrong.png",
+      "exclude_from_group_metrics": true,
+      "groups": [],
+      "manual_notes": "No sufficiently separable high- or medium-confidence connected group. Differences are diffuse or ambiguous after AI generation; retain as a visual review case only."
+    },
+    {
+      "image": "wrong2.png",
+      "exclude_from_group_metrics": false,
+      "groups": [
+        {"id": "G01", "bbox": [250, 180, 455, 405], "description": "Upper-middle white conductor bundle visibly rerouted or added.", "confidence": "high"}
+      ]
+    },
+    {
+      "image": "wrong3.png",
+      "exclude_from_group_metrics": false,
+      "groups": [
+        {"id": "G01", "bbox": [635, 195, 905, 575], "description": "Connected white conductor-bundle route and its lower-right continuation visibly differ.", "confidence": "high"}
+      ]
+    },
+    {
+      "image": "wrong4.png",
+      "exclude_from_group_metrics": false,
+      "groups": [
+        {"id": "G01", "bbox": [500, 160, 640, 315], "description": "Upper-middle conductor or terminal visual change (known smoke target region).", "confidence": "high", "known_smoke_target": true}
+      ]
+    },
+    {
+      "image": "wrong5.png",
+      "exclude_from_group_metrics": false,
+      "groups": [
+        {"id": "G01", "bbox": [550, 95, 765, 300], "description": "Upper-middle breaker, label, or dark module arrangement visibly differs.", "confidence": "high"}
+      ]
+    },
+    {
+      "image": "wrong6.png",
+      "exclude_from_group_metrics": false,
+      "groups": [
+        {"id": "G01", "bbox": [890, 65, 1035, 285], "description": "Upper-right dangling conductor or terminal area visibly differs.", "confidence": "high"},
+        {"id": "G02", "bbox": [535, 360, 805, 610], "description": "Lower-centre contactor and adjacent wiring area visibly differs.", "confidence": "medium"}
+      ]
+    },
+    {
+      "image": "wrong7.png",
+      "exclude_from_group_metrics": false,
+      "groups": [
+        {"id": "G01", "bbox": [195, 225, 470, 335], "description": "Upper-left to middle breaker, label, or wiring region visibly differs.", "confidence": "medium"},
+        {"id": "G02", "bbox": [240, 350, 420, 435], "description": "Left-middle lower terminal or wiring group visibly differs.", "confidence": "medium"},
+        {"id": "G03", "bbox": [530, 365, 800, 620], "description": "Lower-centre contactor and wiring group visibly differs.", "confidence": "medium"}
+      ]
+    },
+    {
+      "image": "wrong8.png",
+      "exclude_from_group_metrics": false,
+      "groups": [
+        {"id": "G01", "bbox": [750, 55, 1035, 190], "description": "Upper-right terminal or wiring group visibly differs.", "confidence": "high"},
+        {"id": "G02", "bbox": [620, 370, 815, 620], "description": "Lower-centre contactor or wiring group visibly differs.", "confidence": "medium"},
+        {"id": "G03", "bbox": [820, 485, 910, 580], "description": "Lower-right terminal group visibly differs.", "confidence": "medium"}
+      ]
+    },
+    {
+      "image": "wrong9.png",
+      "exclude_from_group_metrics": false,
+      "groups": [
+        {"id": "G01", "bbox": [520, 365, 805, 620], "description": "Lower-centre contactor and adjacent wiring group visibly differs.", "confidence": "high"}
+      ]
+    },
+    {
+      "image": "wrong10.png",
+      "exclude_from_group_metrics": false,
+      "groups": [
+        {"id": "G01", "bbox": [810, 230, 945, 395], "description": "Upper-right blue conductor or terminal group visibly differs.", "confidence": "high"},
+        {"id": "G02", "bbox": [560, 380, 815, 545], "description": "Lower-centre contactor or wiring group visibly differs.", "confidence": "medium"}
+      ],
+      "manual_notes": "Large left-edge candidate is not promoted to a manual group because it looks like boundary or generation variation."
+    },
+    {
+      "image": "wrong11.png",
+      "exclude_from_group_metrics": false,
+      "groups": [
+        {"id": "G01", "bbox": [440, 365, 800, 630], "description": "Lower-centre contactor and adjacent wiring group visibly differs.", "confidence": "high"}
+      ]
+    },
+    {
+      "image": "wrong12.png",
+      "exclude_from_group_metrics": false,
+      "groups": [
+        {"id": "G01", "bbox": [315, 230, 470, 330], "description": "Upper-middle breaker, label, or wiring group visibly differs.", "confidence": "medium"},
+        {"id": "G02", "bbox": [530, 380, 805, 605], "description": "Lower-centre contactor and wiring group visibly differs.", "confidence": "high"},
+        {"id": "G03", "bbox": [815, 485, 910, 580], "description": "Lower-right terminal group visibly differs.", "confidence": "medium"}
+      ]
+    },
+    {
+      "image": "wrong13.png",
+      "exclude_from_group_metrics": false,
+      "groups": [
+        {"id": "G01", "bbox": [350, 50, 760, 330], "description": "Upper breaker and terminal row visibly differs.", "confidence": "high"},
+        {"id": "G02", "bbox": [250, 350, 460, 430], "description": "Left-middle lower terminal or wiring group visibly differs.", "confidence": "medium"},
+        {"id": "G03", "bbox": [260, 480, 450, 585], "description": "Lower-left breaker or wiring group visibly differs.", "confidence": "medium"}
+      ]
+    }
+  ]
+}

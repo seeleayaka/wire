@@ -1,0 +1,17 @@
+{
+  "source_dir": "synthetic_sam3_output_contract_fixture",
+  "records": [
+    {
+      "record_id": "m001_c01",
+      "source_score": 0.93,
+      "visible_ends_xy": [[40, 60], [160, 60]],
+      "endpoint_status": "unclassified_visible_segment_end"
+    },
+    {
+      "record_id": "m002_c01",
+      "source_score": 0.91,
+      "visible_ends_xy": [[40, 140], [160, 140]],
+      "endpoint_status": "unclassified_visible_segment_end"
+    }
+  ]
+}

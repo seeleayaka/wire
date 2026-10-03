@@ -1,0 +1,70 @@
+{
+  "pins": {
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\verify_resolution_plugs_live.py": "6a9012a2c5e1dcb402edc2a76a5c09a3e1eeef6c04775c177099d0686a6d8259",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\port_resolution_plug_backend.py": "bd15916801f71b39f3adf1445f582fa2bb47f23cac59522180f43714252c925b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\port_resolution_plug_policy.py": "e466c24d6ad0be1d1d717469381ce9fd716f914c8dc0d1d801cb42ea5bc2e960",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\port_resolution_support.py": "abbd7374555a8ab16229ab4e8c343af6ee1a0bc4ae3673c177970a8f792abbcc",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_073.JPG": "09f81923e44089603ccfb5989e370d07cc27f2e929ebfc70de945a08947b19ac",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_026.JPG": "2bdf4429efb7399a1d0a618dc619d3038e7a939af4f6d25888724d53dfd3633a",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_031.JPG": "8744da809baff520133aa299966beec832dd842a05f70c90b2e590f370f19e9e",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_038.JPG": "aadd789db2c8158ecf34b75d86cba476d94e6a65b4992e2fb0456c73588b0152",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_029.JPG": "f2cbe8a151852a8fe7f1d78b76db183e0a25f4aec448b90a061a9998ecf69bf2",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_030.JPG": "53e08cc9fb17a9c4814dc3de0e4839ae91bf1abafac3efefecc2443f125c8d67",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_033.JPG": "65a56eb09b8f17caee156a6709bacfb8aa7d9a277d78a40280176a08d94225a9",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_034.JPG": "9c173802906155fdd7d9a66b3e067e6610c46e69abf180e052174ccf396e1361",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_021.JPG": "d160859dd5543b8387788c96f8c8f172a7065cd84f163a5df90fbfd78b894e09",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_029.JPG": "ece7b170492ff1717256828ef9360a8a81c9bb87a496e13d9975e6f5f288ac19",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_042.JPG": "d8b0b8f689ce8734b9cd1cca2cb95a671bd708b3441b31ef12778ab9b28a5d3e",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_043.JPG": "ab9250f00fc0d17e1795a4dc5821d863422139b1d47ac7eb399149b3c616c772"
+  },
+  "runtime_fingerprint": {
+    "accepted": {
+      "teacher": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+      "student": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+      "manifest": "362fe4ae4a4d9f14ceefee4bd2184fd54efe1de18a02a557583b669eb523196e",
+      "support_code": "aae3fb97dc7735042370245ac591bd8ef68ed92b43182c368bcf8b472b4529db",
+      "context_code": "fbcf4f4b529e0617d69939704a7c494fc1c6a00a44d3fa66c0ea7bb24e508342",
+      "calibration": "bf8a034e398402de4e9c22ed13dedcbb410e717989f2202b1adc49712844e86d"
+    },
+    "feature": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+    "manifest": "115219f1f41b7675c2fb85401caba62b1d3dc2720b3647e297b0f1636b34abcc",
+    "feature_code": "0af358788bf2da0e49169544f2ce7c024334c2274dc1eac6af858ffdcd14e79c"
+  },
+  "images": [
+    "disconnected_026.JPG",
+    "disconnected_031.JPG",
+    "disconnected_038.JPG",
+    "damaged_029.JPG",
+    "damaged_030.JPG",
+    "damaged_033.JPG",
+    "damaged_034.JPG",
+    "disconnected_021.JPG",
+    "disconnected_029.JPG",
+    "disconnected_042.JPG",
+    "disconnected_043.JPG"
+  ],
+  "gains": [
+    "disconnected_026.JPG",
+    "disconnected_031.JPG",
+    "disconnected_038.JPG"
+  ],
+  "old_cue_controls": [
+    "damaged_029.JPG",
+    "damaged_030.JPG",
+    "damaged_033.JPG",
+    "damaged_034.JPG"
+  ],
+  "all_rejected_new_empty_jack_scenes": [
+    "disconnected_021.JPG",
+    "disconnected_029.JPG",
+    "disconnected_042.JPG",
+    "disconnected_043.JPG"
+  ],
+  "new_registration_dino": true,
+  "new_source_reference_inference": true,
+  "sam_pending": true,
+  "no_semantic_head": true,
+  "no_new_weights": true,
+  "no_automatic_deployment": true,
+  "field_accuracy": false
+}

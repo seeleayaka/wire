@@ -1,0 +1,29 @@
+{
+  "status": "complete",
+  "real_qt_button_worker_callback": true,
+  "default_off": true,
+  "stale_rejected": true,
+  "completed_sam_report_reused": true,
+  "new_sam": false,
+  "complete_case_old_cues_preserved": true,
+  "complete_case_feature_added": 0,
+  "formal_training_gain_added": 1,
+  "formal_matches_experimental": true,
+  "sam_pending_ui_blocked": true,
+  "runtime_fingerprint": {
+    "accepted": {
+      "teacher": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+      "student": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+      "manifest": "362fe4ae4a4d9f14ceefee4bd2184fd54efe1de18a02a557583b669eb523196e",
+      "support_code": "aae3fb97dc7735042370245ac591bd8ef68ed92b43182c368bcf8b472b4529db",
+      "context_code": "fbcf4f4b529e0617d69939704a7c494fc1c6a00a44d3fa66c0ea7bb24e508342",
+      "calibration": "bf8a034e398402de4e9c22ed13dedcbb410e717989f2202b1adc49712844e86d"
+    },
+    "feature": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+    "manifest": "115219f1f41b7675c2fb85401caba62b1d3dc2720b3647e297b0f1636b34abcc",
+    "feature_code": "0af358788bf2da0e49169544f2ce7c024334c2274dc1eac6af858ffdcd14e79c"
+  },
+  "protected_unchanged": true,
+  "field_accuracy": false,
+  "seconds": 95.45
+}

@@ -1,0 +1,74 @@
+{
+  "training_selected_image": "disconnected_026.JPG",
+  "initial_alignment_dino_reused_sha_verified": true,
+  "reference_sam_cached_copy": true,
+  "reference_cache_source": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\student_complete_sam_flow_20261003\\sam_cache\\reference_masks\\09f81923e44089603ccf",
+  "reference_cache_pins": {
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\student_complete_sam_flow_20261003\\sam_cache\\reference_masks\\09f81923e44089603ccf\\image_state.pt": "fe289fa425b2d2a5002fc0d53675d1755f99a6ebf2d265b112fd35754cdd77b7",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\student_complete_sam_flow_20261003\\sam_cache\\reference_masks\\09f81923e44089603ccf\\input.jpg": "bee85c1fbd0db7e4a4957d46bbe0d29e674833d51c8df9d6d27e0e5cc2735e33",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\student_complete_sam_flow_20261003\\sam_cache\\reference_masks\\09f81923e44089603ccf\\mask_001.png": "61348a3f8e064c309845e594a02a1ba1d1689d874a04f8ecc381a373c33391bb",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\student_complete_sam_flow_20261003\\sam_cache\\reference_masks\\09f81923e44089603ccf\\mask_002.png": "1cad3979f354b58d59768318f7e6e391fb5521167942f5fdaad7d4d4f4a88edb",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\student_complete_sam_flow_20261003\\sam_cache\\reference_masks\\09f81923e44089603ccf\\mask_003.png": "29ea91099cce6ba6ed11330ff652b8b73b87138c42a7f108277227d3948c2566",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\student_complete_sam_flow_20261003\\sam_cache\\reference_masks\\09f81923e44089603ccf\\mask_004.png": "8ec20f7e3592d22e8d6d54390f5c6ba9939993e89e1bb0408f1bc305894327cb",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\student_complete_sam_flow_20261003\\sam_cache\\reference_masks\\09f81923e44089603ccf\\mask_005.png": "12421c565eac761c00c94f9d3fd4caeb42d7d3c276d0c5bb47987c527df23325",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\student_complete_sam_flow_20261003\\sam_cache\\reference_masks\\09f81923e44089603ccf\\mask_006.png": "da2af1c264f3cc2829c9ba9da6cd0671e5616c92dc083975ad371db7bee9c17c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\student_complete_sam_flow_20261003\\sam_cache\\reference_masks\\09f81923e44089603ccf\\mask_007.png": "d96067c3623d048a35cac2bb25a05b1a5da452316324dd0a40098608016ab3d5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\student_complete_sam_flow_20261003\\sam_cache\\reference_masks\\09f81923e44089603ccf\\mask_008.png": "85b5e6f1e8295450aade373b668b5462aaa2086708417b27d4225dfbc1827a75",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\student_complete_sam_flow_20261003\\sam_cache\\reference_masks\\09f81923e44089603ccf\\mask_union.png": "b8dd69408b3f71452c3aa12690f6ed65bd29eb63846769307fad269efa53c061",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\student_complete_sam_flow_20261003\\sam_cache\\reference_masks\\09f81923e44089603ccf\\overlay.jpg": "12ed0985caeaf1ff8a6a346cf0c85e9a8ae52d476c85107c0d335d73bcc60166",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\student_complete_sam_flow_20261003\\sam_cache\\reference_masks\\09f81923e44089603ccf\\overlay_all_masks.jpg": "2cc3f9041026440620bfd2029f8b45c1cd00894669f08c919171d379914e58c0",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\student_complete_sam_flow_20261003\\sam_cache\\reference_masks\\09f81923e44089603ccf\\report.json": "8125cab03c47f06a7b54351de2fa0ceb247d4b02f83429a4bc8d13b4d2e46b89"
+  },
+  "new_inspection_sam_inference": true,
+  "sam_checkpoint_sha256": "9999e2341ceef5e136daa386eecb55cb414446a00ac2b55eb2dfd2f7c3cf8c9e",
+  "sam_settings": {
+    "python": "E:\\PythonProject10\\runtime\\sam3\\.venv\\Scripts\\python.exe",
+    "site_packages": null,
+    "base_site_packages": null,
+    "source_root": "E:\\PythonProject10\\runtime\\sam3\\source",
+    "runner": "E:\\PythonProject10\\manual_review\\run_sam3_cable_probe.py",
+    "checkpoint": "E:\\PythonProject10\\models\\sam3\\sam3.pt",
+    "cache_dir": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\resolution_loose_plug_complete_sam_20261003\\sam_cache",
+    "prompt": "cable",
+    "confidence_threshold": 0.4,
+    "threads": 2,
+    "proximity_px": 8,
+    "green_min_sam_support_pixels": 120,
+    "yellow_min_component_pixels": 900,
+    "yellow_min_component_span_px": 24,
+    "yellow_min_dino_score_mean": 200.0,
+    "yellow_min_dino_score_p90": 0.0,
+    "no_mask_joining": true
+  },
+  "sam_thresholds_unchanged": true,
+  "threads_capped": 2,
+  "protected": {
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\resolution_loose_plug_live_20261003\\disconnected_026\\20261003_121626\\initial_report.json": "d003bb974299cf1c383735c13a3a350a7810e2130c8839ec07fcac0f788166df",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\resolution_loose_plug_live_20261003\\disconnected_026\\20261003_121626\\aligned.jpg": "f1814bb89071560c2fe393279a997f12e1b20744d3d9d537023c45a23148d1e0",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_026.JPG": "2bdf4429efb7399a1d0a618dc619d3038e7a939af4f6d25888724d53dfd3633a",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_073.JPG": "09f81923e44089603ccfb5989e370d07cc27f2e929ebfc70de945a08947b19ac",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\verify_resolution_plug_complete_sam.py": "606de2571cc5b3f2124c876decba7b9c8eca26e1ab611c9e066968680fbcab72"
+  },
+  "runtime_fingerprint": {
+    "accepted_feature": {
+      "accepted": {
+        "teacher": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+        "student": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+        "manifest": "362fe4ae4a4d9f14ceefee4bd2184fd54efe1de18a02a557583b669eb523196e",
+        "support_code": "aae3fb97dc7735042370245ac591bd8ef68ed92b43182c368bcf8b472b4529db",
+        "context_code": "fbcf4f4b529e0617d69939704a7c494fc1c6a00a44d3fa66c0ea7bb24e508342",
+        "calibration": "bf8a034e398402de4e9c22ed13dedcbb410e717989f2202b1adc49712844e86d"
+      },
+      "feature": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+      "manifest": "115219f1f41b7675c2fb85401caba62b1d3dc2720b3647e297b0f1636b34abcc",
+      "feature_code": "0af358788bf2da0e49169544f2ce7c024334c2274dc1eac6af858ffdcd14e79c"
+    },
+    "resolution_code": "56e1c14f32e6e67cb1eb66ba4e02427c8c90e679aff1883772a8541def66f222",
+    "resolution_manifest": "478cda48b165b5eb4142bddf57d7399dd68fa3dde559950a5d32cbd6718f4866",
+    "predict_code": "093b0c9ec940c48a4863a302d98ed0fe36e6e6d0f4f68c1da96a80a406a168dd",
+    "tiling_code": "113a9b57ec431103afb35153f1f07868417715cd6829756a1350471cba8a239d"
+  },
+  "independent_accuracy": false,
+  "physical_fault_confirmation": false,
+  "automatic_fault_verdict": false
+}

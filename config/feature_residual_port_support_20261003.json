@@ -1,0 +1,19 @@
+{
+  "policy_id": "accepted_pair_preserved_feature_residual_v1_20261003",
+  "feature_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+  "accepted_student_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+  "teacher_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+  "source_gates_passed": true,
+  "live_diagnostic_passed": true,
+  "train_tp": 68,
+  "inner_tp": 62,
+  "outer_tp": 32,
+  "maximum_primary": 5,
+  "maximum_extra": 5,
+  "preserve_all_accepted_cues": true,
+  "thresholds_unchanged": true,
+  "previously_seen_same_camera_validation": true,
+  "field_accuracy": false,
+  "automatic_fault_verdict": false,
+  "default_enabled": false
+}

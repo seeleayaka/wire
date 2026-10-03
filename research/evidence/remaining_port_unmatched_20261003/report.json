@@ -1,0 +1,45 @@
+{
+  "status": "complete",
+  "sample": "damaged_031.JPG",
+  "port_status": "applied",
+  "fallback_reason": null,
+  "source_only_old": {
+    "tp": 0,
+    "unmatched": 1,
+    "fn": 0,
+    "predictions": 1,
+    "targets": 0
+  },
+  "live_aligned_port_metrics": {
+    "tp": 0,
+    "unmatched": 1,
+    "fn": 0,
+    "predictions": 1,
+    "targets": 0
+  },
+  "primary": 1,
+  "supplementary": 0,
+  "student_policy": {
+    "policy_id": "teacher_preserved_student_cross_support_v1_20261003",
+    "enabled": true,
+    "experimental": true,
+    "maximum_total_primary": 5,
+    "maximum_total_supplementary": 5,
+    "teacher_preserved": true,
+    "automatic_fault_verdict": false,
+    "added_hints": 0,
+    "correlated_models_not_physical_evidence": true,
+    "confirmed_native_candidates": 0,
+    "reference_inference_performed": false,
+    "fallback_reason": null,
+    "provenance_manifest_sha256": "362fe4ae4a4d9f14ceefee4bd2184fd54efe1de18a02a557583b669eb523196e"
+  },
+  "seconds": 75.39,
+  "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\remaining_port_unmatched_20261003\\initial\\20261003_012334\\evidence.json",
+  "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\remaining_port_unmatched_20261003\\initial\\20261003_012334\\initial_report.json",
+  "sam_pending": true,
+  "thresholds_unchanged": true,
+  "operator_confirmation": false,
+  "field_accuracy": false,
+  "source_reference_unchanged": true
+}

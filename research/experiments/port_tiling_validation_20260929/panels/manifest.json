@@ -1,0 +1,12 @@
+{
+  "images": [
+    "damaged_007.JPG",
+    "damaged_035.JPG",
+    "disconnected_002.JPG",
+    "misrouted_012.JPG",
+    "normal_001.JPG",
+    "normal_105.JPG",
+    "normal_126.JPG"
+  ],
+  "selection": "first filename per kind plus all added-hint/above-threshold images, not target-IoU selected"
+}

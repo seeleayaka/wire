@@ -1,0 +1,559 @@
+{
+  "status": "complete",
+  "coarse_precision": 0.7032258064516129,
+  "fine_summary": {
+    "metrics": {
+      "tp": 121,
+      "unmatched": 23,
+      "fn": 100,
+      "predictions": 144,
+      "targets": 221
+    },
+    "precision": 0.8402777777777778,
+    "recall": 0.5475113122171946
+  },
+  "error_reasons": {
+    "no_same_class_overlap": 18,
+    "localization_overlap_below_half": 5
+  },
+  "per_class": {
+    "0": {
+      "tp": 21,
+      "unmatched": 6,
+      "fn": 72,
+      "predictions": 27,
+      "targets": 93
+    },
+    "1": {
+      "tp": 100,
+      "unmatched": 17,
+      "fn": 28,
+      "predictions": 117,
+      "targets": 128
+    }
+  },
+  "unmatched": [
+    {
+      "crop_index": 5,
+      "source_image": "damaged_016.JPG",
+      "reason": "no_same_class_overlap",
+      "prediction": {
+        "class_id": 1,
+        "confidence": 0.5061318874359131,
+        "box_xyxy": [
+          831.042203142621,
+          1072.9910186766251,
+          890.0802095389586,
+          1137.8811185293162
+        ]
+      },
+      "best_same_iou": 0,
+      "best_same_target": null,
+      "best_other_iou": 0,
+      "best_other_target": null
+    },
+    {
+      "crop_index": 32,
+      "source_image": "damaged_018.JPG",
+      "reason": "no_same_class_overlap",
+      "prediction": {
+        "class_id": 0,
+        "confidence": 0.5282947421073914,
+        "box_xyxy": [
+          933.5616301389982,
+          291.9639696498305,
+          1020.8818654751899,
+          361.32941585584575
+        ]
+      },
+      "best_same_iou": 0,
+      "best_same_target": null,
+      "best_other_iou": 0,
+      "best_other_target": null
+    },
+    {
+      "crop_index": 44,
+      "source_image": "damaged_024.JPG",
+      "reason": "no_same_class_overlap",
+      "prediction": {
+        "class_id": 0,
+        "confidence": 0.6229763031005859,
+        "box_xyxy": [
+          924.3603297637217,
+          290.8746612955819,
+          1024.6671765196297,
+          363.4229875430063
+        ]
+      },
+      "best_same_iou": 0,
+      "best_same_target": null,
+      "best_other_iou": 0,
+      "best_other_target": null
+    },
+    {
+      "crop_index": 49,
+      "source_image": "damaged_026.JPG",
+      "reason": "no_same_class_overlap",
+      "prediction": {
+        "class_id": 1,
+        "confidence": 0.7903558015823364,
+        "box_xyxy": [
+          663.2976843287086,
+          1004.0905647875276,
+          729.9747437581173,
+          1037.897167691023
+        ]
+      },
+      "best_same_iou": 0,
+      "best_same_target": null,
+      "best_other_iou": 0,
+      "best_other_target": null
+    },
+    {
+      "crop_index": 53,
+      "source_image": "damaged_026.JPG",
+      "reason": "no_same_class_overlap",
+      "prediction": {
+        "class_id": 1,
+        "confidence": 0.7086189389228821,
+        "box_xyxy": [
+          661.9861590210947,
+          45.95816747000664,
+          731.1812169862577,
+          76.9903217191413
+        ]
+      },
+      "best_same_iou": 0,
+      "best_same_target": null,
+      "best_other_iou": 0,
+      "best_other_target": null
+    },
+    {
+      "crop_index": 106,
+      "source_image": "disconnected_004.JPG",
+      "reason": "localization_overlap_below_half",
+      "prediction": {
+        "class_id": 1,
+        "confidence": 0.8084479570388794,
+        "box_xyxy": [
+          867.5517808275482,
+          809.1914605102762,
+          933.8658451446546,
+          858.2893807687536
+        ]
+      },
+      "best_same_iou": 0.49618245949514517,
+      "best_same_target": {
+        "class_id": 1,
+        "box": [
+          846.209088,
+          817.949792,
+          956.9988480000001,
+          861.3701120000001
+        ]
+      },
+      "best_other_iou": 0.0,
+      "best_other_target": {
+        "class_id": 0,
+        "box": [
+          823.591488,
+          216.139232,
+          928.0118400000001,
+          289.918208
+        ]
+      }
+    },
+    {
+      "crop_index": 108,
+      "source_image": "disconnected_020.JPG",
+      "reason": "localization_overlap_below_half",
+      "prediction": {
+        "class_id": 0,
+        "confidence": 0.5931214690208435,
+        "box_xyxy": [
+          967.2141270226405,
+          1165.6110528942859,
+          1067.9584938187945,
+          1238.6177089830467
+        ]
+      },
+      "best_same_iou": 0.47949076907977367,
+      "best_same_target": {
+        "class_id": 0,
+        "box": [
+          938.581152,
+          1155.34029568,
+          1060.851168,
+          1267.69960832
+        ]
+      },
+      "best_other_iou": 0.0,
+      "best_other_target": {
+        "class_id": 1,
+        "box": [
+          1006.101984,
+          919.361664,
+          1039.47024,
+          1004.560704
+        ]
+      }
+    },
+    {
+      "crop_index": 112,
+      "source_image": "disconnected_020.JPG",
+      "reason": "localization_overlap_below_half",
+      "prediction": {
+        "class_id": 0,
+        "confidence": 0.6293038725852966,
+        "box_xyxy": [
+          971.6204143362576,
+          209.25443098133277,
+          1063.5469783263359,
+          275.0866505698103
+        ]
+      },
+      "best_same_iou": 0.42213336798580225,
+      "best_same_target": {
+        "class_id": 0,
+        "box": [
+          938.581152,
+          195.34029568,
+          1060.851168,
+          307.69960832
+        ]
+      },
+      "best_other_iou": 0.0,
+      "best_other_target": {
+        "class_id": 1,
+        "box": [
+          1006.101984,
+          0.0,
+          1039.47024,
+          44.560704
+        ]
+      }
+    },
+    {
+      "crop_index": 176,
+      "source_image": "disconnected_040.JPG",
+      "reason": "localization_overlap_below_half",
+      "prediction": {
+        "class_id": 0,
+        "confidence": 0.5424918532371521,
+        "box_xyxy": [
+          855.9881954818994,
+          910.8291902695069,
+          1039.9768427154818,
+          1069.7456784776593
+        ]
+      },
+      "best_same_iou": 0.4844418730255697,
+      "best_same_target": {
+        "class_id": 0,
+        "box": [
+          888.997536,
+          934.9001113600001,
+          1039.459296,
+          1029.04039936
+        ]
+      },
+      "best_other_iou": 0.0,
+      "best_other_target": {
+        "class_id": 1,
+        "box": [
+          951.487776,
+          309.33970432,
+          988.4894400000001,
+          364.83946368
+        ]
+      }
+    },
+    {
+      "crop_index": 189,
+      "source_image": "disconnected_046.JPG",
+      "reason": "localization_overlap_below_half",
+      "prediction": {
+        "class_id": 0,
+        "confidence": 0.5200649499893188,
+        "box_xyxy": [
+          135.90131432129107,
+          155.60616569569856,
+          212.3087837409517,
+          224.98047684209962
+        ]
+      },
+      "best_same_iou": 0.4678353342359436,
+      "best_same_target": {
+        "class_id": 0,
+        "box": [
+          145.39872,
+          153.200288,
+          222.5904,
+          273.20124799999996
+        ]
+      },
+      "best_other_iou": 0.0,
+      "best_other_target": {
+        "class_id": 1,
+        "box": [
+          897.091008,
+          560.53870464,
+          932.0826239999999,
+          656.00868736
+        ]
+      }
+    },
+    {
+      "crop_index": 193,
+      "source_image": "misrouted_005.JPG",
+      "reason": "no_same_class_overlap",
+      "prediction": {
+        "class_id": 1,
+        "confidence": 0.5635578632354736,
+        "box_xyxy": [
+          652.9903757341415,
+          1000.7067250054383,
+          735.9291279546708,
+          1038.3106372485681
+        ]
+      },
+      "best_same_iou": 0,
+      "best_same_target": null,
+      "best_other_iou": 0,
+      "best_other_target": null
+    },
+    {
+      "crop_index": 205,
+      "source_image": "misrouted_010.JPG",
+      "reason": "no_same_class_overlap",
+      "prediction": {
+        "class_id": 1,
+        "confidence": 0.5771054625511169,
+        "box_xyxy": [
+          652.7642782600061,
+          1001.4796986773572,
+          737.8809294175627,
+          1037.2222095704542
+        ]
+      },
+      "best_same_iou": 0,
+      "best_same_target": null,
+      "best_other_iou": 0,
+      "best_other_target": null
+    },
+    {
+      "crop_index": 237,
+      "source_image": "misrouted_023.JPG",
+      "reason": "no_same_class_overlap",
+      "prediction": {
+        "class_id": 1,
+        "confidence": 0.5724892616271973,
+        "box_xyxy": [
+          878.5267272219776,
+          554.9167894060682,
+          932.8080319452849,
+          659.703956457165
+        ]
+      },
+      "best_same_iou": 0,
+      "best_same_target": null,
+      "best_other_iou": 0,
+      "best_other_target": null
+    },
+    {
+      "crop_index": 245,
+      "source_image": "misrouted_027.JPG",
+      "reason": "no_same_class_overlap",
+      "prediction": {
+        "class_id": 1,
+        "confidence": 0.5032864212989807,
+        "box_xyxy": [
+          959.2633858021936,
+          1040.9203677882479,
+          993.6332391716485,
+          1128.9511814774773
+        ]
+      },
+      "best_same_iou": 0,
+      "best_same_target": null,
+      "best_other_iou": 0,
+      "best_other_target": null
+    },
+    {
+      "crop_index": 249,
+      "source_image": "misrouted_027.JPG",
+      "reason": "no_same_class_overlap",
+      "prediction": {
+        "class_id": 1,
+        "confidence": 0.5159502029418945,
+        "box_xyxy": [
+          0.6080647919262443,
+          303.3262276005214,
+          30.11603899944687,
+          362.1203487904262
+        ]
+      },
+      "best_same_iou": 0,
+      "best_same_target": null,
+      "best_other_iou": 0,
+      "best_other_target": null
+    },
+    {
+      "crop_index": 264,
+      "source_image": "misrouted_039.JPG",
+      "reason": "no_same_class_overlap",
+      "prediction": {
+        "class_id": 1,
+        "confidence": 0.6919733285903931,
+        "box_xyxy": [
+          1002.5084001413541,
+          918.4422645602725,
+          1034.9841135152622,
+          974.0152087177731
+        ]
+      },
+      "best_same_iou": 0,
+      "best_same_target": null,
+      "best_other_iou": 0,
+      "best_other_target": null
+    },
+    {
+      "crop_index": 265,
+      "source_image": "misrouted_039.JPG",
+      "reason": "no_same_class_overlap",
+      "prediction": {
+        "class_id": 1,
+        "confidence": 0.7245502471923828,
+        "box_xyxy": [
+          44.80888895531387,
+          916.59644722897,
+          75.22837995577535,
+          973.8438185627867
+        ]
+      },
+      "best_same_iou": 0,
+      "best_same_target": null,
+      "best_other_iou": 0,
+      "best_other_target": null
+    },
+    {
+      "crop_index": 265,
+      "source_image": "misrouted_039.JPG",
+      "reason": "no_same_class_overlap",
+      "prediction": {
+        "class_id": 1,
+        "confidence": 0.5999336242675781,
+        "box_xyxy": [
+          650.8878071404218,
+          992.5267510338664,
+          737.696282138753,
+          1042.1622403169206
+        ]
+      },
+      "best_same_iou": 0,
+      "best_same_target": null,
+      "best_other_iou": 0,
+      "best_other_target": null
+    },
+    {
+      "crop_index": 269,
+      "source_image": "misrouted_039.JPG",
+      "reason": "no_same_class_overlap",
+      "prediction": {
+        "class_id": 1,
+        "confidence": 0.5512385964393616,
+        "box_xyxy": [
+          651.8789584266436,
+          35.43481327080234,
+          736.3064003020376,
+          79.29910278194784
+        ]
+      },
+      "best_same_iou": 0,
+      "best_same_target": null,
+      "best_other_iou": 0,
+      "best_other_target": null
+    },
+    {
+      "crop_index": 276,
+      "source_image": "misrouted_042.JPG",
+      "reason": "no_same_class_overlap",
+      "prediction": {
+        "class_id": 1,
+        "confidence": 0.6806873083114624,
+        "box_xyxy": [
+          1005.6900185848251,
+          922.1672164287056,
+          1039.1224270557389,
+          974.131012414166
+        ]
+      },
+      "best_same_iou": 0,
+      "best_same_target": null,
+      "best_other_iou": 0,
+      "best_other_target": null
+    },
+    {
+      "crop_index": 441,
+      "source_image": "normal_060.JPG",
+      "reason": "no_same_class_overlap",
+      "prediction": {
+        "class_id": 1,
+        "confidence": 0.5064323544502258,
+        "box_xyxy": [
+          836.2934903947809,
+          585.6716218845149,
+          877.4588147297064,
+          670.5134985447964
+        ]
+      },
+      "best_same_iou": 0,
+      "best_same_target": null,
+      "best_other_iou": 0,
+      "best_other_target": null
+    },
+    {
+      "crop_index": 453,
+      "source_image": "normal_072.JPG",
+      "reason": "no_same_class_overlap",
+      "prediction": {
+        "class_id": 1,
+        "confidence": 0.5288022756576538,
+        "box_xyxy": [
+          837.3256779388286,
+          584.5496758768256,
+          877.2603308909014,
+          671.7657234463654
+        ]
+      },
+      "best_same_iou": 0,
+      "best_same_target": null,
+      "best_other_iou": 0,
+      "best_other_target": null
+    },
+    {
+      "crop_index": 481,
+      "source_image": "normal_107.JPG",
+      "reason": "no_same_class_overlap",
+      "prediction": {
+        "class_id": 1,
+        "confidence": 0.500819981098175,
+        "box_xyxy": [
+          1132.8231886668382,
+          487.4034518956293,
+          1172.792968728661,
+          540.8746889770877
+        ]
+      },
+      "best_same_iou": 0,
+      "best_same_target": null,
+      "best_other_iou": 0,
+      "best_other_target": null
+    }
+  ],
+  "checkpoint_sha256": "2cbcc28430dae06b47ff2b7a8fd2631c92f18c7a4cedb14e45265950addfd034",
+  "fixed_score": 0.5,
+  "no_threshold_search": true,
+  "source_accuracy": false,
+  "production_changed": false
+}

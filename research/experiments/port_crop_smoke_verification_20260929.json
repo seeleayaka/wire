@@ -1,0 +1,13 @@
+{
+  "smoke_complete": true,
+  "finite_loss_batches": 4,
+  "positive_gradient_steps": 1,
+  "changed_trainable_parameters": 137,
+  "sampled_max_rss_GiB": 0.8927688598632812,
+  "six_smoke_crop_pairs_hash_verified": true,
+  "base_and_dataset_hashes_verified": true,
+  "local_font_verified": true,
+  "full_recipe_remains_six_epochs_nbs64": true,
+  "no_model_inference": true,
+  "accuracy_gain_not_tested": true
+}

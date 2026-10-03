@@ -1,0 +1,110 @@
+{
+  "policy_id": "current_V3_preserved_paired_geometry_v1_20261003",
+  "head_sha256": "238f517bfdbe5e81f6c98e28c33750fa02de75cf25ec0c93b8876fe72657004a",
+  "encoder_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+  "features_sha256": "da8b7e3d1f351ba85b6391c47ae42df8a6d1f95dc7ef5adf039d849d4d84ec75",
+  "accepted_runtime": {
+    "accepted_feature": {
+      "accepted": {
+        "teacher": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+        "student": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+        "manifest": "362fe4ae4a4d9f14ceefee4bd2184fd54efe1de18a02a557583b669eb523196e",
+        "support_code": "aae3fb97dc7735042370245ac591bd8ef68ed92b43182c368bcf8b472b4529db",
+        "context_code": "fbcf4f4b529e0617d69939704a7c494fc1c6a00a44d3fa66c0ea7bb24e508342",
+        "calibration": "bf8a034e398402de4e9c22ed13dedcbb410e717989f2202b1adc49712844e86d"
+      },
+      "feature": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+      "manifest": "115219f1f41b7675c2fb85401caba62b1d3dc2720b3647e297b0f1636b34abcc",
+      "feature_code": "0af358788bf2da0e49169544f2ce7c024334c2274dc1eac6af858ffdcd14e79c"
+    },
+    "resolution_code": "56e1c14f32e6e67cb1eb66ba4e02427c8c90e679aff1883772a8541def66f222",
+    "resolution_manifest": "478cda48b165b5eb4142bddf57d7399dd68fa3dde559950a5d32cbd6718f4866",
+    "predict_code": "093b0c9ec940c48a4863a302d98ed0fe36e6e6d0f4f68c1da96a80a406a168dd",
+    "tiling_code": "113a9b57ec431103afb35153f1f07868417715cd6829756a1350471cba8a239d"
+  },
+  "probability_gate": 0.98,
+  "feature_dimensions": 6144,
+  "classes": [
+    "other",
+    "unplugged_plug",
+    "unplugged_jack"
+  ],
+  "source_gates_passed": true,
+  "live_diagnostic_passed": true,
+  "no_validation_training": true,
+  "source_summaries": {
+    "full_train": {
+      "current": {
+        "tp": 277,
+        "unmatched": 4,
+        "fn": 67,
+        "predictions": 281,
+        "targets": 344
+      },
+      "trial": {
+        "tp": 286,
+        "unmatched": 4,
+        "fn": 58,
+        "predictions": 290,
+        "targets": 344
+      }
+    },
+    "holdouts/inner": {
+      "current": {
+        "tp": 63,
+        "unmatched": 0,
+        "fn": 17,
+        "predictions": 63,
+        "targets": 80
+      },
+      "trial": {
+        "tp": 64,
+        "unmatched": 0,
+        "fn": 16,
+        "predictions": 64,
+        "targets": 80
+      }
+    },
+    "holdouts/outer": {
+      "current": {
+        "tp": 33,
+        "unmatched": 1,
+        "fn": 23,
+        "predictions": 34,
+        "targets": 56
+      },
+      "trial": {
+        "tp": 33,
+        "unmatched": 1,
+        "fn": 23,
+        "predictions": 34,
+        "targets": 56
+      }
+    }
+  },
+  "live_gains": {
+    "train": 9,
+    "inner": 1,
+    "outer": 0
+  },
+  "evidence_pins": {
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_semantic_localization_20261003\\full_train\\report.json": "af98ebb50a9c22048c1139702ca037fec14a837f44f1e99e1246a68121b6a777",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_semantic_localization_20261003\\holdouts\\inner\\report.json": "6eb42d70c609578c07f39cce2f799f43470186177fd7b68dbc133095f361495e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_semantic_localization_20261003\\holdouts\\outer\\report.json": "44a540fcbf67d70d9c0ea937ef064255ee0f77ddadc1fbe155ae74c5e6ac6355",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_semantic_localization_20261003\\head_full\\report.json": "f361d799bc91a1f9dfc7340bfacb1c17ba3f5bfb7650aa91e378338a6c8652ce",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_live_resume_20261003\\report.json": "923eddfd8a6a1f647835d9ea12e0c6ca1ca4fcf7c25c24004aad09b24aad643a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_formalization_parity_20261003\\report.json": "4e73b2b2d0e70878a18e581f0b3bcf220b21d32d3b417ba6118962bdf259a354",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_geometry_release_preregistration_20261003\\PLAN.md": "da185b35273b68d94fb2b993c2ba58e1e4107db003af38a00bc9f4eb347d3594"
+  },
+  "default_enabled": false,
+  "primary_budget": 5,
+  "supplementary_budget": 5,
+  "reference_minimum_probability": 0.25,
+  "reference_iou": 0.5,
+  "context_minimum_valid_fraction": 0.85,
+  "automatic_fault_verdict": false,
+  "independent_field_accuracy": false,
+  "validation_reused": true,
+  "live_safety_abstentions": 3,
+  "sam_complete_acceptance_pending": true
+}

@@ -1,0 +1,585 @@
+{
+  "status": "complete",
+  "qualifies": false,
+  "summary": {
+    "current": {
+      "tp": 206,
+      "unmatched": 0,
+      "fn": 40,
+      "predictions": 206,
+      "targets": 246
+    },
+    "trial": {
+      "tp": 209,
+      "unmatched": 4,
+      "fn": 37,
+      "predictions": 213,
+      "targets": 246
+    }
+  },
+  "cases": [
+    {
+      "image": "disconnected_015.JPG",
+      "metrics": {
+        "current": {
+          "tp": 10,
+          "unmatched": 0,
+          "fn": 4,
+          "predictions": 10,
+          "targets": 14
+        },
+        "trial": {
+          "tp": 10,
+          "unmatched": 0,
+          "fn": 4,
+          "predictions": 10,
+          "targets": 14
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "label_sha256": "63e0e68cf341372063401a8105c33c4c051a46b40d73a98c4352b9fb50fc3572"
+    },
+    {
+      "image": "disconnected_017.JPG",
+      "metrics": {
+        "current": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 5,
+          "predictions": 9,
+          "targets": 14
+        },
+        "trial": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 5,
+          "predictions": 9,
+          "targets": 14
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "label_sha256": "aec38ce9e4b18626ba4b97d7b8464aab3169a7ca1540d530bea03f2ef58a7dbd"
+    },
+    {
+      "image": "disconnected_018.JPG",
+      "metrics": {
+        "current": {
+          "tp": 5,
+          "unmatched": 0,
+          "fn": 3,
+          "predictions": 5,
+          "targets": 8
+        },
+        "trial": {
+          "tp": 5,
+          "unmatched": 0,
+          "fn": 3,
+          "predictions": 5,
+          "targets": 8
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "label_sha256": "b9309c5be50ffbfc2e0c67fe9b661707a78e421e334caeb759645ea1402f7057"
+    },
+    {
+      "image": "disconnected_019.JPG",
+      "metrics": {
+        "current": {
+          "tp": 8,
+          "unmatched": 0,
+          "fn": 2,
+          "predictions": 8,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 8,
+          "unmatched": 0,
+          "fn": 2,
+          "predictions": 8,
+          "targets": 10
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "label_sha256": "25743623bdc837807f7f0a4027e9c695ff81a071e95c4dd02327879087309794"
+    },
+    {
+      "image": "disconnected_021.JPG",
+      "metrics": {
+        "current": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 1,
+          "predictions": 9,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 9,
+          "unmatched": 1,
+          "fn": 1,
+          "predictions": 10,
+          "targets": 10
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 1,
+      "label_sha256": "efbe9a0d0ff9839a29eaf1f28aec33e6e5c25510ee372e7253b7c14cbb2c235e"
+    },
+    {
+      "image": "disconnected_022.JPG",
+      "metrics": {
+        "current": {
+          "tp": 10,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 10,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 10,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 10,
+          "targets": 10
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "label_sha256": "1813dd99d8baf528b0fa1dbe642b5ea36d0b3bbeafda09ed4e982d34c3c4e335"
+    },
+    {
+      "image": "disconnected_023.JPG",
+      "metrics": {
+        "current": {
+          "tp": 10,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 10,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 10,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 10,
+          "targets": 10
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "label_sha256": "e87ccb92463bb688808649db92b33c0329b5c3ecfb46dba5c2634f7d011c9782"
+    },
+    {
+      "image": "disconnected_024.JPG",
+      "metrics": {
+        "current": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 1,
+          "predictions": 9,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 1,
+          "predictions": 9,
+          "targets": 10
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "label_sha256": "e6e8941b1aa81cfca7c9ea59a0c59e13f1406323c5d8f257bdbc7879a417b447"
+    },
+    {
+      "image": "disconnected_025.JPG",
+      "metrics": {
+        "current": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 1,
+          "predictions": 9,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 1,
+          "predictions": 9,
+          "targets": 10
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "label_sha256": "059c6bda80d53bd580dd4b73d0c4e4f50f3422a863793a67779b4d8e84293510"
+    },
+    {
+      "image": "disconnected_026.JPG",
+      "metrics": {
+        "current": {
+          "tp": 8,
+          "unmatched": 0,
+          "fn": 2,
+          "predictions": 8,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 1,
+          "predictions": 9,
+          "targets": 10
+        }
+      },
+      "gained": [
+        6
+      ],
+      "lost": [],
+      "additions": 1,
+      "label_sha256": "aa20d2c30026c4d223b3aaafb64454086049daad7e3364ed19ec8c68c355d23e"
+    },
+    {
+      "image": "disconnected_029.JPG",
+      "metrics": {
+        "current": {
+          "tp": 8,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 8,
+          "targets": 8
+        },
+        "trial": {
+          "tp": 8,
+          "unmatched": 1,
+          "fn": 0,
+          "predictions": 9,
+          "targets": 8
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 1,
+      "label_sha256": "f136cdf79676ecfa979bcb344359346849c1194b78e6a95c5f70408cd7d9a966"
+    },
+    {
+      "image": "disconnected_030.JPG",
+      "metrics": {
+        "current": {
+          "tp": 7,
+          "unmatched": 0,
+          "fn": 3,
+          "predictions": 7,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 7,
+          "unmatched": 0,
+          "fn": 3,
+          "predictions": 7,
+          "targets": 10
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "label_sha256": "8d27cb4453a77d4fab88e460f94b4d29b6968e6139b6f7f88c74961ed39cac84"
+    },
+    {
+      "image": "disconnected_031.JPG",
+      "metrics": {
+        "current": {
+          "tp": 6,
+          "unmatched": 0,
+          "fn": 2,
+          "predictions": 6,
+          "targets": 8
+        },
+        "trial": {
+          "tp": 7,
+          "unmatched": 0,
+          "fn": 1,
+          "predictions": 7,
+          "targets": 8
+        }
+      },
+      "gained": [
+        6
+      ],
+      "lost": [],
+      "additions": 1,
+      "label_sha256": "5d0f21a43b7f4ce2881a908cd96c879a415326916b31627535d743d4f2df22fd"
+    },
+    {
+      "image": "disconnected_032.JPG",
+      "metrics": {
+        "current": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 1,
+          "predictions": 9,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 1,
+          "predictions": 9,
+          "targets": 10
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "label_sha256": "d2945580daa5b0be6ee41c2c58be9b9cca0ed7235c3df0e663cd123990ebd0db"
+    },
+    {
+      "image": "disconnected_033.JPG",
+      "metrics": {
+        "current": {
+          "tp": 10,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 10,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 10,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 10,
+          "targets": 10
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "label_sha256": "bf805b4a9c0895799c525eff85bf3691459dea7a9ec5d2fd95a186e4cf0f2c31"
+    },
+    {
+      "image": "disconnected_038.JPG",
+      "metrics": {
+        "current": {
+          "tp": 7,
+          "unmatched": 0,
+          "fn": 3,
+          "predictions": 7,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 8,
+          "unmatched": 0,
+          "fn": 2,
+          "predictions": 8,
+          "targets": 10
+        }
+      },
+      "gained": [
+        0
+      ],
+      "lost": [],
+      "additions": 1,
+      "label_sha256": "ce2301c3d8f631c3d2f433af8063780b947677170d3ec870acc9ef6f167dd4ee"
+    },
+    {
+      "image": "disconnected_039.JPG",
+      "metrics": {
+        "current": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 1,
+          "predictions": 9,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 1,
+          "predictions": 9,
+          "targets": 10
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "label_sha256": "59b3d909bc2e32eb07da39bd72aeeb85b96d031a495e8346f2b93bd05be1332f"
+    },
+    {
+      "image": "disconnected_041.JPG",
+      "metrics": {
+        "current": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 1,
+          "predictions": 9,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 1,
+          "predictions": 9,
+          "targets": 10
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "label_sha256": "5628a62a02f7309eb94ec6905233bf3b491439231b4379abf2a93b93a5eaffb6"
+    },
+    {
+      "image": "disconnected_042.JPG",
+      "metrics": {
+        "current": {
+          "tp": 8,
+          "unmatched": 0,
+          "fn": 2,
+          "predictions": 8,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 8,
+          "unmatched": 1,
+          "fn": 2,
+          "predictions": 9,
+          "targets": 10
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 1,
+      "label_sha256": "5078bed4a303034a4406ce9c17f8dca70af36c1edaf9ba0d63ab83b75efc37ba"
+    },
+    {
+      "image": "disconnected_043.JPG",
+      "metrics": {
+        "current": {
+          "tp": 8,
+          "unmatched": 0,
+          "fn": 2,
+          "predictions": 8,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 8,
+          "unmatched": 1,
+          "fn": 2,
+          "predictions": 9,
+          "targets": 10
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 1,
+      "label_sha256": "64cb75ebec686458047ece8dd1efa988c01857f7ba6fd493605e426a014ad95c"
+    },
+    {
+      "image": "disconnected_044.JPG",
+      "metrics": {
+        "current": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 1,
+          "predictions": 9,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 1,
+          "predictions": 9,
+          "targets": 10
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "label_sha256": "5c799e654eea963fe1e2fc66313672e85b03352aaecfc92dc87a633a4cbc2bc6"
+    },
+    {
+      "image": "disconnected_045.JPG",
+      "metrics": {
+        "current": {
+          "tp": 10,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 10,
+          "targets": 10
+        },
+        "trial": {
+          "tp": 10,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 10,
+          "targets": 10
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "label_sha256": "e4b512d98c7f81cf37bc0611dea684d2ead014b92cc29a46f61b8e0051609c4d"
+    },
+    {
+      "image": "disconnected_049.JPG",
+      "metrics": {
+        "current": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 3,
+          "predictions": 9,
+          "targets": 12
+        },
+        "trial": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 3,
+          "predictions": 9,
+          "targets": 12
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "label_sha256": "f48f7a9025cfe9ab9b3480f432033af99a79fb49ef73086070a449782fcb85f8"
+    },
+    {
+      "image": "disconnected_050.JPG",
+      "metrics": {
+        "current": {
+          "tp": 10,
+          "unmatched": 0,
+          "fn": 2,
+          "predictions": 10,
+          "targets": 12
+        },
+        "trial": {
+          "tp": 10,
+          "unmatched": 0,
+          "fn": 2,
+          "predictions": 10,
+          "targets": 12
+        }
+      },
+      "gained": [],
+      "lost": [],
+      "additions": 0,
+      "label_sha256": "bab0b7c4df85208ed74d0c16d419447f36818921d6c1aa2d12bab9f7bf0d1306"
+    }
+  ],
+  "seconds": 1374.47,
+  "source_only": true,
+  "reference_pending": true,
+  "no_automatic_deployment": true,
+  "field_accuracy": false
+}

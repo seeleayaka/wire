@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "profile_id": "cable_cabinet_manual_deepseek_mask_review_v1",
+  "enabled": true,
+  "manual_only": true,
+  "api_key_env": "DEEPSEEK_API_KEY",
+  "local_key_file": "deepseek_mask_review.local.json",
+  "endpoint": "https://api.deepseek.com/chat/completions",
+  "model": "deepseek-v4-flash-vision-exp",
+  "timeout_seconds": 45,
+  "max_tokens": 1800,
+  "max_mask_bytes": 4194304,
+  "payload_policy": {
+    "send_only": [
+      "reference_mask_union_png",
+      "aligned_inspection_mask_union_png",
+      "local_candidate_ids",
+      "normalized_candidate_boxes",
+      "minimal_local_evidence_scores"
+    ],
+    "never_send": [
+      "raw_cabinet_images",
+      "file_paths",
+      "ocr",
+      "device_identifiers",
+      "user_metadata",
+      "local_decision"
+    ],
+    "output_is_not_authoritative_for": [
+      "candidate_boxes",
+      "local_decision",
+      "fault_type",
+      "terminal_assignment",
+      "electrical_continuity"
+    ]
+  }
+}

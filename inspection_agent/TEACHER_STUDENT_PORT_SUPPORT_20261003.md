@@ -1,0 +1,13 @@
+# Optional teacher-preserved student port support
+
+This is a default-off, same-camera experimental port-localization cue path. It is not an automatic electrical fault, seating or continuity verdict. Original teacher weights and calibration remain unchanged.
+
+In the review window, first finish the existing visual/SAM review and choose the already-confirmed supported scene. Enable independent port rescue, supplementary cues, then **新模型补强**. The new control never enables itself. It shares the existing five supplementary slots, including consensus and local rechecks; primary remains at most five. Turning supplementary off also disables the effective student request.
+
+The original teacher runs first and every selected old cue survives unchanged. A fixed two-epoch student can fill only remaining supplementary slots, with score > .75 and two tile / strict two-context support plus teacher raw same-class support > .25 at IoU >= .5. Fresh source and reference inference, matched-reference context veto, source/reference identities, registration coverage, recorded ROI, supported scene and model/manifest hashes remain mandatory. Failure preserves the old result. Runtime identity is bound to the GUI request, and changed input, checkbox, report, policy/module/model/calibration cannot accept a stale completion.
+
+Pinned student: `output/port_student_multiscale_20261003/last.pt`, SHA f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4. Manifest: `config/teacher_student_port_support_20261003.json`. No model download occurs; a missing or changed sidecar causes fallback. Keep the existing teacher and calibration, do not replace either with the student.
+
+Evidence in the original chat workspace: `artifacts/teacher_student_port_20261003` (training-only policy decision, cached holdout localization 57->61/80 at 0 unmatched, outer 31/56 at 1 unmatched); `teacher_student_port_formal_20261003/selection_parity.json` (110 cases); `teacher_student_port_gui_20261003_v2/report.json` (155 regression executions and actual Qt button/worker/callback on two complete-SAM reports). First GUI partial run was retained; warning metadata differed and was corrected before the successful v2 rerun.
+
+Fresh formal training008 source/reference diagnostic: 8/12 -> 9/12, 0 unmatched, main 5 unchanged and supplementary 3->4. It is a selected training example with SAM still pending, not independent accuracy or complete fusion acceptance. Same-camera holdouts were previously inspected; 61/80 does not mean 76% field fault accuracy. Outer damaged031 still produces one unmatched cue under live gates. Do not silently reinterpret this as a verified physical fault.

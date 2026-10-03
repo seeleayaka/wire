@@ -1,0 +1,15 @@
+{
+  "frozen_before_training_control_inference": true,
+  "hypothesis": "Strong student-consistent cues lacking teacher original-tile support may receive teacher corroboration in two recentered contexts",
+  "proposal_rule": "Existing student_consistent variant additions not overlapping accepted cross_model_supported selection; at most 6",
+  "teacher_context": "Same frozen two distinct 1280px windows, shifts -160/+160; prediction960; each same-class score > .75; each box IoU >= .5 with student seed and pair IoU >= .5",
+  "selection": "Preserve all accepted teacher and cross-model student cues; append original student seed geometry only, in remaining supplementary slots",
+  "budgets": {"primary":5,"supplementary_including_rechecks_and_student":5},
+  "training_acceptance": "32 train controls: more than 67/98 TP, unmatched 0, normal cues 0; otherwise reject and do not evaluate heldouts",
+  "holdout_acceptance": "inner more than61/80, unmatched0; outer>=31/56, unmatched<=1; no normal cues increase",
+  "no_label_inference": true,
+  "no_new_training": true,
+  "no_validation_specific_changes": true,
+  "source_only_not_deployment": true,
+  "same_camera_previously_seen_not_unseen_generalization": true
+}

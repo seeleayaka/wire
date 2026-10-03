@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "purpose": "Traceable post-model human confirmation. This addendum is separate from the blind manual visual standard and is not eligible for blind-evaluation metrics.",
+  "date": "2026-08-27",
+  "reference_image": "C:\\Users\\HUAWEI\\Desktop\\案例\\线材柜子\\4\\right.png",
+  "inspection_image": "C:\\Users\\HUAWEI\\Desktop\\案例\\线材柜子\\4\\wrong2.png",
+  "candidate_source": {
+    "report": "E:\\PythonProject10\\manual_review\\sam3_dino_fusion_v1\\wrong2\\report.json",
+    "region_id": "wire_change_02",
+    "aligned_reference_coordinate_bbox_xyxy": [266, 79, 304, 122],
+    "semantic": "visible_wire_related_change_region"
+  },
+  "human_confirmation": {
+    "status": "confirmed_after_model_prompt",
+    "observation": "In the local reference-versus-inspection comparison, a small blue wire-related visible segment present in the reference is missing in wrong2.",
+    "visibility": "clear on local comparison",
+    "fault_claims_not_made": [
+      "physical cable identity",
+      "terminal assignment",
+      "electrical continuity",
+      "fault type"
+    ]
+  },
+  "evaluation_policy": {
+    "separate_from": "E:\\PythonProject10\\manual_review\\cabinet_manual_visual_standard_v2.json",
+    "not_blind": true,
+    "eligible_for_blind_manual_metric": false,
+    "reason": "The local comparison was reviewed after the SAM3 plus DINO candidate prompted attention to this area."
+  },
+  "review_artifact": "E:\\PythonProject10\\manual_review\\sam3_dino_fusion_v1\\wrong2\\manual_candidate_comparison.jpg"
+}

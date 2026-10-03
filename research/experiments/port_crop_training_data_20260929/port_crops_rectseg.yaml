@@ -1,0 +1,6 @@
+path: E:/PythonProject10/data/derived/port_crop_training_20260929
+train: images/train
+val: images/val
+names:
+  0: unplugged_plug
+  1: unplugged_jack

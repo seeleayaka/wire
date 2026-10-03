@@ -1,0 +1,168 @@
+{
+  "names": [
+    "damaged_007.JPG",
+    "disconnected_002.JPG",
+    "misrouted_012.JPG",
+    "normal_001.JPG"
+  ],
+  "selection": "fixed smallest filename per kind",
+  "alignments": [
+    {
+      "image": "damaged_007.JPG",
+      "visual_alignment": {
+        "method": "automatic_full_frame_sift_homography",
+        "reference_keypoints": 9000,
+        "inspection_keypoints": 9000,
+        "matches": 2094,
+        "inliers": 1051,
+        "inlier_ratio": 0.5019,
+        "median_reprojection_error": 0.78,
+        "inlier_grid_cells": 14,
+        "warped_area_ratio": 1.0228,
+        "source_to_reference_area_scale": 1.0228,
+        "alignment_quality": {
+          "reliable": true,
+          "checks": {
+            "finite_transform": true,
+            "normalized_condition_number": 1.03,
+            "corner_shortest_side_pixels": 2743.31,
+            "corner_centroid_offset_ratio": 0.0018,
+            "inlier_count_ok": true,
+            "inlier_ratio_ok": true,
+            "spatial_coverage_ok": true,
+            "reprojection_error_ok": true,
+            "area_ratio_ok": true,
+            "geometry_ok": true
+          },
+          "units": {
+            "normalized_condition_number": "dimensionless_in_unit_coordinates",
+            "corner_shortest_side_pixels": "pixels",
+            "corner_centroid_offset_ratio": "reference_diagonal_ratio",
+            "warped_area_ratio": "warped_area_over_reference_area",
+            "source_to_reference_area_scale": "warped_area_over_original_inspection_area"
+          },
+          "reason": "passed"
+        },
+        "valid_warp_coverage": 0.9996
+      }
+    },
+    {
+      "image": "disconnected_002.JPG",
+      "visual_alignment": {
+        "method": "automatic_full_frame_sift_homography",
+        "reference_keypoints": 9000,
+        "inspection_keypoints": 9000,
+        "matches": 1983,
+        "inliers": 1070,
+        "inlier_ratio": 0.5396,
+        "median_reprojection_error": 0.82,
+        "inlier_grid_cells": 14,
+        "warped_area_ratio": 1.0155,
+        "source_to_reference_area_scale": 1.0155,
+        "alignment_quality": {
+          "reliable": true,
+          "checks": {
+            "finite_transform": true,
+            "normalized_condition_number": 1.02,
+            "corner_shortest_side_pixels": 2738.97,
+            "corner_centroid_offset_ratio": 0.0014,
+            "inlier_count_ok": true,
+            "inlier_ratio_ok": true,
+            "spatial_coverage_ok": true,
+            "reprojection_error_ok": true,
+            "area_ratio_ok": true,
+            "geometry_ok": true
+          },
+          "units": {
+            "normalized_condition_number": "dimensionless_in_unit_coordinates",
+            "corner_shortest_side_pixels": "pixels",
+            "corner_centroid_offset_ratio": "reference_diagonal_ratio",
+            "warped_area_ratio": "warped_area_over_reference_area",
+            "source_to_reference_area_scale": "warped_area_over_original_inspection_area"
+          },
+          "reason": "passed"
+        },
+        "valid_warp_coverage": 0.9999
+      }
+    },
+    {
+      "image": "misrouted_012.JPG",
+      "visual_alignment": {
+        "method": "automatic_full_frame_sift_homography",
+        "reference_keypoints": 9000,
+        "inspection_keypoints": 9001,
+        "matches": 1875,
+        "inliers": 889,
+        "inlier_ratio": 0.4741,
+        "median_reprojection_error": 0.72,
+        "inlier_grid_cells": 13,
+        "warped_area_ratio": 1.013,
+        "source_to_reference_area_scale": 1.013,
+        "alignment_quality": {
+          "reliable": true,
+          "checks": {
+            "finite_transform": true,
+            "normalized_condition_number": 1.01,
+            "corner_shortest_side_pixels": 2743.25,
+            "corner_centroid_offset_ratio": 0.0038,
+            "inlier_count_ok": true,
+            "inlier_ratio_ok": true,
+            "spatial_coverage_ok": true,
+            "reprojection_error_ok": true,
+            "area_ratio_ok": true,
+            "geometry_ok": true
+          },
+          "units": {
+            "normalized_condition_number": "dimensionless_in_unit_coordinates",
+            "corner_shortest_side_pixels": "pixels",
+            "corner_centroid_offset_ratio": "reference_diagonal_ratio",
+            "warped_area_ratio": "warped_area_over_reference_area",
+            "source_to_reference_area_scale": "warped_area_over_original_inspection_area"
+          },
+          "reason": "passed"
+        },
+        "valid_warp_coverage": 0.9969
+      }
+    },
+    {
+      "image": "normal_001.JPG",
+      "visual_alignment": {
+        "method": "automatic_full_frame_sift_homography",
+        "reference_keypoints": 9000,
+        "inspection_keypoints": 9000,
+        "matches": 3135,
+        "inliers": 2977,
+        "inlier_ratio": 0.9496,
+        "median_reprojection_error": 0.37,
+        "inlier_grid_cells": 16,
+        "warped_area_ratio": 0.994,
+        "source_to_reference_area_scale": 0.994,
+        "alignment_quality": {
+          "reliable": true,
+          "checks": {
+            "finite_transform": true,
+            "normalized_condition_number": 1.01,
+            "corner_shortest_side_pixels": 2723.29,
+            "corner_centroid_offset_ratio": 0.0066,
+            "inlier_count_ok": true,
+            "inlier_ratio_ok": true,
+            "spatial_coverage_ok": true,
+            "reprojection_error_ok": true,
+            "area_ratio_ok": true,
+            "geometry_ok": true
+          },
+          "units": {
+            "normalized_condition_number": "dimensionless_in_unit_coordinates",
+            "corner_shortest_side_pixels": "pixels",
+            "corner_centroid_offset_ratio": "reference_diagonal_ratio",
+            "warped_area_ratio": "warped_area_over_reference_area",
+            "source_to_reference_area_scale": "warped_area_over_original_inspection_area"
+          },
+          "reason": "passed"
+        },
+        "valid_warp_coverage": 0.9837
+      }
+    }
+  ],
+  "warning": "Fresh registration for visual inspection only; does not recompute or change frozen metrics."
+}

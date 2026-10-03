@@ -1,0 +1,10 @@
+{
+  "base_threshold": 0.25,
+  "extra_threshold": 0.5,
+  "maximum": 5,
+  "baseline_maximum": 1,
+  "selection": "Keep original top1; add only remaining scores >0.5, max5 total",
+  "budget_change_explicit": true,
+  "changes_formal_policy": false,
+  "warning": "Scores are not calibrated probabilities; gain must include unmatched and burden counts"
+}

@@ -1,0 +1,2142 @@
+{
+  "source_dir": "E:\\PythonProject10\\output\\mendeley_intelliman_topology_evidence_20260828\\sam3_disconnected_001_thr040",
+  "geometry_contract_version": 1,
+  "manual_confirmation_required": true,
+  "source_prompt": "cable",
+  "source_confidence_threshold": 0.4,
+  "min_component_pixels": 50,
+  "overview_labels": false,
+  "records": [
+    {
+      "record_id": "m001_c01",
+      "source_mask_id": 1,
+      "source_score": 0.58984375,
+      "component_id": 1,
+      "component_pixels": 8010,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 140,
+      "candidate_tip_count": 3,
+      "candidate_tips_xy": [
+        [
+          3202,
+          1002
+        ],
+        [
+          3210,
+          1009
+        ],
+        [
+          3077,
+          1069
+        ]
+      ],
+      "branch_cluster_count": 1,
+      "geometry_pair_eligible": false,
+      "visible_ends_xy": [],
+      "endpoint_status": "ambiguous_branched_visible_segment"
+    },
+    {
+      "record_id": "m002_c01",
+      "source_mask_id": 2,
+      "source_score": 0.439453125,
+      "component_id": 1,
+      "component_pixels": 47232,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 814,
+      "candidate_tip_count": 8,
+      "candidate_tips_xy": [
+        [
+          2882,
+          1125
+        ],
+        [
+          2865,
+          1147
+        ],
+        [
+          2855,
+          1230
+        ],
+        [
+          2841,
+          1279
+        ],
+        [
+          2837,
+          1330
+        ],
+        [
+          2654,
+          1638
+        ],
+        [
+          2730,
+          1646
+        ],
+        [
+          2700,
+          1657
+        ]
+      ],
+      "branch_cluster_count": 6,
+      "geometry_pair_eligible": false,
+      "visible_ends_xy": [],
+      "endpoint_status": "ambiguous_branched_visible_segment"
+    },
+    {
+      "record_id": "m002_c02",
+      "source_mask_id": 2,
+      "source_score": 0.439453125,
+      "component_id": 2,
+      "component_pixels": 2151,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 100,
+      "candidate_tip_count": 3,
+      "candidate_tips_xy": [
+        [
+          2838,
+          1389
+        ],
+        [
+          2805,
+          1459
+        ],
+        [
+          2830,
+          1465
+        ]
+      ],
+      "branch_cluster_count": 1,
+      "geometry_pair_eligible": false,
+      "visible_ends_xy": [],
+      "endpoint_status": "ambiguous_branched_visible_segment"
+    },
+    {
+      "record_id": "m002_c03",
+      "source_mask_id": 2,
+      "source_score": 0.439453125,
+      "component_id": 3,
+      "component_pixels": 3139,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 121,
+      "candidate_tip_count": 3,
+      "candidate_tips_xy": [
+        [
+          2793,
+          1482
+        ],
+        [
+          2807,
+          1506
+        ],
+        [
+          2755,
+          1585
+        ]
+      ],
+      "branch_cluster_count": 1,
+      "geometry_pair_eligible": false,
+      "visible_ends_xy": [],
+      "endpoint_status": "ambiguous_branched_visible_segment"
+    },
+    {
+      "record_id": "m002_c04",
+      "source_mask_id": 2,
+      "source_score": 0.439453125,
+      "component_id": 4,
+      "component_pixels": 163,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 27,
+      "candidate_tip_count": 3,
+      "candidate_tips_xy": [
+        [
+          2349,
+          1491
+        ],
+        [
+          2352,
+          1496
+        ],
+        [
+          2337,
+          1512
+        ]
+      ],
+      "branch_cluster_count": 1,
+      "geometry_pair_eligible": false,
+      "visible_ends_xy": [],
+      "endpoint_status": "ambiguous_branched_visible_segment"
+    },
+    {
+      "record_id": "m002_c06",
+      "source_mask_id": 2,
+      "source_score": 0.439453125,
+      "component_id": 6,
+      "component_pixels": 278,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 31,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          2765,
+          1610
+        ],
+        [
+          2743,
+          1629
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          2765,
+          1610
+        ],
+        [
+          2743,
+          1629
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m002_c12",
+      "source_mask_id": 2,
+      "source_score": 0.439453125,
+      "component_id": 12,
+      "component_pixels": 21400,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 422,
+      "candidate_tip_count": 6,
+      "candidate_tips_xy": [
+        [
+          2620,
+          1719
+        ],
+        [
+          2662,
+          1733
+        ],
+        [
+          2360,
+          1829
+        ],
+        [
+          2362,
+          1845
+        ],
+        [
+          2381,
+          1867
+        ],
+        [
+          2371,
+          1885
+        ]
+      ],
+      "branch_cluster_count": 4,
+      "geometry_pair_eligible": false,
+      "visible_ends_xy": [],
+      "endpoint_status": "ambiguous_branched_visible_segment"
+    },
+    {
+      "record_id": "m002_c15",
+      "source_mask_id": 2,
+      "source_score": 0.439453125,
+      "component_id": 15,
+      "component_pixels": 327,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 28,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          2781,
+          1781
+        ],
+        [
+          2755,
+          1792
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          2781,
+          1781
+        ],
+        [
+          2755,
+          1792
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m002_c17",
+      "source_mask_id": 2,
+      "source_score": 0.439453125,
+      "component_id": 17,
+      "component_pixels": 65,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 17,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          2223,
+          1886
+        ],
+        [
+          2235,
+          1893
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          2223,
+          1886
+        ],
+        [
+          2235,
+          1893
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m002_c18",
+      "source_mask_id": 2,
+      "source_score": 0.439453125,
+      "component_id": 18,
+      "component_pixels": 19913,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 591,
+      "candidate_tip_count": 7,
+      "candidate_tips_xy": [
+        [
+          2222,
+          1904
+        ],
+        [
+          2187,
+          1929
+        ],
+        [
+          2211,
+          1973
+        ],
+        [
+          2246,
+          1979
+        ],
+        [
+          2101,
+          2016
+        ],
+        [
+          2070,
+          2147
+        ],
+        [
+          2100,
+          2168
+        ]
+      ],
+      "branch_cluster_count": 7,
+      "geometry_pair_eligible": false,
+      "visible_ends_xy": [],
+      "endpoint_status": "ambiguous_branched_visible_segment"
+    },
+    {
+      "record_id": "m002_c19",
+      "source_mask_id": 2,
+      "source_score": 0.439453125,
+      "component_id": 19,
+      "component_pixels": 70,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 9,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          2274,
+          1951
+        ],
+        [
+          2271,
+          1959
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          2274,
+          1951
+        ],
+        [
+          2271,
+          1959
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m002_c20",
+      "source_mask_id": 2,
+      "source_score": 0.439453125,
+      "component_id": 20,
+      "component_pixels": 1454,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 88,
+      "candidate_tip_count": 4,
+      "candidate_tips_xy": [
+        [
+          2070,
+          2200
+        ],
+        [
+          2082,
+          2217
+        ],
+        [
+          2057,
+          2251
+        ],
+        [
+          2069,
+          2277
+        ]
+      ],
+      "branch_cluster_count": 2,
+      "geometry_pair_eligible": false,
+      "visible_ends_xy": [],
+      "endpoint_status": "ambiguous_branched_visible_segment"
+    },
+    {
+      "record_id": "m003_c01",
+      "source_mask_id": 3,
+      "source_score": 0.48828125,
+      "component_id": 1,
+      "component_pixels": 7115,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 259,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          3046,
+          1577
+        ],
+        [
+          2798,
+          1781
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          3046,
+          1577
+        ],
+        [
+          2798,
+          1781
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m003_c02",
+      "source_mask_id": 3,
+      "source_score": 0.48828125,
+      "component_id": 2,
+      "component_pixels": 3138,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 178,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          2746,
+          1806
+        ],
+        [
+          2569,
+          1847
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          2746,
+          1806
+        ],
+        [
+          2569,
+          1847
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m004_c01",
+      "source_mask_id": 4,
+      "source_score": 0.404296875,
+      "component_id": 1,
+      "component_pixels": 9464,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 257,
+      "candidate_tip_count": 4,
+      "candidate_tips_xy": [
+        [
+          1948,
+          484
+        ],
+        [
+          2078,
+          619
+        ],
+        [
+          2096,
+          650
+        ],
+        [
+          2096,
+          708
+        ]
+      ],
+      "branch_cluster_count": 2,
+      "geometry_pair_eligible": false,
+      "visible_ends_xy": [],
+      "endpoint_status": "ambiguous_branched_visible_segment"
+    },
+    {
+      "record_id": "m004_c02",
+      "source_mask_id": 4,
+      "source_score": 0.404296875,
+      "component_id": 2,
+      "component_pixels": 289,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 40,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          2058,
+          670
+        ],
+        [
+          2045,
+          707
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          2058,
+          670
+        ],
+        [
+          2045,
+          707
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m004_c03",
+      "source_mask_id": 4,
+      "source_score": 0.404296875,
+      "component_id": 3,
+      "component_pixels": 2245,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 61,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          2057,
+          804
+        ],
+        [
+          2033,
+          862
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          2057,
+          804
+        ],
+        [
+          2033,
+          862
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m005_c01",
+      "source_mask_id": 5,
+      "source_score": 0.54296875,
+      "component_id": 1,
+      "component_pixels": 31571,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 554,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          2349,
+          1590
+        ],
+        [
+          1944,
+          2089
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          2349,
+          1590
+        ],
+        [
+          1944,
+          2089
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m006_c01",
+      "source_mask_id": 6,
+      "source_score": 0.408203125,
+      "component_id": 1,
+      "component_pixels": 12360,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 502,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          963,
+          1781
+        ],
+        [
+          524,
+          1910
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          963,
+          1781
+        ],
+        [
+          524,
+          1910
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m007_c01",
+      "source_mask_id": 7,
+      "source_score": 0.447265625,
+      "component_id": 1,
+      "component_pixels": 3862,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 144,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          1591,
+          1818
+        ],
+        [
+          1455,
+          1872
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          1591,
+          1818
+        ],
+        [
+          1455,
+          1872
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m008_c01",
+      "source_mask_id": 8,
+      "source_score": 0.40625,
+      "component_id": 1,
+      "component_pixels": 23195,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 791,
+      "candidate_tip_count": 4,
+      "candidate_tips_xy": [
+        [
+          1188,
+          1815
+        ],
+        [
+          1012,
+          1818
+        ],
+        [
+          1076,
+          1867
+        ],
+        [
+          525,
+          1911
+        ]
+      ],
+      "branch_cluster_count": 3,
+      "geometry_pair_eligible": false,
+      "visible_ends_xy": [],
+      "endpoint_status": "ambiguous_branched_visible_segment"
+    },
+    {
+      "record_id": "m009_c01",
+      "source_mask_id": 9,
+      "source_score": 0.4453125,
+      "component_id": 1,
+      "component_pixels": 5825,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 215,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          1705,
+          973
+        ],
+        [
+          1616,
+          1156
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          1705,
+          973
+        ],
+        [
+          1616,
+          1156
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m010_c01",
+      "source_mask_id": 10,
+      "source_score": 0.54296875,
+      "component_id": 1,
+      "component_pixels": 26788,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 693,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          1589,
+          615
+        ],
+        [
+          1144,
+          1011
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          1589,
+          615
+        ],
+        [
+          1144,
+          1011
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m011_c01",
+      "source_mask_id": 11,
+      "source_score": 0.6015625,
+      "component_id": 1,
+      "component_pixels": 23059,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 711,
+      "candidate_tip_count": 4,
+      "candidate_tips_xy": [
+        [
+          601,
+          1068
+        ],
+        [
+          554,
+          1069
+        ],
+        [
+          1134,
+          1092
+        ],
+        [
+          1075,
+          1116
+        ]
+      ],
+      "branch_cluster_count": 2,
+      "geometry_pair_eligible": false,
+      "visible_ends_xy": [],
+      "endpoint_status": "ambiguous_branched_visible_segment"
+    },
+    {
+      "record_id": "m012_c01",
+      "source_mask_id": 12,
+      "source_score": 0.625,
+      "component_id": 1,
+      "component_pixels": 81,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 27,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          1830,
+          423
+        ],
+        [
+          1817,
+          441
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          1830,
+          423
+        ],
+        [
+          1817,
+          441
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m012_c02",
+      "source_mask_id": 12,
+      "source_score": 0.625,
+      "component_id": 2,
+      "component_pixels": 36508,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 867,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          1805,
+          555
+        ],
+        [
+          2318,
+          1405
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          1805,
+          555
+        ],
+        [
+          2318,
+          1405
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m013_c01",
+      "source_mask_id": 13,
+      "source_score": 0.40234375,
+      "component_id": 1,
+      "component_pixels": 158,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 21,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          1830,
+          429
+        ],
+        [
+          1817,
+          442
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          1830,
+          429
+        ],
+        [
+          1817,
+          442
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m013_c02",
+      "source_mask_id": 13,
+      "source_score": 0.40234375,
+      "component_id": 2,
+      "component_pixels": 23070,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 593,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          1805,
+          555
+        ],
+        [
+          2041,
+          1081
+        ]
+      ],
+      "branch_cluster_count": 2,
+      "geometry_pair_eligible": false,
+      "visible_ends_xy": [],
+      "endpoint_status": "ambiguous_branched_visible_segment"
+    },
+    {
+      "record_id": "m013_c03",
+      "source_mask_id": 13,
+      "source_score": 0.40234375,
+      "component_id": 3,
+      "component_pixels": 60,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 19,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          2109,
+          581
+        ],
+        [
+          2108,
+          599
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          2109,
+          581
+        ],
+        [
+          2108,
+          599
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m013_c06",
+      "source_mask_id": 13,
+      "source_score": 0.40234375,
+      "component_id": 6,
+      "component_pixels": 198,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 39,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          2058,
+          705
+        ],
+        [
+          2058,
+          743
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          2058,
+          705
+        ],
+        [
+          2058,
+          743
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m013_c12",
+      "source_mask_id": 13,
+      "source_score": 0.40234375,
+      "component_id": 12,
+      "component_pixels": 811,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 69,
+      "candidate_tip_count": 4,
+      "candidate_tips_xy": [
+        [
+          2058,
+          1106
+        ],
+        [
+          2080,
+          1116
+        ],
+        [
+          2097,
+          1135
+        ],
+        [
+          2083,
+          1143
+        ]
+      ],
+      "branch_cluster_count": 2,
+      "geometry_pair_eligible": false,
+      "visible_ends_xy": [],
+      "endpoint_status": "ambiguous_branched_visible_segment"
+    },
+    {
+      "record_id": "m013_c13",
+      "source_mask_id": 13,
+      "source_score": 0.40234375,
+      "component_id": 13,
+      "component_pixels": 6807,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 413,
+      "candidate_tip_count": 6,
+      "candidate_tips_xy": [
+        [
+          2109,
+          1145
+        ],
+        [
+          2089,
+          1153
+        ],
+        [
+          2162,
+          1214
+        ],
+        [
+          2173,
+          1229
+        ],
+        [
+          2349,
+          1420
+        ],
+        [
+          2329,
+          1434
+        ]
+      ],
+      "branch_cluster_count": 6,
+      "geometry_pair_eligible": false,
+      "visible_ends_xy": [],
+      "endpoint_status": "ambiguous_branched_visible_segment"
+    },
+    {
+      "record_id": "m013_c15",
+      "source_mask_id": 13,
+      "source_score": 0.40234375,
+      "component_id": 15,
+      "component_pixels": 145,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 20,
+      "candidate_tip_count": 3,
+      "candidate_tips_xy": [
+        [
+          2399,
+          1344
+        ],
+        [
+          2403,
+          1344
+        ],
+        [
+          2388,
+          1353
+        ]
+      ],
+      "branch_cluster_count": 1,
+      "geometry_pair_eligible": false,
+      "visible_ends_xy": [],
+      "endpoint_status": "ambiguous_branched_visible_segment"
+    },
+    {
+      "record_id": "m013_c16",
+      "source_mask_id": 13,
+      "source_score": 0.40234375,
+      "component_id": 16,
+      "component_pixels": 346,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 14,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          2394,
+          1382
+        ],
+        [
+          2384,
+          1392
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          2394,
+          1382
+        ],
+        [
+          2384,
+          1392
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m013_c17",
+      "source_mask_id": 13,
+      "source_score": 0.40234375,
+      "component_id": 17,
+      "component_pixels": 90,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 13,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          2350,
+          1386
+        ],
+        [
+          2350,
+          1398
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          2350,
+          1386
+        ],
+        [
+          2350,
+          1398
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m013_c18",
+      "source_mask_id": 13,
+      "source_score": 0.40234375,
+      "component_id": 18,
+      "component_pixels": 67,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 8,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          2386,
+          1406
+        ],
+        [
+          2381,
+          1409
+        ]
+      ],
+      "branch_cluster_count": 1,
+      "geometry_pair_eligible": false,
+      "visible_ends_xy": [],
+      "endpoint_status": "ambiguous_branched_visible_segment"
+    },
+    {
+      "record_id": "m013_c24",
+      "source_mask_id": 13,
+      "source_score": 0.40234375,
+      "component_id": 24,
+      "component_pixels": 334,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 23,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          2339,
+          1502
+        ],
+        [
+          2337,
+          1524
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          2339,
+          1502
+        ],
+        [
+          2337,
+          1524
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m013_c27",
+      "source_mask_id": 13,
+      "source_score": 0.40234375,
+      "component_id": 27,
+      "component_pixels": 422,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 28,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          2357,
+          1551
+        ],
+        [
+          2362,
+          1578
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          2357,
+          1551
+        ],
+        [
+          2362,
+          1578
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m013_c28",
+      "source_mask_id": 13,
+      "source_score": 0.40234375,
+      "component_id": 28,
+      "component_pixels": 58,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 14,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          2384,
+          1591
+        ],
+        [
+          2392,
+          1600
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          2384,
+          1591
+        ],
+        [
+          2392,
+          1600
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m013_c29",
+      "source_mask_id": 13,
+      "source_score": 0.40234375,
+      "component_id": 29,
+      "component_pixels": 11698,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 378,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          2400,
+          1608
+        ],
+        [
+          2766,
+          1785
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          2400,
+          1608
+        ],
+        [
+          2766,
+          1785
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m013_c30",
+      "source_mask_id": 13,
+      "source_score": 0.40234375,
+      "component_id": 30,
+      "component_pixels": 624,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 31,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          2531,
+          1820
+        ],
+        [
+          2561,
+          1827
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          2531,
+          1820
+        ],
+        [
+          2561,
+          1827
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m013_c31",
+      "source_mask_id": 13,
+      "source_score": 0.40234375,
+      "component_id": 31,
+      "component_pixels": 1878,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 94,
+      "candidate_tip_count": 3,
+      "candidate_tips_xy": [
+        [
+          2400,
+          1833
+        ],
+        [
+          2403,
+          1864
+        ],
+        [
+          2337,
+          1875
+        ]
+      ],
+      "branch_cluster_count": 1,
+      "geometry_pair_eligible": false,
+      "visible_ends_xy": [],
+      "endpoint_status": "ambiguous_branched_visible_segment"
+    },
+    {
+      "record_id": "m013_c33",
+      "source_mask_id": 13,
+      "source_score": 0.40234375,
+      "component_id": 33,
+      "component_pixels": 199,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 6,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          2303,
+          1869
+        ],
+        [
+          2298,
+          1870
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          2303,
+          1869
+        ],
+        [
+          2298,
+          1870
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m013_c34",
+      "source_mask_id": 13,
+      "source_score": 0.40234375,
+      "component_id": 34,
+      "component_pixels": 4560,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 278,
+      "candidate_tip_count": 7,
+      "candidate_tips_xy": [
+        [
+          2273,
+          1884
+        ],
+        [
+          2337,
+          1903
+        ],
+        [
+          2251,
+          1915
+        ],
+        [
+          2311,
+          1923
+        ],
+        [
+          2223,
+          1933
+        ],
+        [
+          2259,
+          1969
+        ],
+        [
+          2224,
+          1990
+        ]
+      ],
+      "branch_cluster_count": 5,
+      "geometry_pair_eligible": false,
+      "visible_ends_xy": [],
+      "endpoint_status": "ambiguous_branched_visible_segment"
+    },
+    {
+      "record_id": "m013_c37",
+      "source_mask_id": 13,
+      "source_score": 0.40234375,
+      "component_id": 37,
+      "component_pixels": 176,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 22,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          2160,
+          1942
+        ],
+        [
+          2145,
+          1959
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          2160,
+          1942
+        ],
+        [
+          2145,
+          1959
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m013_c38",
+      "source_mask_id": 13,
+      "source_score": 0.40234375,
+      "component_id": 38,
+      "component_pixels": 5309,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 269,
+      "candidate_tip_count": 3,
+      "candidate_tips_xy": [
+        [
+          1856,
+          2138
+        ],
+        [
+          1842,
+          2349
+        ],
+        [
+          1868,
+          2383
+        ]
+      ],
+      "branch_cluster_count": 1,
+      "geometry_pair_eligible": false,
+      "visible_ends_xy": [],
+      "endpoint_status": "ambiguous_branched_visible_segment"
+    },
+    {
+      "record_id": "m013_c39",
+      "source_mask_id": 13,
+      "source_score": 0.40234375,
+      "component_id": 39,
+      "component_pixels": 674,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 4,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          2073,
+          2208
+        ],
+        [
+          2076,
+          2211
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          2073,
+          2208
+        ],
+        [
+          2076,
+          2211
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m013_c40",
+      "source_mask_id": 13,
+      "source_score": 0.40234375,
+      "component_id": 40,
+      "component_pixels": 137,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 14,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          1833,
+          2328
+        ],
+        [
+          1831,
+          2341
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          1833,
+          2328
+        ],
+        [
+          1831,
+          2341
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m013_c41",
+      "source_mask_id": 13,
+      "source_score": 0.40234375,
+      "component_id": 41,
+      "component_pixels": 1493,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 134,
+      "candidate_tip_count": 3,
+      "candidate_tips_xy": [
+        [
+          1935,
+          2389
+        ],
+        [
+          1984,
+          2410
+        ],
+        [
+          1987,
+          2455
+        ]
+      ],
+      "branch_cluster_count": 2,
+      "geometry_pair_eligible": false,
+      "visible_ends_xy": [],
+      "endpoint_status": "ambiguous_branched_visible_segment"
+    },
+    {
+      "record_id": "m013_c42",
+      "source_mask_id": 13,
+      "source_score": 0.40234375,
+      "component_id": 42,
+      "component_pixels": 61,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 8,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          1989,
+          2417
+        ],
+        [
+          1996,
+          2418
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          1989,
+          2417
+        ],
+        [
+          1996,
+          2418
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m013_c43",
+      "source_mask_id": 13,
+      "source_score": 0.40234375,
+      "component_id": 43,
+      "component_pixels": 14515,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 780,
+      "candidate_tip_count": 7,
+      "candidate_tips_xy": [
+        [
+          2013,
+          2427
+        ],
+        [
+          2008,
+          2454
+        ],
+        [
+          2000,
+          2464
+        ],
+        [
+          2216,
+          2550
+        ],
+        [
+          2336,
+          2552
+        ],
+        [
+          2223,
+          2557
+        ],
+        [
+          2356,
+          2607
+        ]
+      ],
+      "branch_cluster_count": 9,
+      "geometry_pair_eligible": false,
+      "visible_ends_xy": [],
+      "endpoint_status": "ambiguous_branched_visible_segment"
+    },
+    {
+      "record_id": "m013_c44",
+      "source_mask_id": 13,
+      "source_score": 0.40234375,
+      "component_id": 44,
+      "component_pixels": 765,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 53,
+      "candidate_tip_count": 3,
+      "candidate_tips_xy": [
+        [
+          2915,
+          2525
+        ],
+        [
+          2928,
+          2529
+        ],
+        [
+          2904,
+          2566
+        ]
+      ],
+      "branch_cluster_count": 1,
+      "geometry_pair_eligible": false,
+      "visible_ends_xy": [],
+      "endpoint_status": "ambiguous_branched_visible_segment"
+    },
+    {
+      "record_id": "m013_c47",
+      "source_mask_id": 13,
+      "source_score": 0.40234375,
+      "component_id": 47,
+      "component_pixels": 13399,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 869,
+      "candidate_tip_count": 12,
+      "candidate_tips_xy": [
+        [
+          2359,
+          2566
+        ],
+        [
+          2391,
+          2625
+        ],
+        [
+          2450,
+          2638
+        ],
+        [
+          2528,
+          2653
+        ],
+        [
+          2491,
+          2664
+        ],
+        [
+          2809,
+          2682
+        ],
+        [
+          2752,
+          2689
+        ],
+        [
+          2581,
+          2692
+        ],
+        [
+          2779,
+          2699
+        ],
+        [
+          2592,
+          2702
+        ],
+        [
+          2765,
+          2711
+        ],
+        [
+          2690,
+          2721
+        ]
+      ],
+      "branch_cluster_count": 12,
+      "geometry_pair_eligible": false,
+      "visible_ends_xy": [],
+      "endpoint_status": "ambiguous_branched_visible_segment"
+    },
+    {
+      "record_id": "m013_c48",
+      "source_mask_id": 13,
+      "source_score": 0.40234375,
+      "component_id": 48,
+      "component_pixels": 137,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 22,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          2844,
+          2577
+        ],
+        [
+          2841,
+          2597
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          2844,
+          2577
+        ],
+        [
+          2841,
+          2597
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m013_c49",
+      "source_mask_id": 13,
+      "source_score": 0.40234375,
+      "component_id": 49,
+      "component_pixels": 157,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 21,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          2894,
+          2577
+        ],
+        [
+          2892,
+          2597
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          2894,
+          2577
+        ],
+        [
+          2892,
+          2597
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m013_c51",
+      "source_mask_id": 13,
+      "source_score": 0.40234375,
+      "component_id": 51,
+      "component_pixels": 60,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 7,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          2880,
+          2609
+        ],
+        [
+          2879,
+          2615
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          2880,
+          2609
+        ],
+        [
+          2879,
+          2615
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m013_c53",
+      "source_mask_id": 13,
+      "source_score": 0.40234375,
+      "component_id": 53,
+      "component_pixels": 59,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 11,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          2869,
+          2624
+        ],
+        [
+          2868,
+          2634
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          2869,
+          2624
+        ],
+        [
+          2868,
+          2634
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m014_c01",
+      "source_mask_id": 14,
+      "source_score": 0.59375,
+      "component_id": 1,
+      "component_pixels": 562,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 35,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          1893,
+          2095
+        ],
+        [
+          1893,
+          2129
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          1893,
+          2095
+        ],
+        [
+          1893,
+          2129
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m014_c02",
+      "source_mask_id": 14,
+      "source_score": 0.59375,
+      "component_id": 2,
+      "component_pixels": 9227,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 255,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          1857,
+          2130
+        ],
+        [
+          1871,
+          2384
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          1857,
+          2130
+        ],
+        [
+          1871,
+          2384
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m014_c03",
+      "source_mask_id": 14,
+      "source_score": 0.59375,
+      "component_id": 3,
+      "component_pixels": 78,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 17,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          1889,
+          2360
+        ],
+        [
+          1905,
+          2361
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          1889,
+          2360
+        ],
+        [
+          1905,
+          2361
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m014_c04",
+      "source_mask_id": 14,
+      "source_score": 0.59375,
+      "component_id": 4,
+      "component_pixels": 72337,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 1093,
+      "candidate_tip_count": 3,
+      "candidate_tips_xy": [
+        [
+          1916,
+          2375
+        ],
+        [
+          2867,
+          2512
+        ],
+        [
+          2908,
+          2521
+        ]
+      ],
+      "branch_cluster_count": 1,
+      "geometry_pair_eligible": false,
+      "visible_ends_xy": [],
+      "endpoint_status": "ambiguous_branched_visible_segment"
+    },
+    {
+      "record_id": "m015_c01",
+      "source_mask_id": 15,
+      "source_score": 0.408203125,
+      "component_id": 1,
+      "component_pixels": 26943,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 617,
+      "candidate_tip_count": 5,
+      "candidate_tips_xy": [
+        [
+          2815,
+          1125
+        ],
+        [
+          2891,
+          1125
+        ],
+        [
+          2821,
+          1186
+        ],
+        [
+          2713,
+          1640
+        ],
+        [
+          2725,
+          1649
+        ]
+      ],
+      "branch_cluster_count": 3,
+      "geometry_pair_eligible": false,
+      "visible_ends_xy": [],
+      "endpoint_status": "ambiguous_branched_visible_segment"
+    }
+  ]
+}

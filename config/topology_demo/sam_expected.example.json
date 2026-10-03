@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "graph_id": "sam-controlled-expected",
+  "scene_type": "bench_terminal_board",
+  "nodes": [
+    {"id": "SOURCE_PLUS"},
+    {"id": "LOAD_PLUS"},
+    {"id": "SOURCE_MINUS"},
+    {"id": "LOAD_MINUS"}
+  ],
+  "connections": [
+    {"id": "expected_plus", "from": "SOURCE_PLUS", "to": "LOAD_PLUS"},
+    {"id": "expected_minus", "from": "SOURCE_MINUS", "to": "LOAD_MINUS"}
+  ]
+}

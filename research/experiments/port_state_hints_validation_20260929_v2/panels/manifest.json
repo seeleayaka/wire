@@ -1,0 +1,7 @@
+{
+  "images": [
+    "disconnected_002.JPG",
+    "disconnected_027.JPG"
+  ],
+  "selection": "every image with an above-frozen-threshold valid detector cue, not label-selected"
+}

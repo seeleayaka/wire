@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "profile_id": "cable_cabinet_front_sam3_fusion_v1",
+  "enabled": true,
+  "sam3_python": {
+    "windows": "runtime/sam3/.venv/Scripts/python.exe",
+    "linux": "runtime/sam3/.venv/bin/python"
+  },
+  "sam3_source_root": "runtime/sam3/source",
+  "sam3_runner": "manual_review/run_sam3_cable_probe.py",
+  "checkpoint": "models/sam3/sam3.pt",
+  "cache_dir": "data/sam3_fusion_cache/cabinet_front_v1",
+  "prompt": "cable",
+  "confidence_threshold": 0.4,
+  "threads": 8,
+  "proximity_px": 8,
+  "green_min_sam_support_pixels": 120,
+  "yellow_min_component_pixels": 900,
+  "yellow_min_component_span_px": 24,
+  "yellow_min_dino_score_mean": 200.0,
+  "yellow_min_dino_score_p90": 0.0,
+  "policy": {
+    "output_contract": "possible_difference_manual_review",
+    "no_mask_joining": true,
+    "human_confirmation_required": true,
+    "not_claimed": [
+      "physical_cable_identity",
+      "terminal_assignment",
+      "electrical_continuity",
+      "fault_type"
+    ]
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "status": "frozen",
+  "source_split": "train01_inner_val_normals",
+  "source_count": 24,
+  "threshold": 0.25,
+  "config": {
+    "tile_size": 1280,
+    "tile_stride": 960,
+    "edge_margin": 16,
+    "cross_tile_nms_iou": 0.5,
+    "predict_imgsz": 960,
+    "predict_conf_floor": 0.001,
+    "predict_iou": 0.7,
+    "predict_max_det": 300,
+    "batch_tiles": 2,
+    "minimum_hint_conf": 0.25,
+    "normal_maximum_quantile": 0.95,
+    "maximum_new_hints_per_image": 1
+  },
+  "samples": [
+    {
+      "image": "normal_011.JPG",
+      "source_sha256": "1ba6fe2edb9a3d225e42f3871d87905d2c4a7ec8882cb2df81598f737ad3a082",
+      "maximum_confidence": 0.015455655753612518,
+      "merged_count": 31
+    },
+    {
+      "image": "normal_014.JPG",
+      "source_sha256": "0551446e237dd2cda2e798e92b7c273f717f10f09c54a30bb411a747758eb37d",
+      "maximum_confidence": 0.2916794717311859,
+      "merged_count": 29
+    },
+    {
+      "image": "normal_024.JPG",
+      "source_sha256": "6c2de475c452bbd41f46f1da7226e618afde909ee02fc7cc2bd4ce184c2436d8",
+      "maximum_confidence": 0.013921708799898624,
+      "merged_count": 36
+    },
+    {
+      "image": "normal_028.JPG",
+      "source_sha256": "d9e363ea8cf4858b56a0b44055f34611f72625d9d4d46eceed97982e3806edba",
+      "maximum_confidence": 0.008804702199995518,
+      "merged_count": 40
+    },
+    {
+      "image": "normal_030.JPG",
+      "source_sha256": "2e282b0693c9ebf2a6d463d7d7a13d3ea06c2bf095eb81274179209179ffae92",
+      "maximum_confidence": 0.011954252608120441,
+      "merged_count": 29
+    },
+    {
+      "image": "normal_038.JPG",
+      "source_sha256": "07384e3ae4f0e755e712f00a3df335a178225c97dc42af2f953a05941dab7be0",
+      "maximum_confidence": 0.015187066048383713,
+      "merged_count": 30
+    },
+    {
+      "image": "normal_042.JPG",
+      "source_sha256": "b7784ce18f96498d4c3eeb51606005c8facb2fa4ceb2b81e178e8970a0a96a6d",
+      "maximum_confidence": 0.06914760172367096,
+      "merged_count": 33
+    },
+    {
+      "image": "normal_043.JPG",
+      "source_sha256": "82af4c48c9e9fb26afb237049fdf37c802ea74e12d9f2c8d90e8c5770cf296b4",
+      "maximum_confidence": 0.01972110942006111,
+      "merged_count": 34
+    },
+    {
+      "image": "normal_047.JPG",
+      "source_sha256": "92450543d2ef1208cf5a5c028234db0722cf19fa4f59e4861dfd9c2287e02835",
+      "maximum_confidence": 0.05354625731706619,
+      "merged_count": 34
+    },
+    {
+      "image": "normal_049.JPG",
+      "source_sha256": "d051b318567e1fc3788fd3f60c110623598b5f3ad5595074970a3ffeabe43fdc",
+      "maximum_confidence": 0.08684572577476501,
+      "merged_count": 35
+    },
+    {
+      "image": "normal_053.JPG",
+      "source_sha256": "1055ec2b6e2fd6aba2ee1808fad6ca0dca6ac5b9bf210309dd5205540cda1aea",
+      "maximum_confidence": 0.005472351331263781,
+      "merged_count": 25
+    },
+    {
+      "image": "normal_059.JPG",
+      "source_sha256": "fc4395ffec0e1b56276e92cdff17b95e445d671ad826ae7c0926527b641f6b5d",
+      "maximum_confidence": 0.01913006231188774,
+      "merged_count": 30
+    },
+    {
+      "image": "normal_060.JPG",
+      "source_sha256": "0c3dfcba67d7e170412562ec97cfdc9a3369522fd16d3c102fcd84705e1969e5",
+      "maximum_confidence": 0.04568040370941162,
+      "merged_count": 22
+    },
+    {
+      "image": "normal_072.JPG",
+      "source_sha256": "d2959028363662be6888db77f778600d932cc5a5938050b138302b63f96f71a6",
+      "maximum_confidence": 0.02339770644903183,
+      "merged_count": 22
+    },
+    {
+      "image": "normal_084.JPG",
+      "source_sha256": "aaafedc1b9f20f3d2cd908b473a498d23b962f6caebc8a0f239e5f3aa2c1349a",
+      "maximum_confidence": 0.014081655070185661,
+      "merged_count": 26
+    },
+    {
+      "image": "normal_093.JPG",
+      "source_sha256": "2a8e17050dc81dcca88de2849751ed5ac2fb89a2def74c016cde78669a8d353d",
+      "maximum_confidence": 0.02834307588636875,
+      "merged_count": 26
+    },
+    {
+      "image": "normal_107.JPG",
+      "source_sha256": "bf0b3ad0e718935a261e4a7082c26c830ddd27eeb137c7b0d550205e8828028b",
+      "maximum_confidence": 0.014587451703846455,
+      "merged_count": 18
+    },
+    {
+      "image": "normal_113.JPG",
+      "source_sha256": "8342f7a7c086ae05c6463b2a2f02668c35012fdd2eff78d635777d52a292a29b",
+      "maximum_confidence": 0.029475832358002663,
+      "merged_count": 21
+    },
+    {
+      "image": "normal_115.JPG",
+      "source_sha256": "d97e0580fe63a15ecbe5d26de8b0ce0cfb2437fa8223cc96ae2726ac0d543430",
+      "maximum_confidence": 0.010815386660397053,
+      "merged_count": 22
+    },
+    {
+      "image": "normal_120.JPG",
+      "source_sha256": "dbd7b94ac560e64638c06fe40d8795658e6dfaf3e3435545eb61e0e6cfb7e281",
+      "maximum_confidence": 0.016839196905493736,
+      "merged_count": 27
+    },
+    {
+      "image": "normal_124.JPG",
+      "source_sha256": "cd915feaf35914cfdb6480891f2039b50a36013c8cc6ee55f6da3ed9e863f49b",
+      "maximum_confidence": 0.021773532032966614,
+      "merged_count": 20
+    },
+    {
+      "image": "normal_129.JPG",
+      "source_sha256": "49936f7778fb81f9c2a646c4791932c19abc1bd6f5359669ee1f708c14ea0b80",
+      "maximum_confidence": 0.0061146533116698265,
+      "merged_count": 20
+    },
+    {
+      "image": "normal_138.JPG",
+      "source_sha256": "393d8e24af9da0b79c53cdd551d77bbcf33bea482356aefd4fdb93d5315c25f8",
+      "maximum_confidence": 0.027348417788743973,
+      "merged_count": 31
+    },
+    {
+      "image": "normal_148.JPG",
+      "source_sha256": "49ab375d8ab34670996579f8102ef5273c748d9cf4279d10f9eb28e1d6fb704d",
+      "maximum_confidence": 0.07069399207830429,
+      "merged_count": 26
+    }
+  ],
+  "fingerprints": {
+    "script": "153e003d2bf53957efcacd12532e3c96143d2cf105f8e499b22f84f0d80fd884",
+    "training_report": "4270a9826911ef2557ba05ad3931e7f2786185999389afba3b18d5011087a5b6",
+    "dataset_manifest": "259dd3c4dcb01b3e9aabd2853131a800d047ea7912843420919a60509f0d16b2",
+    "weight": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+    "old_validation_report": "0dedc12f6c61fc903ddede49752b1af93f6b81c144a2a3215101d966ed05c151",
+    "plan": "def2a6796d7d6430b5040f68c9b312f6897433f7b72f149ed5a78ca1ddedf48b",
+    "port_tiling": "113a9b57ec431103afb35153f1f07868417715cd6829756a1350471cba8a239d",
+    "port_state_hint": "c090e9c19cf4f0417258bf2ea7fa500ed1cc11f211875ef9da3c26ff45efc9a7"
+  },
+  "outer_validation_read": false,
+  "warning": "Inner validation selected the checkpoint and calibrates threshold; not independent field calibration."
+}

@@ -1,0 +1,11 @@
+{
+  "reference_image": "C:\\Users\\HUAWEI\\Desktop\\案例\\线材柜子\\4\\right.png",
+  "check_rois": [
+    [
+      0.040741,
+      0.087079,
+      0.99537,
+      0.873596
+    ]
+  ]
+}

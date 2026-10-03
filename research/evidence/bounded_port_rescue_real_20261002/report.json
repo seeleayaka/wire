@@ -1,0 +1,32 @@
+{
+  "cases": [
+    {
+      "image": "normal_006.JPG",
+      "status": "fallback",
+      "hints": 0,
+      "reason": "local_alignment_not_supported"
+    },
+    {
+      "image": "damaged_005.JPG",
+      "status": "applied",
+      "hints": 0,
+      "reason": null
+    },
+    {
+      "image": "disconnected_005.JPG",
+      "status": "applied",
+      "hints": 4,
+      "reason": null
+    },
+    {
+      "image": "misrouted_001.JPG",
+      "status": "applied",
+      "hints": 1,
+      "reason": null
+    }
+  ],
+  "new_source_and_reference_inference": true,
+  "new_dino_sam": false,
+  "baseline_regions_unchanged": true,
+  "gui_budget_one_unchanged": true
+}

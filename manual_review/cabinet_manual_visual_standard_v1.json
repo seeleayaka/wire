@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "annotation_kind": "human_visual_standard_answer_draft",
+  "purpose": "Manual visual standard for later independent comparison with the main pipeline. It is not an electrical diagnosis, Labelme annotation, or training label.",
+  "annotation_protocol": {
+    "input": "Raw right.png versus raw wrong*.png pairs only.",
+    "prohibited_during_this_pass": ["candidate boxes", "difference heatmaps", "DINO scores", "registration output"],
+    "unit": "one independently visible connected local change group",
+    "rule_for_global_ai_rerender": "Do not invent local boxes. Mark the image as not eligible for local-box statistics when broad scene or viewpoint regeneration prevents isolating a local edit.",
+    "important_caveat": "This pass intentionally did not reopen algorithm output, but the annotator had viewed candidates earlier in the session. It is manual-only for this pass, not a strict double-blind study."
+  },
+  "reference_image": "C:\\Users\\HUAWEI\\Desktop\\案例\\线材柜子\\4\\right.png",
+  "coordinate_space": {
+    "image": "raw inspection image",
+    "image_size": [1080, 712],
+    "origin": "top_left",
+    "bbox_format": "[left, top, right, bottom]"
+  },
+  "metric_policy": {
+    "eligible_for_local_group_coverage": ["local_isolated"],
+    "not_eligible": ["global_ai_rerender", "viewpoint_or_crop_change", "diffuse_unattributable_change"],
+    "future_comparison_requirement": "Do not expose candidate output while this manual standard is being reviewed or revised."
+  },
+  "images": [
+    {
+      "image": "wrong.png",
+      "classification": "diffuse_unattributable_change",
+      "eligible_for_local_group_coverage": false,
+      "groups": [],
+      "manual_observation": "Broad text, component-detail, and framing variation; no one local connected change can be isolated reliably."
+    },
+    {
+      "image": "wrong2.png",
+      "classification": "local_isolated",
+      "eligible_for_local_group_coverage": true,
+      "groups": [
+        {
+          "id": "M01",
+          "bbox": [225, 235, 450, 360],
+          "description": "White conductors visibly appear or are rerouted below the upper-left black contactor.",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "image": "wrong3.png",
+      "classification": "local_isolated",
+      "eligible_for_local_group_coverage": true,
+      "groups": [
+        {
+          "id": "M01",
+          "bbox": [660, 235, 835, 505],
+          "description": "A connected bundle of white conductors visibly runs from the upper terminals down toward the lower-right rail.",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "image": "wrong4.png",
+      "classification": "local_isolated",
+      "eligible_for_local_group_coverage": true,
+      "groups": [
+        {
+          "id": "M01",
+          "bbox": [500, 200, 650, 345],
+          "description": "A white conductor is visibly added or rerouted in the upper-middle terminal-row area.",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "image": "wrong5.png",
+      "classification": "local_isolated",
+      "eligible_for_local_group_coverage": true,
+      "groups": [
+        {
+          "id": "M01",
+          "bbox": [560, 190, 750, 300],
+          "description": "Adjacent dark module or breaker faces visibly replace the reference arrangement in the upper-middle row.",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "image": "wrong6.png",
+      "classification": "viewpoint_or_crop_change",
+      "eligible_for_local_group_coverage": false,
+      "groups": [],
+      "manual_observation": "The whole cabinet is reframed and rendered differently; local changes cannot be separated from the global regeneration."
+    },
+    {
+      "image": "wrong7.png",
+      "classification": "viewpoint_or_crop_change",
+      "eligible_for_local_group_coverage": false,
+      "groups": [],
+      "manual_observation": "Global cabinet framing, component detail, labels, and wiring appearance vary together."
+    },
+    {
+      "image": "wrong8.png",
+      "classification": "viewpoint_or_crop_change",
+      "eligible_for_local_group_coverage": false,
+      "groups": [],
+      "manual_observation": "Global cabinet framing and broad component rendering differ; no isolated local group is reliable."
+    },
+    {
+      "image": "wrong9.png",
+      "classification": "viewpoint_or_crop_change",
+      "eligible_for_local_group_coverage": false,
+      "groups": [],
+      "manual_observation": "Whole-scene geometry and broad device or label appearance vary together."
+    },
+    {
+      "image": "wrong10.png",
+      "classification": "global_ai_rerender",
+      "eligible_for_local_group_coverage": false,
+      "groups": [
+        {
+          "id": "M01",
+          "bbox": [850, 205, 955, 370],
+          "description": "A blue conductor visibly hangs below the upper-right terminal row.",
+          "confidence": "high",
+          "excluded_reason": "The rest of the cabinet is globally regenerated, so this box is review evidence only and not eligible for geometry-based coverage scoring."
+        }
+      ],
+      "manual_observation": "One local blue-conductor difference is clear, but the global rerender prevents treating this image as a fair local-detection case."
+    },
+    {
+      "image": "wrong11.png",
+      "classification": "viewpoint_or_crop_change",
+      "eligible_for_local_group_coverage": false,
+      "groups": [],
+      "manual_observation": "Whole-scene framing and broad panel rendering differ; no isolated local ground-truth group is reliable."
+    },
+    {
+      "image": "wrong12.png",
+      "classification": "viewpoint_or_crop_change",
+      "eligible_for_local_group_coverage": false,
+      "groups": [],
+      "manual_observation": "Global scene and component appearance variation prevents a defensible local-box standard."
+    },
+    {
+      "image": "wrong13.png",
+      "classification": "viewpoint_or_crop_change",
+      "eligible_for_local_group_coverage": false,
+      "groups": [],
+      "manual_observation": "Whole-scene viewpoint and many device details differ together; do not force separate local labels."
+    }
+  ]
+}

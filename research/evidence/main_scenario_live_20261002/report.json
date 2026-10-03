@@ -1,0 +1,632 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 1514.15,
+  "cases": [
+    {
+      "image": "normal_006.JPG",
+      "status": "ready_for_sam3",
+      "output": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\main_scenario_live_20261002\\normal_006\\20261002_130334",
+      "task": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\main_scenario_live_20261002\\normal_006\\20261002_130334\\agent_task.json",
+      "seconds": 583.29,
+      "alignment_reliable": true,
+      "dino_fallback": false,
+      "dino_candidates": 3,
+      "fusion_candidates": 3,
+      "sam_status": "ok",
+      "human_confirmation": false,
+      "repair_guidance_blocked": true,
+      "reinspection_performed": false,
+      "evaluation": {
+        "original_targets": [],
+        "aligned_targets": [],
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stages": {
+          "dino": {
+            "target_count": 0,
+            "target_any_overlap": 0,
+            "target_iou025": 0,
+            "target_iou050": 0,
+            "candidate_count": 3,
+            "candidate_any_overlap": 0,
+            "target_best_ious": []
+          },
+          "fusion": {
+            "target_count": 0,
+            "target_any_overlap": 0,
+            "target_iou025": 0,
+            "target_iou050": 0,
+            "candidate_count": 3,
+            "candidate_any_overlap": 0,
+            "target_best_ious": []
+          }
+        },
+        "strict_precision_claimed": false,
+        "labels_not_operator_confirmation": true
+      }
+    },
+    {
+      "image": "damaged_005.JPG",
+      "status": "ready_for_sam3",
+      "output": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\main_scenario_live_20261002\\damaged_005\\20261002_131317",
+      "task": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\main_scenario_live_20261002\\damaged_005\\20261002_131317\\agent_task.json",
+      "seconds": 310.84,
+      "alignment_reliable": true,
+      "dino_fallback": false,
+      "dino_candidates": 3,
+      "fusion_candidates": 3,
+      "sam_status": "ok",
+      "human_confirmation": false,
+      "repair_guidance_blocked": true,
+      "reinspection_performed": false,
+      "evaluation": {
+        "original_targets": [
+          [
+            2025,
+            541,
+            2043,
+            571
+          ],
+          [
+            1961,
+            930,
+            1992,
+            958
+          ],
+          [
+            904,
+            1958,
+            1093,
+            2055
+          ],
+          [
+            1914,
+            978,
+            2157,
+            1602
+          ],
+          [
+            1366,
+            2145,
+            1638,
+            2227
+          ],
+          [
+            1916,
+            2160,
+            1947,
+            2230
+          ],
+          [
+            2007,
+            1204,
+            2016,
+            1215
+          ],
+          [
+            903,
+            1959,
+            1921,
+            2259
+          ],
+          [
+            1940,
+            2136,
+            1959,
+            2163
+          ],
+          [
+            1880,
+            2206,
+            1907,
+            2256
+          ],
+          [
+            2095,
+            1465,
+            2157,
+            1601
+          ]
+        ],
+        "aligned_targets": [
+          [
+            2009,
+            540,
+            2029,
+            572
+          ],
+          [
+            1946,
+            935,
+            1978,
+            965
+          ],
+          [
+            885,
+            1974,
+            1076,
+            2073
+          ],
+          [
+            1898,
+            983,
+            2148,
+            1617
+          ],
+          [
+            1349,
+            2164,
+            1625,
+            2248
+          ],
+          [
+            1904,
+            2180,
+            1937,
+            2252
+          ],
+          [
+            1993,
+            1213,
+            2003,
+            1225
+          ],
+          [
+            884,
+            1975,
+            1911,
+            2282
+          ],
+          [
+            1928,
+            2156,
+            1949,
+            2185
+          ],
+          [
+            1868,
+            2227,
+            1896,
+            2278
+          ],
+          [
+            2083,
+            1477,
+            2147,
+            1616
+          ]
+        ],
+        "label_sha256": "a6fb9a2ce1b1b5c2789c8646d8c2858cb4894b0dd61505aec30810e28a0b485c",
+        "stages": {
+          "dino": {
+            "target_count": 11,
+            "target_any_overlap": 11,
+            "target_iou025": 0,
+            "target_iou050": 0,
+            "candidate_count": 3,
+            "candidate_any_overlap": 2,
+            "target_best_ious": [
+              0.001387578999859074,
+              0.002081368499788611,
+              0.008363954410924482,
+              0.22905986296072267,
+              0.012579285198830188,
+              0.0012891814023645845,
+              0.0002601710624735764,
+              0.16409036925011947,
+              0.0003304341220707205,
+              0.0007748110448554825,
+              0.004826834072152922
+            ]
+          },
+          "fusion": {
+            "target_count": 11,
+            "target_any_overlap": 11,
+            "target_iou025": 0,
+            "target_iou050": 0,
+            "candidate_count": 3,
+            "candidate_any_overlap": 2,
+            "target_best_ious": [
+              0.001387578999859074,
+              0.002081368499788611,
+              0.008363954410924482,
+              0.22905986296072267,
+              0.012579285198830188,
+              0.0012891814023645845,
+              0.0002601710624735764,
+              0.16409036925011947,
+              0.0003304341220707205,
+              0.0007748110448554825,
+              0.004826834072152922
+            ]
+          }
+        },
+        "strict_precision_claimed": false,
+        "labels_not_operator_confirmation": true
+      }
+    },
+    {
+      "image": "disconnected_005.JPG",
+      "status": "ready_for_sam3",
+      "output": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\main_scenario_live_20261002\\disconnected_005\\20261002_131828",
+      "task": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\main_scenario_live_20261002\\disconnected_005\\20261002_131828\\agent_task.json",
+      "seconds": 309.35,
+      "alignment_reliable": true,
+      "dino_fallback": false,
+      "dino_candidates": 3,
+      "fusion_candidates": 3,
+      "sam_status": "ok",
+      "human_confirmation": false,
+      "repair_guidance_blocked": true,
+      "reinspection_performed": false,
+      "evaluation": {
+        "original_targets": [
+          [
+            1009,
+            905,
+            1040,
+            991
+          ],
+          [
+            902,
+            1119,
+            1319,
+            1230
+          ],
+          [
+            1351,
+            1832,
+            1439,
+            1889
+          ],
+          [
+            2304,
+            587,
+            2452,
+            683
+          ],
+          [
+            1618,
+            1006,
+            1703,
+            1038
+          ],
+          [
+            2747,
+            1843,
+            2856,
+            1943
+          ],
+          [
+            1224,
+            1119,
+            1319,
+            1196
+          ],
+          [
+            2164,
+            498,
+            2180,
+            546
+          ],
+          [
+            2204,
+            578,
+            2452,
+            683
+          ],
+          [
+            1731,
+            974,
+            1977,
+            1164
+          ],
+          [
+            1053,
+            1780,
+            1439,
+            1906
+          ],
+          [
+            1898,
+            987,
+            1977,
+            1066
+          ],
+          [
+            2764,
+            2275,
+            2879,
+            2319
+          ],
+          [
+            1929,
+            1843,
+            2856,
+            2369
+          ],
+          [
+            964,
+            1770,
+            996,
+            1822
+          ]
+        ],
+        "aligned_targets": [
+          [
+            985,
+            906,
+            1018,
+            994
+          ],
+          [
+            879,
+            1121,
+            1299,
+            1234
+          ],
+          [
+            1331,
+            1839,
+            1421,
+            1897
+          ],
+          [
+            2290,
+            582,
+            2441,
+            680
+          ],
+          [
+            1598,
+            1007,
+            1685,
+            1040
+          ],
+          [
+            2741,
+            1852,
+            2852,
+            1955
+          ],
+          [
+            1202,
+            1121,
+            1299,
+            1200
+          ],
+          [
+            2148,
+            492,
+            2166,
+            542
+          ],
+          [
+            2189,
+            573,
+            2441,
+            681
+          ],
+          [
+            1712,
+            974,
+            1961,
+            1167
+          ],
+          [
+            1032,
+            1786,
+            1421,
+            1914
+          ],
+          [
+            1880,
+            987,
+            1961,
+            1068
+          ],
+          [
+            2758,
+            2289,
+            2876,
+            2335
+          ],
+          [
+            1913,
+            1851,
+            2853,
+            2385
+          ],
+          [
+            943,
+            1776,
+            976,
+            1829
+          ]
+        ],
+        "label_sha256": "73d87cdcb29a6a2bddf9aa6bb638a53296225e5089e7c05bce152fb41b84ea5c",
+        "stages": {
+          "dino": {
+            "target_count": 15,
+            "target_any_overlap": 0,
+            "target_iou025": 0,
+            "target_iou050": 0,
+            "candidate_count": 3,
+            "candidate_any_overlap": 0,
+            "target_best_ious": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "fusion": {
+            "target_count": 15,
+            "target_any_overlap": 0,
+            "target_iou025": 0,
+            "target_iou050": 0,
+            "candidate_count": 3,
+            "candidate_any_overlap": 0,
+            "target_best_ious": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "strict_precision_claimed": false,
+        "labels_not_operator_confirmation": true
+      }
+    },
+    {
+      "image": "misrouted_001.JPG",
+      "status": "ready_for_sam3",
+      "output": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\main_scenario_live_20261002\\misrouted_001\\20261002_132338",
+      "task": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\main_scenario_live_20261002\\misrouted_001\\20261002_132338\\agent_task.json",
+      "seconds": 310.1,
+      "alignment_reliable": true,
+      "dino_fallback": false,
+      "dino_candidates": 3,
+      "fusion_candidates": 3,
+      "sam_status": "ok",
+      "human_confirmation": false,
+      "repair_guidance_blocked": true,
+      "reinspection_performed": false,
+      "evaluation": {
+        "original_targets": [
+          [
+            1939,
+            2521,
+            2773,
+            2662
+          ],
+          [
+            2361,
+            1294,
+            2445,
+            1645
+          ]
+        ],
+        "aligned_targets": [
+          [
+            1935,
+            2541,
+            2776,
+            2687
+          ],
+          [
+            2354,
+            1311,
+            2441,
+            1664
+          ]
+        ],
+        "label_sha256": "bade5f513e484afbb621e3ec0d4117615552c43a225315fe3908372d61f90c58",
+        "stages": {
+          "dino": {
+            "target_count": 2,
+            "target_any_overlap": 1,
+            "target_iou025": 0,
+            "target_iou050": 0,
+            "candidate_count": 3,
+            "candidate_any_overlap": 1,
+            "target_best_ious": [
+              0.0,
+              0.007429013817965701
+            ]
+          },
+          "fusion": {
+            "target_count": 2,
+            "target_any_overlap": 1,
+            "target_iou025": 0,
+            "target_iou050": 0,
+            "candidate_count": 3,
+            "candidate_any_overlap": 1,
+            "target_best_ious": [
+              0.0,
+              0.007429013817965701
+            ]
+          }
+        },
+        "strict_precision_claimed": false,
+        "labels_not_operator_confirmation": true
+      }
+    }
+  ],
+  "manifest": {
+    "selection": "first alphabetically per filename category; fixed before inference",
+    "reference": "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_073.JPG",
+    "reference_sha256": "09f81923e44089603ccfb5989e370d07cc27f2e929ebfc70de945a08947b19ac",
+    "images": [
+      {
+        "image": "normal_006.JPG",
+        "path": "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\test01\\normal_006.JPG",
+        "sha256": "709718ee9f13eb7f0ea75b6193873535811b6e0e80ebc6a0d30c713c9bb4093c"
+      },
+      {
+        "image": "damaged_005.JPG",
+        "path": "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\test01\\damaged_005.JPG",
+        "sha256": "35cb1fb933e2be5944535cfbce88fcd3c48f4235a6671c0126bf8aef2f6e315b"
+      },
+      {
+        "image": "disconnected_005.JPG",
+        "path": "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\test01\\disconnected_005.JPG",
+        "sha256": "8a068a6fd0dd883fe33b28a217f5b3e519ac21a90ce0136b61f9e187af153a31"
+      },
+      {
+        "image": "misrouted_001.JPG",
+        "path": "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\test01\\misrouted_001.JPG",
+        "sha256": "24adcc0cccbb14b979d6b6e34379438a7d03eac33fc922e56fe7bbe7b68be37e"
+      }
+    ],
+    "source_sha256": {
+      "E:\\PythonProject10\\prototype\\assembly_auto_review_dino.py": "6d2217349febbff7fa0bdec4dd5363d05b8708d2865acb7aa873efd5e1827323",
+      "E:\\PythonProject10\\prototype\\tiled_dino_review.py": "5ab4d3f68dbf82554dd9b5e90480330eac6875405b84a9d59d0489904cd0079f",
+      "E:\\PythonProject10\\prototype\\sam3_wire_fusion.py": "45ff7ab8fc23e7b3e06687a070697e3e20fae4284f399241f61b9962b4056f4a",
+      "E:\\PythonProject10\\prototype\\assembly_auto_review_robust_v3.py": "9e2bfdb9d752ba725211192818cd489d58fbab87bf6c7a80cc05bfac81542500"
+    },
+    "roi": [
+      [
+        0.03,
+        0.04,
+        0.97,
+        0.96
+      ]
+    ],
+    "candidate_budget": 3,
+    "weights": {
+      "dino": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+      "sam3": "9999e2341ceef5e136daa386eecb55cb414446a00ac2b55eb2dfd2f7c3cf8c9e"
+    },
+    "new_inference": true,
+    "labels_used_for_inference": false,
+    "optional_port_model_enabled": false
+  },
+  "source_unchanged": true,
+  "labels_used_for_inference": false,
+  "field_accuracy_claimed": false,
+  "human_confirmation": false,
+  "reinspection_performed": false
+}

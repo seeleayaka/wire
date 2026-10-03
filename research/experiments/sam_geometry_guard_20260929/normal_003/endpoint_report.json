@@ -1,0 +1,842 @@
+{
+  "source_dir": "E:\\PythonProject10\\manual_review\\sam3_mendeley_intelliman_normal_003_thr040_20260828",
+  "geometry_contract_version": 1,
+  "manual_confirmation_required": true,
+  "source_prompt": "cable",
+  "source_confidence_threshold": 0.4,
+  "min_component_pixels": 50,
+  "overview_labels": false,
+  "records": [
+    {
+      "record_id": "m001_c01",
+      "source_mask_id": 1,
+      "source_score": 0.51953125,
+      "component_id": 1,
+      "component_pixels": 8660,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 160,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          3169,
+          991
+        ],
+        [
+          3021,
+          1077
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          3169,
+          991
+        ],
+        [
+          3021,
+          1077
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m002_c01",
+      "source_mask_id": 2,
+      "source_score": 0.56640625,
+      "component_id": 1,
+      "component_pixels": 24089,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 468,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          1838,
+          2085
+        ],
+        [
+          1804,
+          2532
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          1838,
+          2085
+        ],
+        [
+          1804,
+          2532
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m002_c02",
+      "source_mask_id": 2,
+      "source_score": 0.56640625,
+      "component_id": 2,
+      "component_pixels": 1850,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 86,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          1840,
+          2569
+        ],
+        [
+          1925,
+          2600
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          1840,
+          2569
+        ],
+        [
+          1925,
+          2600
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m003_c01",
+      "source_mask_id": 3,
+      "source_score": 0.419921875,
+      "component_id": 1,
+      "component_pixels": 23148,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 590,
+      "candidate_tip_count": 4,
+      "candidate_tips_xy": [
+        [
+          968,
+          938
+        ],
+        [
+          974,
+          957
+        ],
+        [
+          993,
+          1018
+        ],
+        [
+          497,
+          1069
+        ]
+      ],
+      "branch_cluster_count": 2,
+      "geometry_pair_eligible": false,
+      "visible_ends_xy": [],
+      "endpoint_status": "ambiguous_branched_visible_segment"
+    },
+    {
+      "record_id": "m004_c01",
+      "source_mask_id": 4,
+      "source_score": 0.435546875,
+      "component_id": 1,
+      "component_pixels": 56417,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 1081,
+      "candidate_tip_count": 13,
+      "candidate_tips_xy": [
+        [
+          2782,
+          1124
+        ],
+        [
+          2842,
+          1129
+        ],
+        [
+          2825,
+          1188
+        ],
+        [
+          2812,
+          1238
+        ],
+        [
+          2805,
+          1398
+        ],
+        [
+          2795,
+          1402
+        ],
+        [
+          2777,
+          1438
+        ],
+        [
+          2767,
+          1451
+        ],
+        [
+          2711,
+          1616
+        ],
+        [
+          2689,
+          1628
+        ],
+        [
+          2658,
+          1643
+        ],
+        [
+          2689,
+          1647
+        ],
+        [
+          2594,
+          1648
+        ]
+      ],
+      "branch_cluster_count": 10,
+      "geometry_pair_eligible": false,
+      "visible_ends_xy": [],
+      "endpoint_status": "ambiguous_branched_visible_segment"
+    },
+    {
+      "record_id": "m004_c05",
+      "source_mask_id": 4,
+      "source_score": 0.435546875,
+      "component_id": 5,
+      "component_pixels": 1133,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 52,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          2815,
+          1349
+        ],
+        [
+          2768,
+          1382
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          2815,
+          1349
+        ],
+        [
+          2768,
+          1382
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m004_c06",
+      "source_mask_id": 4,
+      "source_score": 0.435546875,
+      "component_id": 6,
+      "component_pixels": 143,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 17,
+      "candidate_tip_count": 3,
+      "candidate_tips_xy": [
+        [
+          2702,
+          1626
+        ],
+        [
+          2696,
+          1628
+        ],
+        [
+          2702,
+          1637
+        ]
+      ],
+      "branch_cluster_count": 1,
+      "geometry_pair_eligible": false,
+      "visible_ends_xy": [],
+      "endpoint_status": "ambiguous_branched_visible_segment"
+    },
+    {
+      "record_id": "m004_c07",
+      "source_mask_id": 4,
+      "source_score": 0.435546875,
+      "component_id": 7,
+      "component_pixels": 72406,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 1266,
+      "candidate_tip_count": 12,
+      "candidate_tips_xy": [
+        [
+          2612,
+          1735
+        ],
+        [
+          2262,
+          1802
+        ],
+        [
+          2251,
+          1822
+        ],
+        [
+          2172,
+          1887
+        ],
+        [
+          2164,
+          1896
+        ],
+        [
+          2147,
+          1905
+        ],
+        [
+          2039,
+          2047
+        ],
+        [
+          2009,
+          2098
+        ],
+        [
+          1990,
+          2104
+        ],
+        [
+          2004,
+          2307
+        ],
+        [
+          2047,
+          2319
+        ],
+        [
+          2038,
+          2329
+        ]
+      ],
+      "branch_cluster_count": 12,
+      "geometry_pair_eligible": false,
+      "visible_ends_xy": [],
+      "endpoint_status": "ambiguous_branched_visible_segment"
+    },
+    {
+      "record_id": "m004_c09",
+      "source_mask_id": 4,
+      "source_score": 0.435546875,
+      "component_id": 9,
+      "component_pixels": 66,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 13,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          1998,
+          2084
+        ],
+        [
+          1986,
+          2085
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          1998,
+          2084
+        ],
+        [
+          1986,
+          2085
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m004_c10",
+      "source_mask_id": 4,
+      "source_score": 0.435546875,
+      "component_id": 10,
+      "component_pixels": 221,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 16,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          1929,
+          2123
+        ],
+        [
+          1944,
+          2123
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          1929,
+          2123
+        ],
+        [
+          1944,
+          2123
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m004_c12",
+      "source_mask_id": 4,
+      "source_score": 0.435546875,
+      "component_id": 12,
+      "component_pixels": 66,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 13,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          1988,
+          2131
+        ],
+        [
+          1976,
+          2132
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          1988,
+          2131
+        ],
+        [
+          1976,
+          2132
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m005_c01",
+      "source_mask_id": 5,
+      "source_score": 0.490234375,
+      "component_id": 1,
+      "component_pixels": 8860,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 258,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          1615,
+          916
+        ],
+        [
+          1475,
+          1167
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          1615,
+          916
+        ],
+        [
+          1475,
+          1167
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m006_c01",
+      "source_mask_id": 6,
+      "source_score": 0.404296875,
+      "component_id": 1,
+      "component_pixels": 895,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 41,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          1855,
+          369
+        ],
+        [
+          1849,
+          409
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          1855,
+          369
+        ],
+        [
+          1849,
+          409
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m006_c02",
+      "source_mask_id": 6,
+      "source_score": 0.404296875,
+      "component_id": 2,
+      "component_pixels": 7437,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 193,
+      "candidate_tip_count": 3,
+      "candidate_tips_xy": [
+        [
+          1891,
+          472
+        ],
+        [
+          1955,
+          522
+        ],
+        [
+          1994,
+          643
+        ]
+      ],
+      "branch_cluster_count": 1,
+      "geometry_pair_eligible": false,
+      "visible_ends_xy": [],
+      "endpoint_status": "ambiguous_branched_visible_segment"
+    },
+    {
+      "record_id": "m006_c03",
+      "source_mask_id": 6,
+      "source_score": 0.404296875,
+      "component_id": 3,
+      "component_pixels": 84,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 18,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          1860,
+          603
+        ],
+        [
+          1855,
+          618
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          1860,
+          603
+        ],
+        [
+          1855,
+          618
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m007_c01",
+      "source_mask_id": 7,
+      "source_score": 0.5,
+      "component_id": 1,
+      "component_pixels": 7026,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 264,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          3017,
+          1564
+        ],
+        [
+          2769,
+          1766
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          3017,
+          1564
+        ],
+        [
+          2769,
+          1766
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m008_c01",
+      "source_mask_id": 8,
+      "source_score": 0.453125,
+      "component_id": 1,
+      "component_pixels": 21083,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 712,
+      "candidate_tip_count": 4,
+      "candidate_tips_xy": [
+        [
+          829,
+          1642
+        ],
+        [
+          923,
+          1779
+        ],
+        [
+          905,
+          1852
+        ],
+        [
+          451,
+          1909
+        ]
+      ],
+      "branch_cluster_count": 2,
+      "geometry_pair_eligible": false,
+      "visible_ends_xy": [],
+      "endpoint_status": "ambiguous_branched_visible_segment"
+    },
+    {
+      "record_id": "m009_c01",
+      "source_mask_id": 9,
+      "source_score": 0.412109375,
+      "component_id": 1,
+      "component_pixels": 8459,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 299,
+      "candidate_tip_count": 3,
+      "candidate_tips_xy": [
+        [
+          2024,
+          495
+        ],
+        [
+          1941,
+          550
+        ],
+        [
+          1814,
+          719
+        ]
+      ],
+      "branch_cluster_count": 1,
+      "geometry_pair_eligible": false,
+      "visible_ends_xy": [],
+      "endpoint_status": "ambiguous_branched_visible_segment"
+    },
+    {
+      "record_id": "m009_c03",
+      "source_mask_id": 9,
+      "source_score": 0.412109375,
+      "component_id": 3,
+      "component_pixels": 606,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 14,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          2007,
+          615
+        ],
+        [
+          2002,
+          628
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          2007,
+          615
+        ],
+        [
+          2002,
+          628
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m010_c01",
+      "source_mask_id": 10,
+      "source_score": 0.5390625,
+      "component_id": 1,
+      "component_pixels": 3856,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 150,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          2976,
+          2360
+        ],
+        [
+          2889,
+          2502
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          2976,
+          2360
+        ],
+        [
+          2889,
+          2502
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m011_c01",
+      "source_mask_id": 11,
+      "source_score": 0.51171875,
+      "component_id": 1,
+      "component_pixels": 28834,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 706,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          1540,
+          607
+        ],
+        [
+          1069,
+          997
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          1540,
+          607
+        ],
+        [
+          1069,
+          997
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m012_c01",
+      "source_mask_id": 12,
+      "source_score": 0.40625,
+      "component_id": 1,
+      "component_pixels": 8379,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 117,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          2769,
+          2420
+        ],
+        [
+          2710,
+          2525
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          2769,
+          2420
+        ],
+        [
+          2710,
+          2525
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    },
+    {
+      "record_id": "m013_c01",
+      "source_mask_id": 13,
+      "source_score": 0.4609375,
+      "component_id": 1,
+      "component_pixels": 26630,
+      "geometry_contract_version": 1,
+      "skeleton_component_count": 1,
+      "skeleton_pixels": 692,
+      "candidate_tip_count": 2,
+      "candidate_tips_xy": [
+        [
+          1812,
+          828
+        ],
+        [
+          2303,
+          1394
+        ]
+      ],
+      "branch_cluster_count": 0,
+      "geometry_pair_eligible": true,
+      "visible_ends_xy": [
+        [
+          1812,
+          828
+        ],
+        [
+          2303,
+          1394
+        ]
+      ],
+      "endpoint_status": "unbranched_two_tip_visible_segment"
+    }
+  ]
+}

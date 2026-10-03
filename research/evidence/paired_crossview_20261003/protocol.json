@@ -1,0 +1,46 @@
+{
+  "pins": {
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\run_paired_crossview_train.py": "d58f812f0299e9fad094acf50d010b830a28be0badaaa1144627da1cf21f2d84",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\paired_crossview_selection.py": "97cba22bf81e79990624e9dd5f6ced7d7ea3205256ed3922e35ecb81639bada8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\port_semantic_verifier.py": "3fa1997479eaf877264eee6c1cb865bab31094005ab4fef8658446e88bd6e671",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_crossview_preregistration_20261003\\PLAN.md": "2c377bd0e7898d737b3b687519985369d02b31fe4a73c83977e120634d661d96",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_boxpool_original_rows_20261003\\heads_oof\\oof_probabilities.pt": "deb055b7b0910a21ff8cf9b95033953504149f51c624b7720e483cbcadd9cc50",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_boxpool_original_rows_20261003\\heads_oof\\report.json": "9fe2162ceed0322a96268bc0efe7d5b94ae8c386951cfd6d54fb481bdd92b8a9",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_boxpool_original_rows_20261003\\features_train\\features.pt": "6f4c9a2bca72b2a52138f42dd7474a874d701f0ae40d6e5bed010edee1ee3138",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_boxpool_original_rows_20261003\\features_train\\samples.json": "0711775092c933299c659f39c4d1a420092f0ec82cd3e7302c0f8f44057df09f",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_semantic_localization_20261003\\features_train\\features.pt": "3b907c27b3c7c2d7e700b6609ed0fb7741da34d96fce08225861bd0758043418",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_semantic_localization_20261003\\features_train\\samples.json": "8321caec370a011a2e173bdd476424e7c812ea2af49908fbc1840f0ad64ad78e"
+  },
+  "runtime_fingerprint": {
+    "accepted": {
+      "accepted_feature": {
+        "accepted": {
+          "teacher": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "student": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "manifest": "362fe4ae4a4d9f14ceefee4bd2184fd54efe1de18a02a557583b669eb523196e",
+          "support_code": "aae3fb97dc7735042370245ac591bd8ef68ed92b43182c368bcf8b472b4529db",
+          "context_code": "fbcf4f4b529e0617d69939704a7c494fc1c6a00a44d3fa66c0ea7bb24e508342",
+          "calibration": "bf8a034e398402de4e9c22ed13dedcbb410e717989f2202b1adc49712844e86d"
+        },
+        "feature": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+        "manifest": "115219f1f41b7675c2fb85401caba62b1d3dc2720b3647e297b0f1636b34abcc",
+        "feature_code": "0af358788bf2da0e49169544f2ce7c024334c2274dc1eac6af858ffdcd14e79c"
+      },
+      "resolution_code": "56e1c14f32e6e67cb1eb66ba4e02427c8c90e679aff1883772a8541def66f222",
+      "resolution_manifest": "478cda48b165b5eb4142bddf57d7399dd68fa3dde559950a5d32cbd6718f4866",
+      "predict_code": "093b0c9ec940c48a4863a302d98ed0fe36e6e6d0f4f68c1da96a80a406a168dd",
+      "tiling_code": "113a9b57ec431103afb35153f1f07868417715cd6829756a1350471cba8a239d"
+    },
+    "head": "238f517bfdbe5e81f6c98e28c33750fa02de75cf25ec0c93b8876fe72657004a",
+    "manifest": "2b716d54aaf4a0f12d37b2bc5a79c505b872308205850e438238d41c10f96637",
+    "backend": "ca5c08414b2721e01fb701ac4067efbac55d1f7df03e2dc3076410ee80115269",
+    "features": "da8b7e3d1f351ba85b6391c47ae42df8a6d1f95dc7ef5adf039d849d4d84ec75",
+    "encoder": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+  },
+  "member_context1107_footprint3134": true,
+  "paired_classifier_OOF_only": true,
+  "min_member_not_calibrated": true,
+  "no_score_or_GT_change": true,
+  "no_deployment": true,
+  "field_accuracy": false
+}

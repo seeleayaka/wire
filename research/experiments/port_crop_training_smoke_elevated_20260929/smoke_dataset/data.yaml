@@ -1,0 +1,6 @@
+path: C:/Users/HUAWEI/Documents/Codex/2026-09-20/z/experiments/port_crop_training_smoke_elevated_20260929/smoke_dataset
+train: images/train
+val: images/val
+names:
+  0: unplugged_plug
+  1: unplugged_jack

@@ -1,0 +1,52 @@
+{
+  "schema_version": 2,
+  "revision_note": "2026-08-26 raw-image re-review corrected the earlier description of set 4. Its dominant variation is camera pose/framing plus normal generative detail drift; it must not be described as a globally regenerated cabinet fault set.",
+  "kind": "candidate_post_filter_sweep_summary",
+  "implementation": "run_cabinet_candidate_threshold_sweep.py",
+  "run_roots": {
+    "set2": "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\cabinet_candidate_threshold_sweep_20260826\\set2",
+    "set4": "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\cabinet_candidate_threshold_sweep_20260826\\set4",
+    "set5": "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\cabinet_candidate_threshold_sweep_20260826\\set5"
+  },
+  "method": "The original DINO mainline runs unchanged. Each already-published possible_difference_manual_review candidate is then retained or suppressed in a separate diagnostic report/overlay. Suppressed candidates remain recorded. This test does not remove the existing mainline top-candidate budget or alter the GUI.",
+  "thresholds": {
+    "base": "no post-filter",
+    "loose": "dino_mean_max >= 0.14 AND cross_evidence_pixel_ratio_max >= 0.10",
+    "balanced": "dino_mean_max >= 0.16 AND cross_evidence_pixel_ratio_max >= 0.16",
+    "medium": "dino_mean_max >= 0.20 AND cross_evidence_pixel_ratio_max >= 0.20",
+    "strict": "dino_mean_max >= 0.24 AND cross_evidence_pixel_ratio_max >= 0.24",
+    "score173_only": "difference_score >= 173"
+  },
+  "totals": {
+    "set2": {"images": 8, "alignment_reliable": 8, "base": 23, "loose": 20, "balanced": 20, "medium": 15, "strict": 8, "score173_only": 4},
+    "set4": {"images": 13, "alignment_reliable": 13, "base": 32, "loose": 32, "balanced": 32, "medium": 31, "strict": 29, "score173_only": 31},
+    "set5": {"images": 8, "alignment_reliable": 6, "base": 14, "loose": 12, "balanced": 12, "medium": 11, "strict": 11, "score173_only": 9}
+  },
+  "manual_visual_spot_checks": [
+    {
+      "image": "set2 case_05",
+      "base_to_balanced": "3 to 2",
+      "observation": "The balanced gate suppresses the top horizontal cabinet-frame region and retains the white dangling conductor plus lower yellow-green conductor."
+    },
+    {
+      "image": "set2 case_06",
+      "base_to_balanced": "3 to 1",
+      "observation": "The balanced gate suppresses the top frame and upper-right terminal-detail regions, retaining the lower white dangling-conductor candidate."
+    },
+    {
+      "image": "set5 case_05",
+      "base_to_balanced": "3 to 2",
+      "observation": "The balanced gate suppresses a low-evidence middle rail candidate; the remaining candidates still require human review."
+    },
+    {
+      "image": "set4 case_06",
+      "base_to_balanced": "3 to 3",
+      "observation": "Raw-image review shows a small camera-pose/framing change and generated micro-detail drift. Residual geometry and detail changes still produce strong DINO and cross evidence, so this numerical gate does not reject them."
+    }
+  ],
+  "conclusion": {
+    "balanced_gate": "Useful only as a weak-noise pre-filter. It removes 3 of 23 selected-unrelated visual candidates in prior set-2 diagnostics without dropping the 18 selected visual-evidence candidates, and reduces set-5 candidates from 14 to 12.",
+    "not_sufficient": "It makes no reduction on set 4 (32 to 32) because residual perspective/framing and generated micro-detail changes have strong numeric evidence. Raising thresholds reduces set-2 outputs sharply but still barely changes set 4, so a global numerical cutoff is not a robust false-positive solution.",
+    "next_required_gate": "First improve pose-tolerance/local alignment, then apply a spatial wire-zone/free-end/elongated-conductor rule after the balanced numeric pre-filter. Do not present these AI-generated-set counts as fault accuracy or use them to set a final production threshold."
+  }
+}

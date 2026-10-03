@@ -1,0 +1,123 @@
+{
+  "status": "complete",
+  "cases": [
+    {
+      "image": "normal_006.JPG",
+      "status": "fallback",
+      "primary": 0,
+      "supplementary": 0,
+      "recheck": {
+        "policy_id": "primary5_supplement5_context_recheck_v1_20261002",
+        "enabled": true,
+        "maximum_proposals": 6,
+        "seed_score": 0.5,
+        "both_view_score": 0.75,
+        "crop_size": 1280,
+        "predict_imgsz": 960,
+        "agreement_iou": 0.5,
+        "maximum_total_primary": 5,
+        "maximum_total_supplementary": 5,
+        "source_reference_fresh": true,
+        "same_photo_not_independent_physical_evidence": true,
+        "automatic_fault_verdict": false,
+        "added_hints": 0
+      },
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\context_port_backend_20261002\\normal_006\\evidence.json",
+      "metrics": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "baseline_metrics": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      }
+    },
+    {
+      "image": "disconnected_005.JPG",
+      "status": "applied",
+      "primary": 4,
+      "supplementary": 0,
+      "recheck": {
+        "policy_id": "primary5_supplement5_context_recheck_v1_20261002",
+        "enabled": true,
+        "maximum_proposals": 6,
+        "seed_score": 0.5,
+        "both_view_score": 0.75,
+        "crop_size": 1280,
+        "predict_imgsz": 960,
+        "agreement_iou": 0.5,
+        "maximum_total_primary": 5,
+        "maximum_total_supplementary": 5,
+        "source_reference_fresh": true,
+        "same_photo_not_independent_physical_evidence": true,
+        "automatic_fault_verdict": false,
+        "added_hints": 0,
+        "proposals": 0
+      },
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\context_port_backend_20261002\\disconnected_005\\evidence.json",
+      "metrics": {
+        "tp": 4,
+        "unmatched": 0,
+        "fn": 6,
+        "predictions": 4,
+        "targets": 10
+      },
+      "baseline_metrics": {
+        "tp": 4,
+        "unmatched": 0,
+        "fn": 6,
+        "predictions": 4,
+        "targets": 10
+      }
+    },
+    {
+      "image": "disconnected_028.JPG",
+      "status": "applied",
+      "primary": 5,
+      "supplementary": 3,
+      "recheck": {
+        "policy_id": "primary5_supplement5_context_recheck_v1_20261002",
+        "enabled": true,
+        "maximum_proposals": 6,
+        "seed_score": 0.5,
+        "both_view_score": 0.75,
+        "crop_size": 1280,
+        "predict_imgsz": 960,
+        "agreement_iou": 0.5,
+        "maximum_total_primary": 5,
+        "maximum_total_supplementary": 5,
+        "source_reference_fresh": true,
+        "same_photo_not_independent_physical_evidence": true,
+        "automatic_fault_verdict": false,
+        "added_hints": 1,
+        "confirmed_source_candidates": 1
+      },
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\context_port_backend_20261002\\fresh_initial_028\\20261002_221702\\evidence.json",
+      "sam_pending": true,
+      "metrics": {
+        "tp": 8,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 8,
+        "targets": 8
+      },
+      "baseline_metrics": {
+        "tp": 7,
+        "unmatched": 0,
+        "fn": 1,
+        "predictions": 7,
+        "targets": 8
+      }
+    }
+  ],
+  "parity_cases": 110,
+  "tests": 12,
+  "new_sam": false,
+  "original_reports_unchanged": true
+}

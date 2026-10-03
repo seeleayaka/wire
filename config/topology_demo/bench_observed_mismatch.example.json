@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "graph_id": "bench_observed_mismatch_demo_v1",
+  "scene_type": "bench_terminal_board",
+  "nodes": [
+    {"id": "power_plus", "kind": "terminal", "label": "+24V"},
+    {"id": "load_in", "kind": "terminal", "label": "负载输入"},
+    {"id": "load_out", "kind": "terminal", "label": "负载输出"},
+    {"id": "power_minus", "kind": "terminal", "label": "0V"}
+  ],
+  "connections": [
+    {
+      "id": "observed_001",
+      "from": "power_plus",
+      "to": "load_out",
+      "confidence": 0.93,
+      "evidence_ids": ["synthetic_segment_001"]
+    },
+    {
+      "id": "observed_002",
+      "from": "load_out",
+      "to": "power_minus",
+      "confidence": 0.61,
+      "evidence_ids": ["synthetic_segment_002"]
+    }
+  ]
+}

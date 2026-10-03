@@ -1,0 +1,154 @@
+大检查区自动分块检测计划（交接版）
+日期：2026-08-19
+状态：待实施
+
+一、问题与可复现证据
+
+当前 DINO 检测会把用户画出的一个检查区作为一张完整图来计算：
+- DINO 特征会按该裁剪区尺寸缩放；
+- 传统差异和候选阈值按该裁剪区的相对分数计算；
+- 因此同一异常在小检查区可被检出，合并成一块较大区域后可能被大量背景纹理稀释。
+
+已复现：
+- memory2 wrong-13、wrong-14 使用两个较小区域时可产生候选；
+- latest report 20260819_134653 使用一块 [367,894,978,1473] 的大区（同时覆盖原两块关键区）却输出 0 个候选；
+- 全局 Homography 可靠：544 inliers、1.1 px 重投影误差、有效 warp 覆盖 0.9788，因此不是定位或黑边造成的漏检。
+
+二、目标
+
+把“一个大检查区 = 一次检测”改为内部的两层检测：
+
+大检查区
+  ├─ 整体粗检：保留现有大区域的 DINO/传统融合，用于大目标变化与整柜噪声控制
+  └─ 重叠小块细检：自动切分后分别比较，用于内存槽、端子、线束端点等局部变化
+           ↓
+      坐标还原、去重、合并
+           ↓
+      界面仅显示少量最终候选框
+
+注意：不改变用户界面，不要求用户画多个小框，也不修改用户已有的检查区含义。
+
+三、建议实现位置与接口
+
+主入口：prototype/assembly_auto_review_dino.py 的 dino_fused_regions()
+现有候选层：prototype/dino_feature_diff_v2.py 的 fused_components()/candidate_components()
+现有对齐有效掩码：assembly_auto_review_robust_v3.py 中 auto.LAST_WARP_VALID_MASK
+
+建议新增独立模块：prototype/tiled_dino_review.py
+避免把切块、坐标映射、合并逻辑塞进 UI 文件。
+
+建议接口：
+
+def tiled_fused_components(
+    reference_roi, aligned_roi, valid_roi,
+    *, tile_width, tile_height, overlap_ratio,
+    enable_whole_roi=True,
+) -> (score_or_visual_data, metadata, merged_candidates)
+
+要求：
+- 输入/输出坐标均相对当前大检查区；由 dino_fused_regions() 再加回全图偏移；
+- valid_roi 必须传给每个 tile，不能让 warp 无效边缘重新成为候选；
+- 没有切块必要时（小 ROI）直接走当前 fused_components()，保持当前小区域表现。
+
+四、切块策略（第一版）
+
+1. 触发条件
+- ROI 面积 >= 全图 8% 时启用细检切块；
+- 小于 8% 的 ROI 保持当前单区域检测；
+- 不要把“整柜大区是否启用 cross-evidence”与“是否启用 tile”混为一谈。
+
+2. tile 尺寸
+- 按参考图尺寸计算，初值为约 22% 图宽 × 26% 图高；
+- 最小边长不低于 224 px，最大边长不高于 420 px；
+- tile 在 ROI 边界处必须补齐，不得漏掉边沿内容；
+- 如一个 ROI 较窄或较矮，可退化成单列/单行 tile。
+
+3. 重叠
+- 初值 30%（步长 70%）；
+- 同一物体可出现在相邻 2 个 tile，避免正好落在 tile 边界时被切断；
+- 记录 tile 总数，第一版限制最多 12 块，超过时等比例放大 tile，避免检测耗时失控。
+
+4. 检测策略
+- 保留整块粗检：大于全图 50% 的 ROI 继续使用现有 cross-evidence 模式，控制线缆柜导轨/标签噪声；
+- 每个 tile 使用当前小区域的敏感模式，优先保住 memory2 的微小异常；
+- 但 tile 结果不能直接全量显示，必须进入第五节的合并/过滤。
+
+五、候选合并与抗噪要求
+
+1. 坐标还原
+- 每个 tile 的候选框加回 tile 左上角；
+- 先裁剪至原始大 ROI 和 valid_roi 内，再进入合并。
+
+2. 去重/合并
+- 两候选 IoU >= 0.25 时合并；
+- 或中心距离小于 0.15 × min(候选宽高) 且框有接触/重叠时合并；
+- 合并框使用并集，difference_score 取最大或面积加权均值；
+- 报告中保留 source_tiles，方便判断是否为重叠 tile 的重复发现。
+
+3. 噪声防护
+- 无效 warp 区域始终排除；
+- 整柜粗检的 cross-evidence 规则不得删除；
+- 若 tile 候选只靠边界/标签纹理出现，应优先用以下证据降低优先级，而非直接删掉真实小异常：
+  * 是否接触大 ROI 边缘；
+  * 是否仅在一个 tile 的边缘出现；
+  * 该候选的 DINO/传统/一致性分数；
+  * 是否与整块粗检候选空间相交。
+- 第一版输出仍是 possible_difference/manual_review，不得声称正式 NG。
+
+六、报告与界面
+
+在 local_alignment[...].dino 或新增 tiled_review 字段中写入：
+- mode: "whole_roi_plus_overlapping_tiles"；
+- roi_area_ratio；
+- tile_size_pixels、overlap_ratio、tile_count；
+- whole_roi_candidate_count；
+- tile_candidate_count（合并前）；
+- merged_candidate_count；
+- 每个最终候选的 source_tiles、evidence_summary。
+
+界面：
+- 仍只显示原大检查区黄边和“合并后”的最终候选框；
+- 不显示 tile 网格，不增加手动操作；
+- 热图可按 max/加权方式合成，但必须避免在 tile 边界出现人为接缝。
+
+七、必须先写的回归测试
+
+新增/扩展 prototype/evaluate_noise_regression.py，测试必须走与 UI 相同的 dino_fused_regions 或同一 tiled 函数，不能只测试某个孤立 helper。
+
+A. 新的失败用例（修复前应失败）
+- memory2 wrong-13：
+  reference: 内存2/right/微信图片_20260818133405_15_71.jpg
+  inspection: 内存2/wrong/微信图片_20260818133403_13_71.jpg
+  large ROI: [367/1280, 894/1706, 978/1280, 1473/1706]
+  断言：至少 1 个候选，且至少一个候选与历史异常区 [404,1026,434,1414] 相交。
+
+- memory2 wrong-14：同一 large ROI。
+  断言：至少 1 个候选，且至少一个候选与历史异常区之一相交：
+  [404,1160,445,1285]、[404,1383,465,1443]、[508,1146,538,1173]。
+
+B. 既有线缆柜防回退用例
+- cable right-self：0 个候选；
+- wrong1~wrong5：每个至少保留 1 个候选；
+- wrong4：至少保留与 [500,160,640,310] 相交的真实白线候选，最终候选总数 <= 3；
+- wrong5：不重新出现右侧边缘大框（候选总数应维持当前 <= 1，若确有真实新差异需在报告解释）。
+
+C. memory2 原小区回归
+- memory2 wrong-13 至少 1 个候选；
+- memory2 wrong-14 至少 1 个候选；
+- 保留原 evaluate_regression_suite.py 的全部 8/8 通过。
+
+八、验收顺序
+
+1. 先运行新增的大 ROI memory2 用例，确认当前版本失败（0 框），证明测试命中真实问题。
+2. 实现切块与坐标合并。
+3. 同一用例通过，检查最终框确实覆盖历史差异位置，不只检查“框数 > 0”。
+4. 运行线缆柜 wrong1~wrong5 与 right-self；重点人工查看 wrong4、wrong5 输出图。
+5. 运行完整 regression suite；必须 8/8 通过。
+6. 用启动脚本手动运行 memory2 wrong-13、wrong-14，确认 UI 报告含 tiled_review 元数据，且只显示最终合并框。
+
+九、非目标与边界
+
+- 不在本任务中实现装配模板、端子/线材识别、拓扑规则或实时相机；
+- 不改动 template_review_recipe.json 的文件结构，更不能把当前产品的 ROI 覆盖成其他产品配置；
+- 不用简单提高/降低全局阈值作为修复；那会重现“线缆柜降噪后 memory2 漏检”问题；
+- 模型加载失败时，仍保留现有传统差异回退，不让 UI 无结果崩溃。

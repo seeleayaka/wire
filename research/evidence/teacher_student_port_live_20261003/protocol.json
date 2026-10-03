@@ -1,0 +1,14 @@
+{
+  "training_selected_positive": "disconnected_008.JPG",
+  "selection": "first training-control case with accepted frozen fusion addition",
+  "additional_complete_sam_cases": [
+    "normal_006.JPG",
+    "disconnected_005.JPG"
+  ],
+  "student_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+  "teacher_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+  "new_sam": false,
+  "sam_pending_on_fresh_initial": true,
+  "not_unseen_accuracy": true,
+  "source_reference_model_inference_fresh": true
+}

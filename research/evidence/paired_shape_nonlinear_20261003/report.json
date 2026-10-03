@@ -1,0 +1,26 @@
+{
+  "status": "rejected",
+  "stage": "crop",
+  "summary": {
+    "tp": 444,
+    "unmatched": 25,
+    "precision": 0.9466950959488273,
+    "GT_correct": 253,
+    "GT_targets": 344,
+    "recall": 0.7354651162790697,
+    "qualifies": false
+  },
+  "pins": {
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\run_paired_shape_train_probe.py": "937ac511f954fbe8257dc38d5c7d81c52ff3754480adb4feb5986aa06f92ce35",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\paired_shape_features.py": "f486ddad99c4dced71a6bef8355f6054c3545a7c1f775fcd4ec3bdf2038c602e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\paired_semantic_geometry_examples.py": "1cb4c04117b12d12c822596a64cf4f27aecb7eedd92f66f616b1e7de72248645",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\port_semantic_verifier.py": "3fa1997479eaf877264eee6c1cb865bab31094005ab4fef8658446e88bd6e671",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_shape_probe_preregistration_20261003\\PLAN.md": "9c88aa7d86d377e2b12a0267ef5ca564a5ab02098cf0dcc42a8a70d831bbdd93",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_semantic_localization_20261003\\features_train\\features.pt": "3b907c27b3c7c2d7e700b6609ed0fb7741da34d96fce08225861bd0758043418",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_semantic_localization_20261003\\features_train\\samples.json": "8321caec370a011a2e173bdd476424e7c812ea2af49908fbc1840f0ad64ad78e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_semantic_localization_20261003\\features_train\\report.json": "1d44584794fc9d28dbe881f00d38c608d82c92b5bde00cc8c2bc45174011d843",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_001.JPG": "1b4f5f35073af643524578f18aff934793ba1487e62246a02b969fb7169a024d"
+  },
+  "no_deployment": true,
+  "seconds": 30.53
+}

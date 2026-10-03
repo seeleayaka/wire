@@ -1,0 +1,18 @@
+{
+  "gui_sources": [
+    "normal_006.JPG",
+    "damaged_005.JPG",
+    "disconnected_005.JPG",
+    "misrouted_001.JPG"
+  ],
+  "new_initial_sources": [
+    "disconnected_004.JPG",
+    "disconnected_020.JPG"
+  ],
+  "new_initial_selection": "first two sorted original-group heldout disconnected sources",
+  "primary_limit": 5,
+  "extra_limit": 5,
+  "rule_frozen": true,
+  "no_sam_run": true,
+  "labels_used_for_selection": false
+}

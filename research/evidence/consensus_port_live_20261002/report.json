@@ -1,0 +1,181 @@
+{
+  "status": "complete",
+  "tests": 107,
+  "cases": [
+    {
+      "image": "normal_006.JPG",
+      "mode": "actual_gui",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\consensus_port_live_20261002\\normal_006\\port_rescue_341d7ef7bfa04752a9d010f675b6ae5f\\evidence.json",
+      "status": "fallback",
+      "reason": "local_alignment_not_supported",
+      "primary": 0,
+      "additional": 0,
+      "metrics": {
+        "primary": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "combined": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      }
+    },
+    {
+      "image": "damaged_005.JPG",
+      "mode": "actual_gui",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\consensus_port_live_20261002\\damaged_005\\port_rescue_3dcc99d037984e18bc2a05aa5d12c70f\\evidence.json",
+      "status": "applied",
+      "reason": null,
+      "primary": 0,
+      "additional": 0,
+      "metrics": {
+        "primary": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "combined": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      }
+    },
+    {
+      "image": "disconnected_005.JPG",
+      "mode": "actual_gui",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\consensus_port_live_20261002\\disconnected_005\\port_rescue_2cfa6f9f6b474f04a32c6eadb81ff8cc\\evidence.json",
+      "status": "applied",
+      "reason": null,
+      "primary": 4,
+      "additional": 0,
+      "metrics": {
+        "primary": {
+          "tp": 4,
+          "unmatched": 0,
+          "fn": 6,
+          "predictions": 4,
+          "targets": 10
+        },
+        "combined": {
+          "tp": 4,
+          "unmatched": 0,
+          "fn": 6,
+          "predictions": 4,
+          "targets": 10
+        }
+      }
+    },
+    {
+      "image": "misrouted_001.JPG",
+      "mode": "actual_gui",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\consensus_port_live_20261002\\misrouted_001\\port_rescue_ba22da3555334777b7a4bb0c91f97e83\\evidence.json",
+      "status": "applied",
+      "reason": null,
+      "primary": 0,
+      "additional": 0,
+      "metrics": {
+        "primary": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        },
+        "combined": {
+          "tp": 0,
+          "unmatched": 0,
+          "fn": 0,
+          "predictions": 0,
+          "targets": 0
+        }
+      }
+    },
+    {
+      "image": "disconnected_004.JPG",
+      "mode": "fresh_initial_without_sam",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\consensus_port_live_20261002\\disconnected_004_new_initial\\20261002_210645\\consensus_evidence.json",
+      "sam_fusion_pending": true,
+      "status": "applied",
+      "reason": null,
+      "primary": 5,
+      "additional": 0,
+      "metrics": {
+        "primary": {
+          "tp": 5,
+          "unmatched": 0,
+          "fn": 5,
+          "predictions": 5,
+          "targets": 10
+        },
+        "combined": {
+          "tp": 5,
+          "unmatched": 0,
+          "fn": 5,
+          "predictions": 5,
+          "targets": 10
+        }
+      }
+    },
+    {
+      "image": "disconnected_020.JPG",
+      "mode": "fresh_initial_without_sam",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\consensus_port_live_20261002\\disconnected_020_new_initial\\20261002_210743\\consensus_evidence.json",
+      "sam_fusion_pending": true,
+      "status": "applied",
+      "reason": null,
+      "primary": 5,
+      "additional": 4,
+      "metrics": {
+        "primary": {
+          "tp": 5,
+          "unmatched": 0,
+          "fn": 5,
+          "predictions": 5,
+          "targets": 10
+        },
+        "combined": {
+          "tp": 9,
+          "unmatched": 0,
+          "fn": 1,
+          "predictions": 9,
+          "targets": 10
+        }
+      }
+    }
+  ],
+  "primary_gui_default_preserved": true,
+  "extra_default_off": true,
+  "actual_gui_runs": 4,
+  "fresh_initial_runs_without_sam": 2,
+  "new_sam": false,
+  "fresh_source_reference_inference": true,
+  "post_scoring_recovered_after_directory_read_bug": true,
+  "recovery_new_inference": false,
+  "protected_evidence_sha256": {
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\consensus_port_live_20261002\\normal_006\\port_rescue_341d7ef7bfa04752a9d010f675b6ae5f\\evidence.json": "0a98b980ac4d9ebea4642905c558b0a270d38bc25ac44b342fcb4e0d619ec482",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\consensus_port_live_20261002\\normal_006\\report.json": "2464c9f0745274eb8eb3d66d2c7f93ef74938078201d942dcc88d2bc9cb2e3b9",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\consensus_port_live_20261002\\damaged_005\\port_rescue_3dcc99d037984e18bc2a05aa5d12c70f\\evidence.json": "15f8ec989cc72d74acbf56548227fd1ee2695cdf5317b953cd0ba3203798fdd4",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\consensus_port_live_20261002\\damaged_005\\report.json": "120063fd5a0a0aae7e0073155cdf560eb04fb7475d3c5438b4d006e4bfe7737e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\consensus_port_live_20261002\\disconnected_005\\port_rescue_2cfa6f9f6b474f04a32c6eadb81ff8cc\\evidence.json": "1731ba5dd1a5629a0ccf5a36379f21a788e24a6e4dd631b1e0c6baabd63321b1",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\consensus_port_live_20261002\\disconnected_005\\report.json": "dd830bf4e1628d2e43b2b0c4ba47fd5e77b8e6e224dc73fef92df62c0bdd06e8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\consensus_port_live_20261002\\misrouted_001\\port_rescue_ba22da3555334777b7a4bb0c91f97e83\\evidence.json": "4fe24ec1d3c273f8fac99d271a3d302be54a8284f12bfce9b9959b2398103d3d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\consensus_port_live_20261002\\misrouted_001\\report.json": "7dce330351c699cb74fed4ec3f5d6b564699f4afe5d69e277619a08d105b420c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\consensus_port_live_20261002\\disconnected_004_new_initial\\20261002_210645\\consensus_evidence.json": "663d34d38b50cc450ccc3af08aef1c049e1f3013a8e9f07fb417ac1e7796c7a8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\consensus_port_live_20261002\\disconnected_004_new_initial\\20261002_210645\\initial_report.json": "a0a220f988990aacef63946e18e6abd695cfd061893550b57dc93d4932dd38bf",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\consensus_port_live_20261002\\disconnected_020_new_initial\\20261002_210743\\consensus_evidence.json": "8c1f57d4acbe3b7c31a2c1e7defb8b2fd62c81709a6839623d6107a39c1e74cf",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\consensus_port_live_20261002\\disconnected_020_new_initial\\20261002_210743\\initial_report.json": "2c08fbd73a317285b4428749b7b8cf41d9ea6e833a874e3896576517b00ecf16"
+  },
+  "caution": "Two additional samples are initial DINO geometry only, not complete SAM-fused acceptance."
+}

@@ -1,0 +1,61 @@
+{
+  "status": "complete",
+  "tests": 155,
+  "cases": [
+    {
+      "image": "normal_006.JPG",
+      "status": "fallback",
+      "primary": 0,
+      "supplementary": 0,
+      "student": {
+        "policy_id": "teacher_preserved_student_cross_support_v1_20261003",
+        "enabled": true,
+        "experimental": true,
+        "maximum_total_primary": 5,
+        "maximum_total_supplementary": 5,
+        "teacher_preserved": true,
+        "automatic_fault_verdict": false,
+        "added_hints": 0,
+        "correlated_models_not_physical_evidence": true
+      },
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\teacher_student_port_gui_20261003_v2\\normal_006\\port_rescue_110203a70f3f4d36add6f34d75ce5ed2"
+    },
+    {
+      "image": "disconnected_005.JPG",
+      "status": "applied",
+      "primary": 4,
+      "supplementary": 0,
+      "student": {
+        "policy_id": "teacher_preserved_student_cross_support_v1_20261003",
+        "enabled": true,
+        "experimental": true,
+        "maximum_total_primary": 5,
+        "maximum_total_supplementary": 5,
+        "teacher_preserved": true,
+        "automatic_fault_verdict": false,
+        "added_hints": 0,
+        "correlated_models_not_physical_evidence": true,
+        "confirmed_native_candidates": 0,
+        "reference_inference_performed": false,
+        "fallback_reason": null,
+        "provenance_manifest_sha256": "362fe4ae4a4d9f14ceefee4bd2184fd54efe1de18a02a557583b669eb523196e"
+      },
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\teacher_student_port_gui_20261003_v2\\disconnected_005\\port_rescue_91a63c3f080c4f6ea6b1115ca68175d6"
+    }
+  ],
+  "default_off": true,
+  "real_button_worker_callback": true,
+  "stale_result_rejected": true,
+  "original_reports_unchanged": true,
+  "new_sam": false,
+  "training_diagnostic": {
+    "image": "disconnected_008.JPG",
+    "fresh_model_inference": true,
+    "original_sam_pending": true,
+    "independent_accuracy": false,
+    "formal_matches_experimental": true,
+    "added_hints": 1,
+    "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\teacher_student_port_gui_20261003_v2\\training_diagnostic\\evidence.json"
+  },
+  "seconds": 92.91
+}

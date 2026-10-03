@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "tests": 374,
+  "errors": [],
+  "failures": [],
+  "skipped": [],
+  "seconds": 1.75,
+  "unit_tests_only": true,
+  "new_model_inference": false,
+  "field_acceptance": false
+}

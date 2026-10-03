@@ -1,0 +1,145 @@
+{
+  "status": "complete",
+  "cases": [
+    {
+      "image": "normal_006.JPG",
+      "output": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\rescue_mainline_ab_20261002_v2\\normal_006\\20261002_192028",
+      "status": "fallback",
+      "reason": "local_alignment_not_supported",
+      "new_hints": 0,
+      "seconds": 22.72,
+      "sam_mask_cache_identity_verified": true,
+      "original_candidates_unchanged": true,
+      "task_unchanged": true,
+      "off": {
+        "candidate_count": 3,
+        "target_count": 0,
+        "target_any_overlap": 0,
+        "target_iou050": 0,
+        "candidate_iou050": 0
+      },
+      "on": {
+        "candidate_count": 3,
+        "target_count": 0,
+        "target_any_overlap": 0,
+        "target_iou050": 0,
+        "candidate_iou050": 0
+      },
+      "added": {
+        "candidate_count": 0,
+        "target_count": 0,
+        "target_any_overlap": 0,
+        "target_iou050": 0,
+        "candidate_iou050": 0
+      },
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "image": "damaged_005.JPG",
+      "output": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\rescue_mainline_ab_20261002_v2\\damaged_005\\20261002_192051",
+      "status": "applied",
+      "reason": null,
+      "new_hints": 0,
+      "seconds": 42.25,
+      "sam_mask_cache_identity_verified": true,
+      "original_candidates_unchanged": true,
+      "task_unchanged": true,
+      "off": {
+        "candidate_count": 3,
+        "target_count": 11,
+        "target_any_overlap": 11,
+        "target_iou050": 0,
+        "candidate_iou050": 0
+      },
+      "on": {
+        "candidate_count": 3,
+        "target_count": 11,
+        "target_any_overlap": 11,
+        "target_iou050": 0,
+        "candidate_iou050": 0
+      },
+      "added": {
+        "candidate_count": 0,
+        "target_count": 11,
+        "target_any_overlap": 0,
+        "target_iou050": 0,
+        "candidate_iou050": 0
+      },
+      "label_sha256": "a6fb9a2ce1b1b5c2789c8646d8c2858cb4894b0dd61505aec30810e28a0b485c"
+    },
+    {
+      "image": "disconnected_005.JPG",
+      "output": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\rescue_mainline_ab_20261002_v2\\disconnected_005\\20261002_192136",
+      "status": "applied",
+      "reason": null,
+      "new_hints": 1,
+      "seconds": 47.7,
+      "sam_mask_cache_identity_verified": true,
+      "original_candidates_unchanged": true,
+      "task_unchanged": true,
+      "off": {
+        "candidate_count": 3,
+        "target_count": 15,
+        "target_any_overlap": 0,
+        "target_iou050": 0,
+        "candidate_iou050": 0
+      },
+      "on": {
+        "candidate_count": 4,
+        "target_count": 15,
+        "target_any_overlap": 1,
+        "target_iou050": 1,
+        "candidate_iou050": 1
+      },
+      "added": {
+        "candidate_count": 1,
+        "target_count": 15,
+        "target_any_overlap": 1,
+        "target_iou050": 1,
+        "candidate_iou050": 1
+      },
+      "label_sha256": "73d87cdcb29a6a2bddf9aa6bb638a53296225e5089e7c05bce152fb41b84ea5c"
+    },
+    {
+      "image": "misrouted_001.JPG",
+      "output": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\rescue_mainline_ab_20261002_v2\\misrouted_001\\20261002_192224",
+      "status": "applied",
+      "reason": null,
+      "new_hints": 1,
+      "seconds": 46.95,
+      "sam_mask_cache_identity_verified": true,
+      "original_candidates_unchanged": true,
+      "task_unchanged": true,
+      "off": {
+        "candidate_count": 3,
+        "target_count": 2,
+        "target_any_overlap": 1,
+        "target_iou050": 0,
+        "candidate_iou050": 0
+      },
+      "on": {
+        "candidate_count": 4,
+        "target_count": 2,
+        "target_any_overlap": 1,
+        "target_iou050": 0,
+        "candidate_iou050": 0
+      },
+      "added": {
+        "candidate_count": 1,
+        "target_count": 2,
+        "target_any_overlap": 0,
+        "target_iou050": 0,
+        "candidate_iou050": 0
+      },
+      "label_sha256": "bade5f513e484afbb621e3ec0d4117615552c43a225315fe3908372d61f90c58"
+    }
+  ],
+  "seconds": 159.75,
+  "old_artifacts_unchanged": true,
+  "source_unchanged": true,
+  "labels_used_for_inference": false,
+  "fresh_initial_and_ports": true,
+  "sam_raw_inference": false,
+  "sam_fusion_recomputed": true,
+  "field_accuracy_claimed": false
+}

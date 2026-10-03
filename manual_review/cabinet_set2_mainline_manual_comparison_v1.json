@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "purpose": "Diagnostic comparison of the saved 23 mainline candidate boxes against visible wire-like AI-render differences in cabinet_set2_visible_wire_groups_manual_v1.json. A match means the candidate contains or points to selected visual evidence; it is not a fault match and does not require a tight segmentation box.",
+  "candidate_result_root": "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\cabinet_set2_mainline_20260826_batch01 through batch04",
+  "diagnostic_counts": {
+    "candidates_matching_selected_visual_evidence": 18,
+    "unique_selected_visual_evidence_groups_covered": 17,
+    "duplicate_candidate": 1,
+    "candidates_without_selected_visual_evidence": 5,
+    "selected_visual_evidence_groups_total": 22,
+    "selected_visual_evidence_groups_not_covered": 5
+  },
+  "per_image": [
+    {"image": "generated_01.png", "candidate_count": 2, "matches": ["C1->S2-01-M01", "C2->S2-01-M02"], "unmatched": [], "missed_groups": []},
+    {"image": "generated_02.png", "candidate_count": 3, "matches": ["C1->S2-02-M02 (broad box)", "C2->S2-02-M01", "C3->S2-02-M03"], "unmatched": [], "missed_groups": []},
+    {"image": "generated_03.png", "candidate_count": 3, "matches": ["C1->S2-03-M01", "C2->S2-03-M01 (duplicate)", "C3->S2-03-M02"], "unmatched": [], "missed_groups": ["S2-03-M03"]},
+    {"image": "generated_04.png", "candidate_count": 3, "matches": ["C1->S2-04-M02", "C2->S2-04-M03", "C3->S2-04-M01"], "unmatched": [], "missed_groups": ["S2-04-M04"]},
+    {"image": "generated_05.png", "candidate_count": 3, "matches": ["C1->S2-05-M01", "C3->S2-05-M02"], "unmatched": ["C2: upper-frame/detail regeneration"], "missed_groups": []},
+    {"image": "generated_06.png", "candidate_count": 3, "matches": ["C2->S2-06-M01"], "unmatched": ["C1: upper-frame/detail regeneration", "C3: upper-right terminal detail regeneration"], "missed_groups": ["S2-06-M02"]},
+    {"image": "generated_07.png", "candidate_count": 3, "matches": ["C1->S2-07-M01", "C2->S2-07-M02"], "unmatched": ["C3: normally routed lower white conductor"], "missed_groups": []},
+    {"image": "generated_08.png", "candidate_count": 3, "matches": ["C1->S2-08-M01", "C3->S2-08-M02"], "unmatched": ["C2: upper-right terminal/cable-detail regeneration"], "missed_groups": ["S2-08-M03", "S2-08-M04"]}
+  ],
+  "metric_status": "invalid_without_declared_fault_manifest",
+  "interpretation": "Candidate-level: 18 of 23 candidates touch selected visual-difference evidence, but two candidates in image 03 point to the same visual group. These counts diagnose how full-scene AI regeneration interacts with the candidate pipeline. They do not establish found faults, false alarms, misses, candidate-budget targets, or field accuracy because the intended fault count and locations were never declared."
+}

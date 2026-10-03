@@ -1,0 +1,36 @@
+{
+  "training_selected_image": "disconnected_008.JPG",
+  "independent_accuracy": false,
+  "initial_alignment_dino_reused_sha_verified": true,
+  "fresh_isolated_sam_cache": true,
+  "new_sam_inference": true,
+  "sam_checkpoint_sha256": "9999e2341ceef5e136daa386eecb55cb414446a00ac2b55eb2dfd2f7c3cf8c9e",
+  "sam_settings": {
+    "python": "E:\\PythonProject10\\runtime\\sam3\\.venv\\Scripts\\python.exe",
+    "site_packages": null,
+    "base_site_packages": null,
+    "source_root": "E:\\PythonProject10\\runtime\\sam3\\source",
+    "runner": "E:\\PythonProject10\\manual_review\\run_sam3_cable_probe.py",
+    "checkpoint": "E:\\PythonProject10\\models\\sam3\\sam3.pt",
+    "cache_dir": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\student_complete_sam_flow_20261003\\sam_cache",
+    "prompt": "cable",
+    "confidence_threshold": 0.4,
+    "threads": 2,
+    "proximity_px": 8,
+    "green_min_sam_support_pixels": 120,
+    "yellow_min_component_pixels": 900,
+    "yellow_min_component_span_px": 24,
+    "yellow_min_dino_score_mean": 200.0,
+    "yellow_min_dino_score_p90": 0.0,
+    "no_mask_joining": true
+  },
+  "sam_thresholds_unchanged": true,
+  "threads_capped": 2,
+  "protected": {
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\teacher_student_port_live_20261003\\fresh_initial_train\\20261003_010545\\initial_report.json": "594d9d9f72d29b5faa325de79faba2c30644465dcf8d6ad6e4cbf94d94a8f8cb",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\teacher_student_port_live_20261003\\fresh_initial_train\\20261003_010545\\aligned.jpg": "1586358221c894a8dc00a28fea9a63c16d98a9146a7cd8ef497874ed3d575ac7",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_008.JPG": "6dcd5ab2ab9d89786f894ed681fedf57abc7c9b34bb3d1ece25fd77dccd4999a",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_073.JPG": "09f81923e44089603ccfb5989e370d07cc27f2e929ebfc70de945a08947b19ac"
+  },
+  "automatic_fault_verdict": false
+}

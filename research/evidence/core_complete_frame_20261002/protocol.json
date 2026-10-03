@@ -1,0 +1,13 @@
+{
+  "mode": "high_score_complete_frame",
+  "score_threshold": 0.5,
+  "maximum": 5,
+  "native_frame_margin": 16,
+  "margin_origin": "existing artificial tile cut safety margin",
+  "all_four_edges": true,
+  "derived_from_inner_errors": true,
+  "outer_labels_used_for_design": false,
+  "accepts_no_coordinates_or_image_names": true,
+  "gate": "TP unchanged and unmatched lower vs high_score",
+  "limitation": "Incomplete genuine ports also abstain; not a physical fault verdict"
+}

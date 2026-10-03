@@ -1,0 +1,30 @@
+# Python runtime and caches
+.venv/
+__pycache__/
+*.py[cod]
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Generated visual-review reports and images
+output/
+
+# Local images, annotations, and user-specific image paths
+data/raw/
+data/labels/
+config/template_review_recipe.json
+config/dimm_review_app.json
+config/current_cabinet_assembly_template.json
+config/deepseek_mask_review.local.json
+
+# Downloaded third-party model sources and weights; provision them locally, do not commit them.
+models/**/*.pt
+models/**/*.pth
+models/sam3/
+*.restore-*
+*.download
+backup/downloads/
+research/artifacts/

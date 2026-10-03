@@ -1,0 +1,127 @@
+{
+  "status": "complete",
+  "training_only": true,
+  "records": [
+    {
+      "experiment": "teacher_context_student_20261003",
+      "image": "disconnected_009.JPG",
+      "seed_score": 0.8656136989593506,
+      "seed_class": 1,
+      "views": [
+        {
+          "maximum_same_class_iou": 0.7819766706411447,
+          "maximum_matching_score": 0.09659226983785629,
+          "maximum_strong_box_seed_iou": 0.03696234105669249,
+          "matching_strong_count": 0
+        },
+        {
+          "maximum_same_class_iou": 0.8159696688466942,
+          "maximum_matching_score": 0.07105904817581177,
+          "maximum_strong_box_seed_iou": 0,
+          "matching_strong_count": 0
+        }
+      ]
+    },
+    {
+      "experiment": "teacher_context_student_20261003",
+      "image": "disconnected_010.JPG",
+      "seed_score": 0.8430508375167847,
+      "seed_class": 1,
+      "views": [
+        {
+          "maximum_same_class_iou": 0.813480078425166,
+          "maximum_matching_score": 0.07432888448238373,
+          "maximum_strong_box_seed_iou": 0.07397333413773238,
+          "matching_strong_count": 0
+        },
+        {
+          "maximum_same_class_iou": 0.7957582892877985,
+          "maximum_matching_score": 0.043112657964229584,
+          "maximum_strong_box_seed_iou": 0.0812708345353799,
+          "matching_strong_count": 0
+        }
+      ]
+    },
+    {
+      "experiment": "teacher_context_student_20261003",
+      "image": "disconnected_012.JPG",
+      "seed_score": 0.8676507472991943,
+      "seed_class": 1,
+      "views": [
+        {
+          "maximum_same_class_iou": 0.7733398785771852,
+          "maximum_matching_score": 0.13507536053657532,
+          "maximum_strong_box_seed_iou": 0.08546188904713325,
+          "matching_strong_count": 0
+        },
+        {
+          "maximum_same_class_iou": 0.7785701837983414,
+          "maximum_matching_score": 0.09719622135162354,
+          "maximum_strong_box_seed_iou": 0.09368134616840725,
+          "matching_strong_count": 0
+        }
+      ]
+    },
+    {
+      "experiment": "student_microcontext_20261003",
+      "image": "disconnected_009.JPG",
+      "seed_score": 0.8656136989593506,
+      "seed_class": 1,
+      "views": [
+        {
+          "maximum_same_class_iou": 0.33174017802379285,
+          "maximum_matching_score": null,
+          "maximum_strong_box_seed_iou": 0,
+          "matching_strong_count": 0
+        },
+        {
+          "maximum_same_class_iou": 0.37338302920811534,
+          "maximum_matching_score": null,
+          "maximum_strong_box_seed_iou": 0,
+          "matching_strong_count": 0
+        }
+      ]
+    },
+    {
+      "experiment": "student_microcontext_20261003",
+      "image": "disconnected_010.JPG",
+      "seed_score": 0.8430508375167847,
+      "seed_class": 1,
+      "views": [
+        {
+          "maximum_same_class_iou": 0.3708002235237111,
+          "maximum_matching_score": null,
+          "maximum_strong_box_seed_iou": 0,
+          "matching_strong_count": 0
+        },
+        {
+          "maximum_same_class_iou": 0.4223718434844052,
+          "maximum_matching_score": null,
+          "maximum_strong_box_seed_iou": 0,
+          "matching_strong_count": 0
+        }
+      ]
+    },
+    {
+      "experiment": "student_microcontext_20261003",
+      "image": "disconnected_012.JPG",
+      "seed_score": 0.8676507472991943,
+      "seed_class": 1,
+      "views": [
+        {
+          "maximum_same_class_iou": 0.4274831502101772,
+          "maximum_matching_score": null,
+          "maximum_strong_box_seed_iou": 0,
+          "matching_strong_count": 0
+        },
+        {
+          "maximum_same_class_iou": 0.3582561187726441,
+          "maximum_matching_score": null,
+          "maximum_strong_box_seed_iou": 0,
+          "matching_strong_count": 0
+        }
+      ]
+    }
+  ],
+  "no_threshold_changes": true
+}

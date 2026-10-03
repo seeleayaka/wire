@@ -1,0 +1,1394 @@
+{
+  "split": "val01",
+  "threshold_unchanged": 0.25,
+  "totals": {
+    "parents": {
+      "fault_regions": 70,
+      "normal_regions": 37,
+      "precise_fragments": 4,
+      "overlap_fragments": 164,
+      "class_matched_precise_fragments": 0
+    },
+    "within_parent_hints": {
+      "fault_regions": 1,
+      "normal_regions": 0,
+      "precise_fragments": 1,
+      "overlap_fragments": 2,
+      "class_matched_precise_fragments": 1
+    },
+    "all_frozen_threshold_port_boxes": {
+      "fault_regions": 2,
+      "normal_regions": 0,
+      "precise_fragments": 2,
+      "overlap_fragments": 3,
+      "class_matched_precise_fragments": 2
+    },
+    "parents_plus_all_port_boxes": {
+      "fault_regions": 72,
+      "normal_regions": 37,
+      "precise_fragments": 6,
+      "overlap_fragments": 164,
+      "class_matched_precise_fragments": 2
+    },
+    "parents_plus_top1_port_box": {
+      "fault_regions": 72,
+      "normal_regions": 37,
+      "precise_fragments": 6,
+      "overlap_fragments": 164,
+      "class_matched_precise_fragments": 2
+    }
+  },
+  "per_image": [
+    {
+      "image": "damaged_007.JPG",
+      "above_frozen_threshold_valid_boxes": 0,
+      "selection_audit": {
+        "prediction_count": 11,
+        "invalid": 0,
+        "below_threshold": 11,
+        "invalid_warp": 0,
+        "no_containing_smaller_parent": 0,
+        "eligible": 0,
+        "hint_count": 0
+      },
+      "metrics": {
+        "parents": {
+          "regions": 4,
+          "precise_fragments": 0,
+          "overlap_fragments": 3,
+          "class_matched_precise_fragments": 0
+        },
+        "within_parent_hints": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "all_frozen_threshold_port_boxes": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_all_port_boxes": {
+          "regions": 4,
+          "precise_fragments": 0,
+          "overlap_fragments": 3,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_top1_port_box": {
+          "regions": 4,
+          "precise_fragments": 0,
+          "overlap_fragments": 3,
+          "class_matched_precise_fragments": 0
+        }
+      }
+    },
+    {
+      "image": "damaged_012.JPG",
+      "above_frozen_threshold_valid_boxes": 0,
+      "selection_audit": {
+        "prediction_count": 10,
+        "invalid": 0,
+        "below_threshold": 10,
+        "invalid_warp": 0,
+        "no_containing_smaller_parent": 0,
+        "eligible": 0,
+        "hint_count": 0
+      },
+      "metrics": {
+        "parents": {
+          "regions": 5,
+          "precise_fragments": 0,
+          "overlap_fragments": 2,
+          "class_matched_precise_fragments": 0
+        },
+        "within_parent_hints": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "all_frozen_threshold_port_boxes": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_all_port_boxes": {
+          "regions": 5,
+          "precise_fragments": 0,
+          "overlap_fragments": 2,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_top1_port_box": {
+          "regions": 5,
+          "precise_fragments": 0,
+          "overlap_fragments": 2,
+          "class_matched_precise_fragments": 0
+        }
+      }
+    },
+    {
+      "image": "damaged_020.JPG",
+      "above_frozen_threshold_valid_boxes": 0,
+      "selection_audit": {
+        "prediction_count": 13,
+        "invalid": 1,
+        "below_threshold": 12,
+        "invalid_warp": 0,
+        "no_containing_smaller_parent": 0,
+        "eligible": 0,
+        "hint_count": 0
+      },
+      "metrics": {
+        "parents": {
+          "regions": 5,
+          "precise_fragments": 0,
+          "overlap_fragments": 6,
+          "class_matched_precise_fragments": 0
+        },
+        "within_parent_hints": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "all_frozen_threshold_port_boxes": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_all_port_boxes": {
+          "regions": 5,
+          "precise_fragments": 0,
+          "overlap_fragments": 6,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_top1_port_box": {
+          "regions": 5,
+          "precise_fragments": 0,
+          "overlap_fragments": 6,
+          "class_matched_precise_fragments": 0
+        }
+      }
+    },
+    {
+      "image": "damaged_031.JPG",
+      "above_frozen_threshold_valid_boxes": 0,
+      "selection_audit": {
+        "prediction_count": 14,
+        "invalid": 0,
+        "below_threshold": 14,
+        "invalid_warp": 0,
+        "no_containing_smaller_parent": 0,
+        "eligible": 0,
+        "hint_count": 0
+      },
+      "metrics": {
+        "parents": {
+          "regions": 3,
+          "precise_fragments": 0,
+          "overlap_fragments": 42,
+          "class_matched_precise_fragments": 0
+        },
+        "within_parent_hints": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "all_frozen_threshold_port_boxes": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_all_port_boxes": {
+          "regions": 3,
+          "precise_fragments": 0,
+          "overlap_fragments": 42,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_top1_port_box": {
+          "regions": 3,
+          "precise_fragments": 0,
+          "overlap_fragments": 42,
+          "class_matched_precise_fragments": 0
+        }
+      }
+    },
+    {
+      "image": "damaged_035.JPG",
+      "above_frozen_threshold_valid_boxes": 0,
+      "selection_audit": {
+        "prediction_count": 8,
+        "invalid": 0,
+        "below_threshold": 8,
+        "invalid_warp": 0,
+        "no_containing_smaller_parent": 0,
+        "eligible": 0,
+        "hint_count": 0
+      },
+      "metrics": {
+        "parents": {
+          "regions": 5,
+          "precise_fragments": 0,
+          "overlap_fragments": 38,
+          "class_matched_precise_fragments": 0
+        },
+        "within_parent_hints": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "all_frozen_threshold_port_boxes": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_all_port_boxes": {
+          "regions": 5,
+          "precise_fragments": 0,
+          "overlap_fragments": 38,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_top1_port_box": {
+          "regions": 5,
+          "precise_fragments": 0,
+          "overlap_fragments": 38,
+          "class_matched_precise_fragments": 0
+        }
+      }
+    },
+    {
+      "image": "disconnected_002.JPG",
+      "above_frozen_threshold_valid_boxes": 1,
+      "selection_audit": {
+        "prediction_count": 15,
+        "invalid": 0,
+        "below_threshold": 14,
+        "invalid_warp": 0,
+        "no_containing_smaller_parent": 1,
+        "eligible": 0,
+        "hint_count": 0
+      },
+      "metrics": {
+        "parents": {
+          "regions": 6,
+          "precise_fragments": 0,
+          "overlap_fragments": 11,
+          "class_matched_precise_fragments": 0
+        },
+        "within_parent_hints": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "all_frozen_threshold_port_boxes": {
+          "regions": 1,
+          "precise_fragments": 1,
+          "overlap_fragments": 1,
+          "class_matched_precise_fragments": 1
+        },
+        "parents_plus_all_port_boxes": {
+          "regions": 7,
+          "precise_fragments": 1,
+          "overlap_fragments": 11,
+          "class_matched_precise_fragments": 1
+        },
+        "parents_plus_top1_port_box": {
+          "regions": 7,
+          "precise_fragments": 1,
+          "overlap_fragments": 11,
+          "class_matched_precise_fragments": 1
+        }
+      }
+    },
+    {
+      "image": "disconnected_006.JPG",
+      "above_frozen_threshold_valid_boxes": 0,
+      "selection_audit": {
+        "prediction_count": 16,
+        "invalid": 0,
+        "below_threshold": 16,
+        "invalid_warp": 0,
+        "no_containing_smaller_parent": 0,
+        "eligible": 0,
+        "hint_count": 0
+      },
+      "metrics": {
+        "parents": {
+          "regions": 6,
+          "precise_fragments": 1,
+          "overlap_fragments": 12,
+          "class_matched_precise_fragments": 0
+        },
+        "within_parent_hints": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "all_frozen_threshold_port_boxes": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_all_port_boxes": {
+          "regions": 6,
+          "precise_fragments": 1,
+          "overlap_fragments": 12,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_top1_port_box": {
+          "regions": 6,
+          "precise_fragments": 1,
+          "overlap_fragments": 12,
+          "class_matched_precise_fragments": 0
+        }
+      }
+    },
+    {
+      "image": "disconnected_011.JPG",
+      "above_frozen_threshold_valid_boxes": 0,
+      "selection_audit": {
+        "prediction_count": 24,
+        "invalid": 0,
+        "below_threshold": 24,
+        "invalid_warp": 0,
+        "no_containing_smaller_parent": 0,
+        "eligible": 0,
+        "hint_count": 0
+      },
+      "metrics": {
+        "parents": {
+          "regions": 6,
+          "precise_fragments": 0,
+          "overlap_fragments": 13,
+          "class_matched_precise_fragments": 0
+        },
+        "within_parent_hints": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "all_frozen_threshold_port_boxes": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_all_port_boxes": {
+          "regions": 6,
+          "precise_fragments": 0,
+          "overlap_fragments": 13,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_top1_port_box": {
+          "regions": 6,
+          "precise_fragments": 0,
+          "overlap_fragments": 13,
+          "class_matched_precise_fragments": 0
+        }
+      }
+    },
+    {
+      "image": "disconnected_027.JPG",
+      "above_frozen_threshold_valid_boxes": 1,
+      "selection_audit": {
+        "prediction_count": 20,
+        "invalid": 0,
+        "below_threshold": 19,
+        "invalid_warp": 0,
+        "no_containing_smaller_parent": 0,
+        "eligible": 1,
+        "hint_count": 1
+      },
+      "metrics": {
+        "parents": {
+          "regions": 6,
+          "precise_fragments": 2,
+          "overlap_fragments": 13,
+          "class_matched_precise_fragments": 0
+        },
+        "within_parent_hints": {
+          "regions": 1,
+          "precise_fragments": 1,
+          "overlap_fragments": 2,
+          "class_matched_precise_fragments": 1
+        },
+        "all_frozen_threshold_port_boxes": {
+          "regions": 1,
+          "precise_fragments": 1,
+          "overlap_fragments": 2,
+          "class_matched_precise_fragments": 1
+        },
+        "parents_plus_all_port_boxes": {
+          "regions": 7,
+          "precise_fragments": 3,
+          "overlap_fragments": 13,
+          "class_matched_precise_fragments": 1
+        },
+        "parents_plus_top1_port_box": {
+          "regions": 7,
+          "precise_fragments": 3,
+          "overlap_fragments": 13,
+          "class_matched_precise_fragments": 1
+        }
+      }
+    },
+    {
+      "image": "disconnected_048.JPG",
+      "above_frozen_threshold_valid_boxes": 0,
+      "selection_audit": {
+        "prediction_count": 11,
+        "invalid": 0,
+        "below_threshold": 11,
+        "invalid_warp": 0,
+        "no_containing_smaller_parent": 0,
+        "eligible": 0,
+        "hint_count": 0
+      },
+      "metrics": {
+        "parents": {
+          "regions": 6,
+          "precise_fragments": 1,
+          "overlap_fragments": 10,
+          "class_matched_precise_fragments": 0
+        },
+        "within_parent_hints": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "all_frozen_threshold_port_boxes": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_all_port_boxes": {
+          "regions": 6,
+          "precise_fragments": 1,
+          "overlap_fragments": 10,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_top1_port_box": {
+          "regions": 6,
+          "precise_fragments": 1,
+          "overlap_fragments": 10,
+          "class_matched_precise_fragments": 0
+        }
+      }
+    },
+    {
+      "image": "misrouted_012.JPG",
+      "above_frozen_threshold_valid_boxes": 0,
+      "selection_audit": {
+        "prediction_count": 14,
+        "invalid": 0,
+        "below_threshold": 14,
+        "invalid_warp": 0,
+        "no_containing_smaller_parent": 0,
+        "eligible": 0,
+        "hint_count": 0
+      },
+      "metrics": {
+        "parents": {
+          "regions": 5,
+          "precise_fragments": 0,
+          "overlap_fragments": 2,
+          "class_matched_precise_fragments": 0
+        },
+        "within_parent_hints": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "all_frozen_threshold_port_boxes": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_all_port_boxes": {
+          "regions": 5,
+          "precise_fragments": 0,
+          "overlap_fragments": 2,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_top1_port_box": {
+          "regions": 5,
+          "precise_fragments": 0,
+          "overlap_fragments": 2,
+          "class_matched_precise_fragments": 0
+        }
+      }
+    },
+    {
+      "image": "misrouted_025.JPG",
+      "above_frozen_threshold_valid_boxes": 0,
+      "selection_audit": {
+        "prediction_count": 9,
+        "invalid": 0,
+        "below_threshold": 9,
+        "invalid_warp": 0,
+        "no_containing_smaller_parent": 0,
+        "eligible": 0,
+        "hint_count": 0
+      },
+      "metrics": {
+        "parents": {
+          "regions": 1,
+          "precise_fragments": 0,
+          "overlap_fragments": 1,
+          "class_matched_precise_fragments": 0
+        },
+        "within_parent_hints": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "all_frozen_threshold_port_boxes": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_all_port_boxes": {
+          "regions": 1,
+          "precise_fragments": 0,
+          "overlap_fragments": 1,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_top1_port_box": {
+          "regions": 1,
+          "precise_fragments": 0,
+          "overlap_fragments": 1,
+          "class_matched_precise_fragments": 0
+        }
+      }
+    },
+    {
+      "image": "misrouted_034.JPG",
+      "above_frozen_threshold_valid_boxes": 0,
+      "selection_audit": {
+        "prediction_count": 10,
+        "invalid": 0,
+        "below_threshold": 10,
+        "invalid_warp": 0,
+        "no_containing_smaller_parent": 0,
+        "eligible": 0,
+        "hint_count": 0
+      },
+      "metrics": {
+        "parents": {
+          "regions": 4,
+          "precise_fragments": 0,
+          "overlap_fragments": 3,
+          "class_matched_precise_fragments": 0
+        },
+        "within_parent_hints": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "all_frozen_threshold_port_boxes": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_all_port_boxes": {
+          "regions": 4,
+          "precise_fragments": 0,
+          "overlap_fragments": 3,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_top1_port_box": {
+          "regions": 4,
+          "precise_fragments": 0,
+          "overlap_fragments": 3,
+          "class_matched_precise_fragments": 0
+        }
+      }
+    },
+    {
+      "image": "misrouted_040.JPG",
+      "above_frozen_threshold_valid_boxes": 0,
+      "selection_audit": {
+        "prediction_count": 10,
+        "invalid": 0,
+        "below_threshold": 10,
+        "invalid_warp": 0,
+        "no_containing_smaller_parent": 0,
+        "eligible": 0,
+        "hint_count": 0
+      },
+      "metrics": {
+        "parents": {
+          "regions": 5,
+          "precise_fragments": 0,
+          "overlap_fragments": 5,
+          "class_matched_precise_fragments": 0
+        },
+        "within_parent_hints": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "all_frozen_threshold_port_boxes": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_all_port_boxes": {
+          "regions": 5,
+          "precise_fragments": 0,
+          "overlap_fragments": 5,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_top1_port_box": {
+          "regions": 5,
+          "precise_fragments": 0,
+          "overlap_fragments": 5,
+          "class_matched_precise_fragments": 0
+        }
+      }
+    },
+    {
+      "image": "misrouted_050.JPG",
+      "above_frozen_threshold_valid_boxes": 0,
+      "selection_audit": {
+        "prediction_count": 18,
+        "invalid": 0,
+        "below_threshold": 18,
+        "invalid_warp": 0,
+        "no_containing_smaller_parent": 0,
+        "eligible": 0,
+        "hint_count": 0
+      },
+      "metrics": {
+        "parents": {
+          "regions": 3,
+          "precise_fragments": 0,
+          "overlap_fragments": 3,
+          "class_matched_precise_fragments": 0
+        },
+        "within_parent_hints": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "all_frozen_threshold_port_boxes": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_all_port_boxes": {
+          "regions": 3,
+          "precise_fragments": 0,
+          "overlap_fragments": 3,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_top1_port_box": {
+          "regions": 3,
+          "precise_fragments": 0,
+          "overlap_fragments": 3,
+          "class_matched_precise_fragments": 0
+        }
+      }
+    },
+    {
+      "image": "normal_001.JPG",
+      "above_frozen_threshold_valid_boxes": 0,
+      "selection_audit": {
+        "prediction_count": 15,
+        "invalid": 0,
+        "below_threshold": 15,
+        "invalid_warp": 0,
+        "no_containing_smaller_parent": 0,
+        "eligible": 0,
+        "hint_count": 0
+      },
+      "metrics": {
+        "parents": {
+          "regions": 3,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "within_parent_hints": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "all_frozen_threshold_port_boxes": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_all_port_boxes": {
+          "regions": 3,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_top1_port_box": {
+          "regions": 3,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        }
+      }
+    },
+    {
+      "image": "normal_004.JPG",
+      "above_frozen_threshold_valid_boxes": 0,
+      "selection_audit": {
+        "prediction_count": 12,
+        "invalid": 0,
+        "below_threshold": 12,
+        "invalid_warp": 0,
+        "no_containing_smaller_parent": 0,
+        "eligible": 0,
+        "hint_count": 0
+      },
+      "metrics": {
+        "parents": {
+          "regions": 3,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "within_parent_hints": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "all_frozen_threshold_port_boxes": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_all_port_boxes": {
+          "regions": 3,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_top1_port_box": {
+          "regions": 3,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        }
+      }
+    },
+    {
+      "image": "normal_007.JPG",
+      "above_frozen_threshold_valid_boxes": 0,
+      "selection_audit": {
+        "prediction_count": 8,
+        "invalid": 0,
+        "below_threshold": 8,
+        "invalid_warp": 0,
+        "no_containing_smaller_parent": 0,
+        "eligible": 0,
+        "hint_count": 0
+      },
+      "metrics": {
+        "parents": {
+          "regions": 3,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "within_parent_hints": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "all_frozen_threshold_port_boxes": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_all_port_boxes": {
+          "regions": 3,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_top1_port_box": {
+          "regions": 3,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        }
+      }
+    },
+    {
+      "image": "normal_036.JPG",
+      "above_frozen_threshold_valid_boxes": 0,
+      "selection_audit": {
+        "prediction_count": 6,
+        "invalid": 0,
+        "below_threshold": 6,
+        "invalid_warp": 0,
+        "no_containing_smaller_parent": 0,
+        "eligible": 0,
+        "hint_count": 0
+      },
+      "metrics": {
+        "parents": {
+          "regions": 3,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "within_parent_hints": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "all_frozen_threshold_port_boxes": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_all_port_boxes": {
+          "regions": 3,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_top1_port_box": {
+          "regions": 3,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        }
+      }
+    },
+    {
+      "image": "normal_041.JPG",
+      "above_frozen_threshold_valid_boxes": 0,
+      "selection_audit": {
+        "prediction_count": 8,
+        "invalid": 0,
+        "below_threshold": 8,
+        "invalid_warp": 0,
+        "no_containing_smaller_parent": 0,
+        "eligible": 0,
+        "hint_count": 0
+      },
+      "metrics": {
+        "parents": {
+          "regions": 6,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "within_parent_hints": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "all_frozen_threshold_port_boxes": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_all_port_boxes": {
+          "regions": 6,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_top1_port_box": {
+          "regions": 6,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        }
+      }
+    },
+    {
+      "image": "normal_061.JPG",
+      "above_frozen_threshold_valid_boxes": 0,
+      "selection_audit": {
+        "prediction_count": 11,
+        "invalid": 0,
+        "below_threshold": 11,
+        "invalid_warp": 0,
+        "no_containing_smaller_parent": 0,
+        "eligible": 0,
+        "hint_count": 0
+      },
+      "metrics": {
+        "parents": {
+          "regions": 2,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "within_parent_hints": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "all_frozen_threshold_port_boxes": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_all_port_boxes": {
+          "regions": 2,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_top1_port_box": {
+          "regions": 2,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        }
+      }
+    },
+    {
+      "image": "normal_067.JPG",
+      "above_frozen_threshold_valid_boxes": 0,
+      "selection_audit": {
+        "prediction_count": 11,
+        "invalid": 0,
+        "below_threshold": 11,
+        "invalid_warp": 0,
+        "no_containing_smaller_parent": 0,
+        "eligible": 0,
+        "hint_count": 0
+      },
+      "metrics": {
+        "parents": {
+          "regions": 3,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "within_parent_hints": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "all_frozen_threshold_port_boxes": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_all_port_boxes": {
+          "regions": 3,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_top1_port_box": {
+          "regions": 3,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        }
+      }
+    },
+    {
+      "image": "normal_078.JPG",
+      "above_frozen_threshold_valid_boxes": 0,
+      "selection_audit": {
+        "prediction_count": 8,
+        "invalid": 0,
+        "below_threshold": 8,
+        "invalid_warp": 0,
+        "no_containing_smaller_parent": 0,
+        "eligible": 0,
+        "hint_count": 0
+      },
+      "metrics": {
+        "parents": {
+          "regions": 1,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "within_parent_hints": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "all_frozen_threshold_port_boxes": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_all_port_boxes": {
+          "regions": 1,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_top1_port_box": {
+          "regions": 1,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        }
+      }
+    },
+    {
+      "image": "normal_082.JPG",
+      "above_frozen_threshold_valid_boxes": 0,
+      "selection_audit": {
+        "prediction_count": 10,
+        "invalid": 0,
+        "below_threshold": 10,
+        "invalid_warp": 0,
+        "no_containing_smaller_parent": 0,
+        "eligible": 0,
+        "hint_count": 0
+      },
+      "metrics": {
+        "parents": {
+          "regions": 3,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "within_parent_hints": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "all_frozen_threshold_port_boxes": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_all_port_boxes": {
+          "regions": 3,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_top1_port_box": {
+          "regions": 3,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        }
+      }
+    },
+    {
+      "image": "normal_083.JPG",
+      "above_frozen_threshold_valid_boxes": 0,
+      "selection_audit": {
+        "prediction_count": 12,
+        "invalid": 0,
+        "below_threshold": 12,
+        "invalid_warp": 0,
+        "no_containing_smaller_parent": 0,
+        "eligible": 0,
+        "hint_count": 0
+      },
+      "metrics": {
+        "parents": {
+          "regions": 3,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "within_parent_hints": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "all_frozen_threshold_port_boxes": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_all_port_boxes": {
+          "regions": 3,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_top1_port_box": {
+          "regions": 3,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        }
+      }
+    },
+    {
+      "image": "normal_099.JPG",
+      "above_frozen_threshold_valid_boxes": 0,
+      "selection_audit": {
+        "prediction_count": 11,
+        "invalid": 0,
+        "below_threshold": 11,
+        "invalid_warp": 0,
+        "no_containing_smaller_parent": 0,
+        "eligible": 0,
+        "hint_count": 0
+      },
+      "metrics": {
+        "parents": {
+          "regions": 1,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "within_parent_hints": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "all_frozen_threshold_port_boxes": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_all_port_boxes": {
+          "regions": 1,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_top1_port_box": {
+          "regions": 1,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        }
+      }
+    },
+    {
+      "image": "normal_100.JPG",
+      "above_frozen_threshold_valid_boxes": 0,
+      "selection_audit": {
+        "prediction_count": 9,
+        "invalid": 0,
+        "below_threshold": 9,
+        "invalid_warp": 0,
+        "no_containing_smaller_parent": 0,
+        "eligible": 0,
+        "hint_count": 0
+      },
+      "metrics": {
+        "parents": {
+          "regions": 1,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "within_parent_hints": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "all_frozen_threshold_port_boxes": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_all_port_boxes": {
+          "regions": 1,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_top1_port_box": {
+          "regions": 1,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        }
+      }
+    },
+    {
+      "image": "normal_105.JPG",
+      "above_frozen_threshold_valid_boxes": 0,
+      "selection_audit": {
+        "prediction_count": 6,
+        "invalid": 0,
+        "below_threshold": 6,
+        "invalid_warp": 0,
+        "no_containing_smaller_parent": 0,
+        "eligible": 0,
+        "hint_count": 0
+      },
+      "metrics": {
+        "parents": {
+          "regions": 1,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "within_parent_hints": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "all_frozen_threshold_port_boxes": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_all_port_boxes": {
+          "regions": 1,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_top1_port_box": {
+          "regions": 1,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        }
+      }
+    },
+    {
+      "image": "normal_126.JPG",
+      "above_frozen_threshold_valid_boxes": 0,
+      "selection_audit": {
+        "prediction_count": 15,
+        "invalid": 0,
+        "below_threshold": 15,
+        "invalid_warp": 0,
+        "no_containing_smaller_parent": 0,
+        "eligible": 0,
+        "hint_count": 0
+      },
+      "metrics": {
+        "parents": {
+          "regions": 1,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "within_parent_hints": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "all_frozen_threshold_port_boxes": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_all_port_boxes": {
+          "regions": 1,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_top1_port_box": {
+          "regions": 1,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        }
+      }
+    },
+    {
+      "image": "normal_144.JPG",
+      "above_frozen_threshold_valid_boxes": 0,
+      "selection_audit": {
+        "prediction_count": 5,
+        "invalid": 0,
+        "below_threshold": 5,
+        "invalid_warp": 0,
+        "no_containing_smaller_parent": 0,
+        "eligible": 0,
+        "hint_count": 0
+      },
+      "metrics": {
+        "parents": {
+          "regions": 3,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "within_parent_hints": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "all_frozen_threshold_port_boxes": {
+          "regions": 0,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_all_port_boxes": {
+          "regions": 3,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        },
+        "parents_plus_top1_port_box": {
+          "regions": 3,
+          "precise_fragments": 0,
+          "overlap_fragments": 0,
+          "class_matched_precise_fragments": 0
+        }
+      }
+    }
+  ],
+  "warning": "Retrospective cached diagnostic ablations, not new independent validation or approved integration. Top1 is confidence-only diagnostic; no annotation-based choice. No threshold adjustment or inference."
+}

@@ -1,0 +1,13 @@
+{
+  "parity_cases": 110,
+  "tests": 12,
+  "new_live_sources": [
+    "disconnected_028.JPG"
+  ],
+  "live_positive_selection": "first sorted inner case with frozen-policy gain; diagnostic integration check, not independent metric",
+  "additional_real_sam_sources": [
+    "normal_006.JPG",
+    "disconnected_005.JPG"
+  ],
+  "new_sam": false
+}

@@ -1,0 +1,194 @@
+{
+  "schema_version": 2,
+  "annotation_kind": "human_visual_standard_answer_rechecked_and_extended",
+  "purpose": "Manual-only visible-change evidence for later candidate-review comparison. It is not an electrical diagnosis, a training label, or production ground truth.",
+  "parent_annotation": "cabinet_manual_visual_standard_v1.json",
+  "recheck_date": "2026-08-27",
+  "annotation_protocol": {
+    "input": "Raw right.png versus raw wrong*.png pairs only, shown side by side without registration.",
+    "prohibited_during_this_pass": ["candidate boxes", "difference heatmaps", "DINO scores", "registration output"],
+    "unit": "one independently visible connected local change group; a bundle may remain one group when individual electrical connections cannot be determined from the image.",
+    "rule_for_global_ai_rerender": "A clear local visible change may receive a review-evidence box, but it is excluded from local-coverage statistics when global rendering or viewpoint change prevents a fair comparison.",
+    "important_caveat": "This is a manual visual annotation by the same reviewer who has previously seen model outputs. It improves traceability but is not a strict double-blind study."
+  },
+  "reference_image": "C:\\Users\\HUAWEI\\Desktop\\案例\\线材柜子\\4\\right.png",
+  "coordinate_space": {
+    "canvas": "reference-sized visual review canvas",
+    "canvas_size": [1080, 712],
+    "inspection_rendering": "Each raw inspection image is resized to the reference canvas for side-by-side manual review; no registration is applied before drawing.",
+    "origin": "top_left",
+    "bbox_format": "[left, top, right, bottom]",
+    "warning": "These are manual review-canvas boxes, not raw-image pixels and not post-alignment candidate coordinates. A future evaluator must map them explicitly before numerical overlap scoring."
+  },
+  "metric_policy": {
+    "eligible_for_local_group_coverage": ["local_isolated"],
+    "review_evidence_only": ["global_ai_rerender", "viewpoint_or_crop_change"],
+    "not_eligible": ["diffuse_unattributable_change"],
+    "future_comparison_requirement": "Do not use a candidate-assisted draft as the manual standard. For scoring, transform review-canvas boxes to the candidate coordinate system and separately report the eligible four-image subset."
+  },
+  "recheck_summary": {
+    "v1_boxes_confirmed": ["wrong2.png:M01", "wrong3.png:M01", "wrong4.png:M01", "wrong5.png:M01", "wrong10.png:M01"],
+    "v1_boxes_removed": [],
+    "new_review_evidence_boxes": ["wrong6.png:M01", "wrong11.png:M01", "wrong13.png:M01"],
+    "eligible_high_confidence_groups": 4,
+    "review_evidence_only_groups": 4
+  },
+  "images": [
+    {
+      "image": "wrong.png",
+      "classification": "diffuse_unattributable_change",
+      "eligible_for_local_group_coverage": false,
+      "groups": [],
+      "manual_observation": "Broad text, component-detail, and framing variation; no one local connected change can be isolated reliably."
+    },
+    {
+      "image": "wrong2.png",
+      "classification": "local_isolated",
+      "eligible_for_local_group_coverage": true,
+      "groups": [
+        {
+          "id": "M01",
+          "bbox": [225, 235, 450, 360],
+          "description": "Several white conductors form a new or rerouted visible loop below the upper-left black contactor.",
+          "confidence": "high",
+          "v1_recheck": "confirmed"
+        }
+      ]
+    },
+    {
+      "image": "wrong3.png",
+      "classification": "local_isolated",
+      "eligible_for_local_group_coverage": true,
+      "groups": [
+        {
+          "id": "M01",
+          "bbox": [660, 235, 835, 505],
+          "description": "Two nearby white conductors visibly descend from the upper-right terminal area toward the lower-right rail. They are retained as one connected visual bundle, not asserted as one electrical fault.",
+          "confidence": "high",
+          "v1_recheck": "confirmed"
+        }
+      ]
+    },
+    {
+      "image": "wrong4.png",
+      "classification": "local_isolated",
+      "eligible_for_local_group_coverage": true,
+      "groups": [
+        {
+          "id": "M01",
+          "bbox": [500, 200, 650, 345],
+          "description": "A white conductor visibly hangs beneath the upper-middle breaker row into the middle duct area.",
+          "confidence": "high",
+          "v1_recheck": "confirmed"
+        }
+      ]
+    },
+    {
+      "image": "wrong5.png",
+      "classification": "local_isolated",
+      "eligible_for_local_group_coverage": true,
+      "groups": [
+        {
+          "id": "M01",
+          "bbox": [560, 190, 750, 300],
+          "description": "Two adjacent upper-middle breaker or module faces visibly become dark rectangular panels compared with the reference.",
+          "confidence": "high",
+          "v1_recheck": "confirmed"
+        }
+      ]
+    },
+    {
+      "image": "wrong6.png",
+      "classification": "viewpoint_or_crop_change",
+      "eligible_for_local_group_coverage": false,
+      "groups": [
+        {
+          "id": "M01",
+          "bbox": [855, 160, 1005, 285],
+          "description": "A white conductor visibly leaves the upper-right terminal area and hangs freely toward the right side.",
+          "confidence": "high",
+          "evidence_role": "review_only",
+          "excluded_reason": "The overall cabinet framing and rendering differ, so this box is not a fair local-coverage score target."
+        }
+      ],
+      "manual_observation": "A clear white loose-wire feature is present, alongside broader viewpoint and rendering changes."
+    },
+    {
+      "image": "wrong7.png",
+      "classification": "viewpoint_or_crop_change",
+      "eligible_for_local_group_coverage": false,
+      "groups": [],
+      "manual_observation": "Global cabinet framing, component detail, labels, and wiring appearance vary together; no independent local group is set."
+    },
+    {
+      "image": "wrong8.png",
+      "classification": "viewpoint_or_crop_change",
+      "eligible_for_local_group_coverage": false,
+      "groups": [],
+      "manual_observation": "Global cabinet framing and broad component rendering differ; no independent local group is set."
+    },
+    {
+      "image": "wrong9.png",
+      "classification": "viewpoint_or_crop_change",
+      "eligible_for_local_group_coverage": false,
+      "groups": [],
+      "manual_observation": "Whole-scene geometry and broad device or label appearance vary together; no independent local group is set."
+    },
+    {
+      "image": "wrong10.png",
+      "classification": "global_ai_rerender",
+      "eligible_for_local_group_coverage": false,
+      "groups": [
+        {
+          "id": "M01",
+          "bbox": [850, 205, 955, 370],
+          "description": "A blue conductor visibly hangs below the upper-right terminal row.",
+          "confidence": "high",
+          "evidence_role": "review_only",
+          "excluded_reason": "The rest of the cabinet is globally regenerated, so this box is not eligible for geometry-based coverage scoring.",
+          "v1_recheck": "confirmed"
+        }
+      ],
+      "manual_observation": "The blue loose-wire feature is clear, but global regeneration remains too strong for fair local-box statistics."
+    },
+    {
+      "image": "wrong11.png",
+      "classification": "viewpoint_or_crop_change",
+      "eligible_for_local_group_coverage": false,
+      "groups": [
+        {
+          "id": "M01",
+          "bbox": [435, 400, 640, 540],
+          "description": "The lower white breaker row shows a conspicuous dark gap or separation in the CP4--CP5 area compared with the continuous reference arrangement.",
+          "confidence": "high",
+          "evidence_role": "review_only",
+          "excluded_reason": "Broader framing and generated device-detail changes make this unsuitable for fair local-coverage scoring."
+        }
+      ],
+      "manual_observation": "The CP4--CP5 separation is visually clear, but the image also has wider viewpoint/rendering variation."
+    },
+    {
+      "image": "wrong12.png",
+      "classification": "viewpoint_or_crop_change",
+      "eligible_for_local_group_coverage": false,
+      "groups": [],
+      "manual_observation": "Global scene and component appearance variation prevents a defensible local-box standard."
+    },
+    {
+      "image": "wrong13.png",
+      "classification": "viewpoint_or_crop_change",
+      "eligible_for_local_group_coverage": false,
+      "groups": [
+        {
+          "id": "M01",
+          "bbox": [505, 135, 600, 275],
+          "description": "A white upper-row breaker face has a clearly visible black circular hole or notch near the middle-right of that row.",
+          "confidence": "high",
+          "evidence_role": "review_only",
+          "excluded_reason": "Broader viewpoint and generated device-detail changes make this unsuitable for fair local-coverage scoring."
+        }
+      ],
+      "manual_observation": "The black-hole feature is visually clear, but the rest of the scene is not a stable local-detection comparison."
+    }
+  ]
+}

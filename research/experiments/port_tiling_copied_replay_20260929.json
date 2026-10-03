@@ -1,0 +1,98 @@
+{
+  "cache_and_source_hashes_verified": 60,
+  "cross_tile_nms_exact_replay": 60,
+  "hint_and_warp_exact_replay": 30,
+  "reversed_order_stable": true,
+  "parents_and_existing_hints_unchanged": true,
+  "threshold_rebuilt_exact": true,
+  "region_and_iou_summaries_exact": true,
+  "model_tile_passes": 720,
+  "corrected_baseline": {
+    "fault_images_with_overlap": 15,
+    "source_fragments": 245,
+    "overlap_fragments": 164,
+    "iou_ge_01": 25,
+    "iou_ge_05": 5,
+    "mean_best_iou": 0.040564561525989494,
+    "fault_regions": 71,
+    "normal_regions": 37,
+    "normal_images_with_added_hints": 0
+  },
+  "verified_tiled_summary": {
+    "fault_images_with_overlap": 15,
+    "source_fragments": 245,
+    "overlap_fragments": 164,
+    "iou_ge_01": 25,
+    "iou_ge_05": 5,
+    "mean_best_iou": 0.040564561525989494,
+    "fault_regions": 71,
+    "normal_regions": 38,
+    "normal_images_with_added_hints": 1
+  },
+  "reporting_correction": "Raw baseline normal_images_with_added_hints reused addition count; baseline is zero. No geometry, IoU or inference changed.",
+  "no_model_inference": true,
+  "validation_gate_counts": {
+    "prediction_count": 1893,
+    "invalid": 1,
+    "below_threshold": 1889,
+    "invalid_warp": 0,
+    "no_containing_smaller_parent": 2,
+    "eligible": 1,
+    "hint_count": 1
+  },
+  "above_threshold_predictions": [
+    {
+      "image": "damaged_035.JPG",
+      "kind": "damaged",
+      "prediction": {
+        "left": 1546,
+        "top": 1748,
+        "right": 1603,
+        "bottom": 1798,
+        "class_id": 0,
+        "confidence": 0.44233423471450806,
+        "valid_warp_fraction": 1.0,
+        "support_tiles": [
+          5,
+          9
+        ]
+      }
+    },
+    {
+      "image": "normal_105.JPG",
+      "kind": "normal",
+      "prediction": {
+        "left": 1996,
+        "top": 994,
+        "right": 2032,
+        "bottom": 1031,
+        "class_id": 0,
+        "confidence": 0.5403653383255005,
+        "valid_warp_fraction": 1.0,
+        "support_tiles": [
+          1,
+          2,
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "image": "normal_126.JPG",
+      "kind": "normal",
+      "prediction": {
+        "left": 1526,
+        "top": 984,
+        "right": 1565,
+        "bottom": 1019,
+        "class_id": 0,
+        "confidence": 0.42224815487861633,
+        "valid_warp_fraction": 1.0,
+        "support_tiles": [
+          1,
+          5
+        ]
+      }
+    }
+  ]
+}

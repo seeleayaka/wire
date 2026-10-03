@@ -1,0 +1,136 @@
+{
+  "cases": [
+    {
+      "case": "cabinet_1",
+      "component_records": 55,
+      "exact_mask_groups": 55,
+      "exact_duplicate_redundancy": 0,
+      "eligible_records": 37,
+      "eligible_exact_mask_groups": 37,
+      "ports": [
+        {
+          "port_id": "upper_strip_candidate_1_lower_entry",
+          "identity_confirmed": false,
+          "endpoint_contacts": [],
+          "closest_geometry_diagnostic": [
+            {
+              "record_id": "m025_c01",
+              "point": [
+                323,
+                180
+              ],
+              "distance_px": 1.0
+            },
+            {
+              "record_id": "m012_c01",
+              "point": [
+                349,
+                185
+              ],
+              "distance_px": 20.8806130178211
+            },
+            {
+              "record_id": "m032_c01",
+              "point": [
+                341,
+                133
+              ],
+              "distance_px": 32.31098884280702
+            }
+          ],
+          "assignment": null,
+          "warning": "Distances are not terminal identity or a connection verdict"
+        },
+        {
+          "port_id": "upper_strip_candidate_2_lower_entry",
+          "identity_confirmed": false,
+          "endpoint_contacts": [],
+          "closest_geometry_diagnostic": [
+            {
+              "record_id": "m025_c01",
+              "point": [
+                323,
+                180
+              ],
+              "distance_px": 4.0
+            },
+            {
+              "record_id": "m012_c01",
+              "point": [
+                349,
+                185
+              ],
+              "distance_px": 11.704699910719626
+            },
+            {
+              "record_id": "m032_c01",
+              "point": [
+                341,
+                133
+              ],
+              "distance_px": 31.144823004794873
+            }
+          ],
+          "assignment": null,
+          "warning": "Distances are not terminal identity or a connection verdict"
+        },
+        {
+          "port_id": "upper_strip_candidate_3_lower_entry",
+          "identity_confirmed": false,
+          "endpoint_contacts": [],
+          "closest_geometry_diagnostic": [
+            {
+              "record_id": "m012_c01",
+              "point": [
+                349,
+                185
+              ],
+              "distance_px": 3.1622776601683795
+            },
+            {
+              "record_id": "m025_c01",
+              "point": [
+                323,
+                180
+              ],
+              "distance_px": 14.0
+            },
+            {
+              "record_id": "m029_c01",
+              "point": [
+                370,
+                186
+              ],
+              "distance_px": 22.360679774997898
+            }
+          ],
+          "assignment": null,
+          "warning": "Distances are not terminal identity or a connection verdict"
+        }
+      ],
+      "expected_connections_known": false,
+      "topology_decision": "insufficient_evidence",
+      "high_overlap_pairs": 0,
+      "contained_overlap_pairs": 4,
+      "maximum_pair_mask_iou": 0.3160621761658031
+    },
+    {
+      "case": "cabinet_2",
+      "component_records": 49,
+      "exact_mask_groups": 49,
+      "exact_duplicate_redundancy": 0,
+      "eligible_records": 40,
+      "eligible_exact_mask_groups": 40,
+      "ports": [],
+      "expected_connections_known": false,
+      "topology_decision": "insufficient_evidence",
+      "high_overlap_pairs": 0,
+      "contained_overlap_pairs": 4,
+      "maximum_pair_mask_iou": 0.7893660531697342
+    }
+  ],
+  "existing_evidence_unchanged": true,
+  "new_inference": false,
+  "automatic_connections": [],
+  "physical_wire_counts_claimed": false
+}

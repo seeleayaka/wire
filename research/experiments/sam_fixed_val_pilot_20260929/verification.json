@@ -1,0 +1,38 @@
+{
+  "geometry_reports": [
+    {
+      "image": "normal_003",
+      "components": 23,
+      "pair_eligible": 16,
+      "abstentions": 7,
+      "connections_without_declared_terminals": 0
+    },
+    {
+      "image": "damaged_001",
+      "components": 16,
+      "pair_eligible": 13,
+      "abstentions": 3,
+      "connections_without_declared_terminals": 0
+    },
+    {
+      "image": "disconnected_001",
+      "components": 62,
+      "pair_eligible": 37,
+      "abstentions": 25,
+      "connections_without_declared_terminals": 0
+    },
+    {
+      "image": "disconnected_002",
+      "components": 15,
+      "pair_eligible": 12,
+      "abstentions": 3,
+      "connections_without_declared_terminals": 0
+    }
+  ],
+  "training_components": 101,
+  "training_pair_eligible": 66,
+  "training_abstentions": 35,
+  "pilot_report_exact_replay": true,
+  "no_inference_in_replay": true,
+  "not_claimed": "Cable identity, electrical continuity, field accuracy, dataset-wide precision gain."
+}

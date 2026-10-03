@@ -1,0 +1,243 @@
+{
+  "status": "complete",
+  "counts": {
+    "semantic_below_frozen_gate": 1,
+    "no_eligible_geometry": 24,
+    "budget_full": 4
+  },
+  "cases": [
+    {
+      "image": "disconnected_001.JPG",
+      "misses": [
+        {
+          "target": 2,
+          "reason": "semantic_below_frozen_gate",
+          "eligible": 1,
+          "best_semantic_probability": 0.8349776268005371
+        },
+        {
+          "target": 6,
+          "reason": "no_eligible_geometry",
+          "eligible": 0,
+          "best_semantic_probability": null
+        },
+        {
+          "target": 7,
+          "reason": "no_eligible_geometry",
+          "eligible": 0,
+          "best_semantic_probability": null
+        }
+      ],
+      "eligible_candidates": 8,
+      "classified_candidates": 8
+    },
+    {
+      "image": "disconnected_003.JPG",
+      "misses": [
+        {
+          "target": 5,
+          "reason": "no_eligible_geometry",
+          "eligible": 0,
+          "best_semantic_probability": null
+        },
+        {
+          "target": 7,
+          "reason": "no_eligible_geometry",
+          "eligible": 0,
+          "best_semantic_probability": null
+        }
+      ],
+      "eligible_candidates": 7,
+      "classified_candidates": 7
+    },
+    {
+      "image": "disconnected_008.JPG",
+      "misses": [
+        {
+          "target": 1,
+          "reason": "no_eligible_geometry",
+          "eligible": 0,
+          "best_semantic_probability": null
+        },
+        {
+          "target": 3,
+          "reason": "no_eligible_geometry",
+          "eligible": 0,
+          "best_semantic_probability": null
+        },
+        {
+          "target": 11,
+          "reason": "no_eligible_geometry",
+          "eligible": 0,
+          "best_semantic_probability": null
+        }
+      ],
+      "eligible_candidates": 9,
+      "classified_candidates": 9
+    },
+    {
+      "image": "disconnected_009.JPG",
+      "misses": [
+        {
+          "target": 4,
+          "reason": "no_eligible_geometry",
+          "eligible": 0,
+          "best_semantic_probability": null
+        },
+        {
+          "target": 5,
+          "reason": "no_eligible_geometry",
+          "eligible": 0,
+          "best_semantic_probability": null
+        },
+        {
+          "target": 9,
+          "reason": "no_eligible_geometry",
+          "eligible": 0,
+          "best_semantic_probability": null
+        }
+      ],
+      "eligible_candidates": 8,
+      "classified_candidates": 8
+    },
+    {
+      "image": "disconnected_010.JPG",
+      "misses": [
+        {
+          "target": 3,
+          "reason": "no_eligible_geometry",
+          "eligible": 0,
+          "best_semantic_probability": null
+        },
+        {
+          "target": 6,
+          "reason": "no_eligible_geometry",
+          "eligible": 0,
+          "best_semantic_probability": null
+        },
+        {
+          "target": 7,
+          "reason": "no_eligible_geometry",
+          "eligible": 0,
+          "best_semantic_probability": null
+        },
+        {
+          "target": 10,
+          "reason": "no_eligible_geometry",
+          "eligible": 0,
+          "best_semantic_probability": null
+        }
+      ],
+      "eligible_candidates": 8,
+      "classified_candidates": 8
+    },
+    {
+      "image": "disconnected_012.JPG",
+      "misses": [
+        {
+          "target": 1,
+          "reason": "no_eligible_geometry",
+          "eligible": 0,
+          "best_semantic_probability": null
+        },
+        {
+          "target": 2,
+          "reason": "no_eligible_geometry",
+          "eligible": 0,
+          "best_semantic_probability": null
+        },
+        {
+          "target": 5,
+          "reason": "no_eligible_geometry",
+          "eligible": 0,
+          "best_semantic_probability": null
+        },
+        {
+          "target": 9,
+          "reason": "no_eligible_geometry",
+          "eligible": 0,
+          "best_semantic_probability": null
+        },
+        {
+          "target": 11,
+          "reason": "no_eligible_geometry",
+          "eligible": 0,
+          "best_semantic_probability": null
+        }
+      ],
+      "eligible_candidates": 9,
+      "classified_candidates": 9
+    },
+    {
+      "image": "disconnected_013.JPG",
+      "misses": [
+        {
+          "target": 5,
+          "reason": "budget_full",
+          "eligible": 0,
+          "best_semantic_probability": null
+        },
+        {
+          "target": 7,
+          "reason": "budget_full",
+          "eligible": 0,
+          "best_semantic_probability": null
+        },
+        {
+          "target": 8,
+          "reason": "budget_full",
+          "eligible": 0,
+          "best_semantic_probability": null
+        },
+        {
+          "target": 11,
+          "reason": "budget_full",
+          "eligible": 0,
+          "best_semantic_probability": null
+        }
+      ],
+      "eligible_candidates": 9,
+      "classified_candidates": 0
+    },
+    {
+      "image": "disconnected_014.JPG",
+      "misses": [
+        {
+          "target": 3,
+          "reason": "no_eligible_geometry",
+          "eligible": 0,
+          "best_semantic_probability": null
+        },
+        {
+          "target": 4,
+          "reason": "no_eligible_geometry",
+          "eligible": 0,
+          "best_semantic_probability": null
+        },
+        {
+          "target": 5,
+          "reason": "no_eligible_geometry",
+          "eligible": 0,
+          "best_semantic_probability": null
+        },
+        {
+          "target": 9,
+          "reason": "no_eligible_geometry",
+          "eligible": 0,
+          "best_semantic_probability": null
+        },
+        {
+          "target": 11,
+          "reason": "no_eligible_geometry",
+          "eligible": 0,
+          "best_semantic_probability": null
+        }
+      ],
+      "eligible_candidates": 6,
+      "classified_candidates": 6
+    }
+  ],
+  "training_only": true,
+  "thresholds_not_changed": true,
+  "production_changed": false
+}

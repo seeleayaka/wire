@@ -1,0 +1,16 @@
+{
+  "checks": [
+    {
+      "id": "connector_group_a",
+      "kind": "connector",
+      "expected": "all plugs fully seated",
+      "roi": [0.10, 0.25, 0.48, 0.60]
+    },
+    {
+      "id": "memory_slot_a",
+      "kind": "memory_slot",
+      "expected": "module fully seated; side latches closed",
+      "roi": [0.52, 0.25, 0.90, 0.60]
+    }
+  ]
+}

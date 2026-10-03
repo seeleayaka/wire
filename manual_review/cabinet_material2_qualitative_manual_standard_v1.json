@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "annotation_kind": "human_visual_primary_group_for_qualitative_recall_only",
+  "purpose": "Human-only primary visible anomaly boxes for the selected material-2 qualitative recall set. They are not electrical diagnoses, training labels, threshold-calibration ground truth, or production metrics.",
+  "reference_image": "C:\\Users\\HUAWEI\\Desktop\\案例\\线材柜子\\2\\2.png",
+  "coordinate_space": {
+    "canvas": "reference-sized visual review canvas",
+    "canvas_size": [575, 517],
+    "inspection_rendering": "Each raw 1254x1254 inspection image is resized to 575x517 only for side-by-side manual drawing; no registration, candidate box, heatmap, or score is shown.",
+    "bbox_format": "[left, top, right, bottom]"
+  },
+  "annotation_protocol": {
+    "unit": "one visually conspicuous primary loose/disconnected conductor group per image; other broad generated differences are deliberately not counted.",
+    "selection": "The selected image list comes from cabinet_material2_qualitative_selection_20260827.json.",
+    "metric_policy": "qualitative candidate-coverage review only; no pooled threshold, hit rate, or false-positive rate."
+  },
+  "images": [
+    {
+      "image": "ChatGPT Image 2026年8月25日 16_21_24 (1).png",
+      "groups": [
+        {
+          "id": "Q01",
+          "bbox": [330, 118, 380, 246],
+          "description": "Upper-middle white conductor descends from the terminal area and ends with an exposed copper tip near the upper rail."
+        }
+      ]
+    },
+    {
+      "image": "ChatGPT Image 2026年8月25日 16_21_25 (2).png",
+      "groups": [
+        {
+          "id": "Q01",
+          "bbox": [338, 240, 402, 402],
+          "description": "Central-to-lower white conductor is visibly separated from normal routing and has a free exposed end."
+        }
+      ]
+    },
+    {
+      "image": "ChatGPT Image 2026年8月25日 16_23_59 (1).png",
+      "groups": [
+        {
+          "id": "Q01",
+          "bbox": [338, 125, 390, 245],
+          "description": "White upper-middle conductor hangs down across the rail with a red-tipped free end."
+        }
+      ]
+    },
+    {
+      "image": "ChatGPT Image 2026年8月25日 16_24_00 (2).png",
+      "groups": [
+        {
+          "id": "Q01",
+          "bbox": [330, 118, 410, 260],
+          "description": "Upper-middle long white free conductor is visibly separated from the regular terminal bundles."
+        },
+        {
+          "id": "Q02",
+          "bbox": [335, 300, 410, 435],
+          "description": "A second long white conductor hangs freely through the lower-middle cabinet area."
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "The source images are AI-generated variants and may contain unrelated global changes.",
+    "The boxes are manually drawn before candidate replay, but this is still not a double-blind annotation study.",
+    "Coverage is an operator-review aid, not a production correctness claim."
+  ]
+}

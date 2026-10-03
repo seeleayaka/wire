@@ -1,0 +1,12 @@
+{
+  "sample": "damaged_031.JPG",
+  "selection": "first sorted existing outer source-only unmatched diagnostic",
+  "hypotheses": [
+    "static reference cue is vetoed by unchanged live gates",
+    "cue survives because reference model misses it or semantics differ"
+  ],
+  "thresholds_changed": false,
+  "independent_generalization": false,
+  "new_sam": false,
+  "no_annotation_inference": true
+}

@@ -1,0 +1,22 @@
+{
+  "frozen_before_smoke_and_full_training": true,
+  "hypothesis": "Train-only recall decomposition finds 17 low-score and5 no-localized-box misses; allow higher-level feature adaptation rather than further postprocessing threshold changes",
+  "initial_student_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+  "teacher_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+  "dataset_manifest_sha256": "de69b17092a02878b0eecb8f990a3762bbd8e7dfde1b42fbda7338d821b7b109",
+  "dataset": "Reuse audited656 training crops and unchanged576 inner validation crops,192/48 source disjoint; no new mining or validation-image training",
+  "epochs": 2,
+  "freeze": 6,
+  "freeze_means": "Early-layer parameters frozen, not a claim of immutable batchnorm buffers; newly trainable backbone6-9 must actually change",
+  "lr0": 0.00025,
+  "warmup_bias_lr": 0.0005,
+  "nbs": 16,
+  "smoke_nbs": 4,
+  "fixed_last_checkpoint": true,
+  "no_early_stopping_or_best_checkpoint_selection": true,
+  "evaluation": "Fresh train32 first, then inner48 and outer30; same .5 main/.75 supplementary and old strict rechecks,5+5 budgets; evaluate teacher-preserved candidate merge against accepted teacher+old student baseline67/98,61/80,31/56",
+  "training_acceptance": "Merged TP >67, unmatched0, normal0; no old accepted target lost. Otherwise reject before holdouts",
+  "holdout_acceptance": "Merged innerTP >61, unmatched0, normal0; outerTP>=31, unmatched<=1, normal0; no old accepted target lost. Source-only pass still requires fresh reference and GUI safety before deployment",
+  "production_teacher_and_current_student_unchanged": true,
+  "same_camera_seen_sets_not_field_accuracy": true
+}

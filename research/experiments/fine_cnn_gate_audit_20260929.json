@@ -1,0 +1,21 @@
+{
+  "threshold": 6.940047931671143,
+  "counts": {
+    "fault": {
+      "pre_cnn_supported_hint_members": 312,
+      "above_threshold_supported_members": 0,
+      "extra_qualified_selected": 1,
+      "extra_qualified_pool": 1,
+      "max_pre_cnn_member_score": 6.803386330604553
+    },
+    "normal": {
+      "pre_cnn_supported_hint_members": 139,
+      "above_threshold_supported_members": 0,
+      "extra_qualified_selected": 0,
+      "extra_qualified_pool": 0,
+      "max_pre_cnn_member_score": 2.845342469215393
+    }
+  },
+  "rule_changed": false,
+  "warning": "Explanation only, not a threshold search or accuracy measure."
+}

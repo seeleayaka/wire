@@ -1,0 +1,844 @@
+{
+  "status": "complete",
+  "aggregate": {
+    "960": {
+      "1": {
+        "tp": 8,
+        "unmatched": 3,
+        "fn": 72,
+        "predictions": 11,
+        "targets": 80
+      },
+      "5": {
+        "tp": 40,
+        "unmatched": 3,
+        "fn": 40,
+        "predictions": 43,
+        "targets": 80
+      },
+      "None": {
+        "tp": 68,
+        "unmatched": 5,
+        "fn": 12,
+        "predictions": 73,
+        "targets": 80
+      }
+    },
+    "1280": {
+      "1": {
+        "tp": 8,
+        "unmatched": 1,
+        "fn": 72,
+        "predictions": 9,
+        "targets": 80
+      },
+      "5": {
+        "tp": 39,
+        "unmatched": 2,
+        "fn": 41,
+        "predictions": 41,
+        "targets": 80
+      },
+      "None": {
+        "tp": 60,
+        "unmatched": 9,
+        "fn": 20,
+        "predictions": 69,
+        "targets": 80
+      }
+    }
+  },
+  "outcome": {
+    "1": {
+      "tp_gain": 0,
+      "unmatched_change": -2,
+      "qualifies_for_further_validation": false
+    },
+    "5": {
+      "tp_gain": -1,
+      "unmatched_change": -1,
+      "qualifies_for_further_validation": false
+    },
+    "None": {
+      "tp_gain": -8,
+      "unmatched_change": 4,
+      "qualifies_for_further_validation": false
+    }
+  },
+  "cases": [
+    {
+      "image": "disconnected_004.JPG",
+      "seconds": {
+        "960": 6.97,
+        "1280": 11.62
+      },
+      "evaluation": {
+        "960": {
+          "1": {
+            "tp": 1,
+            "unmatched": 0,
+            "fn": 9,
+            "predictions": 1,
+            "targets": 10
+          },
+          "5": {
+            "tp": 5,
+            "unmatched": 0,
+            "fn": 5,
+            "predictions": 5,
+            "targets": 10
+          },
+          "None": {
+            "tp": 6,
+            "unmatched": 1,
+            "fn": 4,
+            "predictions": 7,
+            "targets": 10
+          }
+        },
+        "1280": {
+          "1": {
+            "tp": 1,
+            "unmatched": 0,
+            "fn": 9,
+            "predictions": 1,
+            "targets": 10
+          },
+          "5": {
+            "tp": 4,
+            "unmatched": 1,
+            "fn": 6,
+            "predictions": 5,
+            "targets": 10
+          },
+          "None": {
+            "tp": 5,
+            "unmatched": 1,
+            "fn": 5,
+            "predictions": 6,
+            "targets": 10
+          }
+        }
+      }
+    },
+    {
+      "image": "disconnected_020.JPG",
+      "seconds": {
+        "960": 7.14,
+        "1280": 13.91
+      },
+      "evaluation": {
+        "960": {
+          "1": {
+            "tp": 1,
+            "unmatched": 0,
+            "fn": 9,
+            "predictions": 1,
+            "targets": 10
+          },
+          "5": {
+            "tp": 5,
+            "unmatched": 0,
+            "fn": 5,
+            "predictions": 5,
+            "targets": 10
+          },
+          "None": {
+            "tp": 10,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 10,
+            "targets": 10
+          }
+        },
+        "1280": {
+          "1": {
+            "tp": 1,
+            "unmatched": 0,
+            "fn": 9,
+            "predictions": 1,
+            "targets": 10
+          },
+          "5": {
+            "tp": 5,
+            "unmatched": 0,
+            "fn": 5,
+            "predictions": 5,
+            "targets": 10
+          },
+          "None": {
+            "tp": 9,
+            "unmatched": 1,
+            "fn": 1,
+            "predictions": 10,
+            "targets": 10
+          }
+        }
+      }
+    },
+    {
+      "image": "disconnected_028.JPG",
+      "seconds": {
+        "960": 7.34,
+        "1280": 13.77
+      },
+      "evaluation": {
+        "960": {
+          "1": {
+            "tp": 1,
+            "unmatched": 0,
+            "fn": 7,
+            "predictions": 1,
+            "targets": 8
+          },
+          "5": {
+            "tp": 5,
+            "unmatched": 0,
+            "fn": 3,
+            "predictions": 5,
+            "targets": 8
+          },
+          "None": {
+            "tp": 8,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 8,
+            "targets": 8
+          }
+        },
+        "1280": {
+          "1": {
+            "tp": 1,
+            "unmatched": 0,
+            "fn": 7,
+            "predictions": 1,
+            "targets": 8
+          },
+          "5": {
+            "tp": 5,
+            "unmatched": 0,
+            "fn": 3,
+            "predictions": 5,
+            "targets": 8
+          },
+          "None": {
+            "tp": 7,
+            "unmatched": 0,
+            "fn": 1,
+            "predictions": 7,
+            "targets": 8
+          }
+        }
+      }
+    },
+    {
+      "image": "disconnected_034.JPG",
+      "seconds": {
+        "960": 7.45,
+        "1280": 14.33
+      },
+      "evaluation": {
+        "960": {
+          "1": {
+            "tp": 1,
+            "unmatched": 0,
+            "fn": 9,
+            "predictions": 1,
+            "targets": 10
+          },
+          "5": {
+            "tp": 5,
+            "unmatched": 0,
+            "fn": 5,
+            "predictions": 5,
+            "targets": 10
+          },
+          "None": {
+            "tp": 10,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 10,
+            "targets": 10
+          }
+        },
+        "1280": {
+          "1": {
+            "tp": 1,
+            "unmatched": 0,
+            "fn": 9,
+            "predictions": 1,
+            "targets": 10
+          },
+          "5": {
+            "tp": 5,
+            "unmatched": 0,
+            "fn": 5,
+            "predictions": 5,
+            "targets": 10
+          },
+          "None": {
+            "tp": 8,
+            "unmatched": 2,
+            "fn": 2,
+            "predictions": 10,
+            "targets": 10
+          }
+        }
+      }
+    },
+    {
+      "image": "disconnected_036.JPG",
+      "seconds": {
+        "960": 7.62,
+        "1280": 14.33
+      },
+      "evaluation": {
+        "960": {
+          "1": {
+            "tp": 1,
+            "unmatched": 0,
+            "fn": 9,
+            "predictions": 1,
+            "targets": 10
+          },
+          "5": {
+            "tp": 5,
+            "unmatched": 0,
+            "fn": 5,
+            "predictions": 5,
+            "targets": 10
+          },
+          "None": {
+            "tp": 8,
+            "unmatched": 0,
+            "fn": 2,
+            "predictions": 8,
+            "targets": 10
+          }
+        },
+        "1280": {
+          "1": {
+            "tp": 1,
+            "unmatched": 0,
+            "fn": 9,
+            "predictions": 1,
+            "targets": 10
+          },
+          "5": {
+            "tp": 5,
+            "unmatched": 0,
+            "fn": 5,
+            "predictions": 5,
+            "targets": 10
+          },
+          "None": {
+            "tp": 7,
+            "unmatched": 0,
+            "fn": 3,
+            "predictions": 7,
+            "targets": 10
+          }
+        }
+      }
+    },
+    {
+      "image": "disconnected_037.JPG",
+      "seconds": {
+        "960": 7.75,
+        "1280": 14.47
+      },
+      "evaluation": {
+        "960": {
+          "1": {
+            "tp": 1,
+            "unmatched": 0,
+            "fn": 9,
+            "predictions": 1,
+            "targets": 10
+          },
+          "5": {
+            "tp": 5,
+            "unmatched": 0,
+            "fn": 5,
+            "predictions": 5,
+            "targets": 10
+          },
+          "None": {
+            "tp": 8,
+            "unmatched": 0,
+            "fn": 2,
+            "predictions": 8,
+            "targets": 10
+          }
+        },
+        "1280": {
+          "1": {
+            "tp": 1,
+            "unmatched": 0,
+            "fn": 9,
+            "predictions": 1,
+            "targets": 10
+          },
+          "5": {
+            "tp": 5,
+            "unmatched": 0,
+            "fn": 5,
+            "predictions": 5,
+            "targets": 10
+          },
+          "None": {
+            "tp": 6,
+            "unmatched": 1,
+            "fn": 4,
+            "predictions": 7,
+            "targets": 10
+          }
+        }
+      }
+    },
+    {
+      "image": "disconnected_040.JPG",
+      "seconds": {
+        "960": 7.77,
+        "1280": 14.7
+      },
+      "evaluation": {
+        "960": {
+          "1": {
+            "tp": 1,
+            "unmatched": 0,
+            "fn": 9,
+            "predictions": 1,
+            "targets": 10
+          },
+          "5": {
+            "tp": 5,
+            "unmatched": 0,
+            "fn": 5,
+            "predictions": 5,
+            "targets": 10
+          },
+          "None": {
+            "tp": 8,
+            "unmatched": 0,
+            "fn": 2,
+            "predictions": 8,
+            "targets": 10
+          }
+        },
+        "1280": {
+          "1": {
+            "tp": 1,
+            "unmatched": 0,
+            "fn": 9,
+            "predictions": 1,
+            "targets": 10
+          },
+          "5": {
+            "tp": 5,
+            "unmatched": 0,
+            "fn": 5,
+            "predictions": 5,
+            "targets": 10
+          },
+          "None": {
+            "tp": 8,
+            "unmatched": 2,
+            "fn": 2,
+            "predictions": 10,
+            "targets": 10
+          }
+        }
+      }
+    },
+    {
+      "image": "disconnected_046.JPG",
+      "seconds": {
+        "960": 8.17,
+        "1280": 15.09
+      },
+      "evaluation": {
+        "960": {
+          "1": {
+            "tp": 1,
+            "unmatched": 0,
+            "fn": 11,
+            "predictions": 1,
+            "targets": 12
+          },
+          "5": {
+            "tp": 5,
+            "unmatched": 0,
+            "fn": 7,
+            "predictions": 5,
+            "targets": 12
+          },
+          "None": {
+            "tp": 10,
+            "unmatched": 1,
+            "fn": 2,
+            "predictions": 11,
+            "targets": 12
+          }
+        },
+        "1280": {
+          "1": {
+            "tp": 1,
+            "unmatched": 0,
+            "fn": 11,
+            "predictions": 1,
+            "targets": 12
+          },
+          "5": {
+            "tp": 5,
+            "unmatched": 0,
+            "fn": 7,
+            "predictions": 5,
+            "targets": 12
+          },
+          "None": {
+            "tp": 10,
+            "unmatched": 1,
+            "fn": 2,
+            "predictions": 11,
+            "targets": 12
+          }
+        }
+      }
+    },
+    {
+      "image": "normal_011.JPG",
+      "seconds": {
+        "960": 7.89,
+        "1280": 14.72
+      },
+      "evaluation": {
+        "960": {
+          "1": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          },
+          "5": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          },
+          "None": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          }
+        },
+        "1280": {
+          "1": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          },
+          "5": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          },
+          "None": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "normal_014.JPG",
+      "seconds": {
+        "960": 7.95,
+        "1280": 14.53
+      },
+      "evaluation": {
+        "960": {
+          "1": {
+            "tp": 0,
+            "unmatched": 1,
+            "fn": 0,
+            "predictions": 1,
+            "targets": 0
+          },
+          "5": {
+            "tp": 0,
+            "unmatched": 1,
+            "fn": 0,
+            "predictions": 1,
+            "targets": 0
+          },
+          "None": {
+            "tp": 0,
+            "unmatched": 1,
+            "fn": 0,
+            "predictions": 1,
+            "targets": 0
+          }
+        },
+        "1280": {
+          "1": {
+            "tp": 0,
+            "unmatched": 1,
+            "fn": 0,
+            "predictions": 1,
+            "targets": 0
+          },
+          "5": {
+            "tp": 0,
+            "unmatched": 1,
+            "fn": 0,
+            "predictions": 1,
+            "targets": 0
+          },
+          "None": {
+            "tp": 0,
+            "unmatched": 1,
+            "fn": 0,
+            "predictions": 1,
+            "targets": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "damaged_016.JPG",
+      "seconds": {
+        "960": 8.0,
+        "1280": 15.05
+      },
+      "evaluation": {
+        "960": {
+          "1": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          },
+          "5": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          },
+          "None": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          }
+        },
+        "1280": {
+          "1": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          },
+          "5": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          },
+          "None": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "damaged_017.JPG",
+      "seconds": {
+        "960": 8.03,
+        "1280": 14.67
+      },
+      "evaluation": {
+        "960": {
+          "1": {
+            "tp": 0,
+            "unmatched": 1,
+            "fn": 0,
+            "predictions": 1,
+            "targets": 0
+          },
+          "5": {
+            "tp": 0,
+            "unmatched": 1,
+            "fn": 0,
+            "predictions": 1,
+            "targets": 0
+          },
+          "None": {
+            "tp": 0,
+            "unmatched": 1,
+            "fn": 0,
+            "predictions": 1,
+            "targets": 0
+          }
+        },
+        "1280": {
+          "1": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          },
+          "5": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          },
+          "None": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "misrouted_005.JPG",
+      "seconds": {
+        "960": 7.94,
+        "1280": 15.14
+      },
+      "evaluation": {
+        "960": {
+          "1": {
+            "tp": 0,
+            "unmatched": 1,
+            "fn": 0,
+            "predictions": 1,
+            "targets": 0
+          },
+          "5": {
+            "tp": 0,
+            "unmatched": 1,
+            "fn": 0,
+            "predictions": 1,
+            "targets": 0
+          },
+          "None": {
+            "tp": 0,
+            "unmatched": 1,
+            "fn": 0,
+            "predictions": 1,
+            "targets": 0
+          }
+        },
+        "1280": {
+          "1": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          },
+          "5": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          },
+          "None": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "misrouted_010.JPG",
+      "seconds": {
+        "960": 8.22,
+        "1280": 14.3
+      },
+      "evaluation": {
+        "960": {
+          "1": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          },
+          "5": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          },
+          "None": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          }
+        },
+        "1280": {
+          "1": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          },
+          "5": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          },
+          "None": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          }
+        }
+      }
+    }
+  ],
+  "seconds": 310.06,
+  "formal_policy_changed": false,
+  "field_accuracy_claimed": false,
+  "caution": "Inner validation already used for original model selection, not independent unseen evaluation"
+}

@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "purpose": "Regression fixtures stay in their desktop source folders; this file never moves or renames originals.",
+  "cases": [
+    {
+      "id": "memory-portrait-self",
+      "reference": "C:\\Users\\HUAWEI\\Desktop\\案例\\内存\\right\\right1.jpg",
+      "inspection": "C:\\Users\\HUAWEI\\Desktop\\案例\\内存\\right\\right1.jpg",
+      "expected_decision": "no_significant_difference"
+    },
+    {
+      "id": "memory-portrait-wrong",
+      "reference": "C:\\Users\\HUAWEI\\Desktop\\案例\\内存\\right\\right1.jpg",
+      "inspection": "C:\\Users\\HUAWEI\\Desktop\\案例\\内存\\wrong\\wrong.jpg",
+      "expected_decision": "possible_difference_manual_review"
+    },
+    {
+      "id": "memory-landscape-wrong-1",
+      "reference": "C:\\Users\\HUAWEI\\Desktop\\案例\\内存\\right\\right3.jpg",
+      "inspection": "C:\\Users\\HUAWEI\\Desktop\\案例\\内存\\wrong\\wrong1.jpg",
+      "expected_decision": "possible_difference_manual_review"
+    },
+    {
+      "id": "memory-landscape-wrong-2",
+      "reference": "C:\\Users\\HUAWEI\\Desktop\\案例\\内存\\right\\right4.jpg",
+      "inspection": "C:\\Users\\HUAWEI\\Desktop\\案例\\内存\\wrong\\wrong2.jpg",
+      "expected_decision": "alignment_uncertain_manual_review",
+      "note": "The user has not paired this mixed-angle folder yet. This fixture intentionally asserts the safe retake/manual-review outcome until a matching reference is supplied."
+    },
+    {
+      "id": "memory2-wrong-13",
+      "reference": "C:\\Users\\HUAWEI\\Desktop\\案例\\内存2\\right\\微信图片_20260818133405_15_71.jpg",
+      "inspection": "C:\\Users\\HUAWEI\\Desktop\\案例\\内存2\\wrong\\微信图片_20260818133403_13_71.jpg",
+      "expected_decision": "possible_difference_manual_review",
+      "rois": [[0.551433, 0.526582, 0.730185, 0.773418], [0.315346, 0.55443, 0.467116, 0.84557]]
+    },
+    {
+      "id": "memory2-wrong-14",
+      "reference": "C:\\Users\\HUAWEI\\Desktop\\案例\\内存2\\right\\微信图片_20260818133405_15_71.jpg",
+      "inspection": "C:\\Users\\HUAWEI\\Desktop\\案例\\内存2\\wrong\\微信图片_20260818133405_14_71.jpg",
+      "expected_decision": "possible_difference_manual_review",
+      "rois": [[0.551433, 0.526582, 0.730185, 0.773418], [0.315346, 0.55443, 0.467116, 0.84557]]
+    },
+    {
+      "id": "plug-wrong-917",
+      "reference": "C:\\Users\\HUAWEI\\Desktop\\案例\\插头\\right\\IMG_20260818_094924.jpg",
+      "inspection": "C:\\Users\\HUAWEI\\Desktop\\案例\\插头\\wrong\\IMG_20260818_094917.jpg",
+      "expected_decision": "possible_difference_manual_review"
+    },
+    {
+      "id": "charger-low-texture",
+      "reference": "C:\\Users\\HUAWEI\\Desktop\\案例\\充电头\\right\\微信图片_20260818132043_12_71.jpg",
+      "inspection": "C:\\Users\\HUAWEI\\Desktop\\案例\\充电头\\wrong\\微信图片_20260818132036_11_71.jpg",
+      "expected_decision": "alignment_uncertain_manual_review"
+    }
+  ]
+}

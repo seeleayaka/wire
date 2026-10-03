@@ -1,0 +1,126 @@
+{
+  "threshold": 0.39880521297454796,
+  "samples": [
+    {
+      "image": "normal_116.JPG",
+      "maximum_confidence": 0.23459984362125397
+    },
+    {
+      "image": "normal_117.JPG",
+      "maximum_confidence": 0.2455873042345047
+    },
+    {
+      "image": "normal_118.JPG",
+      "maximum_confidence": 0.3161926567554474
+    },
+    {
+      "image": "normal_120.JPG",
+      "maximum_confidence": 0.2521842122077942
+    },
+    {
+      "image": "normal_121.JPG",
+      "maximum_confidence": 0.15978707373142242
+    },
+    {
+      "image": "normal_122.JPG",
+      "maximum_confidence": 0.1620555818080902
+    },
+    {
+      "image": "normal_123.JPG",
+      "maximum_confidence": 0.28013524413108826
+    },
+    {
+      "image": "normal_124.JPG",
+      "maximum_confidence": 0.45993393659591675
+    },
+    {
+      "image": "normal_125.JPG",
+      "maximum_confidence": 0.06884229928255081
+    },
+    {
+      "image": "normal_127.JPG",
+      "maximum_confidence": 0.22618518769741058
+    },
+    {
+      "image": "normal_128.JPG",
+      "maximum_confidence": 0.3240923285484314
+    },
+    {
+      "image": "normal_129.JPG",
+      "maximum_confidence": 0.06584848463535309
+    },
+    {
+      "image": "normal_130.JPG",
+      "maximum_confidence": 0.04001438617706299
+    },
+    {
+      "image": "normal_131.JPG",
+      "maximum_confidence": 0.6544345021247864
+    },
+    {
+      "image": "normal_133.JPG",
+      "maximum_confidence": 0.03899148851633072
+    },
+    {
+      "image": "normal_134.JPG",
+      "maximum_confidence": 0.07182934880256653
+    },
+    {
+      "image": "normal_135.JPG",
+      "maximum_confidence": 0.15436244010925293
+    },
+    {
+      "image": "normal_137.JPG",
+      "maximum_confidence": 0.04546395689249039
+    },
+    {
+      "image": "normal_138.JPG",
+      "maximum_confidence": 0.13883867859840393
+    },
+    {
+      "image": "normal_139.JPG",
+      "maximum_confidence": 0.22299537062644958
+    },
+    {
+      "image": "normal_140.JPG",
+      "maximum_confidence": 0.07534489035606384
+    },
+    {
+      "image": "normal_141.JPG",
+      "maximum_confidence": 0.25453299283981323
+    },
+    {
+      "image": "normal_142.JPG",
+      "maximum_confidence": 0.07493600249290466
+    },
+    {
+      "image": "normal_143.JPG",
+      "maximum_confidence": 0.25690099596977234
+    },
+    {
+      "image": "normal_145.JPG",
+      "maximum_confidence": 0.24113696813583374
+    },
+    {
+      "image": "normal_146.JPG",
+      "maximum_confidence": 0.079115130007267
+    },
+    {
+      "image": "normal_147.JPG",
+      "maximum_confidence": 0.12904393672943115
+    },
+    {
+      "image": "normal_148.JPG",
+      "maximum_confidence": 0.21112938225269318
+    },
+    {
+      "image": "normal_149.JPG",
+      "maximum_confidence": 0.2455822378396988
+    },
+    {
+      "image": "normal_150.JPG",
+      "maximum_confidence": 0.2607753574848175
+    }
+  ],
+  "warning": "Train-seen normals and prior validation-selected model; not independent calibration."
+}

@@ -1,0 +1,560 @@
+{
+  "status": "complete",
+  "inner_validation_only": true,
+  "summary": {
+    "960": {
+      "top1": {
+        "tp": 8,
+        "unmatched": 3,
+        "fn": 72,
+        "predictions": 11,
+        "targets": 80
+      },
+      "bounded_expand": {
+        "tp": 40,
+        "unmatched": 3,
+        "fn": 40,
+        "predictions": 43,
+        "targets": 80
+      }
+    },
+    "1280": {
+      "top1": {
+        "tp": 8,
+        "unmatched": 1,
+        "fn": 72,
+        "predictions": 9,
+        "targets": 80
+      },
+      "bounded_expand": {
+        "tp": 38,
+        "unmatched": 2,
+        "fn": 42,
+        "predictions": 40,
+        "targets": 80
+      }
+    }
+  },
+  "cases": [
+    {
+      "image": "disconnected_004.JPG",
+      "metrics": {
+        "960": {
+          "top1": {
+            "tp": 1,
+            "unmatched": 0,
+            "fn": 9,
+            "predictions": 1,
+            "targets": 10
+          },
+          "bounded_expand": {
+            "tp": 5,
+            "unmatched": 0,
+            "fn": 5,
+            "predictions": 5,
+            "targets": 10
+          }
+        },
+        "1280": {
+          "top1": {
+            "tp": 1,
+            "unmatched": 0,
+            "fn": 9,
+            "predictions": 1,
+            "targets": 10
+          },
+          "bounded_expand": {
+            "tp": 4,
+            "unmatched": 1,
+            "fn": 6,
+            "predictions": 5,
+            "targets": 10
+          }
+        }
+      }
+    },
+    {
+      "image": "disconnected_020.JPG",
+      "metrics": {
+        "960": {
+          "top1": {
+            "tp": 1,
+            "unmatched": 0,
+            "fn": 9,
+            "predictions": 1,
+            "targets": 10
+          },
+          "bounded_expand": {
+            "tp": 5,
+            "unmatched": 0,
+            "fn": 5,
+            "predictions": 5,
+            "targets": 10
+          }
+        },
+        "1280": {
+          "top1": {
+            "tp": 1,
+            "unmatched": 0,
+            "fn": 9,
+            "predictions": 1,
+            "targets": 10
+          },
+          "bounded_expand": {
+            "tp": 5,
+            "unmatched": 0,
+            "fn": 5,
+            "predictions": 5,
+            "targets": 10
+          }
+        }
+      }
+    },
+    {
+      "image": "disconnected_028.JPG",
+      "metrics": {
+        "960": {
+          "top1": {
+            "tp": 1,
+            "unmatched": 0,
+            "fn": 7,
+            "predictions": 1,
+            "targets": 8
+          },
+          "bounded_expand": {
+            "tp": 5,
+            "unmatched": 0,
+            "fn": 3,
+            "predictions": 5,
+            "targets": 8
+          }
+        },
+        "1280": {
+          "top1": {
+            "tp": 1,
+            "unmatched": 0,
+            "fn": 7,
+            "predictions": 1,
+            "targets": 8
+          },
+          "bounded_expand": {
+            "tp": 5,
+            "unmatched": 0,
+            "fn": 3,
+            "predictions": 5,
+            "targets": 8
+          }
+        }
+      }
+    },
+    {
+      "image": "disconnected_034.JPG",
+      "metrics": {
+        "960": {
+          "top1": {
+            "tp": 1,
+            "unmatched": 0,
+            "fn": 9,
+            "predictions": 1,
+            "targets": 10
+          },
+          "bounded_expand": {
+            "tp": 5,
+            "unmatched": 0,
+            "fn": 5,
+            "predictions": 5,
+            "targets": 10
+          }
+        },
+        "1280": {
+          "top1": {
+            "tp": 1,
+            "unmatched": 0,
+            "fn": 9,
+            "predictions": 1,
+            "targets": 10
+          },
+          "bounded_expand": {
+            "tp": 5,
+            "unmatched": 0,
+            "fn": 5,
+            "predictions": 5,
+            "targets": 10
+          }
+        }
+      }
+    },
+    {
+      "image": "disconnected_036.JPG",
+      "metrics": {
+        "960": {
+          "top1": {
+            "tp": 1,
+            "unmatched": 0,
+            "fn": 9,
+            "predictions": 1,
+            "targets": 10
+          },
+          "bounded_expand": {
+            "tp": 5,
+            "unmatched": 0,
+            "fn": 5,
+            "predictions": 5,
+            "targets": 10
+          }
+        },
+        "1280": {
+          "top1": {
+            "tp": 1,
+            "unmatched": 0,
+            "fn": 9,
+            "predictions": 1,
+            "targets": 10
+          },
+          "bounded_expand": {
+            "tp": 4,
+            "unmatched": 0,
+            "fn": 6,
+            "predictions": 4,
+            "targets": 10
+          }
+        }
+      }
+    },
+    {
+      "image": "disconnected_037.JPG",
+      "metrics": {
+        "960": {
+          "top1": {
+            "tp": 1,
+            "unmatched": 0,
+            "fn": 9,
+            "predictions": 1,
+            "targets": 10
+          },
+          "bounded_expand": {
+            "tp": 5,
+            "unmatched": 0,
+            "fn": 5,
+            "predictions": 5,
+            "targets": 10
+          }
+        },
+        "1280": {
+          "top1": {
+            "tp": 1,
+            "unmatched": 0,
+            "fn": 9,
+            "predictions": 1,
+            "targets": 10
+          },
+          "bounded_expand": {
+            "tp": 5,
+            "unmatched": 0,
+            "fn": 5,
+            "predictions": 5,
+            "targets": 10
+          }
+        }
+      }
+    },
+    {
+      "image": "disconnected_040.JPG",
+      "metrics": {
+        "960": {
+          "top1": {
+            "tp": 1,
+            "unmatched": 0,
+            "fn": 9,
+            "predictions": 1,
+            "targets": 10
+          },
+          "bounded_expand": {
+            "tp": 5,
+            "unmatched": 0,
+            "fn": 5,
+            "predictions": 5,
+            "targets": 10
+          }
+        },
+        "1280": {
+          "top1": {
+            "tp": 1,
+            "unmatched": 0,
+            "fn": 9,
+            "predictions": 1,
+            "targets": 10
+          },
+          "bounded_expand": {
+            "tp": 5,
+            "unmatched": 0,
+            "fn": 5,
+            "predictions": 5,
+            "targets": 10
+          }
+        }
+      }
+    },
+    {
+      "image": "disconnected_046.JPG",
+      "metrics": {
+        "960": {
+          "top1": {
+            "tp": 1,
+            "unmatched": 0,
+            "fn": 11,
+            "predictions": 1,
+            "targets": 12
+          },
+          "bounded_expand": {
+            "tp": 5,
+            "unmatched": 0,
+            "fn": 7,
+            "predictions": 5,
+            "targets": 12
+          }
+        },
+        "1280": {
+          "top1": {
+            "tp": 1,
+            "unmatched": 0,
+            "fn": 11,
+            "predictions": 1,
+            "targets": 12
+          },
+          "bounded_expand": {
+            "tp": 5,
+            "unmatched": 0,
+            "fn": 7,
+            "predictions": 5,
+            "targets": 12
+          }
+        }
+      }
+    },
+    {
+      "image": "normal_011.JPG",
+      "metrics": {
+        "960": {
+          "top1": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          },
+          "bounded_expand": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          }
+        },
+        "1280": {
+          "top1": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          },
+          "bounded_expand": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "normal_014.JPG",
+      "metrics": {
+        "960": {
+          "top1": {
+            "tp": 0,
+            "unmatched": 1,
+            "fn": 0,
+            "predictions": 1,
+            "targets": 0
+          },
+          "bounded_expand": {
+            "tp": 0,
+            "unmatched": 1,
+            "fn": 0,
+            "predictions": 1,
+            "targets": 0
+          }
+        },
+        "1280": {
+          "top1": {
+            "tp": 0,
+            "unmatched": 1,
+            "fn": 0,
+            "predictions": 1,
+            "targets": 0
+          },
+          "bounded_expand": {
+            "tp": 0,
+            "unmatched": 1,
+            "fn": 0,
+            "predictions": 1,
+            "targets": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "damaged_016.JPG",
+      "metrics": {
+        "960": {
+          "top1": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          },
+          "bounded_expand": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          }
+        },
+        "1280": {
+          "top1": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          },
+          "bounded_expand": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "damaged_017.JPG",
+      "metrics": {
+        "960": {
+          "top1": {
+            "tp": 0,
+            "unmatched": 1,
+            "fn": 0,
+            "predictions": 1,
+            "targets": 0
+          },
+          "bounded_expand": {
+            "tp": 0,
+            "unmatched": 1,
+            "fn": 0,
+            "predictions": 1,
+            "targets": 0
+          }
+        },
+        "1280": {
+          "top1": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          },
+          "bounded_expand": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "misrouted_005.JPG",
+      "metrics": {
+        "960": {
+          "top1": {
+            "tp": 0,
+            "unmatched": 1,
+            "fn": 0,
+            "predictions": 1,
+            "targets": 0
+          },
+          "bounded_expand": {
+            "tp": 0,
+            "unmatched": 1,
+            "fn": 0,
+            "predictions": 1,
+            "targets": 0
+          }
+        },
+        "1280": {
+          "top1": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          },
+          "bounded_expand": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "misrouted_010.JPG",
+      "metrics": {
+        "960": {
+          "top1": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          },
+          "bounded_expand": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          }
+        },
+        "1280": {
+          "top1": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          },
+          "bounded_expand": {
+            "tp": 0,
+            "unmatched": 0,
+            "fn": 0,
+            "predictions": 0,
+            "targets": 0
+          }
+        }
+      }
+    }
+  ],
+  "test_or_outer_validation_read": false,
+  "formal_policy_changed": false
+}

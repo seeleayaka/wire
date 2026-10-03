@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "graph_id": "sam-controlled-observed",
+  "scene_type": "bench_terminal_board",
+  "terminals": [
+    {"id": "SOURCE_PLUS", "label": "source +", "bbox_xyxy": [30, 50, 50, 70]},
+    {"id": "LOAD_PLUS", "label": "load +", "bbox_xyxy": [150, 50, 170, 70]},
+    {"id": "SOURCE_MINUS", "label": "source -", "bbox_xyxy": [30, 130, 50, 150]},
+    {"id": "LOAD_MINUS", "label": "load -", "bbox_xyxy": [150, 130, 170, 150]}
+  ]
+}

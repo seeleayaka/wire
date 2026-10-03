@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "graph_id": "wrong2-sam3-visible-anchor-observed",
+  "scene_type": "cabinet_visible_anchor_probe",
+  "terminals": [
+    {
+      "id": "ANCHOR_M004_A",
+      "label": "declared visible anchor near m004 first endpoint; not an electrical terminal claim",
+      "bbox_xyxy": [813, 89, 819, 95]
+    },
+    {
+      "id": "ANCHOR_M004_B",
+      "label": "declared visible anchor near m004 second endpoint; not an electrical terminal claim",
+      "bbox_xyxy": [799, 163, 805, 169]
+    }
+  ]
+}

@@ -1,0 +1,2887 @@
+{
+  "split": "train01",
+  "samples": [
+    {
+      "image": "normal_003.JPG",
+      "split": "train01",
+      "cache_dir": "E:\\PythonProject10\\manual_review\\sam3_mendeley_intelliman_normal_003_thr040_20260828",
+      "instances": 13,
+      "mask_union_fraction": 0.030913658529547552,
+      "component_count": 23,
+      "open_unbranched_components": 16,
+      "branched_components": 7,
+      "more_than_two_ends_components": 7,
+      "components": [
+        {
+          "mask_id": 1,
+          "bounds": [
+            3016,
+            961,
+            3188,
+            1079
+          ],
+          "pixels": 8660,
+          "skeleton_pixels": 160,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              3169,
+              991
+            ],
+            [
+              3021,
+              1077
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 2,
+          "bounds": [
+            1670,
+            2070,
+            1860,
+            2538
+          ],
+          "pixels": 24089,
+          "skeleton_pixels": 468,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              1838,
+              2085
+            ],
+            [
+              1804,
+              2532
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 2,
+          "bounds": [
+            1838,
+            2566,
+            1931,
+            2609
+          ],
+          "pixels": 1850,
+          "skeleton_pixels": 86,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              1840,
+              2569
+            ],
+            [
+              1925,
+              2600
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 3,
+          "bounds": [
+            495,
+            920,
+            1020,
+            1073
+          ],
+          "pixels": 23148,
+          "skeleton_pixels": 590,
+          "end_count": 4,
+          "branch_clusters": 2,
+          "visible_ends": [
+            [
+              968,
+              938
+            ],
+            [
+              974,
+              957
+            ],
+            [
+              993,
+              1018
+            ],
+            [
+              497,
+              1069
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 4,
+          "bounds": [
+            2590,
+            1114,
+            2847,
+            1681
+          ],
+          "pixels": 56417,
+          "skeleton_pixels": 1081,
+          "end_count": 13,
+          "branch_clusters": 10,
+          "visible_ends": [
+            [
+              2782,
+              1124
+            ],
+            [
+              2842,
+              1129
+            ],
+            [
+              2825,
+              1188
+            ],
+            [
+              2812,
+              1238
+            ],
+            [
+              2805,
+              1398
+            ],
+            [
+              2795,
+              1402
+            ],
+            [
+              2777,
+              1438
+            ],
+            [
+              2767,
+              1451
+            ],
+            [
+              2711,
+              1616
+            ],
+            [
+              2689,
+              1628
+            ],
+            [
+              2658,
+              1643
+            ],
+            [
+              2689,
+              1647
+            ],
+            [
+              2594,
+              1648
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 4,
+          "bounds": [
+            2767,
+            1347,
+            2819,
+            1384
+          ],
+          "pixels": 1133,
+          "skeleton_pixels": 52,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              2815,
+              1349
+            ],
+            [
+              2768,
+              1382
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 4,
+          "bounds": [
+            2694,
+            1624,
+            2706,
+            1641
+          ],
+          "pixels": 143,
+          "skeleton_pixels": 17,
+          "end_count": 3,
+          "branch_clusters": 1,
+          "visible_ends": [
+            [
+              2702,
+              1626
+            ],
+            [
+              2696,
+              1628
+            ],
+            [
+              2702,
+              1637
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 4,
+          "bounds": [
+            1984,
+            1712,
+            2622,
+            2343
+          ],
+          "pixels": 72406,
+          "skeleton_pixels": 1266,
+          "end_count": 12,
+          "branch_clusters": 12,
+          "visible_ends": [
+            [
+              2612,
+              1735
+            ],
+            [
+              2262,
+              1802
+            ],
+            [
+              2251,
+              1822
+            ],
+            [
+              2172,
+              1887
+            ],
+            [
+              2164,
+              1896
+            ],
+            [
+              2147,
+              1905
+            ],
+            [
+              2039,
+              2047
+            ],
+            [
+              2009,
+              2098
+            ],
+            [
+              1990,
+              2104
+            ],
+            [
+              2004,
+              2307
+            ],
+            [
+              2047,
+              2319
+            ],
+            [
+              2038,
+              2329
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 4,
+          "bounds": [
+            1986,
+            2081,
+            2001,
+            2089
+          ],
+          "pixels": 66,
+          "skeleton_pixels": 13,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              1998,
+              2084
+            ],
+            [
+              1986,
+              2085
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 4,
+          "bounds": [
+            1928,
+            2113,
+            1950,
+            2128
+          ],
+          "pixels": 221,
+          "skeleton_pixels": 16,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              1929,
+              2123
+            ],
+            [
+              1944,
+              2123
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 4,
+          "bounds": [
+            1975,
+            2128,
+            1990,
+            2135
+          ],
+          "pixels": 66,
+          "skeleton_pixels": 13,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              1988,
+              2131
+            ],
+            [
+              1976,
+              2132
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 5,
+          "bounds": [
+            1461,
+            915,
+            1634,
+            1170
+          ],
+          "pixels": 8860,
+          "skeleton_pixels": 258,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              1615,
+              916
+            ],
+            [
+              1475,
+              1167
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 6,
+          "bounds": [
+            1835,
+            369,
+            1862,
+            418
+          ],
+          "pixels": 895,
+          "skeleton_pixels": 41,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              1855,
+              369
+            ],
+            [
+              1849,
+              409
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 6,
+          "bounds": [
+            1877,
+            450,
+            2018,
+            645
+          ],
+          "pixels": 7437,
+          "skeleton_pixels": 193,
+          "end_count": 3,
+          "branch_clusters": 1,
+          "visible_ends": [
+            [
+              1891,
+              472
+            ],
+            [
+              1955,
+              522
+            ],
+            [
+              1994,
+              643
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 6,
+          "bounds": [
+            1852,
+            602,
+            1861,
+            620
+          ],
+          "pixels": 84,
+          "skeleton_pixels": 18,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              1860,
+              603
+            ],
+            [
+              1855,
+              618
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 7,
+          "bounds": [
+            2764,
+            1558,
+            3026,
+            1776
+          ],
+          "pixels": 7026,
+          "skeleton_pixels": 264,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              3017,
+              1564
+            ],
+            [
+              2769,
+              1766
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 8,
+          "bounds": [
+            446,
+            1632,
+            941,
+            1935
+          ],
+          "pixels": 21083,
+          "skeleton_pixels": 712,
+          "end_count": 4,
+          "branch_clusters": 2,
+          "visible_ends": [
+            [
+              829,
+              1642
+            ],
+            [
+              923,
+              1779
+            ],
+            [
+              905,
+              1852
+            ],
+            [
+              451,
+              1909
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 9,
+          "bounds": [
+            1806,
+            486,
+            2036,
+            729
+          ],
+          "pixels": 8459,
+          "skeleton_pixels": 299,
+          "end_count": 3,
+          "branch_clusters": 1,
+          "visible_ends": [
+            [
+              2024,
+              495
+            ],
+            [
+              1941,
+              550
+            ],
+            [
+              1814,
+              719
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 9,
+          "bounds": [
+            1991,
+            607,
+            2016,
+            642
+          ],
+          "pixels": 606,
+          "skeleton_pixels": 14,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              2007,
+              615
+            ],
+            [
+              2002,
+              628
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 10,
+          "bounds": [
+            2877,
+            2354,
+            2984,
+            2513
+          ],
+          "pixels": 3856,
+          "skeleton_pixels": 150,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              2976,
+              2360
+            ],
+            [
+              2889,
+              2502
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 11,
+          "bounds": [
+            1062,
+            599,
+            1632,
+            1007
+          ],
+          "pixels": 28834,
+          "skeleton_pixels": 706,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              1540,
+              607
+            ],
+            [
+              1069,
+              997
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 12,
+          "bounds": [
+            2704,
+            2396,
+            2801,
+            2534
+          ],
+          "pixels": 8379,
+          "skeleton_pixels": 117,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              2769,
+              2420
+            ],
+            [
+              2710,
+              2525
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 13,
+          "bounds": [
+            1801,
+            820,
+            2320,
+            1403
+          ],
+          "pixels": 26630,
+          "skeleton_pixels": 692,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              1812,
+              828
+            ],
+            [
+              2303,
+              1394
+            ]
+          ],
+          "unambiguous_open_segment": true
+        }
+      ],
+      "source_fragment_count": 0,
+      "source_fragments_any_mask_pixels": 0,
+      "source_fragment_mask_fraction": [],
+      "report_sha256": "6db59f66670411365629f8580ea69ac05c26eb505e7f7bdfbb3da00fd782e2ad",
+      "source_sha256_current": "e201ef854c0e0623a33a115703f9627631acdce41cd6dfef57590af320ccdba4",
+      "mask_sha256": "849b028625335e8544e93095a79531a70e6395ce0b793a1baa13c268b55a1756",
+      "historical_cache_unfingerprinted_source": true
+    },
+    {
+      "image": "damaged_001.JPG",
+      "split": "train01",
+      "cache_dir": "E:\\PythonProject10\\output\\mendeley_intelliman_topology_evidence_20260828\\sam3_damaged_001_thr040",
+      "instances": 12,
+      "mask_union_fraction": 0.019791446246280906,
+      "component_count": 16,
+      "open_unbranched_components": 13,
+      "branched_components": 3,
+      "more_than_two_ends_components": 3,
+      "components": [
+        {
+          "mask_id": 1,
+          "bounds": [
+            1773,
+            2114,
+            1862,
+            2411
+          ],
+          "pixels": 10500,
+          "skeleton_pixels": 285,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              1854,
+              2117
+            ],
+            [
+              1811,
+              2401
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 1,
+          "bounds": [
+            1855,
+            2433,
+            1967,
+            2522
+          ],
+          "pixels": 5102,
+          "skeleton_pixels": 123,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              1880,
+              2434
+            ],
+            [
+              1965,
+              2512
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 1,
+          "bounds": [
+            1946,
+            2546,
+            2048,
+            2585
+          ],
+          "pixels": 2915,
+          "skeleton_pixels": 92,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              1946,
+              2550
+            ],
+            [
+              2037,
+              2572
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 2,
+          "bounds": [
+            572,
+            985,
+            1048,
+            1065
+          ],
+          "pixels": 15638,
+          "skeleton_pixels": 499,
+          "end_count": 3,
+          "branch_clusters": 1,
+          "visible_ends": [
+            [
+              1032,
+              1000
+            ],
+            [
+              600,
+              1059
+            ],
+            [
+              574,
+              1060
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 3,
+          "bounds": [
+            3058,
+            978,
+            3220,
+            1081
+          ],
+          "pixels": 7781,
+          "skeleton_pixels": 126,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              3195,
+              1002
+            ],
+            [
+              3070,
+              1066
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 4,
+          "bounds": [
+            1867,
+            412,
+            1901,
+            453
+          ],
+          "pixels": 799,
+          "skeleton_pixels": 38,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              1873,
+              417
+            ],
+            [
+              1893,
+              452
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 4,
+          "bounds": [
+            1916,
+            477,
+            2029,
+            612
+          ],
+          "pixels": 5035,
+          "skeleton_pixels": 126,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              1931,
+              478
+            ],
+            [
+              2019,
+              599
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 5,
+          "bounds": [
+            527,
+            1762,
+            998,
+            1991
+          ],
+          "pixels": 14324,
+          "skeleton_pixels": 470,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              974,
+              1789
+            ],
+            [
+              532,
+              1907
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 6,
+          "bounds": [
+            560,
+            908,
+            1054,
+            1071
+          ],
+          "pixels": 20349,
+          "skeleton_pixels": 592,
+          "end_count": 3,
+          "branch_clusters": 1,
+          "visible_ends": [
+            [
+              1024,
+              922
+            ],
+            [
+              601,
+              1067
+            ],
+            [
+              563,
+              1068
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 7,
+          "bounds": [
+            1521,
+            975,
+            1719,
+            1177
+          ],
+          "pixels": 8273,
+          "skeleton_pixels": 254,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              1697,
+              985
+            ],
+            [
+              1526,
+              1175
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 8,
+          "bounds": [
+            2621,
+            1116,
+            2882,
+            1682
+          ],
+          "pixels": 67093,
+          "skeleton_pixels": 1035,
+          "end_count": 3,
+          "branch_clusters": 5,
+          "visible_ends": [
+            [
+              2876,
+              1127
+            ],
+            [
+              2639,
+              1634
+            ],
+            [
+              2694,
+              1640
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 8,
+          "bounds": [
+            2538,
+            1720,
+            2644,
+            1774
+          ],
+          "pixels": 3420,
+          "skeleton_pixels": 93,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              2634,
+              1744
+            ],
+            [
+              2542,
+              1763
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 9,
+          "bounds": [
+            1150,
+            611,
+            1674,
+            1015
+          ],
+          "pixels": 27413,
+          "skeleton_pixels": 677,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              1588,
+              617
+            ],
+            [
+              1153,
+              1007
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 10,
+          "bounds": [
+            2992,
+            2336,
+            3033,
+            2508
+          ],
+          "pixels": 3673,
+          "skeleton_pixels": 166,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              3021,
+              2343
+            ],
+            [
+              3029,
+              2502
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 11,
+          "bounds": [
+            2717,
+            2319,
+            2882,
+            2513
+          ],
+          "pixels": 14183,
+          "skeleton_pixels": 191,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              2860,
+              2341
+            ],
+            [
+              2725,
+              2503
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 12,
+          "bounds": [
+            2789,
+            1553,
+            3049,
+            1768
+          ],
+          "pixels": 6569,
+          "skeleton_pixels": 269,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              3046,
+              1555
+            ],
+            [
+              2791,
+              1762
+            ]
+          ],
+          "unambiguous_open_segment": true
+        }
+      ],
+      "source_fragment_count": 9,
+      "source_fragments_any_mask_pixels": 3,
+      "source_fragment_mask_fraction": [
+        0.0,
+        0.0019047619047619048,
+        0.0,
+        0.0,
+        0.0,
+        0.015434981684981685,
+        0.12874138061680684,
+        0.0,
+        0.0
+      ],
+      "report_sha256": "3d9998d7a749ca9c672a66e76f9e1b074da6c4a04f49fbee1cb4abb536f82280",
+      "source_sha256_current": "b24ba092807c12588e297ca7b806c78687dc117c0ee4e013ec72b5a849e79784",
+      "mask_sha256": "b27d16154d8a6dbe758833b2589401809f621707eef9140737a9a76f8cbbed12",
+      "historical_cache_unfingerprinted_source": true
+    },
+    {
+      "image": "disconnected_001.JPG",
+      "split": "train01",
+      "cache_dir": "E:\\PythonProject10\\output\\mendeley_intelliman_topology_evidence_20260828\\sam3_disconnected_001_thr040",
+      "instances": 15,
+      "mask_union_fraction": 0.039581890581717454,
+      "component_count": 62,
+      "open_unbranched_components": 37,
+      "branched_components": 25,
+      "more_than_two_ends_components": 23,
+      "components": [
+        {
+          "mask_id": 1,
+          "bounds": [
+            3063,
+            979,
+            3229,
+            1085
+          ],
+          "pixels": 8010,
+          "skeleton_pixels": 140,
+          "end_count": 3,
+          "branch_clusters": 1,
+          "visible_ends": [
+            [
+              3202,
+              1002
+            ],
+            [
+              3210,
+              1009
+            ],
+            [
+              3077,
+              1069
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 2,
+          "bounds": [
+            2629,
+            1123,
+            2884,
+            1680
+          ],
+          "pixels": 47232,
+          "skeleton_pixels": 814,
+          "end_count": 8,
+          "branch_clusters": 6,
+          "visible_ends": [
+            [
+              2882,
+              1125
+            ],
+            [
+              2865,
+              1147
+            ],
+            [
+              2855,
+              1230
+            ],
+            [
+              2841,
+              1279
+            ],
+            [
+              2837,
+              1330
+            ],
+            [
+              2654,
+              1638
+            ],
+            [
+              2730,
+              1646
+            ],
+            [
+              2700,
+              1657
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 2,
+          "bounds": [
+            2799,
+            1384,
+            2845,
+            1468
+          ],
+          "pixels": 2151,
+          "skeleton_pixels": 100,
+          "end_count": 3,
+          "branch_clusters": 1,
+          "visible_ends": [
+            [
+              2838,
+              1389
+            ],
+            [
+              2805,
+              1459
+            ],
+            [
+              2830,
+              1465
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 2,
+          "bounds": [
+            2754,
+            1480,
+            2821,
+            1587
+          ],
+          "pixels": 3139,
+          "skeleton_pixels": 121,
+          "end_count": 3,
+          "branch_clusters": 1,
+          "visible_ends": [
+            [
+              2793,
+              1482
+            ],
+            [
+              2807,
+              1506
+            ],
+            [
+              2755,
+              1585
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 2,
+          "bounds": [
+            2336,
+            1491,
+            2355,
+            1514
+          ],
+          "pixels": 163,
+          "skeleton_pixels": 27,
+          "end_count": 3,
+          "branch_clusters": 1,
+          "visible_ends": [
+            [
+              2349,
+              1491
+            ],
+            [
+              2352,
+              1496
+            ],
+            [
+              2337,
+              1512
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 2,
+          "bounds": [
+            2743,
+            1607,
+            2769,
+            1631
+          ],
+          "pixels": 278,
+          "skeleton_pixels": 31,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              2765,
+              1610
+            ],
+            [
+              2743,
+              1629
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 2,
+          "bounds": [
+            2357,
+            1710,
+            2668,
+            1889
+          ],
+          "pixels": 21400,
+          "skeleton_pixels": 422,
+          "end_count": 6,
+          "branch_clusters": 4,
+          "visible_ends": [
+            [
+              2620,
+              1719
+            ],
+            [
+              2662,
+              1733
+            ],
+            [
+              2360,
+              1829
+            ],
+            [
+              2362,
+              1845
+            ],
+            [
+              2381,
+              1867
+            ],
+            [
+              2371,
+              1885
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 2,
+          "bounds": [
+            2753,
+            1778,
+            2782,
+            1796
+          ],
+          "pixels": 327,
+          "skeleton_pixels": 28,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              2781,
+              1781
+            ],
+            [
+              2755,
+              1792
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 2,
+          "bounds": [
+            2222,
+            1885,
+            2236,
+            1894
+          ],
+          "pixels": 65,
+          "skeleton_pixels": 17,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              2223,
+              1886
+            ],
+            [
+              2235,
+              1893
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 2,
+          "bounds": [
+            2066,
+            1903,
+            2250,
+            2178
+          ],
+          "pixels": 19913,
+          "skeleton_pixels": 591,
+          "end_count": 7,
+          "branch_clusters": 7,
+          "visible_ends": [
+            [
+              2222,
+              1904
+            ],
+            [
+              2187,
+              1929
+            ],
+            [
+              2211,
+              1973
+            ],
+            [
+              2246,
+              1979
+            ],
+            [
+              2101,
+              2016
+            ],
+            [
+              2070,
+              2147
+            ],
+            [
+              2100,
+              2168
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 2,
+          "bounds": [
+            2268,
+            1949,
+            2278,
+            1962
+          ],
+          "pixels": 70,
+          "skeleton_pixels": 9,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              2274,
+              1951
+            ],
+            [
+              2271,
+              1959
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 2,
+          "bounds": [
+            2044,
+            2197,
+            2084,
+            2281
+          ],
+          "pixels": 1454,
+          "skeleton_pixels": 88,
+          "end_count": 4,
+          "branch_clusters": 2,
+          "visible_ends": [
+            [
+              2070,
+              2200
+            ],
+            [
+              2082,
+              2217
+            ],
+            [
+              2057,
+              2251
+            ],
+            [
+              2069,
+              2277
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 3,
+          "bounds": [
+            2788,
+            1570,
+            3052,
+            1789
+          ],
+          "pixels": 7115,
+          "skeleton_pixels": 259,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              3046,
+              1577
+            ],
+            [
+              2798,
+              1781
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 3,
+          "bounds": [
+            2566,
+            1798,
+            2753,
+            1853
+          ],
+          "pixels": 3138,
+          "skeleton_pixels": 178,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              2746,
+              1806
+            ],
+            [
+              2569,
+              1847
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 4,
+          "bounds": [
+            1930,
+            469,
+            2111,
+            724
+          ],
+          "pixels": 9464,
+          "skeleton_pixels": 257,
+          "end_count": 4,
+          "branch_clusters": 2,
+          "visible_ends": [
+            [
+              1948,
+              484
+            ],
+            [
+              2078,
+              619
+            ],
+            [
+              2096,
+              650
+            ],
+            [
+              2096,
+              708
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 4,
+          "bounds": [
+            2041,
+            670,
+            2061,
+            708
+          ],
+          "pixels": 289,
+          "skeleton_pixels": 40,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              2058,
+              670
+            ],
+            [
+              2045,
+              707
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 4,
+          "bounds": [
+            2024,
+            797,
+            2076,
+            876
+          ],
+          "pixels": 2245,
+          "skeleton_pixels": 61,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              2057,
+              804
+            ],
+            [
+              2033,
+              862
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 5,
+          "bounds": [
+            1937,
+            1582,
+            2367,
+            2119
+          ],
+          "pixels": 31571,
+          "skeleton_pixels": 554,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              2349,
+              1590
+            ],
+            [
+              1944,
+              2089
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 6,
+          "bounds": [
+            517,
+            1779,
+            964,
+            1995
+          ],
+          "pixels": 12360,
+          "skeleton_pixels": 502,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              963,
+              1781
+            ],
+            [
+              524,
+              1910
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 7,
+          "bounds": [
+            1451,
+            1812,
+            1600,
+            1883
+          ],
+          "pixels": 3862,
+          "skeleton_pixels": 144,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              1591,
+              1818
+            ],
+            [
+              1455,
+              1872
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 8,
+          "bounds": [
+            517,
+            1754,
+            1199,
+            1996
+          ],
+          "pixels": 23195,
+          "skeleton_pixels": 791,
+          "end_count": 4,
+          "branch_clusters": 3,
+          "visible_ends": [
+            [
+              1188,
+              1815
+            ],
+            [
+              1012,
+              1818
+            ],
+            [
+              1076,
+              1867
+            ],
+            [
+              525,
+              1911
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 9,
+          "bounds": [
+            1607,
+            971,
+            1726,
+            1167
+          ],
+          "pixels": 5825,
+          "skeleton_pixels": 215,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              1705,
+              973
+            ],
+            [
+              1616,
+              1156
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 10,
+          "bounds": [
+            1144,
+            612,
+            1680,
+            1017
+          ],
+          "pixels": 26788,
+          "skeleton_pixels": 693,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              1589,
+              615
+            ],
+            [
+              1144,
+              1011
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 11,
+          "bounds": [
+            552,
+            978,
+            1147,
+            1231
+          ],
+          "pixels": 23059,
+          "skeleton_pixels": 711,
+          "end_count": 4,
+          "branch_clusters": 2,
+          "visible_ends": [
+            [
+              601,
+              1068
+            ],
+            [
+              554,
+              1069
+            ],
+            [
+              1134,
+              1092
+            ],
+            [
+              1075,
+              1116
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 12,
+          "bounds": [
+            1817,
+            423,
+            1832,
+            442
+          ],
+          "pixels": 81,
+          "skeleton_pixels": 27,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              1830,
+              423
+            ],
+            [
+              1817,
+              441
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 12,
+          "bounds": [
+            1783,
+            550,
+            2326,
+            1413
+          ],
+          "pixels": 36508,
+          "skeleton_pixels": 867,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              1805,
+              555
+            ],
+            [
+              2318,
+              1405
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 13,
+          "bounds": [
+            1817,
+            427,
+            1833,
+            445
+          ],
+          "pixels": 158,
+          "skeleton_pixels": 21,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              1830,
+              429
+            ],
+            [
+              1817,
+              442
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 13,
+          "bounds": [
+            1786,
+            553,
+            2050,
+            1097
+          ],
+          "pixels": 23070,
+          "skeleton_pixels": 593,
+          "end_count": 2,
+          "branch_clusters": 2,
+          "visible_ends": [
+            [
+              1805,
+              555
+            ],
+            [
+              2041,
+              1081
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 13,
+          "bounds": [
+            2107,
+            581,
+            2112,
+            601
+          ],
+          "pixels": 60,
+          "skeleton_pixels": 19,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              2109,
+              581
+            ],
+            [
+              2108,
+              599
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 13,
+          "bounds": [
+            2052,
+            705,
+            2060,
+            744
+          ],
+          "pixels": 198,
+          "skeleton_pixels": 39,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              2058,
+              705
+            ],
+            [
+              2058,
+              743
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 13,
+          "bounds": [
+            2056,
+            1104,
+            2099,
+            1147
+          ],
+          "pixels": 811,
+          "skeleton_pixels": 69,
+          "end_count": 4,
+          "branch_clusters": 2,
+          "visible_ends": [
+            [
+              2058,
+              1106
+            ],
+            [
+              2080,
+              1116
+            ],
+            [
+              2097,
+              1135
+            ],
+            [
+              2083,
+              1143
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 13,
+          "bounds": [
+            2089,
+            1144,
+            2351,
+            1443
+          ],
+          "pixels": 6807,
+          "skeleton_pixels": 413,
+          "end_count": 6,
+          "branch_clusters": 6,
+          "visible_ends": [
+            [
+              2109,
+              1145
+            ],
+            [
+              2089,
+              1153
+            ],
+            [
+              2162,
+              1214
+            ],
+            [
+              2173,
+              1229
+            ],
+            [
+              2349,
+              1420
+            ],
+            [
+              2329,
+              1434
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 13,
+          "bounds": [
+            2387,
+            1340,
+            2405,
+            1355
+          ],
+          "pixels": 145,
+          "skeleton_pixels": 20,
+          "end_count": 3,
+          "branch_clusters": 1,
+          "visible_ends": [
+            [
+              2399,
+              1344
+            ],
+            [
+              2403,
+              1344
+            ],
+            [
+              2388,
+              1353
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 13,
+          "bounds": [
+            2377,
+            1377,
+            2398,
+            1401
+          ],
+          "pixels": 346,
+          "skeleton_pixels": 14,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              2394,
+              1382
+            ],
+            [
+              2384,
+              1392
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 13,
+          "bounds": [
+            2349,
+            1385,
+            2356,
+            1401
+          ],
+          "pixels": 90,
+          "skeleton_pixels": 13,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              2350,
+              1386
+            ],
+            [
+              2350,
+              1398
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 13,
+          "bounds": [
+            2380,
+            1403,
+            2390,
+            1412
+          ],
+          "pixels": 67,
+          "skeleton_pixels": 8,
+          "end_count": 2,
+          "branch_clusters": 1,
+          "visible_ends": [
+            [
+              2386,
+              1406
+            ],
+            [
+              2381,
+              1409
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 13,
+          "bounds": [
+            2333,
+            1494,
+            2349,
+            1526
+          ],
+          "pixels": 334,
+          "skeleton_pixels": 23,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              2339,
+              1502
+            ],
+            [
+              2337,
+              1524
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 13,
+          "bounds": [
+            2348,
+            1546,
+            2370,
+            1582
+          ],
+          "pixels": 422,
+          "skeleton_pixels": 28,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              2357,
+              1551
+            ],
+            [
+              2362,
+              1578
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 13,
+          "bounds": [
+            2383,
+            1591,
+            2393,
+            1603
+          ],
+          "pixels": 58,
+          "skeleton_pixels": 14,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              2384,
+              1591
+            ],
+            [
+              2392,
+              1600
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 13,
+          "bounds": [
+            2398,
+            1607,
+            2775,
+            1792
+          ],
+          "pixels": 11698,
+          "skeleton_pixels": 378,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              2400,
+              1608
+            ],
+            [
+              2766,
+              1785
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 13,
+          "bounds": [
+            2521,
+            1812,
+            2563,
+            1833
+          ],
+          "pixels": 624,
+          "skeleton_pixels": 31,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              2531,
+              1820
+            ],
+            [
+              2561,
+              1827
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 13,
+          "bounds": [
+            2336,
+            1833,
+            2418,
+            1878
+          ],
+          "pixels": 1878,
+          "skeleton_pixels": 94,
+          "end_count": 3,
+          "branch_clusters": 1,
+          "visible_ends": [
+            [
+              2400,
+              1833
+            ],
+            [
+              2403,
+              1864
+            ],
+            [
+              2337,
+              1875
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 13,
+          "bounds": [
+            2292,
+            1863,
+            2310,
+            1876
+          ],
+          "pixels": 199,
+          "skeleton_pixels": 6,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              2303,
+              1869
+            ],
+            [
+              2298,
+              1870
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 13,
+          "bounds": [
+            2220,
+            1884,
+            2339,
+            1995
+          ],
+          "pixels": 4560,
+          "skeleton_pixels": 278,
+          "end_count": 7,
+          "branch_clusters": 5,
+          "visible_ends": [
+            [
+              2273,
+              1884
+            ],
+            [
+              2337,
+              1903
+            ],
+            [
+              2251,
+              1915
+            ],
+            [
+              2311,
+              1923
+            ],
+            [
+              2223,
+              1933
+            ],
+            [
+              2259,
+              1969
+            ],
+            [
+              2224,
+              1990
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 13,
+          "bounds": [
+            2143,
+            1941,
+            2163,
+            1963
+          ],
+          "pixels": 176,
+          "skeleton_pixels": 22,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              2160,
+              1942
+            ],
+            [
+              2145,
+              1959
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 13,
+          "bounds": [
+            1812,
+            2137,
+            1874,
+            2387
+          ],
+          "pixels": 5309,
+          "skeleton_pixels": 269,
+          "end_count": 3,
+          "branch_clusters": 1,
+          "visible_ends": [
+            [
+              1856,
+              2138
+            ],
+            [
+              1842,
+              2349
+            ],
+            [
+              1868,
+              2383
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 13,
+          "bounds": [
+            2062,
+            2197,
+            2092,
+            2225
+          ],
+          "pixels": 674,
+          "skeleton_pixels": 4,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              2073,
+              2208
+            ],
+            [
+              2076,
+              2211
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 13,
+          "bounds": [
+            1828,
+            2325,
+            1838,
+            2344
+          ],
+          "pixels": 137,
+          "skeleton_pixels": 14,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              1833,
+              2328
+            ],
+            [
+              1831,
+              2341
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 13,
+          "bounds": [
+            1927,
+            2387,
+            1991,
+            2459
+          ],
+          "pixels": 1493,
+          "skeleton_pixels": 134,
+          "end_count": 3,
+          "branch_clusters": 2,
+          "visible_ends": [
+            [
+              1935,
+              2389
+            ],
+            [
+              1984,
+              2410
+            ],
+            [
+              1987,
+              2455
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 13,
+          "bounds": [
+            1987,
+            2416,
+            2000,
+            2423
+          ],
+          "pixels": 61,
+          "skeleton_pixels": 8,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              1989,
+              2417
+            ],
+            [
+              1996,
+              2418
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 13,
+          "bounds": [
+            1999,
+            2426,
+            2357,
+            2609
+          ],
+          "pixels": 14515,
+          "skeleton_pixels": 780,
+          "end_count": 7,
+          "branch_clusters": 9,
+          "visible_ends": [
+            [
+              2013,
+              2427
+            ],
+            [
+              2008,
+              2454
+            ],
+            [
+              2000,
+              2464
+            ],
+            [
+              2216,
+              2550
+            ],
+            [
+              2336,
+              2552
+            ],
+            [
+              2223,
+              2557
+            ],
+            [
+              2356,
+              2607
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 13,
+          "bounds": [
+            2900,
+            2517,
+            2933,
+            2572
+          ],
+          "pixels": 765,
+          "skeleton_pixels": 53,
+          "end_count": 3,
+          "branch_clusters": 1,
+          "visible_ends": [
+            [
+              2915,
+              2525
+            ],
+            [
+              2928,
+              2529
+            ],
+            [
+              2904,
+              2566
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 13,
+          "bounds": [
+            2355,
+            2562,
+            2811,
+            2723
+          ],
+          "pixels": 13399,
+          "skeleton_pixels": 869,
+          "end_count": 12,
+          "branch_clusters": 12,
+          "visible_ends": [
+            [
+              2359,
+              2566
+            ],
+            [
+              2391,
+              2625
+            ],
+            [
+              2450,
+              2638
+            ],
+            [
+              2528,
+              2653
+            ],
+            [
+              2491,
+              2664
+            ],
+            [
+              2809,
+              2682
+            ],
+            [
+              2752,
+              2689
+            ],
+            [
+              2581,
+              2692
+            ],
+            [
+              2779,
+              2699
+            ],
+            [
+              2592,
+              2702
+            ],
+            [
+              2765,
+              2711
+            ],
+            [
+              2690,
+              2721
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 13,
+          "bounds": [
+            2841,
+            2575,
+            2849,
+            2599
+          ],
+          "pixels": 137,
+          "skeleton_pixels": 22,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              2844,
+              2577
+            ],
+            [
+              2841,
+              2597
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 13,
+          "bounds": [
+            2888,
+            2575,
+            2897,
+            2600
+          ],
+          "pixels": 157,
+          "skeleton_pixels": 21,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              2894,
+              2577
+            ],
+            [
+              2892,
+              2597
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 13,
+          "bounds": [
+            2876,
+            2606,
+            2883,
+            2619
+          ],
+          "pixels": 60,
+          "skeleton_pixels": 7,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              2880,
+              2609
+            ],
+            [
+              2879,
+              2615
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 13,
+          "bounds": [
+            2865,
+            2622,
+            2872,
+            2636
+          ],
+          "pixels": 59,
+          "skeleton_pixels": 11,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              2869,
+              2624
+            ],
+            [
+              2868,
+              2634
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 14,
+          "bounds": [
+            1876,
+            2095,
+            1897,
+            2131
+          ],
+          "pixels": 562,
+          "skeleton_pixels": 35,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              1893,
+              2095
+            ],
+            [
+              1893,
+              2129
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 14,
+          "bounds": [
+            1807,
+            2128,
+            1881,
+            2392
+          ],
+          "pixels": 9227,
+          "skeleton_pixels": 255,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              1857,
+              2130
+            ],
+            [
+              1871,
+              2384
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 14,
+          "bounds": [
+            1889,
+            2359,
+            1907,
+            2365
+          ],
+          "pixels": 78,
+          "skeleton_pixels": 17,
+          "end_count": 2,
+          "branch_clusters": 0,
+          "visible_ends": [
+            [
+              1889,
+              2360
+            ],
+            [
+              1905,
+              2361
+            ]
+          ],
+          "unambiguous_open_segment": true
+        },
+        {
+          "mask_id": 14,
+          "bounds": [
+            1909,
+            2369,
+            2937,
+            2727
+          ],
+          "pixels": 72337,
+          "skeleton_pixels": 1093,
+          "end_count": 3,
+          "branch_clusters": 1,
+          "visible_ends": [
+            [
+              1916,
+              2375
+            ],
+            [
+              2867,
+              2512
+            ],
+            [
+              2908,
+              2521
+            ]
+          ],
+          "unambiguous_open_segment": false
+        },
+        {
+          "mask_id": 15,
+          "bounds": [
+            2701,
+            1120,
+            2895,
+            1662
+          ],
+          "pixels": 26943,
+          "skeleton_pixels": 617,
+          "end_count": 5,
+          "branch_clusters": 3,
+          "visible_ends": [
+            [
+              2815,
+              1125
+            ],
+            [
+              2891,
+              1125
+            ],
+            [
+              2821,
+              1186
+            ],
+            [
+              2713,
+              1640
+            ],
+            [
+              2725,
+              1649
+            ]
+          ],
+          "unambiguous_open_segment": false
+        }
+      ],
+      "source_fragment_count": 13,
+      "source_fragments_any_mask_pixels": 8,
+      "source_fragment_mask_fraction": [
+        0.2694933741790248,
+        0.0,
+        0.6718439588224671,
+        0.2692740817740818,
+        0.9795597484276729,
+        0.5015527950310559,
+        0.0,
+        0.0,
+        0.0,
+        0.34633905420422273,
+        0.0,
+        0.5063538611925709,
+        0.06596701649175413
+      ],
+      "report_sha256": "ef779e375500a98f71bd17c545d4fb227abc2bd51b8e995064ca92207fb25c73",
+      "source_sha256_current": "1b4f5f35073af643524578f18aff934793ba1487e62246a02b969fb7169a024d",
+      "mask_sha256": "fa59c8ff897c157ce3c53f55652103917a60373a9d4c6101f1ef48c3ec99aa9e",
+      "historical_cache_unfingerprinted_source": true
+    }
+  ],
+  "formal_path_changed": false,
+  "warning": "Three historical train caches only; incomplete source fragments are not wire segmentation truth. No inference, no test01 tuning, no new field accuracy or paired fault verdict. Historic source/checkpoint hashes were absent; current hashes cannot prove historic identity."
+}

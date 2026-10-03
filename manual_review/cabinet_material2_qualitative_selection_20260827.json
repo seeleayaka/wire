@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "kind": "human_selected_qualitative_recall_set",
+  "date": "2026-08-27",
+  "purpose": "A small, human-selected set for checking whether conspicuous loose/disconnected conductors are surfaced by the review pipeline. It is intentionally separate from threshold calibration and field-accuracy measurement.",
+  "reference_image": "C:\\Users\\HUAWEI\\Desktop\\案例\\线材柜子\\2\\2.png",
+  "selection_protocol": {
+    "review_method": "Direct visual comparison of the original reference and raw inspection images; no candidate boxes, heatmaps, DINO scores, or registered images were used when choosing.",
+    "include": "Similar cabinet viewpoint plus at least one unambiguous, visually conspicuous loose or exposed conductor.",
+    "exclude": "Images with drawn title overlays, and cases where a local primary feature cannot be named without relying on generated-image-wide changes.",
+    "metric_policy": "qualitative_review_only"
+  },
+  "selected": [
+    {
+      "image": "ChatGPT Image 2026年8月25日 16_21_24 (1).png",
+      "primary_visible_group": "Upper-middle white conductor visibly drops from the upper terminal area and ends free at the top rail.",
+      "why_selected": "Cabinet viewpoint remains close to the reference and the free conductor is visually isolated."
+    },
+    {
+      "image": "ChatGPT Image 2026年8月25日 16_21_25 (2).png",
+      "primary_visible_group": "A conspicuous white conductor terminates free in the central lower half of the cabinet.",
+      "why_selected": "The feature is large and visibly separated from the normal bundled wiring."
+    },
+    {
+      "image": "ChatGPT Image 2026年8月25日 16_23_59 (1).png",
+      "primary_visible_group": "A white conductor with a red-tipped free end hangs down through the upper-middle rail area.",
+      "why_selected": "The free end is explicit and the framing remains similar enough for qualitative replay."
+    },
+    {
+      "image": "ChatGPT Image 2026年8月25日 16_24_00 (2).png",
+      "primary_visible_group": "Two long white conductors hang freely across the upper-middle and lower-middle cabinet areas.",
+      "why_selected": "A deliberately harder multi-conductor case: the anomaly is still visually unmistakable while the cabinet layout stays close."
+    }
+  ],
+  "not_selected_for_this_set": [
+    {
+      "folder": "1",
+      "reason": "Clear loose-wire visuals exist, but AI changes to labels and wire detail are broader; reserve for later qualitative stress tests."
+    },
+    {
+      "folder": "5",
+      "reason": "Some images carry black title overlays and the rest have stronger global re-rendering; reserve for later qualitative stress tests, not this first replay."
+    }
+  ],
+  "limits": [
+    "The images are AI-generated variations and can contain multiple changes and global rendering variation.",
+    "No hit/miss rate, false-positive rate, or threshold conclusion may be calculated from this file.",
+    "Before automated replay, manually draw a named primary-group box for each selected image on raw side-by-side views."
+  ]
+}

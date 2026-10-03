@@ -1,0 +1,197 @@
+{
+  "status": "complete",
+  "qualifies_live_diagnostic": true,
+  "cases": [
+    {
+      "image": "disconnected_003.JPG",
+      "status": "applied",
+      "added": 1,
+      "feature_policy": {
+        "policy_id": "accepted_pair_preserved_feature_residual_v1_20261003",
+        "enabled": true,
+        "added_hints": 1,
+        "automatic_fault_verdict": false,
+        "existing_cues_preserved": true,
+        "correlated_models_not_physical_evidence": true,
+        "maximum_primary": 5,
+        "maximum_extra": 5,
+        "native_candidates": 1,
+        "reference_inference_performed": true,
+        "fallback_reason": null,
+        "feature_weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc"
+      },
+      "baseline": {
+        "tp": 6,
+        "unmatched": 0,
+        "fn": 4,
+        "predictions": 6,
+        "targets": 10
+      },
+      "metrics": {
+        "tp": 7,
+        "unmatched": 0,
+        "fn": 3,
+        "predictions": 7,
+        "targets": 10
+      },
+      "live_gain": true,
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\port_residual_feature_live_20261003\\disconnected_003\\20261003_105950\\evidence.json",
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\port_residual_feature_live_20261003\\disconnected_003\\20261003_105950\\initial_report.json",
+      "sam_pending": true
+    },
+    {
+      "image": "damaged_029.JPG",
+      "status": "applied",
+      "added": 0,
+      "feature_policy": {
+        "policy_id": "accepted_pair_preserved_feature_residual_v1_20261003",
+        "enabled": true,
+        "added_hints": 0,
+        "automatic_fault_verdict": false,
+        "existing_cues_preserved": true,
+        "correlated_models_not_physical_evidence": true,
+        "maximum_primary": 5,
+        "maximum_extra": 5,
+        "native_candidates": 0,
+        "reference_inference_performed": false,
+        "fallback_reason": null,
+        "feature_weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc"
+      },
+      "baseline": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "metrics": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "live_gain": false,
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\port_residual_feature_live_20261003\\damaged_029\\20261003_110112\\evidence.json",
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\port_residual_feature_live_20261003\\damaged_029\\20261003_110112\\initial_report.json",
+      "sam_pending": true
+    },
+    {
+      "image": "damaged_030.JPG",
+      "status": "applied",
+      "added": 0,
+      "feature_policy": {
+        "policy_id": "accepted_pair_preserved_feature_residual_v1_20261003",
+        "enabled": true,
+        "added_hints": 0,
+        "automatic_fault_verdict": false,
+        "existing_cues_preserved": true,
+        "correlated_models_not_physical_evidence": true,
+        "maximum_primary": 5,
+        "maximum_extra": 5,
+        "native_candidates": 0,
+        "reference_inference_performed": false,
+        "fallback_reason": null,
+        "feature_weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc"
+      },
+      "baseline": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "metrics": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "live_gain": false,
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\port_residual_feature_live_20261003\\damaged_030\\20261003_110215\\evidence.json",
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\port_residual_feature_live_20261003\\damaged_030\\20261003_110215\\initial_report.json",
+      "sam_pending": true
+    },
+    {
+      "image": "damaged_033.JPG",
+      "status": "applied",
+      "added": 0,
+      "feature_policy": {
+        "policy_id": "accepted_pair_preserved_feature_residual_v1_20261003",
+        "enabled": true,
+        "added_hints": 0,
+        "automatic_fault_verdict": false,
+        "existing_cues_preserved": true,
+        "correlated_models_not_physical_evidence": true,
+        "maximum_primary": 5,
+        "maximum_extra": 5,
+        "native_candidates": 0,
+        "reference_inference_performed": false,
+        "fallback_reason": null,
+        "feature_weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc"
+      },
+      "baseline": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "metrics": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "live_gain": false,
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\port_residual_feature_live_20261003\\damaged_033\\20261003_110318\\evidence.json",
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\port_residual_feature_live_20261003\\damaged_033\\20261003_110318\\initial_report.json",
+      "sam_pending": true
+    },
+    {
+      "image": "damaged_034.JPG",
+      "status": "applied",
+      "added": 0,
+      "feature_policy": {
+        "policy_id": "accepted_pair_preserved_feature_residual_v1_20261003",
+        "enabled": true,
+        "added_hints": 0,
+        "automatic_fault_verdict": false,
+        "existing_cues_preserved": true,
+        "correlated_models_not_physical_evidence": true,
+        "maximum_primary": 5,
+        "maximum_extra": 5,
+        "native_candidates": 0,
+        "reference_inference_performed": false,
+        "fallback_reason": null,
+        "feature_weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc"
+      },
+      "baseline": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "metrics": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "live_gain": false,
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\port_residual_feature_live_20261003\\damaged_034\\20261003_110421\\evidence.json",
+      "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\port_residual_feature_live_20261003\\damaged_034\\20261003_110421\\initial_report.json",
+      "sam_pending": true
+    }
+  ],
+  "seconds": 341.91,
+  "new_sam": false,
+  "sam_pending": true,
+  "old_models_and_reports_unchanged": true,
+  "automatic_deployment": false,
+  "field_accuracy": false
+}

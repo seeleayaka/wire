@@ -1,0 +1,177 @@
+{
+  "status": "complete",
+  "mode": "smoke",
+  "pid": 12008,
+  "epochs_planned": 1,
+  "dataset_manifest_sha256": "259dd3c4dcb01b3e9aabd2853131a800d047ea7912843420919a60509f0d16b2",
+  "initialization_sha256": "0bac0770b55e5eb5b76a61bc535673288dcec36c2bc0cd25ee0d584c632f3413",
+  "options": {
+    "data": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\port_crop_training_smoke_fixed_20260929\\smoke_dataset\\data.yaml",
+    "task": "segment",
+    "epochs": 1,
+    "imgsz": 960,
+    "batch": 1,
+    "nbs": 4,
+    "workers": 0,
+    "device": "cpu",
+    "pretrained": true,
+    "freeze": 10,
+    "optimizer": "SGD",
+    "lr0": 0.002,
+    "lrf": 0.01,
+    "cos_lr": false,
+    "warmup_epochs": 1.0,
+    "amp": false,
+    "cache": false,
+    "deterministic": true,
+    "seed": 20260929,
+    "patience": 6,
+    "mosaic": 0.0,
+    "close_mosaic": 0,
+    "degrees": 0.0,
+    "translate": 0.02,
+    "scale": 0.05,
+    "fliplr": 0.0,
+    "flipud": 0.0,
+    "plots": false,
+    "save": true,
+    "val": true,
+    "project": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\port_crop_training_smoke_fixed_20260929\\runs",
+    "name": "rectports",
+    "exist_ok": false,
+    "verbose": true
+  },
+  "smoke_selection": {
+    "train": [
+      {
+        "source_image": "disconnected_001.JPG",
+        "split": "train",
+        "tile_id": 0,
+        "image": "images/train/disconnected_001__t00.jpg",
+        "label": "labels/train/disconnected_001__t00.txt",
+        "image_sha256": "bf1982afc32507550cc4cb5449a7f637bcdae25bc14a26def1b04e9112e57632",
+        "label_sha256": "c23d0851e5c5600d858b3a3cdd81c1eefec8d7f1f6a27ac56e468358305904c3",
+        "label_count": 2
+      },
+      {
+        "source_image": "disconnected_003.JPG",
+        "split": "train",
+        "tile_id": 0,
+        "image": "images/train/disconnected_003__t00.jpg",
+        "label": "labels/train/disconnected_003__t00.txt",
+        "image_sha256": "203b547eff395a1e37b63de69e1ce520490d1ac3fd99669a14fedc9de3266cec",
+        "label_sha256": "eb15352cf4766cb1bec0c79e407c45d890b0139ef45c1d8f9a7d233e67f9f458",
+        "label_count": 2
+      },
+      {
+        "source_image": "damaged_001.JPG",
+        "split": "train",
+        "tile_id": 4,
+        "image": "images/train/damaged_001__t04.jpg",
+        "label": "labels/train/damaged_001__t04.txt",
+        "image_sha256": "3f6af6704d3c7873d0261908e955b1452ca6f9723f6cd2c646eab6a02f993d92",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "label_count": 0
+      },
+      {
+        "source_image": "damaged_002.JPG",
+        "split": "train",
+        "tile_id": 2,
+        "image": "images/train/damaged_002__t02.jpg",
+        "label": "labels/train/damaged_002__t02.txt",
+        "image_sha256": "9e83a9d23e695055ae2ebaed48c7bcf2c40f4d0a1c23bf8cbdfbec88a473787d",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "label_count": 0
+      }
+    ],
+    "val": [
+      {
+        "source_image": "disconnected_004.JPG",
+        "split": "val",
+        "tile_id": 0,
+        "image": "images/val/disconnected_004__t00.jpg",
+        "label": "labels/val/disconnected_004__t00.txt",
+        "image_sha256": "ba026224300ddaf10bd0b8561ea4ca19b1e70da5cc5d1f0e8ba704b0c0a60122",
+        "label_sha256": "7725d7876297b70dc06e1f3d7549da5f85c84783d2af3bb65037df3d8ea95807",
+        "label_count": 1
+      },
+      {
+        "source_image": "damaged_016.JPG",
+        "split": "val",
+        "tile_id": 0,
+        "image": "images/val/damaged_016__t00.jpg",
+        "label": "labels/val/damaged_016__t00.txt",
+        "image_sha256": "199254abab0fb1dcfcae98f866d6a8ae9de8b7c1d2998f3319b2069db239ba76",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "label_count": 0
+      }
+    ]
+  },
+  "fingerprints": {
+    "E:\\PythonProject10\\tools\\train_port_crops_fixed.py": "ad283c656a2193fac9744c122f72f9142af9aa93c31c5236347ff3e82513c3b4",
+    "E:\\PythonProject10\\inspection_agent\\port_crop_training.py": "45f53407dee3d119a0c19297de45b55687fbf350e79d53162e5a319391101f19",
+    "E:\\PythonProject10\\inspection_agent\\PORT_CROP_TRAIN_PROTOCOL_20260929.md": "8140fda222778825813ff900a32782530c4c1ccffabcf70f7d7c4afe650cea88"
+  },
+  "versions": {
+    "torch": "2.13.0+cpu",
+    "ultralytics": "8.4.121",
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]"
+  },
+  "outer_validation_or_test_used": false,
+  "finite_gradients": true,
+  "nonzero_gradient_steps": 1,
+  "epoch_records": [
+    {
+      "epoch": 1,
+      "inner_crop_metrics": {
+        "metrics/precision(B)": 0.0,
+        "metrics/recall(B)": 0.0,
+        "metrics/mAP50(B)": 0.0,
+        "metrics/mAP50-95(B)": 0.0,
+        "metrics/precision(M)": 0.0,
+        "metrics/recall(M)": 0.0,
+        "metrics/mAP50(M)": 0.0,
+        "metrics/mAP50-95(M)": 0.0,
+        "val/box_loss": 2.01132,
+        "val/seg_loss": 1.9599,
+        "val/cls_loss": 59.98845,
+        "val/dfl_loss": 1.38884,
+        "val/sem_loss": 0.0
+      },
+      "elapsed_seconds": 8.492615699768066
+    },
+    {
+      "epoch": 2,
+      "inner_crop_metrics": {
+        "metrics/precision(B)": 0.0,
+        "metrics/recall(B)": 0.0,
+        "metrics/mAP50(B)": 0.0,
+        "metrics/mAP50-95(B)": 0.0,
+        "metrics/precision(M)": 0.0,
+        "metrics/recall(M)": 0.0,
+        "metrics/mAP50(M)": 0.0,
+        "metrics/mAP50-95(M)": 0.0
+      },
+      "elapsed_seconds": 10.46374879963696
+    }
+  ],
+  "sampled_max_rss_GiB": 0.8927688598632812,
+  "phase": "complete",
+  "epoch": 2,
+  "batches_in_epoch": 4,
+  "batches_per_epoch": 4,
+  "elapsed_seconds": 10.657181699760258,
+  "changed_trainable_parameters": 137,
+  "completed_epochs": 1,
+  "weights": {
+    "best.pt": {
+      "path": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\port_crop_training_smoke_fixed_20260929\\runs\\rectports\\weights\\best.pt",
+      "sha256": "645da5836b3f5253b2cc6015257c0905adc862148c0665980ec16457ccb6e853"
+    },
+    "last.pt": {
+      "path": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\port_crop_training_smoke_fixed_20260929\\runs\\rectports\\weights\\last.pt",
+      "sha256": "0871e219ab2ed6b1f089dd9249cb45da5abc607943751935f340df20cbbfcb58"
+    }
+  },
+  "warning": "Internal tile metrics only; not source-image localization, external val accuracy or field/generalization evidence."
+}

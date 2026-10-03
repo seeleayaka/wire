@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "graph_id": "bench_expected_demo_v1",
+  "scene_type": "bench_terminal_board",
+  "nodes": [
+    {"id": "power_plus", "kind": "terminal", "label": "+24V"},
+    {"id": "load_in", "kind": "terminal", "label": "负载输入"},
+    {"id": "load_out", "kind": "terminal", "label": "负载输出"},
+    {"id": "power_minus", "kind": "terminal", "label": "0V"}
+  ],
+  "connections": [
+    {"id": "expected_001", "from": "power_plus", "to": "load_in"},
+    {"id": "expected_002", "from": "load_out", "to": "power_minus"}
+  ]
+}

@@ -1,0 +1,1697 @@
+{
+  "status": "complete",
+  "source_count": 192,
+  "counts": {
+    "other_class": 73,
+    "below_fixed98": 36
+  },
+  "classes": {
+    "0": 73,
+    "2": 14,
+    "1": 22
+  },
+  "sources": [
+    {
+      "image": "disconnected_001.JPG",
+      "reasons": {
+        "other_class": 1,
+        "below_fixed98": 2
+      },
+      "proposals": 3,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "disconnected_003.JPG",
+      "reasons": {
+        "below_fixed98": 2,
+        "other_class": 2
+      },
+      "proposals": 4,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "disconnected_008.JPG",
+      "reasons": {
+        "below_fixed98": 3,
+        "other_class": 3
+      },
+      "proposals": 6,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "disconnected_009.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "disconnected_010.JPG",
+      "reasons": {
+        "below_fixed98": 3
+      },
+      "proposals": 3,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "disconnected_012.JPG",
+      "reasons": {
+        "below_fixed98": 4,
+        "other_class": 1
+      },
+      "proposals": 5,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "disconnected_013.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "disconnected_014.JPG",
+      "reasons": {
+        "below_fixed98": 7,
+        "other_class": 1
+      },
+      "proposals": 8,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "normal_002.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_003.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_005.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_008.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_010.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "normal_012.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_013.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_015.JPG",
+      "reasons": {
+        "below_fixed98": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "damaged_001.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "damaged_002.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "damaged_003.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "damaged_004.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "damaged_006.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "damaged_008.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "damaged_009.JPG",
+      "reasons": {
+        "other_class": 2
+      },
+      "proposals": 2,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "damaged_010.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "misrouted_002.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "misrouted_003.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "misrouted_004.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "misrouted_006.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "misrouted_007.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "misrouted_008.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "misrouted_009.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "misrouted_011.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "damaged_011.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "damaged_013.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "damaged_015.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "damaged_021.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "damaged_022.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "damaged_023.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "damaged_025.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "damaged_027.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "damaged_028.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "damaged_029.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "damaged_030.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "damaged_033.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "damaged_034.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "damaged_038.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "damaged_039.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "damaged_041.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "damaged_042.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "damaged_043.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "damaged_044.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "damaged_046.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "damaged_047.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "damaged_048.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "damaged_049.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "damaged_050.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "misrouted_013.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "misrouted_014.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "misrouted_015.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "misrouted_016.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "misrouted_018.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "misrouted_019.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "misrouted_021.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "misrouted_022.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "misrouted_026.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "misrouted_029.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "misrouted_030.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "misrouted_031.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "misrouted_032.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "misrouted_033.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "misrouted_037.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "misrouted_038.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "misrouted_041.JPG",
+      "reasons": {
+        "other_class": 3
+      },
+      "proposals": 3,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "misrouted_043.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "misrouted_044.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "misrouted_045.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "misrouted_046.JPG",
+      "reasons": {
+        "other_class": 2
+      },
+      "proposals": 2,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "misrouted_047.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "misrouted_048.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "misrouted_049.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "normal_016.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_018.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_019.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_020.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_021.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_022.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_023.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_025.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_026.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_027.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_029.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_031.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_032.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_033.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_034.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_035.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_037.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_039.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_040.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_045.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "normal_046.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_048.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "normal_051.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "normal_052.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_054.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_055.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_056.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_057.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_058.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_063.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_064.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_065.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_068.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_069.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_070.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_071.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_073.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_074.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_075.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_076.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_077.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_080.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_081.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_085.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_087.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_088.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_089.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_090.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_091.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_092.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_094.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_095.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_097.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_098.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_101.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "normal_103.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "normal_106.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_108.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_109.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_110.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_111.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_112.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_114.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_116.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_117.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_118.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_121.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_122.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_123.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_125.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_127.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_128.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_130.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_131.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_133.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_134.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "normal_135.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_137.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_139.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "normal_140.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "normal_141.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_142.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "normal_143.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_145.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "normal_146.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "normal_147.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "normal_149.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "normal_150.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "disconnected_015.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "disconnected_017.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "disconnected_018.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "disconnected_019.JPG",
+      "reasons": {
+        "other_class": 2
+      },
+      "proposals": 2,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "disconnected_021.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "disconnected_022.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "disconnected_023.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "disconnected_024.JPG",
+      "reasons": {
+        "other_class": 1,
+        "below_fixed98": 1
+      },
+      "proposals": 2,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "disconnected_025.JPG",
+      "reasons": {
+        "other_class": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "disconnected_026.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "disconnected_029.JPG",
+      "reasons": {
+        "other_class": 2
+      },
+      "proposals": 2,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "disconnected_030.JPG",
+      "reasons": {
+        "below_fixed98": 1,
+        "other_class": 1
+      },
+      "proposals": 2,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "disconnected_031.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "disconnected_032.JPG",
+      "reasons": {
+        "below_fixed98": 1
+      },
+      "proposals": 1,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "disconnected_033.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "disconnected_038.JPG",
+      "reasons": {
+        "other_class": 1,
+        "below_fixed98": 1
+      },
+      "proposals": 2,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "disconnected_039.JPG",
+      "reasons": {
+        "other_class": 1,
+        "below_fixed98": 1
+      },
+      "proposals": 2,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "disconnected_041.JPG",
+      "reasons": {
+        "other_class": 1,
+        "below_fixed98": 1
+      },
+      "proposals": 2,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "disconnected_042.JPG",
+      "reasons": {
+        "below_fixed98": 2,
+        "other_class": 1
+      },
+      "proposals": 3,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "disconnected_043.JPG",
+      "reasons": {
+        "other_class": 1,
+        "below_fixed98": 3
+      },
+      "proposals": 4,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "disconnected_044.JPG",
+      "reasons": {
+        "below_fixed98": 1,
+        "other_class": 1
+      },
+      "proposals": 2,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "disconnected_045.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    },
+    {
+      "image": "disconnected_049.JPG",
+      "reasons": {
+        "below_fixed98": 2,
+        "other_class": 5
+      },
+      "proposals": 7,
+      "feature_status": "paired_inferred",
+      "accepted": 0
+    },
+    {
+      "image": "disconnected_050.JPG",
+      "reasons": {},
+      "proposals": 0,
+      "feature_status": "no_candidate_exact_short_circuit",
+      "accepted": 0
+    }
+  ],
+  "pins": {
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\report.json": "1f4ccbc704e173b6138d80e8c103cc23696fbf16db51db520378e3ca99cead19",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\disconnected_001_predictions.json": "ba4ed9577851aa96af26a7f3c7a9adfaf38bcc6cdadaf156f41c021a782b0548",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\disconnected_003_predictions.json": "98131167d6caf23090f77b65b09b778bc47ac6ef25c6d8e1351a5321ee5a9e76",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\disconnected_008_predictions.json": "06859c86d65b1a37ed57baa1fad8e30eafcb3b565bc28a8e964428df4fe2c875",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\disconnected_009_predictions.json": "d7193b354b52e33ffeb9307879f0aaeef775249daf2c69b8819ac22b9b33882b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\disconnected_010_predictions.json": "008deb449276883cd1d30c3d6a82d56f266ecd3fe75a14e10699b461d58f0ba1",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\disconnected_012_predictions.json": "9160079cf946c5d049a6c410e8589f92e75ed3f61337157ddae6c4e7688681ac",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\disconnected_013_predictions.json": "0682652e0e503e0ce599ff686dae7c951fbcb9022db2a6ff93b0b515db5128ce",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\disconnected_014_predictions.json": "6aa3f8a291d8b808e354f02f045720bf75b2377ffa7114e344b957723600dac3",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_002_predictions.json": "ecc5b125c989105f4eea85965c7b9d2f88c34a3e53bc1ae7dd6affdabd5f857d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_003_predictions.json": "71d72310d32d15bcaed1089295730d0f9d0a196a9b7a1a3fe81f4f40492acade",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_005_predictions.json": "74331258b50a9e3be5464ab906f292e490d38bde7fae6254906bb2e85a7d5e7c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_008_predictions.json": "37169e9a19bf97f2603bd7e18411e078e593cacfbe6485f9ffc1ccc41cbdc1da",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_010_predictions.json": "59eb563602d712902833bce8328a021176ff49373d06d2361157c8ff6c07c89b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_012_predictions.json": "71f16b39f2da64c8887d34eecb03173f154f0c6a21be969b90ffb9388f943daf",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_013_predictions.json": "53351b214c22310fff4617071c8f349646f028650c69e27160e070623479bf48",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_015_predictions.json": "d7c809fb402defb68d0ff65fc84ffbc2ca8725ce00b9aa88077e6b02d51188ed",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\damaged_001_predictions.json": "82368435d467ed697c2dcacb38c38567bfb716055d802bc6f91427752c715c6e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\damaged_002_predictions.json": "2f79a956b393aa8f4b81e405f29a0000f33baaa25d611264c36ba50aa6f99065",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\damaged_003_predictions.json": "e8265e334c8094f026f1e3c8e98c6f22d3594e7abf3897cdf608ea5933082acf",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\damaged_004_predictions.json": "1b4a3986318711bdc05fbfbaf3d25f9cffbd542889be295902f1eeee0dafc3dd",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\damaged_006_predictions.json": "b6443d350838180cba5d09866e66cf3fd3fda9122661f016efcb3e2e41c32962",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\damaged_008_predictions.json": "bf621b98df5421c4838e0ab3365d79ee7a91c969ed9a3a9fb90312e4a199bf69",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\damaged_009_predictions.json": "d52199ec91ad05640e18c5345bdfa665283365e68c017ccb0474cdece3e393dc",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\damaged_010_predictions.json": "127035d357b432b3faef31f6e32c3706de950a075bcf6847c96b965eee3cf033",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\misrouted_002_predictions.json": "685c04fde0ed07b087914756534ed68fb953caf41a397ab88dabbfd6492f2927",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\misrouted_003_predictions.json": "679f658a3e83569a868a32464d92cf0d268aa117ae45b384257e93cdabb5cf9a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\misrouted_004_predictions.json": "c7be9cec69b4c18d6b14b4ef9c3c42b9b6ea7b6a071a08e8008e81ea22840749",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\misrouted_006_predictions.json": "1236fbfeaa7bfd78702e27999387afbd3e96af0dea8c2fbbac480296a8fc4104",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\misrouted_007_predictions.json": "868c9f054ab8c6395828721275dabe38fc026e32f6b1b85562c799d0666a6111",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\misrouted_008_predictions.json": "7f4bd5926c374c3ae6769f93d7c89724dc90269f3ef8b8ce69051cb73e5bb134",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\misrouted_009_predictions.json": "2da5000d79c34c591bd025f74580dc7084df674a166a52456d0ecbd439904825",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\misrouted_011_predictions.json": "c2ac9a3c259ea27f49f8c750f3f35c8dcb74a913ec4e3db391bcbc6613a8ea79",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\damaged_011_predictions.json": "3fc1b25256585be9a2850fc6c998138193824d9e416ab6868a4708859772e87f",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\damaged_013_predictions.json": "0233932d79bba2109b3e91d38adb608a1f7df3ab37490b872dfb7248c90e750f",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\damaged_015_predictions.json": "10309852de513c7b7c43b9248a87f90e7bfe005d16e03041a21267e1d561abfe",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\damaged_021_predictions.json": "35ac49ac41cb6d228f3ba867a6ab652b20c80d8c4e17e78ddf9f7b401c234db2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\damaged_022_predictions.json": "f444af257633c2b689453899040becfa89a305a383a874c6ec7c909b5f92485e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\damaged_023_predictions.json": "0067069ef861da37d6ce5e11e8112b9fb25b6e7901c56584a9d859a78396d666",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\damaged_025_predictions.json": "d0d280bb8026f1941d21ad426643c01c7e57fab280a5a3c0548e9c4e59d21717",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\damaged_027_predictions.json": "8ed9d7105d062b16bc85edb33cdbb491b97beb79d5cdd99a1e4da368dbba1949",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\damaged_028_predictions.json": "70ff5866f04f73608a66438e7d3c71754d5666c07bc0ed4ea0924f3306e28380",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\damaged_029_predictions.json": "9938e69f01af17b31c40ee9312ca01e289e930ecb7d0701d910c0ac9f4139768",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\damaged_030_predictions.json": "ef38a4ce011d2c6458543eac9a26bc85f61d117386e06ef8abc95bd15965a0e4",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\damaged_033_predictions.json": "11bb5ee14b220986d08b15f83b6f545a73648e50007610f9fed8a75aa64917ff",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\damaged_034_predictions.json": "af7578f04db6c7678f970a27a2f0883a56daf5d3690d2de086e5375b8625e55f",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\damaged_038_predictions.json": "353b5f0dee224c6b7168653de117beb86b7c0e11ac55c61bc81e8fe7f7df2f16",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\damaged_039_predictions.json": "ae6498bfb98d996284f4e70ae88e2bdf626460443ff8e546561ca2a4f45f32a9",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\damaged_041_predictions.json": "a6b3542ba123cbfe96d3a673b457102ca059ec0147b60d261ffa9f2f75720af2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\damaged_042_predictions.json": "e752ab29dd82dede02664073b191ffb3ac33353f08482ee72dae765461e70982",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\damaged_043_predictions.json": "c3a38dd043faa7816d75f45a4c09c759f0b746bbabe20016151a6bd352a9fc16",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\damaged_044_predictions.json": "cdc94b935ce60a797431013f184a7505f1ee85ec748e4fad9a77229018ef8219",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\damaged_046_predictions.json": "093ffd923f077a10d5bebfa890e1138179e10ff5f14e2b7d6dd49a5e341f6ce2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\damaged_047_predictions.json": "d57ad320e26682f2951aa68c32cdaa0173f46717a21c2eee1aaa09b40e62122d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\damaged_048_predictions.json": "f9f0b06c9889222b19515e265b9d9433547412d066ffeb9ac43a4b7285d01f84",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\damaged_049_predictions.json": "cf2de4f99edec9216e36c37596d5aba9f70d136cc4a777afeedd4e5c705c3d80",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\damaged_050_predictions.json": "90c26a72ea0e4c9cc72e592e646334c4669b736ceb1be37283003219c4459538",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\misrouted_013_predictions.json": "194686b21b7c92a35e60d9de762e361f892d5ef00f4e5e5c8f9c4bc047362886",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\misrouted_014_predictions.json": "a1db1347608e356aa75f8a09fad220d1d7d4939245cd64ee6491db19421bb5ef",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\misrouted_015_predictions.json": "d5e4d2cf7072f3ee1f6e91bb907dc4feeb79223ba9b4723e58c4b387eb5cef56",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\misrouted_016_predictions.json": "762ed6ed13a6533e2c6742e66a6a9e1bacb0a5869106e702f46f7ba7733d83a9",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\misrouted_018_predictions.json": "efacf852279074621e0756e4d8143f863c90add2b51ed5ab9f5277d3d1d2ab69",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\misrouted_019_predictions.json": "1d91b84a000727825caa6c40083158ca1c22a912465a43ee8b320c5e7202c8f8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\misrouted_021_predictions.json": "90f27bc50c689c7c8805fdcf79010e2913c842feea64f5095508b6c70a154761",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\misrouted_022_predictions.json": "c7d8ca14480ac16d996179bca6221231a657bb600f94256a2a8ee94d475fc2cd",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\misrouted_026_predictions.json": "463822f9c98917e161949f9639d0a5302ea914c32e915eff8f1c3fb67fb021c3",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\misrouted_029_predictions.json": "4ee156aa9ff058bad57e92ad89e4cb275d8a2b48dff7b11324facef579359e24",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\misrouted_030_predictions.json": "003b6274af497b3900e061ec3ef092bf7c5bf14cac6bd14394014a1e02ffdf77",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\misrouted_031_predictions.json": "2f60acb5796553543d5638a32a3b8017e6481fa6193219706088e7dab3a8b3c7",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\misrouted_032_predictions.json": "6334480136c5febd9e9427ebc3dc97d596a54fb08ac1ddcabf506eaf515cbe44",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\misrouted_033_predictions.json": "8b173082065e2f8f2607f5ad331f999b77888b25f998d4fb0345f0af645b5263",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\misrouted_037_predictions.json": "fd633fc3a908efbd7df33c956635da842894cbaae5ae4ecabe3a955e5a617477",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\misrouted_038_predictions.json": "c53e90e9ca0f90dd0efac19695cf506f81f51a757ed505fb906abfb0598de48d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\misrouted_041_predictions.json": "0b97551154c9c8335f73a4fa982a724034159be45fef1ed021d641e932ab328f",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\misrouted_043_predictions.json": "8dd7d59df1934cb95bb2b48cfb72bd6b734cfab3989a1f2791cf58da10bc555b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\misrouted_044_predictions.json": "539f6a5df584099d2342810bc727df701c6c36e85828dc8df38e39d7062e8165",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\misrouted_045_predictions.json": "c2932393e68883d9f48228c20d3001224d9ffba1b16a82f29019c3a88682179d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\misrouted_046_predictions.json": "629af929153958054769e9b126810608b32435b837f5c1d2bf13dbe932c42ff6",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\misrouted_047_predictions.json": "f50b45c490758e6e7c41ba87e93f9aef3639094356c27401f8fe31290baafa15",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\misrouted_048_predictions.json": "972f9084c7af55ef69a0e89e7ada5054704ecdae556b04cb9a9b39223ca3db8f",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\misrouted_049_predictions.json": "0ea246fc6d3ef5efdb44b1a6fb6f3e68bce6b95a59387b8bf966b68389dfb33c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_016_predictions.json": "a917cf42d0ff157f541e8b8b204f23f5dab9e3100432277b79a93940084125e1",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_018_predictions.json": "99791e4e890846189678ac5138fe2fb6ef11ce21db0d7c5c6e91d8d4fa9f2dd9",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_019_predictions.json": "9174e87594b1b3c6a015ed2b510d6866b734061507b82bdb8ca16a3e405adb90",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_020_predictions.json": "ccf8fbb41661dcd9fac85bc27535262093eba7896f1e6abca593aa3e9bacadf6",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_021_predictions.json": "28d93da171f81a656adfbfb8806a990ed46f0ac962e7d161ddaac4ea3c612aba",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_022_predictions.json": "3d8d52c369a13f53db81f30b0dc46b3bf5d6d6c99848668ba8a6b170b8bce6fd",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_023_predictions.json": "3b81ccfdc7470813eb036253e32ef99814426966458b39afa6d15e8e4b14d251",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_025_predictions.json": "25c528835f5200e142e161ca8f0c26d54b881011952c285cc0d74d2464010a5a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_026_predictions.json": "19e4d5f28e7efcbae8398ffa01570b9186bcff09cac1c262e8b4057870a6e0f9",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_027_predictions.json": "3715a67bcac371ec00c46f7286491e028e54f3061677d9b591976fd40289b609",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_029_predictions.json": "33c2111fa9551baefb27fe73e6687c1bfca719a5e560eabdc8c84c64cf3fc629",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_031_predictions.json": "97e384ae982a21ff8e3a6cfbcd77d188b6e0c084b331fa49e3ff55691d04d3fc",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_032_predictions.json": "d5f1462ff350e2ae3561afd85f12119396e21ea70527d5c3d0868e65e75da3cd",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_033_predictions.json": "aed749c4a2991367502a337913045bb1a4144659ea1b524c45d790024906f20d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_034_predictions.json": "dc080701d2fa28072fa857608ae6ed6806db01b0c84257385f5009bf01e939c4",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_035_predictions.json": "da3f6ecf735ea056fb1a4309347bd20f21951c657fdfc0175f0c3640092e354d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_037_predictions.json": "e97b4aeacb65d4ba2bfa3048c0138ff75e296a1cfa08681dfa8aa859e0b78101",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_039_predictions.json": "122a2cae981c5f8131f43e92cddd5b812a0e4994f2d0c7ae008728db792e6031",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_040_predictions.json": "1722d0e995eae185b51a00628784cedbb8205f68e67da49445542844185ec9ec",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_045_predictions.json": "5c3d53f04409c3c382c2506030b02fd31aa9be824ecea16a6a16c35c0f2bfcae",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_046_predictions.json": "b8b4859b61d0d181cdf014c7f98929f74e278a1741422095d85394fdf32b9d4a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_048_predictions.json": "8b499ae7e18a4df46315ac69a53375dacbe7c62623dbdb82c82624fbe65a775b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_051_predictions.json": "9566595a8a3500c028e77b4a98c45d8ced8f6469eda71c15ac1a49aedb7bdbb2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_052_predictions.json": "fc782cebdafa46210a154011fafc37e5999e4ec3f43bbe4db27f52c351169af0",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_054_predictions.json": "c1329d431afeb829582237de7d5e57b4f9ba9954b6d7bff587fd5287af95f90c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_055_predictions.json": "c63e27ec843ae2c1a397ba61a897a356f44bb40e696ac2397a7eb54a34479e19",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_056_predictions.json": "98322aa6433607142a9596ec2d8222477e0bd9ba6379c043364dd83bd723e7c2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_057_predictions.json": "a59c8d776c6df96183d61a85835559c88e740028cb6712b919335f1ac265928a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_058_predictions.json": "f73ee2fc8f051a952718c50b698829cd2f0e6cce1f85dd03858b5bf3d2d319b5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_063_predictions.json": "93d1ef6de9f6807e1ea0073122de445c36061eb6f94de883253fadb35d4fab55",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_064_predictions.json": "117e056499212167727448393544b2b881662d2894a760e1c44c1509fb485bd2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_065_predictions.json": "0f89f3bed513542e6d62876fd9f2ee015fca6d3ff19054a4ffe7ff43373488c1",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_068_predictions.json": "a316848f31bc1107bb2aa29cb7f43b6069e77579535f678616ab9501006e3ae5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_069_predictions.json": "0aaa68a18ebc361234b161ed690b6a183fa4db108646a763252bde57ac22f377",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_070_predictions.json": "6b6cb21eb305f9dfcaaf8043e8c51080d090134d1dddb38cae70537b2210d4c7",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_071_predictions.json": "98d8c2fdf2b02549c4353f8533c42a9cb24a6c36707a14b01e7f0940750d8c50",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_073_predictions.json": "c7faf34a7efa9bc0aa107e207c0c5c41ff2539de7d9376d089aa92b1a828b95c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_074_predictions.json": "74d8ec534fc1055b86ad35e50fafe9b93e667666fbe9eca8e9420394cf913a42",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_075_predictions.json": "6ceb7421c20913a10bfa8839c768dd5dda5d872eeba9fb5ae8b63ce8a9a63099",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_076_predictions.json": "06347da9e45eb20540d2965e98c0fed70a9cf5ed96d34756fe446b8390fe85f1",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_077_predictions.json": "c3889fb862f7627e2bc5f8eb64e0544e352c7f4c797414dd51347eed2dff43a1",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_080_predictions.json": "4b5dc8586d1d46aa2c2bcbcfc7e6d9089a4bb4b8b73c8a36de9c67f7285d73ed",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_081_predictions.json": "055f10802d10db26d7f2101d506b4ab190e9ef2e2336a2bbbd83c9bce33d1c0f",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_085_predictions.json": "c8357f373fe4335c543a9639a5d1ec3e90859e7569c1f6075fbec61bcf5f07d1",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_087_predictions.json": "0fdf7e519787898b59c71e6a0a6517e9ad4f8b3ad82185ad1484200bd0e32135",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_088_predictions.json": "25f67968376b9ec1437711b051f58a89da29c5ad68f64cc03630e0dd2ebec567",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_089_predictions.json": "0739d8cdfe54569bb9229755c1eb3b0ceea4174f806adbde30d66653c25036e6",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_090_predictions.json": "1aaf217703dd486f6695b90a462a7abdd37c633c201e5e03edaae01363fc29e8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_091_predictions.json": "50dbb28941de709728e41a922f41f69d818c1f4e57088d41d5b82d6b17935a13",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_092_predictions.json": "91e3b233e02076950aa09ea7c2a40c421b6253e853b803231331b107ec4c81fd",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_094_predictions.json": "51b608499bcc3c163623242adfb7ab3e894fa39db06d21e28c40fffeda8cf8a8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_095_predictions.json": "a3a01726fced7ad73972743b2167983ef6d6d3723c1b64f40874c44ac6a88a51",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_097_predictions.json": "9f40588c5b199fd6acf17b13cc7d92de5c59996ada3f0a8c92b820ba9728db37",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_098_predictions.json": "30a4e9ea654e477692b9c5ec89452b025607c66404c99ecb052a1fa791a6e5a7",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_101_predictions.json": "7308c879377f70a807d541b2539ba51638cca3b96beae3daa797f184c5f70c1a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_103_predictions.json": "493ca6c4fb277ae32ca613be38d032aef42825774bd32bb0b0e95d34d36c257e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_106_predictions.json": "f28347219aa053a3e8e41c904ad6ac50b0fd281c1eb0aa36fd20c125de81b718",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_108_predictions.json": "1eae704455c8af7e6ce9deb4ec05eaed72c17a43e8dcdc6989311add21670290",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_109_predictions.json": "6f53b21ccd24bddef969474c0408df221f750b926eb5c2751aaa6992a9e8c642",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_110_predictions.json": "828c33b2aeb0744e65d9516e6cb7aac6ce6a00af398e04397e401f528002a937",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_111_predictions.json": "0122fd9cdd1a398411e10c6632385557a7825167c86c91536c1d540ac0d88321",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_112_predictions.json": "742f6046613142c6093ae0bedb73b363b4607cc1a07e15cbf623e4342881c452",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_114_predictions.json": "135bc2ebe26a23378dc538518bf4e9f85718d3a7c93ee968a96834cf20726357",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_116_predictions.json": "91b83928614c6719ee84bf1b07089c8a39adf447493fc8f13d31abb6f1476766",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_117_predictions.json": "f6050e15f06cf12de962413325321b0ec1d6899cd0046c686399e111259fd3c2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_118_predictions.json": "64fb8626b16d5ce6d3f930efe516a41d1974ded3459be142e1b7fb77266e56d4",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_121_predictions.json": "320a9eaab5cd8a459be7fac002eaedf10aef04c05d48201b9aacde348b17db9f",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_122_predictions.json": "ab8cf356bce987fc2a3c161d630b5cb982136505290f5fa1cdcb238d8919f328",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_123_predictions.json": "b6f21fe97147ecfde6587628f0f7a60c45499e8ac56270668f9ecd5095dee419",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_125_predictions.json": "d0026aea1a7f620c1c612dd36d860a02a504f7833d703e4a502a0393d022f533",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_127_predictions.json": "182dcf1f1aefc66376c9f57baacd91017a7fa80fa168e24fdbde8ef872b5f6a3",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_128_predictions.json": "48bf8bf8bd39c379c81c82edef4f659eab6a4c761a1cfd8f4147971e27b1b992",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_130_predictions.json": "843bf58603bc0be0b6235cba2ab85c3272b920b195ff4ae3e49856245cadb621",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_131_predictions.json": "26577c9796cbf179ecddb85e58e8c02de44d9a86a4ecf57f9f66755b49676934",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_133_predictions.json": "759ab61a371fd97b079b45b6068d35656dac988004885d956b372b538ea72772",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_134_predictions.json": "28295be868195e76949248efa6e27efd22b912e77d4ac11093d4fbeab74cb703",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_135_predictions.json": "0426050432cb63c0cfcc7c6887888532db4273ecdcd82514dcd7d08318af0155",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_137_predictions.json": "deb82dc51caa5170f2e786b028d8e87d0b9c0523a84582194c94a25ce00d0a5c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_139_predictions.json": "cadfe5a1f7dfcadccf43c738dccaf3c1eb2a7e5040c3046869a3417d6bd944cb",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_140_predictions.json": "4c97a50389d2ecfd926db50975bd10ce70ea7be33d14cebd7cb7bf25ee2f9ded",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_141_predictions.json": "caea4c52357a36110b2867043a28b8bf1f58d8d4e4e85ebd24fef356713ff191",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_142_predictions.json": "0c577fba8efa2187b03861424269a8c4dd9a1c17a60bb8b5851ed27c1b220ebb",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_143_predictions.json": "50f914cbbce6f5ce0cbf82e6fcb9d96bbbf032eb2e06ccfa8d98ec2a0ba65bcd",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_145_predictions.json": "9ea1afd3662fec85288010bbcc1f3427c1c7758e5c30c6e4ca837e5370e883dc",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_146_predictions.json": "3970039b96b7873a2b87c2355e9a6b6fc0ec9a243c285c9738da23b467f06d66",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_147_predictions.json": "f0fdad3b4a53761766f6b51fe17edfbe4f193a5d4d52cae6aa7f2e8d246ced53",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_149_predictions.json": "86342c6e7d29a450e494e6f9bd0334481b5defc9ae133e3e7aa7ce2944b16afe",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\normal_150_predictions.json": "451ee592d96f75cad316e2c1deee9c80219c2019d3c52fef54b9175c13f5cdf2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\disconnected_015_predictions.json": "132c91d3f53aaebae86a1db97b3ba70612ae98300d7100c72efb96ca443c2450",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\disconnected_017_predictions.json": "26acabab9ccb36b0f9676fbb2e1085b1e6310ac3cfab1f45ba15efe5ea66cbfb",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\disconnected_018_predictions.json": "78542b3f024f303a098865566203fb0cad9b0df9cf81a900812f2942b9484ae8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\disconnected_019_predictions.json": "47e178017e02ac782b9ab0cfa75af613eb23537f197f33b32ce453e5fa1cca10",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\disconnected_021_predictions.json": "73d501c686ec3c5caed18583439f50f0f144cacb9b82fb0a933aa38055f42cbd",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\disconnected_022_predictions.json": "202de1596dec4f8665733e455a1e0e6ff4915aa5e59226e2a5c24b06689b8cc5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\disconnected_023_predictions.json": "fef6403ffa8d57353dc21d8692c74a60cd942e360dfef9c58083868cb0918cc8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\disconnected_024_predictions.json": "7219c329434cdd347d54fef235f2379cd40113c1ab66a0bf7a86c3906c419769",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\disconnected_025_predictions.json": "578a3ff463086664aa25fead775a5295394f7df3844e172162608fe0da5112c0",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\disconnected_026_predictions.json": "8a7b269a2bdb1578c2c55ce5ab370a2d81d4a6c638ad80b2ec2d987c6d1b7454",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\disconnected_029_predictions.json": "c947cb0500484a29acc595785359c9a5d7cfa3137eb49935826df7c06b1977ea",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\disconnected_030_predictions.json": "4952322a53766596f014952f18b0686f18a9ba87e232baf8e230bae8d3da49e0",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\disconnected_031_predictions.json": "a2047019b8897fb22e6a403d9724d32d566e0e41233853a79fa015ab87044356",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\disconnected_032_predictions.json": "68f8a624df2839e12e3ed6d767f22d63cd5a0a2963fe5d73b3308a8e2f5c7fc2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\disconnected_033_predictions.json": "ebe4dbda650b30dbb16c606a4e6c6732a9cb94f74b20bf84f5b8ad263025acc5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\disconnected_038_predictions.json": "b94b8ab9c6d2e71daeae4447b848a0811e6eef9cd80beb6d7a4a2cea91d19a1c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\disconnected_039_predictions.json": "afe3037b01619306c2df67631a95f834769a0d1f2f21b3f0bc2539d384c1b667",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\disconnected_041_predictions.json": "b2ca0df39085f7fa767865d2c5d9e62426ef9a3cfde2a6cfef9ab1bdd346066d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\disconnected_042_predictions.json": "bf4d0560f2ff1c5b48a2073bd68d7422267083c99bcf903ef3a823d9ae7d3d89",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\disconnected_043_predictions.json": "ae54686e08532339ee8e47be42e24208ed2eab3ada91fb77d1e1b261961ca24b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\disconnected_044_predictions.json": "d0b49876746884d49db7a7b5b5490e96894c8917569a810155e787cc3a67aab1",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\disconnected_045_predictions.json": "30c0a6e89fc4585514e28ce11462f42076388bf61835df2a7648c3e166358b71",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\disconnected_049_predictions.json": "760a47c4afa172facb88dd6f128c7caf11ceadf45182dc55b719ffe9004c0fa5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_multimodel_head_20261003\\train\\disconnected_050_predictions.json": "47b94dd218b4c14ebb1ed08e27447593fe1faccbedded044ebd6d6427387003e"
+  },
+  "GT_not_used": true,
+  "no_score_change": true,
+  "no_deployment": true
+}

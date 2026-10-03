@@ -1,0 +1,23 @@
+{
+  "pins": {
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\resolution_plug_final_budget_20261003\\train\\report.json": "703ac62c493a41247bfa85ff6a7eafdca2313859790d86940bb5baf428c0d37c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_semantic_localization_20261003\\full_train\\report.json": "af98ebb50a9c22048c1139702ca037fec14a837f44f1e99e1246a68121b6a777",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\resolution_plug_final_budget_20261003\\inner\\report.json": "4f66ecba7c0a983a713b9665e9782fec914af766682c13f19e42d58aa933a012",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_semantic_localization_20261003\\holdouts\\inner\\report.json": "6eb42d70c609578c07f39cce2f799f43470186177fd7b68dbc133095f361495e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\resolution_plug_final_budget_20261003\\outer\\report.json": "33e17d613d0dc87038f1171cfd8a8a063680279afa1bee2a63c36dc095c621b2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_semantic_localization_20261003\\holdouts\\outer\\report.json": "44a540fcbf67d70d9c0ea937ef064255ee0f77ddadc1fbe155ae74c5e6ac6355"
+  },
+  "source_baseline": "accepted_paired_geometry_fixed_full_head",
+  "counts": [
+    286,
+    64,
+    33
+  ],
+  "unmatched": [
+    4,
+    0,
+    1
+  ],
+  "no_GT_selection": true,
+  "no_deployment": true
+}

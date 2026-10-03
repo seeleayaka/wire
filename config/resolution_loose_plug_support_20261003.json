@@ -1,0 +1,45 @@
+{
+  "policy_id": "accepted_three_model_preserved_resolution_loose_plug_v3_20261003",
+  "feature_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+  "source_gates_passed": true,
+  "live_diagnostic_passed": true,
+  "live_cases": 11,
+  "live_seconds": 1417.11,
+  "source_selection_parity_cases": 270,
+  "training_sources": 192,
+  "training_targets": 344,
+  "training_before": 274,
+  "training_after": 277,
+  "inner_before": 62,
+  "inner_after": 63,
+  "outer_before": 32,
+  "outer_after": 33,
+  "unmatched_before": [
+    4,
+    0,
+    1
+  ],
+  "unmatched_after": [
+    4,
+    0,
+    1
+  ],
+  "old_target_losses": 0,
+  "allowed_new_classes": [
+    0
+  ],
+  "inference_imgsz": 1280,
+  "maximum_primary": 5,
+  "maximum_extra": 5,
+  "default_enabled": false,
+  "validation_already_seen": true,
+  "validation_addition_classes_inspected_before_policy_design": true,
+  "independent_validation": false,
+  "field_accuracy": false,
+  "automatic_fault_verdict": false,
+  "semantic_classifier_not_used": true,
+  "rejected_unrestricted_resolution_extra_unmatched": 4,
+  "policy_class_filter_before_final_budget": true,
+  "native_selector_unchanged": true,
+  "new_sam_acceptance_pending": true
+}

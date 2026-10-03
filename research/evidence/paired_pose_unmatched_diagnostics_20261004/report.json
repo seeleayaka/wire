@@ -1,0 +1,428 @@
+{
+  "status": "complete",
+  "cases": [
+    {
+      "image": "disconnected_008.JPG",
+      "proposal": {
+        "box_xyxy": [
+          1648.5096282958984,
+          981.8586864471436,
+          1736.0190887451172,
+          1024.3712539672852
+        ],
+        "confidence": 0.9894253015518188,
+        "class_id": 0,
+        "source_tile": 5,
+        "support_tiles": [
+          1,
+          5
+        ],
+        "semantic_detector_weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+        "semantic_model_vote_sha256": [
+          "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4"
+        ],
+        "semantic_proposal_floor": 0.05,
+        "median_geometry": true,
+        "median_seed_box": [
+          1661.6360473632812,
+          981.8586864471436,
+          1749.1455078125,
+          1024.3712539672852
+        ],
+        "median_support_boxes": {
+          "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": [
+            1661.6360473632812,
+            981.8586864471436,
+            1749.1455078125,
+            1024.3712539672852
+          ],
+          "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": [
+            1656.0111694335938,
+            981.159704208374,
+            1749.1830444335938,
+            1025.4559707641602
+          ],
+          "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": [
+            1666.7540893554688,
+            983.1631679534912,
+            1727.2286987304688,
+            1017.5115966796875
+          ]
+        },
+        "median_unique_checkpoint_count": 3,
+        "pose_parent_seed_id": 13,
+        "pose_variant_index": 1,
+        "pose_seed_box": [
+          1661.6360473632812,
+          981.8586864471436,
+          1749.1455078125,
+          1024.3712539672852
+        ],
+        "proposal_detector_score": 0.1358676701784134,
+        "paired_semantic_probability": 0.9894253015518188,
+        "paired_head_sha256": "238f517bfdbe5e81f6c98e28c33750fa02de75cf25ec0c93b8876fe72657004a",
+        "evidence_tier": "observed_expected_port_semantics_experimental_manual_review",
+        "automatic_fault_verdict": false
+      },
+      "best_same_class_GT": [
+        [
+          0.5201471104402635,
+          11,
+          0,
+          [
+            1667.29104,
+            975.26088,
+            1750.841184,
+            1018.2707999999999
+          ]
+        ]
+      ],
+      "best_any_GT": [
+        [
+          0.5201471104402635,
+          11,
+          0,
+          [
+            1667.29104,
+            975.26088,
+            1750.841184,
+            1018.2707999999999
+          ]
+        ]
+      ],
+      "best_old_prediction": [
+        [
+          0.22535754465522292,
+          4,
+          1,
+          [
+            1616.7695922851562,
+            1002.1555213928223,
+            1706.147216796875,
+            1038.429916381836
+          ]
+        ]
+      ],
+      "GT_used_only_after_frozen_selection": true
+    },
+    {
+      "image": "disconnected_014.JPG",
+      "proposal": {
+        "box_xyxy": [
+          1776.2036254882812,
+          984.4150024414063,
+          1847.8106567382813,
+          1029.5084594726563
+        ],
+        "confidence": 0.9897923469543457,
+        "class_id": 0,
+        "source_tile": 1,
+        "support_tiles": [
+          1,
+          5
+        ],
+        "semantic_detector_weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+        "semantic_model_vote_sha256": [
+          "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4"
+        ],
+        "semantic_proposal_floor": 0.05,
+        "median_geometry": true,
+        "median_seed_box": [
+          1766.4100341796875,
+          977.8204345703125,
+          1867.5030517578125,
+          1043.5789794921875
+        ],
+        "median_support_boxes": {
+          "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": [
+            1766.4100341796875,
+            977.8204345703125,
+            1867.5030517578125,
+            1043.5789794921875
+          ],
+          "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": [
+            1767.2527465820312,
+            978.7783203125,
+            1856.7615356445312,
+            1035.1451416015625
+          ],
+          "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": [
+            1767.7898559570312,
+            979.0560131072998,
+            1843.7014770507812,
+            1029.7187271118164
+          ]
+        },
+        "median_unique_checkpoint_count": 3,
+        "pose_parent_seed_id": 10,
+        "pose_variant_index": 5,
+        "pose_seed_box": [
+          1767.2527465820312,
+          978.7783203125,
+          1856.7615356445312,
+          1035.1451416015625
+        ],
+        "proposal_detector_score": 0.9120357036590576,
+        "paired_semantic_probability": 0.9897923469543457,
+        "paired_head_sha256": "238f517bfdbe5e81f6c98e28c33750fa02de75cf25ec0c93b8876fe72657004a",
+        "evidence_tier": "observed_expected_port_semantics_experimental_manual_review",
+        "automatic_fault_verdict": false
+      },
+      "best_same_class_GT": [
+        [
+          0.6527541138976417,
+          5,
+          0,
+          [
+            1765.599168,
+            977.899752,
+            1839.427392,
+            1031.938488
+          ]
+        ]
+      ],
+      "best_any_GT": [
+        [
+          0.6527541138976417,
+          5,
+          0,
+          [
+            1765.599168,
+            977.899752,
+            1839.427392,
+            1031.938488
+          ]
+        ]
+      ],
+      "best_old_prediction": [
+        [
+          0.0,
+          8,
+          1,
+          [
+            2766.2845764160156,
+            2275.2802734375,
+            2884.1543579101562,
+            2318.3860473632812
+          ]
+        ]
+      ],
+      "GT_used_only_after_frozen_selection": true
+    },
+    {
+      "image": "disconnected_029.JPG",
+      "proposal": {
+        "box_xyxy": [
+          2061.667687988281,
+          888.0808990478515,
+          2178.103063964844,
+          952.8250152587891
+        ],
+        "confidence": 0.9841045141220093,
+        "class_id": 0,
+        "source_tile": 2,
+        "support_tiles": [
+          1,
+          2
+        ],
+        "semantic_detector_weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+        "semantic_model_vote_sha256": [
+          "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4"
+        ],
+        "semantic_proposal_floor": 0.05,
+        "median_geometry": true,
+        "median_seed_box": [
+          2047.7417373657227,
+          879.138671875,
+          2192.839141845703,
+          960.9104614257812
+        ],
+        "median_support_boxes": {
+          "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": [
+            2047.7417373657227,
+            879.138671875,
+            2192.839141845703,
+            960.9104614257812
+          ],
+          "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": [
+            2046.4847946166992,
+            880.8370971679688,
+            2192.475830078125,
+            960.9255981445312
+          ]
+        },
+        "median_unique_checkpoint_count": 2,
+        "pose_parent_seed_id": 9,
+        "pose_variant_index": 5,
+        "pose_seed_box": [
+          2047.113265991211,
+          879.9878845214844,
+          2192.657485961914,
+          960.9180297851562
+        ],
+        "proposal_detector_score": 0.13593335449695587,
+        "paired_semantic_probability": 0.9841045141220093,
+        "paired_head_sha256": "238f517bfdbe5e81f6c98e28c33750fa02de75cf25ec0c93b8876fe72657004a",
+        "evidence_tier": "observed_expected_port_semantics_experimental_manual_review",
+        "automatic_fault_verdict": false
+      },
+      "best_same_class_GT": [
+        [
+          0.0,
+          6,
+          0,
+          [
+            1668.7794239999998,
+            869.6895840000001,
+            1792.880736,
+            975.709584
+          ]
+        ]
+      ],
+      "best_any_GT": [
+        [
+          0.0,
+          7,
+          1,
+          [
+            959.119392,
+            1782.7994879999999,
+            992.020704,
+            1836.9996480000002
+          ]
+        ]
+      ],
+      "best_old_prediction": [
+        [
+          0.0,
+          7,
+          0,
+          [
+            1511.4378356933594,
+            2336.1605834960938,
+            1609.3429565429688,
+            2396.8651733398438
+          ]
+        ]
+      ],
+      "GT_used_only_after_frozen_selection": true
+    },
+    {
+      "image": "disconnected_030.JPG",
+      "proposal": {
+        "box_xyxy": [
+          2062.4427452087402,
+          888.5326110839844,
+          2178.6825218200684,
+          953.3152282714843
+        ],
+        "confidence": 0.9842991828918457,
+        "class_id": 0,
+        "source_tile": 2,
+        "support_tiles": [
+          1,
+          2
+        ],
+        "semantic_detector_weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+        "semantic_model_vote_sha256": [
+          "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4"
+        ],
+        "semantic_proposal_floor": 0.05,
+        "median_geometry": true,
+        "median_seed_box": [
+          2047.3082275390625,
+          882.18896484375,
+          2192.5948791503906,
+          961.80712890625
+        ],
+        "median_support_boxes": {
+          "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": [
+            2047.3082275390625,
+            882.18896484375,
+            2192.5948791503906,
+            961.80712890625
+          ],
+          "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": [
+            2048.517318725586,
+            878.6806030273438,
+            2193.830108642578,
+            961.0189819335938
+          ]
+        },
+        "median_unique_checkpoint_count": 2,
+        "pose_parent_seed_id": 9,
+        "pose_variant_index": 5,
+        "pose_seed_box": [
+          2047.9127731323242,
+          880.4347839355469,
+          2193.2124938964844,
+          961.4130554199219
+        ],
+        "proposal_detector_score": 0.2185465395450592,
+        "paired_semantic_probability": 0.9842991828918457,
+        "paired_head_sha256": "238f517bfdbe5e81f6c98e28c33750fa02de75cf25ec0c93b8876fe72657004a",
+        "evidence_tier": "observed_expected_port_semantics_experimental_manual_review",
+        "automatic_fault_verdict": false
+      },
+      "best_same_class_GT": [
+        [
+          0.0,
+          9,
+          0,
+          [
+            1903.27104,
+            1839.630312,
+            1970.1315839999997,
+            1967.7599280000002
+          ]
+        ]
+      ],
+      "best_any_GT": [
+        [
+          0.0,
+          9,
+          0,
+          [
+            1903.27104,
+            1839.630312,
+            1970.1315839999997,
+            1967.7599280000002
+          ]
+        ]
+      ],
+      "best_old_prediction": [
+        [
+          0.0,
+          8,
+          1,
+          [
+            1868.1414184570312,
+            2036.1134643554688,
+            1901.0828247070312,
+            2129.1721801757812
+          ]
+        ]
+      ],
+      "GT_used_only_after_frozen_selection": true
+    }
+  ],
+  "pins": {
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\audit_pose_unmatched_geometry.py": "c52e7777e87999185c1af6fe5abaddbc94234ab28215cd2951a8df31dcbfeccc",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_search_20261003\\train\\disconnected_008_predictions.json": "6d09ff76de37d5d98ea0d56d17bb0b5f53a697ee2b9b37d94d88ce1dc61524af",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_008.txt": "b93472e6747b440da88eed92c75db36d6124f98e7ced2fd98ff7970681e0a3d0",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_search_20261003\\train\\disconnected_014_predictions.json": "e8f54628c7ebfaeeecba5f202e981d0124ad7d008dacaf5abbbf015b5cb38f39",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_014.txt": "d927f866b1d3a714a45a01d64371e9c29e2534edaf26f97c40dbfd52ed025822",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_search_20261003\\train\\disconnected_029_predictions.json": "2dfe4db9203063da903a8842c363264079d5041f037f6ad87e4002b3c18565f5",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_029.txt": "f136cdf79676ecfa979bcb344359346849c1194b78e6a95c5f70408cd7d9a966",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_search_20261003\\train\\disconnected_030_predictions.json": "fdd38debf7bf6ee26f8bb939338f6b1c47be0b36f982d28fab9d9a43b828d96f",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_030.txt": "8d27cb4453a77d4fab88e460f94b4d29b6968e6139b6f7f88c74961ed39cac84"
+  },
+  "no_selection_change": true,
+  "field_accuracy": false
+}

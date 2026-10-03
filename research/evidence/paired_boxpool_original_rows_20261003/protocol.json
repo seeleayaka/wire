@@ -1,0 +1,18 @@
+{
+  "pins": {
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\run_boxpool_control.py": "9c4fff52681f800c103ae41751b9df873cffc215aa66c9a39ea9a532c7b86370",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\prepare_boxpool_control.py": "9800be225630a330df64758993d7530e5ea78b2a8849b9a1ca88eddb8ede1aa9",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\run_paired_boxpool_stage.py": "3aa1a8f605f8e38e5b11a1294f6cfd9358e123458bbfece1bfb9576554c8533d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\evaluate_paired_boxpool_full_train.py": "723f65e104ac2620cb73ac83e9f1425811bf918634693ea00109c67c4487c865",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\run_paired_shape_nonlinear_probe.py": "183e76dd48263f03519b94172c517a90e91fdd7e0f9586424940f921b388af0e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_boxpool_controls_preregistration_20261003\\PLAN.md": "30bb45ab3028c3310a5e76af087e1b571622a850aaf3d73fa67c3ace09f747d0"
+  },
+  "control": "original",
+  "architecture": [
+    6144,
+    3
+  ],
+  "fixed_steps": 400,
+  "no_reextraction": true,
+  "no_deployment": true
+}

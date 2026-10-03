@@ -1,0 +1,41 @@
+<!doctype html><html lang="zh-Hant"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WireMind · 局部證據復核</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#eef2f6;color:#182d42;font:16px/1.55 system-ui,"Microsoft YaHei",sans-serif}header,main{max-width:1180px;margin:auto;padding:24px}h1{margin:0;font-size:28px}p{margin:8px 0}.banner{background:#fff0cb;border-left:4px solid #b68000;padding:12px;margin:18px 0}.controls{display:flex;flex-wrap:wrap;gap:16px;background:white;padding:16px;border-radius:12px}label{display:block}input,select,textarea,button{font:inherit;padding:8px;border:1px solid #b7c7d5;border-radius:6px}button{background:#174e75;color:white;cursor:pointer}textarea{width:100%;min-height:80px}#cards{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:20px}.card{background:white;border-radius:12px;padding:16px;box-shadow:0 2px 8px #22334410}.card h2{font-size:19px;margin:0 0 10px}.card img{width:100%;height:210px;object-fit:contain;background:#e8edf2}.pair{display:grid;grid-template-columns:1fr 1fr;gap:8px}.card select{width:100%}.muted{color:#546b7f;font-size:14px}#message{white-space:pre-wrap}pre{white-space:pre-wrap;max-height:350px;overflow:auto;background:#fff;padding:16px}@media(max-width:760px){#cards{grid-template-columns:1fr}.pair{grid-template-columns:1fr}}
+</style>
+<header><h1>WireMind · 局部證據復核</h1><p>先看證據，再記錄判斷。此頁不生成接線表。</p>
+<div class="banner">6 個入口都是未確認草稿；同色像素可能串到相鄰導線。支持局部可見關係，不等於接線到位、完整線纜身份或電氣連通。</div>
+<div class="controls"><label>復核者<input id="reviewer" autocomplete="off" placeholder="請填姓名或代號"></label><label>記錄類型<select id="mode"><option value="operator_review">實際操作復核</option><option value="automation_fixture">界面測試（不算人工確認）</option></select></label><button id="preview">檢查並預覽記錄</button><button id="download">匯出復核 JSON</button></div><p id="message" role="status">未處理 6 / 6；預設不作確認。刷新頁面會清除未匯出的填寫。</p></header>
+<main><div id="cards"></div><details><summary>查看匯出內容</summary><pre id="output"></pre></details><p class="muted">單一離線頁面，圖片和來源版本隨頁內嵌；不會上傳照片、不含模型權重。匯出只保存人工意見，尚未回寫正式地圖或接入拓撲比較。</p></main>
+<script id="bundle" type="application/json">__BUNDLE__</script>
+<script>
+const bundle=JSON.parse(document.getElementById('bundle').textContent),cards=document.getElementById('cards');
+const states={pending:'未處理',supported:'支持此候選的局部可見關係',rejected:'排除此候選',uncertain:'無法確認'};
+function node(tag,text){const el=document.createElement(tag);if(text!==undefined)el.textContent=text;return el}
+for(const item of bundle.items){
+ const card=node('section');card.className='card';card.dataset.item=item.item_id;
+ card.append(node('h2',item.title),node('p',item.reason));
+ const source=node('img');source.src=item.source_image;source.alt=item.title+' 原圖與固定入口草稿';card.append(source);
+ const pair=node('div');pair.className='pair';const sl=node('label','復核判斷'),state=node('select');state.className='state';state.setAttribute('aria-label',item.title+' 復核判斷');
+ for(const [value,text] of Object.entries(states)){const o=node('option',text);o.value=value;state.append(o)}sl.append(state);
+ const rl=node('label','候選線段'),record=node('select');record.className='record';record.setAttribute('aria-label',item.title+' 候選線段');const empty=node('option','未選擇');empty.value='';record.append(empty);
+ for(const rid of item.candidate_record_ids){const o=node('option',rid);o.value=rid;record.append(o)}rl.append(record);pair.append(sl,rl);card.append(pair);
+ const candidate=node('img');candidate.alt=item.title+' 候選掩膜與診斷路徑';candidate.hidden=true;card.append(candidate);
+ record.onchange=()=>{candidate.hidden=!record.value;if(record.value)candidate.src=item.candidate_images[record.value]};
+ const nl=node('label','判斷依據（看不清、遮擋等也請說明）'),note=node('textarea');note.className='note';note.setAttribute('aria-label',item.title+' 判斷依據');nl.append(note);card.append(nl);
+ card.append(node('p','位置草稿未確認；候選不等於正確連接。'));cards.append(card);
+}
+function buildReview(){
+ const reviewer=document.getElementById('reviewer').value.trim();if(!reviewer)throw Error('請先填寫復核者。');
+ const items=bundle.items.map(item=>{const c=[...cards.children].find(c=>c.dataset.item===item.item_id),state=c.querySelector('.state').value,record_id=c.querySelector('.record').value||null,evidence_note=c.querySelector('.note').value.trim();
+ if(state!=='pending'&&!evidence_note)throw Error(item.title+'：請填判斷依據。');
+ if(['supported','rejected'].includes(state)&&!record_id)throw Error(item.title+'：請選擇候選線段。');
+ if(state==='pending'&&(record_id||evidence_note))throw Error(item.title+'：有填寫內容，請選擇判斷狀態。');
+ return {item_id:item.item_id,bbox_xyxy:item.bbox_xyxy,state,record_id,evidence_note}});
+ if(items.every(i=>i.state==='pending'))throw Error('尚未復核任何入口，請至少記錄一項。');
+ return {schema_version:1,bundle_id:bundle.bundle_id,source_versions:bundle.source_versions,reviewer,review_mode:document.getElementById('mode').value,created_at:new Date().toISOString(),claim_scope:'local_visible_relation_only',items,connection_edges:[]};
+}
+function prepare(){try{const result=buildReview();document.getElementById('output').textContent=JSON.stringify(result,null,2);document.getElementById('message').textContent='已處理 '+result.items.filter(i=>i.state!=='pending').length+' / 6；僅記錄局部意見，無連接邊。';return result}catch(e){document.getElementById('message').textContent=e.message;return null}}
+document.getElementById('preview').onclick=prepare;
+document.getElementById('download').onclick=()=>{const result=prepare();if(!result)return;const u=URL.createObjectURL(new Blob([JSON.stringify(result,null,2)],{type:'application/json'})),a=node('a');a.href=u;a.download='wiremind_local_review_'+Date.now()+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(u),1000)};
+</script></html>

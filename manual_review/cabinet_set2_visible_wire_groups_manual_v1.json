@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "annotation_kind": "manual_visible_wire_difference_evidence",
+  "purpose": "Human visual review of the eight generated cabinet images in set 2. The groups are visible wire-like AI-render differences for diagnostics only; they are not declared or intended electrical faults, a production acceptance result, or training data.",
+  "reference_image": "C:\\Users\\HUAWEI\\Desktop\\案例\\线材柜子\\2\\2.png",
+  "generated_image_directory": "C:\\Users\\HUAWEI\\Desktop\\案例\\线材柜子\\2",
+  "coordinate_space": {
+    "image": "raw generated image",
+    "image_size": [1254, 1254],
+    "origin": "top_left",
+    "bbox_format": "[left, top, right, bottom]"
+  },
+  "manual_rule": {
+    "unit": "one visually distinct connected dangling-conductor or exposed-copper visual-difference group",
+    "included": ["clearly detached or dangling white conductor", "clearly detached yellow-green conductor", "clearly exposed copper end on an otherwise loose blue conductor"],
+    "excluded": ["ordinary AI text or component-detail regeneration", "normal connected cable routing", "broad viewpoint/detail variation"],
+    "caveat": "Raw images and the reference were the basis of the labels. Candidate output had been viewed earlier in this session, so this is a documented manual review rather than a strict double-blind study.",
+    "fault_truth_status": "unknown: the AI generation prompt did not declare the intended fault count or locations. Do not use these visual groups as a hit-rate, miss-rate, false-positive-rate, or candidate-budget target."
+  },
+  "images": [
+    {
+      "image": "generated_01.png",
+      "groups": [
+        {"id": "S2-01-M01", "bbox": [735, 285, 870, 590], "description": "white conductor hanging from the upper row with exposed copper"},
+        {"id": "S2-01-M02", "bbox": [1150, 800, 1250, 1120], "description": "yellow-green conductor hanging at the far lower right"}
+      ]
+    },
+    {
+      "image": "generated_02.png",
+      "groups": [
+        {"id": "S2-02-M01", "bbox": [450, 140, 625, 290], "description": "white conductor diagonally crossing the upper terminal area"},
+        {"id": "S2-02-M02", "bbox": [845, 790, 990, 955], "description": "white conductor hanging below the right-middle contactor with exposed copper"},
+        {"id": "S2-02-M03", "bbox": [530, 1050, 690, 1215], "description": "loose blue conductor with exposed copper in the lower cabinet"}
+      ]
+    },
+    {
+      "image": "generated_03.png",
+      "groups": [
+        {"id": "S2-03-M01", "bbox": [735, 430, 840, 630], "description": "white conductor hanging from the upper terminal row with exposed copper"},
+        {"id": "S2-03-M02", "bbox": [975, 650, 1110, 810], "description": "white conductor hanging from the right-side bundle with exposed copper"},
+        {"id": "S2-03-M03", "bbox": [865, 885, 1040, 1015], "description": "yellow-green conductor with exposed copper below the right-side contactor"}
+      ]
+    },
+    {
+      "image": "generated_04.png",
+      "groups": [
+        {"id": "S2-04-M01", "bbox": [520, 430, 600, 635], "description": "white conductor hanging in the upper-middle left"},
+        {"id": "S2-04-M02", "bbox": [815, 245, 910, 585], "description": "white conductor hanging in the upper-middle right with exposed copper"},
+        {"id": "S2-04-M03", "bbox": [1140, 835, 1250, 1060], "description": "yellow-green conductor hanging at the far right"},
+        {"id": "S2-04-M04", "bbox": [345, 1060, 630, 1215], "description": "loose blue conductor with exposed copper in the lower cabinet"}
+      ]
+    },
+    {
+      "image": "generated_05.png",
+      "groups": [
+        {"id": "S2-05-M01", "bbox": [905, 300, 995, 565], "description": "white conductor hanging from the upper-right terminal row with exposed copper"},
+        {"id": "S2-05-M02", "bbox": [865, 965, 995, 1220], "description": "yellow-green conductor hanging in the lower cabinet with exposed copper"}
+      ]
+    },
+    {
+      "image": "generated_06.png",
+      "groups": [
+        {"id": "S2-06-M01", "bbox": [885, 815, 1000, 985], "description": "white conductor hanging from the right-middle contactor with exposed copper"},
+        {"id": "S2-06-M02", "bbox": [535, 1060, 690, 1215], "description": "loose blue conductor with exposed copper in the lower cabinet"}
+      ]
+    },
+    {
+      "image": "generated_07.png",
+      "groups": [
+        {"id": "S2-07-M01", "bbox": [690, 225, 805, 465], "description": "white conductor hanging from the upper terminal row with exposed copper"},
+        {"id": "S2-07-M02", "bbox": [815, 850, 965, 1005], "description": "yellow-green conductor with exposed copper below the right-side contactor"}
+      ]
+    },
+    {
+      "image": "generated_08.png",
+      "groups": [
+        {"id": "S2-08-M01", "bbox": [690, 395, 800, 595], "description": "white conductor hanging from the upper terminal row with exposed copper"},
+        {"id": "S2-08-M02", "bbox": [550, 840, 640, 1010], "description": "white conductor hanging below the lower breaker row with exposed copper"},
+        {"id": "S2-08-M03", "bbox": [520, 1060, 735, 1220], "description": "loose blue conductor with exposed copper in the lower cabinet"},
+        {"id": "S2-08-M04", "bbox": [770, 1050, 910, 1215], "description": "yellow-green conductor with exposed copper in the lower cabinet"}
+      ]
+    }
+  ],
+  "summary": {"manual_visible_wire_difference_evidence_groups": 22, "images": 8, "metric_eligibility": "diagnostic_only_not_fault_truth"}
+}

@@ -1,0 +1,14 @@
+{
+  "source_images_and_labels_verified": 240,
+  "crop_hashes_sizes_and_labels_exact": 1045,
+  "source_groups_disjoint": true,
+  "no_extra_or_missing_crops": true,
+  "inner_val_uses_all_tiles": true,
+  "crop_plan_repeat_exact": true,
+  "safe_exclusion_plan_uncovered_ports": 224,
+  "retained_label_plan_uncovered_ports": 0,
+  "initialization_path": "E:\\wire_harness_training_bundle\\weights\\yolov8s-seg.pt",
+  "initialization_sha256": "0bac0770b55e5eb5b76a61bc535673288dcec36c2bc0cd25ee0d584c632f3413",
+  "dataset_manifest_sha256": "259dd3c4dcb01b3e9aabd2853131a800d047ea7912843420919a60509f0d16b2",
+  "no_training_or_inference": true
+}
