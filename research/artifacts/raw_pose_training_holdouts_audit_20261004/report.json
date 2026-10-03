@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "experiment_status": "rejected",
+  "counts": {
+    "inner": 48
+  },
+  "added": 0,
+  "source_report_sha256": "1a2d8aba9da5e5f7046ef4135ee3137638f887cc131ab3036692555627125aad",
+  "independent_scoring": true,
+  "exact_cached_selector_replay": true,
+  "unchanged_runtime": true,
+  "not_actual_reference_ROI_or_Qt_acceptance": true,
+  "field_accuracy": false
+}

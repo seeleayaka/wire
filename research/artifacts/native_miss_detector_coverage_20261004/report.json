@@ -1,0 +1,2041 @@
+{
+  "status": "complete",
+  "train_only": true,
+  "no_validation_read": true,
+  "no_tuning": true,
+  "coverage_is_post_scoring_not_runtime_GT": true,
+  "taxonomy": {
+    "detector_coverage_without_three_checkpoint_agreement": 19,
+    "no_raw_detector_IoU30_same_class_coverage": 15,
+    "three_detector_coverage_but_native_filter_or_budget": 11,
+    "raw_detector_near_target_localization_candidate": 4
+  },
+  "cases": [
+    {
+      "image": "disconnected_001.JPG",
+      "target_index": 6,
+      "class_id": 1,
+      "box": [
+        2162.548992,
+        485.289792,
+        2184.159744,
+        548.6993279999999
+      ],
+      "reason": "fewer_than_three_unique_checkpoints",
+      "best_same_class_proposal_iou": 0.6902389198943981,
+      "eligible_proposals": [
+        7,
+        9,
+        10,
+        12,
+        13
+      ],
+      "highest_positive_probability": 0.9893506169319153,
+      "accepted_cue_count": 8,
+      "detector_reason": "detector_coverage_without_three_checkpoint_agreement",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.6740579236746015
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.565845317106479
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 2
+    },
+    {
+      "image": "disconnected_001.JPG",
+      "target_index": 7,
+      "class_id": 0,
+      "box": [
+        1670.3991360000002,
+        926.598384,
+        1749.578976,
+        960.6396959999998
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 8,
+      "detector_reason": "no_raw_detector_IoU30_same_class_coverage",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 0
+    },
+    {
+      "image": "disconnected_003.JPG",
+      "target_index": 5,
+      "class_id": 0,
+      "box": [
+        1777.5117120000002,
+        900.2192400000001,
+        1882.3005120000003,
+        959.899608
+      ],
+      "reason": "fewer_than_three_unique_checkpoints",
+      "best_same_class_proposal_iou": 0.921319074970784,
+      "eligible_proposals": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "highest_positive_probability": 0.9852578043937683,
+      "accepted_cue_count": 8,
+      "detector_reason": "detector_coverage_without_three_checkpoint_agreement",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.9115626092038316
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.90081343907053
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.9253553925123252
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 2
+    },
+    {
+      "image": "disconnected_003.JPG",
+      "target_index": 7,
+      "class_id": 1,
+      "box": [
+        2162.1021120000005,
+        495.850752,
+        2180.440608,
+        536.359968
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 8,
+      "detector_reason": "no_raw_detector_IoU30_same_class_coverage",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 0
+    },
+    {
+      "image": "disconnected_008.JPG",
+      "target_index": 3,
+      "class_id": 1,
+      "box": [
+        2162.8007039999998,
+        502.69896,
+        2180.2308479999997,
+        547.000272
+      ],
+      "reason": "classifier_probability_below_fixed_p98",
+      "best_same_class_proposal_iou": 0.6785308062882766,
+      "eligible_proposals": [
+        21,
+        22,
+        25
+      ],
+      "highest_positive_probability": 0.9429868459701538,
+      "accepted_cue_count": 10,
+      "detector_reason": "detector_coverage_without_three_checkpoint_agreement",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.42495552606318354
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.4076556174165076
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.5195163168592699
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 1
+    },
+    {
+      "image": "disconnected_008.JPG",
+      "target_index": 11,
+      "class_id": 0,
+      "box": [
+        1667.29104,
+        975.26088,
+        1750.841184,
+        1018.2707999999999
+      ],
+      "reason": "shared_5_plus_5_budget_or_selection",
+      "best_same_class_proposal_iou": 0.9076527040582687,
+      "eligible_proposals": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "highest_positive_probability": 0.9910808205604553,
+      "accepted_cue_count": 10,
+      "detector_reason": "three_detector_coverage_but_native_filter_or_budget",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.569990365065637
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.6878207379190479
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.6491658833499999
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 3
+    },
+    {
+      "image": "disconnected_009.JPG",
+      "target_index": 5,
+      "class_id": 1,
+      "box": [
+        2163.6689279999996,
+        498.49920000000003,
+        2184.177984,
+        541.678752
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 10,
+      "detector_reason": "detector_coverage_without_three_checkpoint_agreement",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.45110979639192855
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.48473894585283656
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.7288739218336439
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 1
+    },
+    {
+      "image": "disconnected_009.JPG",
+      "target_index": 9,
+      "class_id": 0,
+      "box": [
+        1665.892032,
+        984.810888,
+        1750.4307840000001,
+        1019.9602800000001
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 10,
+      "detector_reason": "detector_coverage_without_three_checkpoint_agreement",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.7823204974215344
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 1
+    },
+    {
+      "image": "disconnected_010.JPG",
+      "target_index": 6,
+      "class_id": 0,
+      "box": [
+        1808.2607040000003,
+        1070.060544,
+        1872.0897600000003,
+        1147.910688
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 10,
+      "detector_reason": "no_raw_detector_IoU30_same_class_coverage",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 0
+    },
+    {
+      "image": "disconnected_010.JPG",
+      "target_index": 7,
+      "class_id": 1,
+      "box": [
+        2164.02096,
+        498.419856,
+        2179.2294720000004,
+        544.4995680000001
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 10,
+      "detector_reason": "detector_coverage_without_three_checkpoint_agreement",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.5320818881823535
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 1
+    },
+    {
+      "image": "disconnected_012.JPG",
+      "target_index": 1,
+      "class_id": 1,
+      "box": [
+        2764.779072,
+        2277.889632,
+        2900.229312,
+        2320.669728
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 10,
+      "detector_reason": "three_detector_coverage_but_native_filter_or_budget",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.6432043644428322
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.633919417242119
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.7419133068336348
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.7719263816297396
+        }
+      ],
+      "existing_best_iou": 0.00864958794559022,
+      "unique_raw_IoU50_votes": 3
+    },
+    {
+      "image": "disconnected_012.JPG",
+      "target_index": 5,
+      "class_id": 1,
+      "box": [
+        2170.479744,
+        498.56075999999996,
+        2180.198016,
+        539.220456
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 10,
+      "detector_reason": "detector_coverage_without_three_checkpoint_agreement",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.2579375463020191
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.41183605943186163
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.5604909141360771
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 1
+    },
+    {
+      "image": "disconnected_012.JPG",
+      "target_index": 9,
+      "class_id": 0,
+      "box": [
+        1800.5506560000001,
+        1171.619496,
+        1860.6915840000001,
+        1284.438456
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 10,
+      "detector_reason": "no_raw_detector_IoU30_same_class_coverage",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 0
+    },
+    {
+      "image": "disconnected_012.JPG",
+      "target_index": 11,
+      "class_id": 1,
+      "box": [
+        2154.48144,
+        508.898736,
+        2170.470624,
+        557.189136
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 10,
+      "detector_reason": "detector_coverage_without_three_checkpoint_agreement",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.6782396358159761
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.6307601535762851
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.4594399872636441
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 2
+    },
+    {
+      "image": "disconnected_013.JPG",
+      "target_index": 5,
+      "class_id": 1,
+      "box": [
+        2154.769632,
+        508.13949600000007,
+        2170.218912,
+        556.350552
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 10,
+      "detector_reason": "detector_coverage_without_three_checkpoint_agreement",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.56912356720271
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.6637489104796646
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 2
+    },
+    {
+      "image": "disconnected_013.JPG",
+      "target_index": 7,
+      "class_id": 0,
+      "box": [
+        1816.74048,
+        1047.841488,
+        1873.051008,
+        1129.740912
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 10,
+      "detector_reason": "no_raw_detector_IoU30_same_class_coverage",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 0
+    },
+    {
+      "image": "disconnected_013.JPG",
+      "target_index": 8,
+      "class_id": 1,
+      "box": [
+        2765.331744,
+        2277.56952,
+        2903.5216320000004,
+        2317.389264
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 10,
+      "detector_reason": "three_detector_coverage_but_native_filter_or_budget",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.6991483161964926
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.6616102145872852
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.7325327359801501
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        }
+      ],
+      "existing_best_iou": 0.026177504773438637,
+      "unique_raw_IoU50_votes": 3
+    },
+    {
+      "image": "disconnected_013.JPG",
+      "target_index": 11,
+      "class_id": 1,
+      "box": [
+        2170.337472,
+        498.67019999999997,
+        2179.939008,
+        539.160264
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 10,
+      "detector_reason": "raw_detector_near_target_localization_candidate",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.46649091526134395
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.45173443229074717
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 0
+    },
+    {
+      "image": "disconnected_014.JPG",
+      "target_index": 3,
+      "class_id": 1,
+      "box": [
+        2873.7010560000003,
+        2275.471008,
+        3033.352128,
+        2319.411168
+      ],
+      "reason": "shared_5_plus_5_budget_or_selection",
+      "best_same_class_proposal_iou": 0.7519660127384129,
+      "eligible_proposals": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "highest_positive_probability": 0.9801871180534363,
+      "accepted_cue_count": 10,
+      "detector_reason": "three_detector_coverage_but_native_filter_or_budget",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.7351202650022757
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.7887114094145183
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.7755211649419862
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.7477465052284795
+        }
+      ],
+      "existing_best_iou": 0.038515504143756464,
+      "unique_raw_IoU50_votes": 3
+    },
+    {
+      "image": "disconnected_014.JPG",
+      "target_index": 4,
+      "class_id": 1,
+      "box": [
+        2170.7715840000005,
+        498.358296,
+        2180.110464,
+        539.439336
+      ],
+      "reason": "classifier_probability_below_fixed_p98",
+      "best_same_class_proposal_iou": 0.5268966136840116,
+      "eligible_proposals": [
+        42,
+        44
+      ],
+      "highest_positive_probability": 0.9082512855529785,
+      "accepted_cue_count": 10,
+      "detector_reason": "detector_coverage_without_three_checkpoint_agreement",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.5249034244077185
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.3433180002195275
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.29606504011020296
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 1
+    },
+    {
+      "image": "disconnected_014.JPG",
+      "target_index": 9,
+      "class_id": 0,
+      "box": [
+        2982.041184,
+        2311.401528,
+        3191.009568,
+        2364.630408
+      ],
+      "reason": "classifier_probability_below_fixed_p98",
+      "best_same_class_proposal_iou": 0.8515796997388367,
+      "eligible_proposals": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "highest_positive_probability": 0.9762173295021057,
+      "accepted_cue_count": 10,
+      "detector_reason": "three_detector_coverage_but_native_filter_or_budget",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.8259486292258819
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.8748975432966013
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.8046687075320006
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.7764303191577866
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 3
+    },
+    {
+      "image": "disconnected_014.JPG",
+      "target_index": 11,
+      "class_id": 1,
+      "box": [
+        2154.620064,
+        508.231152,
+        2170.959456,
+        555.580368
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.4089902931636832,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 10,
+      "detector_reason": "detector_coverage_without_three_checkpoint_agreement",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.5853200363950288
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.406064193597665
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.1656880200331684
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 1
+    },
+    {
+      "image": "disconnected_015.JPG",
+      "target_index": 1,
+      "class_id": 0,
+      "box": [
+        1684.39104,
+        796.6397519999999,
+        1792.619904,
+        925.0210800000001
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 10,
+      "detector_reason": "three_detector_coverage_but_native_filter_or_budget",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.8984842752582558
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.9126971083648071
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.8184635490148913
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 3
+    },
+    {
+      "image": "disconnected_015.JPG",
+      "target_index": 2,
+      "class_id": 1,
+      "box": [
+        2169.750144,
+        498.70029600000004,
+        2179.891584,
+        540.240984
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 10,
+      "detector_reason": "raw_detector_near_target_localization_candidate",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.30694191376795943
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.4619584703911629
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 0
+    },
+    {
+      "image": "disconnected_015.JPG",
+      "target_index": 3,
+      "class_id": 1,
+      "box": [
+        2154.6784319999997,
+        509.678496,
+        2169.989088,
+        555.309504
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 10,
+      "detector_reason": "detector_coverage_without_three_checkpoint_agreement",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.687147626724936
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.396919865972252
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 1
+    },
+    {
+      "image": "disconnected_015.JPG",
+      "target_index": 10,
+      "class_id": 1,
+      "box": [
+        962.5685759999999,
+        1769.539464,
+        996.3782400000001,
+        1823.1404399999997
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 10,
+      "detector_reason": "three_detector_coverage_but_native_filter_or_budget",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.943316064694761
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.9414006816935208
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.9179921614655043
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 3
+    },
+    {
+      "image": "disconnected_017.JPG",
+      "target_index": 8,
+      "class_id": 1,
+      "box": [
+        2761.0508160000004,
+        2294.140104,
+        2882.3614079999998,
+        2334.411288
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 10,
+      "detector_reason": "raw_detector_near_target_localization_candidate",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.39862386398504124
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.41222606188474376
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.37187971946163295
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.47509848386743214
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 0
+    },
+    {
+      "image": "disconnected_017.JPG",
+      "target_index": 9,
+      "class_id": 1,
+      "box": [
+        2151.0888,
+        523.3297680000001,
+        2166.348384,
+        569.839032
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 10,
+      "detector_reason": "detector_coverage_without_three_checkpoint_agreement",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.6789132296861807
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.6941917176298211
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.4757873372688257
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 2
+    },
+    {
+      "image": "disconnected_017.JPG",
+      "target_index": 10,
+      "class_id": 1,
+      "box": [
+        2166.4815360000002,
+        513.391248,
+        2176.14144,
+        554.4312480000001
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 10,
+      "detector_reason": "detector_coverage_without_three_checkpoint_agreement",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.7288641135949918
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.584687849818114
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.8534990740572644
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 2
+    },
+    {
+      "image": "disconnected_017.JPG",
+      "target_index": 12,
+      "class_id": 1,
+      "box": [
+        2882.3376959999996,
+        2289.479328,
+        3057.569376,
+        2334.579552
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 10,
+      "detector_reason": "three_detector_coverage_but_native_filter_or_budget",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.9009920216159207
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.8750684882214466
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.9158792367094352
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.669108013200529
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 3
+    },
+    {
+      "image": "disconnected_018.JPG",
+      "target_index": 2,
+      "class_id": 0,
+      "box": [
+        1758.968928,
+        1476.1691279999998,
+        1808.8991039999999,
+        1559.258712
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 6,
+      "detector_reason": "no_raw_detector_IoU30_same_class_coverage",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 0
+    },
+    {
+      "image": "disconnected_018.JPG",
+      "target_index": 3,
+      "class_id": 1,
+      "box": [
+        2153.9597759999997,
+        526.489848,
+        2165.979936,
+        569.0209679999999
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 6,
+      "detector_reason": "no_raw_detector_IoU30_same_class_coverage",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 0
+    },
+    {
+      "image": "disconnected_019.JPG",
+      "target_index": 3,
+      "class_id": 0,
+      "box": [
+        1893.178848,
+        2209.9903200000003,
+        1950.908448,
+        2302.560144
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 8,
+      "detector_reason": "no_raw_detector_IoU30_same_class_coverage",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 0
+    },
+    {
+      "image": "disconnected_019.JPG",
+      "target_index": 7,
+      "class_id": 0,
+      "box": [
+        1867.7997119999998,
+        2362.299336,
+        1909.8502079999998,
+        2443.419
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 8,
+      "detector_reason": "detector_coverage_without_three_checkpoint_agreement",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.7245599475881476
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.7982169850636445
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 1
+    },
+    {
+      "image": "disconnected_024.JPG",
+      "target_index": 1,
+      "class_id": 0,
+      "box": [
+        1322.8906559999998,
+        1219.309344,
+        1411.869024,
+        1252.278144
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 9,
+      "detector_reason": "no_raw_detector_IoU30_same_class_coverage",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 0
+    },
+    {
+      "image": "disconnected_025.JPG",
+      "target_index": 3,
+      "class_id": 0,
+      "box": [
+        1291.421184,
+        1218.640392,
+        1416.6424319999999,
+        1266.82956
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 9,
+      "detector_reason": "no_raw_detector_IoU30_same_class_coverage",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 0
+    },
+    {
+      "image": "disconnected_026.JPG",
+      "target_index": 9,
+      "class_id": 0,
+      "box": [
+        1297.30176,
+        1222.7101920000002,
+        1390.201728,
+        1273.769424
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 9,
+      "detector_reason": "no_raw_detector_IoU30_same_class_coverage",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 0
+    },
+    {
+      "image": "disconnected_030.JPG",
+      "target_index": 6,
+      "class_id": 0,
+      "box": [
+        1714.198848,
+        2308.899456,
+        1773.070272,
+        2396.889216
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 9,
+      "detector_reason": "no_raw_detector_IoU30_same_class_coverage",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 0
+    },
+    {
+      "image": "disconnected_031.JPG",
+      "target_index": 1,
+      "class_id": 1,
+      "box": [
+        1870.3095360000002,
+        2037.0696480000001,
+        1896.76848,
+        2126.04984
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 7,
+      "detector_reason": "no_raw_detector_IoU30_same_class_coverage",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 0
+    },
+    {
+      "image": "disconnected_032.JPG",
+      "target_index": 0,
+      "class_id": 0,
+      "box": [
+        1834.309248,
+        1864.3404960000003,
+        1908.4584960000002,
+        2001.950352
+      ],
+      "reason": "fewer_than_three_unique_checkpoints",
+      "best_same_class_proposal_iou": 0.741371528550072,
+      "eligible_proposals": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "highest_positive_probability": 0.9922248125076294,
+      "accepted_cue_count": 9,
+      "detector_reason": "detector_coverage_without_three_checkpoint_agreement",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.7621998727248087
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.6322243807216629
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.5876316311225226
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 2
+    },
+    {
+      "image": "disconnected_038.JPG",
+      "target_index": 5,
+      "class_id": 0,
+      "box": [
+        1554.290592,
+        2072.521368,
+        1630.880352,
+        2119.38084
+      ],
+      "reason": "classifier_probability_below_fixed_p98",
+      "best_same_class_proposal_iou": 0.6812173303588358,
+      "eligible_proposals": [
+        7,
+        8,
+        10,
+        12,
+        13
+      ],
+      "highest_positive_probability": 0.9744268655776978,
+      "accepted_cue_count": 9,
+      "detector_reason": "detector_coverage_without_three_checkpoint_agreement",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.5370641470035468
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.5410660231837238
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 2
+    },
+    {
+      "image": "disconnected_039.JPG",
+      "target_index": 7,
+      "class_id": 0,
+      "box": [
+        1500.001056,
+        1345.09968,
+        1590.380256,
+        1471.650624
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 9,
+      "detector_reason": "raw_detector_near_target_localization_candidate",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.4629996775606994
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 0
+    },
+    {
+      "image": "disconnected_041.JPG",
+      "target_index": 0,
+      "class_id": 0,
+      "box": [
+        1505.10096,
+        1345.40064,
+        1592.9411519999999,
+        1469.25936
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 9,
+      "detector_reason": "detector_coverage_without_three_checkpoint_agreement",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.9116060947042298
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 1
+    },
+    {
+      "image": "disconnected_042.JPG",
+      "target_index": 0,
+      "class_id": 1,
+      "box": [
+        1604.1204480000001,
+        1001.391048,
+        1693.8320639999997,
+        1038.690936
+      ],
+      "reason": "classifier_probability_below_fixed_p98",
+      "best_same_class_proposal_iou": 0.9690534098767263,
+      "eligible_proposals": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "highest_positive_probability": 0.969857394695282,
+      "accepted_cue_count": 9,
+      "detector_reason": "three_detector_coverage_but_native_filter_or_budget",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.9443658476890947
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.9323383853675803
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.942520411966229
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.9701879782480392
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 3
+    },
+    {
+      "image": "disconnected_044.JPG",
+      "target_index": 4,
+      "class_id": 1,
+      "box": [
+        1604.249952,
+        1002.2200560000001,
+        1692.958368,
+        1039.820904
+      ],
+      "reason": "classifier_probability_below_fixed_p98",
+      "best_same_class_proposal_iou": 0.878536406445935,
+      "eligible_proposals": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "highest_positive_probability": 0.9768825769424438,
+      "accepted_cue_count": 9,
+      "detector_reason": "three_detector_coverage_but_native_filter_or_budget",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.8694139898991304
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.8819640343118257
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.9200049525988423
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.8274587551865579
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 3
+    },
+    {
+      "image": "disconnected_049.JPG",
+      "target_index": 3,
+      "class_id": 0,
+      "box": [
+        1289.54064,
+        899.35056,
+        1412.912352,
+        955.0008
+      ],
+      "reason": "fewer_than_three_unique_checkpoints",
+      "best_same_class_proposal_iou": 0.9321490881599022,
+      "eligible_proposals": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "highest_positive_probability": 0.9923226237297058,
+      "accepted_cue_count": 10,
+      "detector_reason": "detector_coverage_without_three_checkpoint_agreement",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.9215874937252642
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.9274367414005101
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 2
+    },
+    {
+      "image": "disconnected_049.JPG",
+      "target_index": 10,
+      "class_id": 1,
+      "box": [
+        2075.4985920000004,
+        536.711544,
+        2150.767776,
+        559.111176
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 10,
+      "detector_reason": "no_raw_detector_IoU30_same_class_coverage",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 0
+    },
+    {
+      "image": "disconnected_050.JPG",
+      "target_index": 3,
+      "class_id": 0,
+      "box": [
+        1386.0995520000001,
+        1103.499936,
+        1501.3581120000001,
+        1179.199584
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 10,
+      "detector_reason": "three_detector_coverage_but_native_filter_or_budget",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.7112828449864239
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.7062636217195024
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.8666698152186876
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 3
+    },
+    {
+      "image": "disconnected_050.JPG",
+      "target_index": 5,
+      "class_id": 1,
+      "box": [
+        2074.1616,
+        537.8497199999999,
+        2149.4417280000002,
+        560.2493519999999
+      ],
+      "reason": "no_IoU50_same_class_native_proposal",
+      "best_same_class_proposal_iou": 0.0,
+      "eligible_proposals": [],
+      "highest_positive_probability": null,
+      "accepted_cue_count": 10,
+      "detector_reason": "no_raw_detector_IoU30_same_class_coverage",
+      "raw": [
+        {
+          "weight_sha256": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        },
+        {
+          "weight_sha256": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+          "best_iou": 0.0
+        }
+      ],
+      "existing_best_iou": 0.0,
+      "unique_raw_IoU50_votes": 0
+    }
+  ],
+  "pins": {
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_remaining_train_audit_20261004\\report.json": "1cf9ba46f1a3aeb3966e956067f0e7b7cb5c2754793d4dd0aa9da62731c65aa9",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_support_graph_20261003\\source_selections\\train\\index.json": "02a293eecb7be4f7fed470731db350160e30cb08d8ea3add3edd12751c7a789e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\audit_native_miss_detector_coverage.py": "876093fde2571b43f64662d49f5c24902340e7f39441d0e5a3214569ea7b1a44",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_support_graph_20261003\\source_selections\\train\\disconnected_001.json": "6a8c1e05c842a0d97f16fb340a0ebc98cfe471d55dcf4760379d9b9fbbaf1ea6",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\resolution_plug_final_budget_20261003\\train\\disconnected_001_predictions.json": "eb609f0a771e7bd52400048388594afadc5d12f633fe03c4f187ccfbbef4949d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\core_port_recheck_20261002\\train\\disconnected_001_zoom_predictions.json": "bea1b62f9d878cdde30af20e6b00a7b5e4f2bb9a1cb0fd6cbfb708fc8529b4b7",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_001.JPG": "1b4f5f35073af643524578f18aff934793ba1487e62246a02b969fb7169a024d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_three_20261004\\full_train\\disconnected_001_predictions.json": "07a44a2733a87c433a53e1a4d0f15882e42c943f5958ca55bc71eb192aae669c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_support_graph_20261003\\source_selections\\train\\disconnected_003.json": "aab3568e1d1635b3fe4a1b1b8cbbe6711fb9c94d1dd7f6718527c87d38a0ff72",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\resolution_plug_final_budget_20261003\\train\\disconnected_003_predictions.json": "c0db138370af7e1c50f9446b651f1ea82ed7309228233087d86cc2dc4d77aa69",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\core_port_recheck_20261002\\train\\disconnected_003_zoom_predictions.json": "c4b704d72727443423abeca9809b9b0dda7d0de9e3bd50c64ec366122aa98968",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_003.JPG": "c43bea91ae66c7227b6a79b91612043d7141c6c5e9934ce8b9b861be843e8e65",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_three_20261004\\full_train\\disconnected_003_predictions.json": "003a302cd4f0b8fb4c9e947807d9d13c15551c224e6bb184da8379b1a37cd337",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_support_graph_20261003\\source_selections\\train\\disconnected_008.json": "61a75ed3a130d864455aa55afe25f0ef2a052c8b3f066c9581fd9afb58a4e2cc",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\resolution_plug_final_budget_20261003\\train\\disconnected_008_predictions.json": "ef1fe1d2f9a5df6e9501ff64f324ddc78b132cc4e94398077f264534348e1724",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\core_port_recheck_20261002\\train\\disconnected_008_zoom_predictions.json": "5780bb1cc3d9fd99f71a1a7419a205f9ae4ad3cf84bba73914c904f00cc69880",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_008.JPG": "6dcd5ab2ab9d89786f894ed681fedf57abc7c9b34bb3d1ece25fd77dccd4999a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_three_20261004\\full_train\\disconnected_008_predictions.json": "e1f8ac8783e59b3875b09d879324faaea5c8b8d9f1fb8de1bf7bbe23c6128ff3",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_support_graph_20261003\\source_selections\\train\\disconnected_009.json": "1340b769e4dc96391560210037335928d80103a249c2cc062a551353da87c90a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\resolution_plug_final_budget_20261003\\train\\disconnected_009_predictions.json": "4dd770090e71d6afba9e5cd7be4f522b1989cd921e410e75e263b39653812abd",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\core_port_recheck_20261002\\train\\disconnected_009_zoom_predictions.json": "c163fdebffe6c7e5aecfa088369c1ef97946e5c353030020d0ed48a78715c3d9",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_009.JPG": "bcbd88a740530fb637e5288cfc4db8d21c3d876e708de7f44659cff465bfe72e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_three_20261004\\full_train\\disconnected_009_predictions.json": "b5b55936411f7a8b7ba2df2c8695262674ad03b7dd584b81fbc17103c383d8d4",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_support_graph_20261003\\source_selections\\train\\disconnected_010.json": "dc50789f9d9e63e2ebb9376e3abddcde1345ffd8b93168ff004bd2b91d17956f",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\resolution_plug_final_budget_20261003\\train\\disconnected_010_predictions.json": "a7a78f4d56ae0fdd608513df9d37625ae5507533ebdc39253358d448dfabb6cc",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\core_port_recheck_20261002\\train\\disconnected_010_zoom_predictions.json": "795c8f229d405030f22a896be252a5920fcebc690307921e2c7c518dd9841936",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_010.JPG": "95c2ab78fb2d671819cf355e4829505c7b073678448d2bcf8cd6fd7080f2d9d4",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_three_20261004\\full_train\\disconnected_010_predictions.json": "487a9cbb88a3737f27baccdf7665b74505f06d3ccf456a280841c90b31cc8b24",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_support_graph_20261003\\source_selections\\train\\disconnected_012.json": "dc48ee19bb52e43ec82f2ce57059785fc87c79c1f53fdcfba3fd5b66f41127b0",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\resolution_plug_final_budget_20261003\\train\\disconnected_012_predictions.json": "02f7db95dc17068443f912ce534f0a11a0840a1dbe8d4585aba6acdccacd9ab2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\core_port_recheck_20261002\\train\\disconnected_012_zoom_predictions.json": "1651d307557ef36dab084271c0ff52409876607e26f90a64eaed86c78c4bd3bc",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_012.JPG": "0f8a867a7e977dd87e2691978025d8c3897e3ea981c4181300772e6ae1301b1f",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_three_20261004\\full_train\\disconnected_012_predictions.json": "b1068ed15da948010c7d4ab89d66d279d193d79c09d14921806f8ebcab5253bc",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_support_graph_20261003\\source_selections\\train\\disconnected_013.json": "208b2df4e381aa9c3ab15b38fefbd20357fcc02daaeb92c053b3c7c3ca78d0d9",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\resolution_plug_final_budget_20261003\\train\\disconnected_013_predictions.json": "76afebdf509c708345e48f7274e615ba17f53182a433052252606811d578a9d9",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\core_port_recheck_20261002\\train\\disconnected_013_zoom_predictions.json": "fe9f6bf2bb40ad6c31c7e00be3c53b6ceeea960a9e38da7d33e3bc8d17ab87b6",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_013.JPG": "69c95ad71d5c52f0e95a7b9b0cde2b3789f51317aa33e98b548d27d7c1715ec6",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_three_20261004\\full_train\\disconnected_013_predictions.json": "693187521aeb1bdbbbeb7ce5b053d8cca9f506a82626fad1cb784ae6c7072299",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_support_graph_20261003\\source_selections\\train\\disconnected_014.json": "2043cead80a2046035ea852745ffdf1376143846fa00dc9dc5f7907611d23508",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\resolution_plug_final_budget_20261003\\train\\disconnected_014_predictions.json": "a94af3a2098c0bd3446ed017cd691cf50b4f22028cde32447a8ad7f5b45db04f",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\core_port_recheck_20261002\\train\\disconnected_014_zoom_predictions.json": "2829302f35688ae9e34ec988b1482da6b7b4ef6e2f8d09381a67953ff74eda6b",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_014.JPG": "c33424500e03ddd88fce1779f67be826666aea3d102a328a88d3b887661d6ba8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_three_20261004\\full_train\\disconnected_014_predictions.json": "57983d38279e0815cd6b891eac37dd3a2d1db1ce6addfd94296676ce84c5d902",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_support_graph_20261003\\source_selections\\train\\disconnected_015.json": "2cc2f0684b6303910f6b48cdc8e86b2e4f882e77d48b93a3e597495f1a8a81a6",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\resolution_plug_final_budget_20261003\\train\\disconnected_015_predictions.json": "80d909696385202edd402988697244c43a125f45eac3fde6488cb612b91298c5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\remaining_training_ports_20261003\\disconnected_015_predictions.json": "73dd8607e7a3cd12df498c216925c9e2ec3d4191acbf519d19a3ea1609ab6c7f",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_015.JPG": "99b729db0c4561e01529beafe4f94c1e27c3832d434b634adc09af57cfdae5bc",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_three_20261004\\full_train\\disconnected_015_predictions.json": "ec3668beed97defe51129443663145dec7f75e900901a03b94519fc08a2ae7af",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_support_graph_20261003\\source_selections\\train\\disconnected_017.json": "b3546a22a1d4499552deceaa39a3005686f34d3d32a78054c7e6e8bb3f194157",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\resolution_plug_final_budget_20261003\\train\\disconnected_017_predictions.json": "847130562fc38ffc158c4b8678330da908ff45ee81a7defa6945f1edcfe7d758",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\remaining_training_ports_20261003\\disconnected_017_predictions.json": "0bd52dde41fc68003f6e36ba91ca2453057d572658da53a25f5e8d87bdfaded1",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_017.JPG": "2de7617d2e6c0b53b2a4b3e431c9b6dbe233598db47d278854295bf5ddb7de11",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_three_20261004\\full_train\\disconnected_017_predictions.json": "b16d15f3d40830800161d8bbb98424f21002374a3fd8cde84947c9b80bac3575",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_support_graph_20261003\\source_selections\\train\\disconnected_018.json": "8ebaf9c57ffdec6a51c331513612290fd7262639699e7f809a5b22177bd8db9e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\resolution_plug_final_budget_20261003\\train\\disconnected_018_predictions.json": "a4fb1afa50c0a4a422a88d8404f734a03a7c947f127cb1db1a74c737d5349339",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\remaining_training_ports_20261003\\disconnected_018_predictions.json": "3e76d568ac84f4860f5dba719f2ec83a6075b29038810efda7db4be353961375",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_018.JPG": "efbe6552792feecc1de4867935e66dff2cbb70f9feaf18fb035d56e2d223101d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_three_20261004\\full_train\\disconnected_018_predictions.json": "d70513c4f8382998f8dac80161c60c6d5c359ceb9db764c5f5208a01dc094de8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_support_graph_20261003\\source_selections\\train\\disconnected_019.json": "8068292486206655762b6482bec3211d8fd986803481eabb6a130dae9140deda",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\resolution_plug_final_budget_20261003\\train\\disconnected_019_predictions.json": "e1093acc89f8cde54d92a584f5ae215b87a312f8f2809528cdd5eb6d5d0d1eff",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\remaining_training_ports_20261003\\disconnected_019_predictions.json": "e4f735b9fe7c54e6d042a79f7cc5020bd0988bb6dd0b18e367d289e0c2d9308d",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_019.JPG": "564223e2a53bab5d0f98f863433b77c09fee883c52ad42990694cf4cb4b02dd1",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_three_20261004\\full_train\\disconnected_019_predictions.json": "ad71edc29e5d9d3cec8dc3b6e2929f4835ec68f1ebcc267ad7955646155b1ea2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_support_graph_20261003\\source_selections\\train\\disconnected_024.json": "e86d2e1df5698dccef649abe49e648af62bf975a7e291793f802f14054a4d0b2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\resolution_plug_final_budget_20261003\\train\\disconnected_024_predictions.json": "05ad75c7c665106d20eb8ceab69a36ed4d0b7bc8e9392745035167974817666e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\remaining_training_ports_20261003\\disconnected_024_predictions.json": "457ee77df28563b39c72621a54543201dab149456a09fc26c9ad0d18e183ce94",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_024.JPG": "4ed232aaecb4f51328e3e84426403f79877965e7bad39233c58517ee9aec70b2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_three_20261004\\full_train\\disconnected_024_predictions.json": "cc3d7530416d9e5f0ccffc50f133ef0c2114c00bee1cb11426c35b1f991fcf0f",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_support_graph_20261003\\source_selections\\train\\disconnected_025.json": "c207a3c1441a96ea11fce74fe506b28fec9c498ec0b18fa614d96018decd4cb9",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\resolution_plug_final_budget_20261003\\train\\disconnected_025_predictions.json": "7cf788da273eae647ff789d46df4f36d57ed9a4c5983f963fba31bd7a78d3b2f",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\remaining_training_ports_20261003\\disconnected_025_predictions.json": "456ab36c7b1d453049c9138e85a8fee2c64683ce9b5959c151a4aa72c2293c0f",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_025.JPG": "651bb5b47b618fe906595491185b4de73951580180f81fd23a9bdc4f912ee1fd",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_three_20261004\\full_train\\disconnected_025_predictions.json": "b7207bdfce5281808dca10798f7914579ad55a3789b3a37d3f8b3659e14c19e2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_support_graph_20261003\\source_selections\\train\\disconnected_026.json": "a62d59fbb708a2b0ad5d9768bb837baefdfcf9c13efc3240f78278ccec69e973",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\resolution_plug_final_budget_20261003\\train\\disconnected_026_predictions.json": "4afe5fc4c2baec13181b65b9a082357ed023b2963d1ca5221b72a445392017b0",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\remaining_training_ports_20261003\\disconnected_026_predictions.json": "d035bec6df46f22393c3a5eaa7bc7c8c187ea301ea6fc5773586d80066b87814",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_026.JPG": "2bdf4429efb7399a1d0a618dc619d3038e7a939af4f6d25888724d53dfd3633a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_three_20261004\\full_train\\disconnected_026_predictions.json": "86d3444f5f10576cb9a02adf9c2ae888324b7240db1be8f77f6f8ebbc8a9f178",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_support_graph_20261003\\source_selections\\train\\disconnected_030.json": "8e8dfbe5b545a93b8d9436e1b97ddb8e31fb0e541e89e3b85cdffc7c4185992a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\resolution_plug_final_budget_20261003\\train\\disconnected_030_predictions.json": "3f3ba0ca89dd933296c77c6f79bdc52d5ba3c44605121d2d02f73b66861acd79",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\remaining_training_ports_20261003\\disconnected_030_predictions.json": "12e108295432c407d26c9693cfc7cf0150bf9f5d19e35be7dad3b9476b1b35d3",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_030.JPG": "d9d02fb4750caacb8e277828a6392763d40ac3399f16960f7af362cab714f358",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_three_20261004\\full_train\\disconnected_030_predictions.json": "0b4fbb9af8a2ed6a2e3d405db74f1d807efd968b047f879da971fd6614cfe2c5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_support_graph_20261003\\source_selections\\train\\disconnected_031.json": "1d3f041409ea761c3f37bd1fd7a3621fe21739d32a3cd93fc1def6be4cdff88b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\resolution_plug_final_budget_20261003\\train\\disconnected_031_predictions.json": "4f2953eca1731791af716ef0e5c405a067c2c43265d90d45d30d9e229b88fb97",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\remaining_training_ports_20261003\\disconnected_031_predictions.json": "02eb8df49a46474ca13f2afe6d1e579c4fbaf351c4b2e1445d00c9656668e384",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_031.JPG": "8744da809baff520133aa299966beec832dd842a05f70c90b2e590f370f19e9e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_three_20261004\\full_train\\disconnected_031_predictions.json": "9d2e8f402913cc39eed134944adbf694da79aa2f2c8c9ccef3864f22ec52b7d1",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_support_graph_20261003\\source_selections\\train\\disconnected_032.json": "59c716a0e8d692383b30c6685e7040039f73ab2ec8e898fb2330069adab85eeb",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\resolution_plug_final_budget_20261003\\train\\disconnected_032_predictions.json": "24e1e6b68ccd0c5536a3c5a80f4b3c6acadd80586141029dba7ae6e50cce1966",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\remaining_training_ports_20261003\\disconnected_032_predictions.json": "56579ec169e1ad916950df765f0bd9b84cde1beb7447d25e375be08ba82cc6dd",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_032.JPG": "1ff7d68f93e6f8e9695bf9de312a74a9ca530409df4334f34709ef94d1435327",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_three_20261004\\full_train\\disconnected_032_predictions.json": "42898c4fb9307da688eb688acd0c19b9d1809a6e6a4501d12860431ce7b98c1e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_support_graph_20261003\\source_selections\\train\\disconnected_038.json": "7d1009258e77c8be6d64cdba78fdf7f5d3a89e9b376467ea53f1078965da6380",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\resolution_plug_final_budget_20261003\\train\\disconnected_038_predictions.json": "08855c51fcc8e4a5f1040a2c48d2e250ce1f6e7b7ed5756f3e1535df28837567",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\remaining_training_ports_20261003\\disconnected_038_predictions.json": "4597484c11d8a550df2eff8697e7b0c25478eb91facf475016d55e10c618ec7c",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_038.JPG": "aadd789db2c8158ecf34b75d86cba476d94e6a65b4992e2fb0456c73588b0152",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_three_20261004\\full_train\\disconnected_038_predictions.json": "b10030c7edf6f8e97d0c878d3b1bf4d610d307bc531e072190c49f865dff3415",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_support_graph_20261003\\source_selections\\train\\disconnected_039.json": "0f7343f4283582db340ac33698f1ad8e7bdb94c91470aeed4bca814a12069c7a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\resolution_plug_final_budget_20261003\\train\\disconnected_039_predictions.json": "512a159bb1ff401ce966bac4ab12eb575f0515e4f95e01be42874112d917fac1",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\remaining_training_ports_20261003\\disconnected_039_predictions.json": "0dcedab15fd276b6c710291bfe313f931376125bd315cbe16c13121e219b56af",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_039.JPG": "3ee2a0873d02d066be25b2c01e17a17a298420fa35fc9730a660f179dc59c54d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_three_20261004\\full_train\\disconnected_039_predictions.json": "3dc1728b66e953f54644c1df3d197e61d30e542bb68e0e54955d1ca483bbbac5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_support_graph_20261003\\source_selections\\train\\disconnected_041.json": "7af6939b9122e4ed99f0391775ee947f628cbf82db95de82a4f5464c72e800d6",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\resolution_plug_final_budget_20261003\\train\\disconnected_041_predictions.json": "86ba0c10c1142c9d1be7b09df4046d48d0890e08d681f2683bd03467fa3d6111",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\remaining_training_ports_20261003\\disconnected_041_predictions.json": "49934aa1805457ed6363f57f4e3fb1a27a229e91c96bf9e29d22cd339befdbc4",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_041.JPG": "80474146d1c8cb56d9bdf7544591bc8ca7b451425de7d53b73d105566e287813",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_three_20261004\\full_train\\disconnected_041_predictions.json": "8e0c817ae5046c6fb27868ba5b7824af8d7d582fb5defa568764ae40d53ec74f",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_support_graph_20261003\\source_selections\\train\\disconnected_042.json": "220df3e529eea1ff5a653eaddac113564cb39e9136881c972ccbad7a4f947835",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\resolution_plug_final_budget_20261003\\train\\disconnected_042_predictions.json": "0778e1e51ebe3f685c4b3ed94842ccc67e8e46327d4e6e9ecef9cd8c749c6f93",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\remaining_training_ports_20261003\\disconnected_042_predictions.json": "5817f2c2f57aa666af84574478cf15596e9df981837bfae98abbe54f2cd0bf06",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_042.JPG": "d8b0b8f689ce8734b9cd1cca2cb95a671bd708b3441b31ef12778ab9b28a5d3e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_three_20261004\\full_train\\disconnected_042_predictions.json": "9c4eab4b0359163742a2d65b294bd9d6b2f886851f9910fedd793a429fd7c65d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_support_graph_20261003\\source_selections\\train\\disconnected_044.json": "4eee04cabcbda21a1af74b535713cc47dcc3b6ef7d76f286856ef3a7bfc6a40d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\resolution_plug_final_budget_20261003\\train\\disconnected_044_predictions.json": "2a0fcc6df56711652fb5af9dc704a9366f119c679c50b620fb420351d09102c3",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\remaining_training_ports_20261003\\disconnected_044_predictions.json": "ac409b3be4b1248839d3e47d71b4bf21cd544790036e766b2af0bdd21f5069ac",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_044.JPG": "dceeb71dfe2c90f8baaf0ec5886cc600f2d465b8720ae2c659056955af82b828",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_three_20261004\\full_train\\disconnected_044_predictions.json": "06f35346041bf5a80768a71dcb683f3408c3b9bff0cf1fd8d44227d97b6ee0cb",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_support_graph_20261003\\source_selections\\train\\disconnected_049.json": "f3efaffed3d926e78c5accc97550b86c8069f6c00e6f9f40474a0a815994b803",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\resolution_plug_final_budget_20261003\\train\\disconnected_049_predictions.json": "19755bfa10f64c50b5256d863dcdd01f9a7b99b0ac01031894dbcc30b2abe3d9",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\remaining_training_ports_20261003\\disconnected_049_predictions.json": "6774e8db10e071ae39b78f296a2c6b4748f4168f317eb86bb453791171618b7d",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_049.JPG": "a4e74c013dbbef4dd9135de4a162e14804d1c0f0ae5ecdfa3e7eedd131930713",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_three_20261004\\full_train\\disconnected_049_predictions.json": "2a4d8926f75e664c493ccaf0ec3dd47496d854fb2adea25358cfbc062043d591",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_support_graph_20261003\\source_selections\\train\\disconnected_050.json": "84ce38974aa90fa0d304a206952e0d97e5277d169119c1cea6f2aea04385307d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\resolution_plug_final_budget_20261003\\train\\disconnected_050_predictions.json": "30d5980ed09e3e820fc9e63234cd0e75b5485ca7a51c87a3e195bd8c529fbef4",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\remaining_training_ports_20261003\\disconnected_050_predictions.json": "3b83c9f9fc01c5817d2d787c3182cd25814147a4e2d5eda6a78d2ef96ffb6438",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_050.JPG": "1d2a6cdf50dc05fe6dbdd60e0741c1dc21f61fcd43e0c2130504e0e88d1230c3",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_three_20261004\\full_train\\disconnected_050_predictions.json": "21aa0c6070ee4716fe50c2514de22b42f050382856300cb55490ca4ad6762df5"
+  },
+  "field_accuracy": false
+}
