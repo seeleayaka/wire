@@ -43,7 +43,7 @@ python backup/restore_models.py --assets "D:/downloads/wire"
 实际20来源、全部20便携后端精确复核及原项目实际Qt/Agent验收均完成；
 已安装在 `inspection_agent/paired_native_pose.py`，沿用现有第四增强开关。
 模型恢复工具也会从Release已校验的研究权重复制到正式output路径。
-原E环境380项测试通过；公开快照379项通过，1项环境检查需先安装未打包的
+原E环境398项测试通过；公开快照397项通过，1项环境检查需先安装未打包的
 独立SAM解释器。这不是算法失败，也不能宣称新机依赖安装已验收。
 见 [夜间进展](PROGRESS_20261004.md)，不能把同场景开发指标当现场精度。
 

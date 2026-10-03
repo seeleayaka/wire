@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "counts": {
+    "source_train_oof": 192
+  },
+  "removed": 0,
+  "exact_cached_gate_and_independent_GT_scoring": true,
+  "unchanged_runtime": true,
+  "no_deployment": true,
+  "field_accuracy": false,
+  "source_report_sha256": "a094ec984874a7b250f7b8cc05416ae7004cf3687e15e662660833200168ea7a"
+}
