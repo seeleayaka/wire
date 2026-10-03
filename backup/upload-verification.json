@@ -1,0 +1,49 @@
+{
+  "status": "complete",
+  "release_url": "https://github.com/seeleayaka/wire/releases/tag/backup-20261004",
+  "assets": [
+    {
+      "name": "wire-models-20261004.zip",
+      "bytes": 758269894,
+      "sha256": "c81201b97a0afeaac9f42c11f75681de52a8a3ad8c5375e355c0d2c816ebf605",
+      "url": "https://github.com/seeleayaka/wire/releases/download/backup-20261004/wire-models-20261004.zip"
+    },
+    {
+      "name": "sam3.pt.part01",
+      "bytes": 1073741824,
+      "sha256": "ae3e9a1161e41c7d010931cb196b387508c569029a18ec498c534d906b5bc9ba",
+      "url": "https://github.com/seeleayaka/wire/releases/download/backup-20261004/sam3.pt.part01"
+    },
+    {
+      "name": "sam3.pt.part02",
+      "bytes": 1073741824,
+      "sha256": "98e99dfa173a39d546b9501fd969e86da61436c0c8b490aeab5b7caafcbc8499",
+      "url": "https://github.com/seeleayaka/wire/releases/download/backup-20261004/sam3.pt.part02"
+    },
+    {
+      "name": "sam3.pt.part03",
+      "bytes": 1073741824,
+      "sha256": "b63a88d92ee802b9d6a8dfe81681bdc7555edd63eba51cfd3549031aa0d265c1",
+      "url": "https://github.com/seeleayaka/wire/releases/download/backup-20261004/sam3.pt.part03"
+    },
+    {
+      "name": "sam3.pt.part04",
+      "bytes": 228836769,
+      "sha256": "e4e4d0153a10fcc4bdb3813de7d04a0ecddee6591c66029ebb35563424043145",
+      "url": "https://github.com/seeleayaka/wire/releases/download/backup-20261004/sam3.pt.part04"
+    },
+    {
+      "name": "SAM3-LICENSE.txt",
+      "bytes": 7414,
+      "sha256": "67f67e15efa517e0f67f59ff2d2f603a624da5d2f5458b0c5b366ccd66bb3eea",
+      "url": "https://github.com/seeleayaka/wire/releases/download/backup-20261004/SAM3-LICENSE.txt"
+    },
+    {
+      "name": "publication-audit.json",
+      "bytes": 133,
+      "sha256": "9eb9753973dd806cf44f5d7ea91687bff096dd8d37d6901c4ba0dbb9b232a80b",
+      "url": "https://github.com/seeleayaka/wire/releases/download/backup-20261004/publication-audit.json"
+    }
+  ],
+  "all_remote_sha256_verified": true
+}

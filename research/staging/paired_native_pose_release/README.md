@@ -6,7 +6,13 @@ versus accepted289/344,65/80,33/56. SourceOOF291/344/4; detector TRAIN seen.
 These are repeatedly reused development data and weak labels, not field
 accuracy or physical continuity/fault proof.
 
-Actual20-source unchanged reference/ROI/warp/native-hint workflow is running.
+Actual20-source unchanged reference/ROI/warp/native-hint workflow passed:
+295/344,68/80,40/56,4/0/1 unmatched,no lost matches. A publication scanner
+OOM interrupted the last control;19 cases preserved plus fresh isolated030
+recomputed independently, original failed run retained. No detector changes.
+Candidate fixture fresh SAM(v2), actualQt(v3,reusing that SHA-verified fresh
+SAM) and head/helper/manifest stale-result guards passed. ALL20 portable
+backend final-cue parity is now running, not yet accepted/deployed.
 Do not change its pinned adapters, source reports or the accepted E mainline.
 New helper staged here is not part of that running worker. Before release:
 all270 proposal and selection dictionary parity; actual final-gate summary;

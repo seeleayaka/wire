@@ -41,7 +41,8 @@ python backup/restore_models.py --assets "D:/downloads/wire"
 新原生候选训练头的源级结果 295/344、68/80、40/56，未匹配框仍 4/0/1；
 分类器按源图分组验证，但上游检测器已见过 TRAIN，不是全检测器独立验证。
 新方法位于 `research/staging/paired_native_pose_release`，尚未部署到已验收主线。
-完整 SAM、Agent、实际界面的新模型验收须继续完成，不能把源级指标当上线结果。
+实际20来源与候选集成夹具SAM/Agent/界面已完成；便携后端全部来源复核仍在跑，
+尚未部署。见 [夜间进展](PROGRESS_20261004.md)，不能把开发指标当上线或现场结果。
 
 `research/experiments` 和 `research/evidence` 保留实验代码与阶段记录。
 研究脚本中的 E 盘/工作目录路径来自原工作机，迁移时须配置；不能直接宣称全可移植。

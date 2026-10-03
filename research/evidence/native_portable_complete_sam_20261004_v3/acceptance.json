@@ -1,0 +1,27 @@
+{
+  "status": "complete",
+  "sam_complete": true,
+  "new_inspection_sam": true,
+  "reference_cache_copy_sha_verified": true,
+  "actual_qt_button_worker_callback": true,
+  "default_off": true,
+  "sam_pending_blocked": true,
+  "head_geometry_manifest_stale_rejected": true,
+  "original_cues_preserved": true,
+  "new_added": 1,
+  "matched_development_metrics": {
+    "tp": 8,
+    "unmatched": 0,
+    "fn": 2,
+    "predictions": 8,
+    "targets": 10
+  },
+  "agent_state": "awaiting_human_review",
+  "field_accuracy": false,
+  "fixture_only": true,
+  "no_E_deployment": true,
+  "prior_fresh_SAM_reused_SHA_verified": true,
+  "current_run_new_SAM": false,
+  "intentional_warning_title_change_only": true,
+  "seconds": 118.05
+}
