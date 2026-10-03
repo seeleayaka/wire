@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "experiment_status": "rejected",
+  "counts": {
+    "train": 192
+  },
+  "proposals": 161,
+  "additions": 0,
+  "source_report_sha256": "fb8c7cff93eda552bf98cda2f34ca636cad27ddda49895d80aaea6d266838bbf",
+  "auditor_sha256": "fd443cdf5160d48a27f83eb83a3ce9c1db86fbd7e74cdcb372d007652c3eb33f",
+  "independent_pixel_and_score_replay": true,
+  "original_pixel_DINO_head_scores_recomputed": true,
+  "detector_outputs_cached_not_reinferred": true,
+  "no_deployment": true,
+  "not_actual_reference_ROI_or_Qt_acceptance": true,
+  "field_accuracy": false
+}

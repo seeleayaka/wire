@@ -1,0 +1,28 @@
+{
+  "status": "pass",
+  "experiment_status": "rejected",
+  "sources": 15,
+  "summary": {
+    "baseline": {
+      "tp": 67,
+      "unmatched": 4,
+      "fn": 9,
+      "predictions": 71,
+      "targets": 76
+    },
+    "trial": {
+      "tp": 69,
+      "unmatched": 11,
+      "fn": 7,
+      "predictions": 80,
+      "targets": 76
+    }
+  },
+  "actual_append_reference_ROI_and_forward_link_replayed": true,
+  "old_fields_and_budgets_preserved": true,
+  "source_report_sha256": "3c6af96ad49d91342a7437b6d92c8477f9e2c861606b1a1a8fd5c356ff1cb6bf",
+  "selected_TRAIN_not_population_accuracy": true,
+  "no_GUI_SAM_release_acceptance_claimed": true,
+  "no_deployment": true,
+  "field_accuracy": false
+}

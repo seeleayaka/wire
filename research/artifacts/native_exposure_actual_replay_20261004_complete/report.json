@@ -1,0 +1,46 @@
+{
+  "status": "pass",
+  "cases": 78,
+  "partial_only": false,
+  "summary": {
+    "inner": {
+      "median": {
+        "tp": 67,
+        "unmatched": 1,
+        "fn": 13,
+        "predictions": 68,
+        "targets": 80
+      },
+      "native": {
+        "tp": 68,
+        "unmatched": 1,
+        "fn": 12,
+        "predictions": 69,
+        "targets": 80
+      }
+    },
+    "outer": {
+      "median": {
+        "tp": 38,
+        "unmatched": 1,
+        "fn": 18,
+        "predictions": 39,
+        "targets": 56
+      },
+      "native": {
+        "tp": 39,
+        "unmatched": 1,
+        "fn": 17,
+        "predictions": 40,
+        "targets": 56
+      }
+    }
+  },
+  "source_report_sha256": "45cf1660e0ed30f4eb22d41af13ab39a2bf231101a1975fa40470093207da145",
+  "actual_hint_forward_link_verified": true,
+  "independent_IoU_and_GT_scoring": true,
+  "all_lossless_exposure_pixels_verified": true,
+  "no_deployment": true,
+  "field_accuracy": false,
+  "auditor_sha256": "e19b0e09ceba1a22108d24744c51c7ad52b53450f378339e9d9bf285ec0e7c62"
+}
