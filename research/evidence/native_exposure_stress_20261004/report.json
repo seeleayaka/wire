@@ -1,0 +1,2433 @@
+{
+  "status": "complete",
+  "summary": {
+    "inner": {
+      "median": {
+        "tp": 67,
+        "unmatched": 1,
+        "fn": 13,
+        "predictions": 68,
+        "targets": 80
+      },
+      "native": {
+        "tp": 68,
+        "unmatched": 1,
+        "fn": 12,
+        "predictions": 69,
+        "targets": 80
+      }
+    },
+    "outer": {
+      "median": {
+        "tp": 38,
+        "unmatched": 1,
+        "fn": 18,
+        "predictions": 39,
+        "targets": 56
+      },
+      "native": {
+        "tp": 39,
+        "unmatched": 1,
+        "fn": 17,
+        "predictions": 40,
+        "targets": 56
+      }
+    }
+  },
+  "cases": [
+    {
+      "stage": "inner",
+      "image": "damaged_016.JPG",
+      "original_sha256": "23c0e19214df3f7151388a0e1cd213758e076551a5205d484526fe05746b8da8",
+      "augmented_sha256": "e683f45d544e5a8f70a23dba176c35358707b2a1d138f1fc0a0ae672ec7b1cc9",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\damaged_016\\20261004_031057\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\damaged_016\\20261004_031057\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "damaged_017.JPG",
+      "original_sha256": "de1cb2473a843091d4a84fd4802b52ba11e712703bf9622b6f634df4341314ef",
+      "augmented_sha256": "7e6fd7764b0b49268d54a796cbddfe51c232b0d54f462fb8d65c1fba826e3a16",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\damaged_017\\20261004_031230\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\damaged_017\\20261004_031230\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "damaged_018.JPG",
+      "original_sha256": "142e124209d6ae8e8f9d939c41ed32e2154f41eaee48498a8067c4e4f6752868",
+      "augmented_sha256": "d01bc13af456d0a3282ea4cd35108f510116811c318d40ce758f0b5a8cb61366",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\damaged_018\\20261004_031401\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\damaged_018\\20261004_031401\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "damaged_024.JPG",
+      "original_sha256": "80e47fdd5a1a90c01a3d61aa13ed93edabf18a0384bb558ec6e70631a7e49faa",
+      "augmented_sha256": "707ce9b49c1488c13704078566d8ce8f0a3e3bdda9fe1125c61f6c652d9501c7",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\damaged_024\\20261004_031526\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\damaged_024\\20261004_031526\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "damaged_026.JPG",
+      "original_sha256": "a1e2437ed68fa0ed58edd707d074a70c7d41b77227269e5b9b216d9974d77447",
+      "augmented_sha256": "ac1daf41488162463556c85c8846fd70e24cad4529759f6b26c05e4258061e5c",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\damaged_026\\20261004_031657\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\damaged_026\\20261004_031657\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "damaged_037.JPG",
+      "original_sha256": "420ae43e29720a8bf303b9623df0011c8edeb5f5604e13c008ed48c96e7a1bc2",
+      "augmented_sha256": "c8b172bda6b249be458ff463545a6122b69d29b27006f5b622b557446ec6a6b8",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\damaged_037\\20261004_031822\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\damaged_037\\20261004_031822\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "damaged_040.JPG",
+      "original_sha256": "554f867c5e96970b692594e16bfc0bccbcc9c1e0892443b1308d8ed8b860bfc3",
+      "augmented_sha256": "9e28498997bb439418991a8816666a113a24e4145b77d8e74598fb8483a6640d",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\damaged_040\\20261004_031951\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\damaged_040\\20261004_031951\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "damaged_045.JPG",
+      "original_sha256": "92cee28b856f84102158dc18567a570e91dccfad23ef2255e4d9766db394d293",
+      "augmented_sha256": "b8eb0d8a1d29806157858b9570df5052f80d638f59585cd229fb86851652ad8f",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\damaged_045\\20261004_032120\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\damaged_045\\20261004_032120\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "disconnected_004.JPG",
+      "original_sha256": "2c017f4033f04a58b776b99b318e838358b43c14bbf75b157a71e32cdd1632dc",
+      "augmented_sha256": "1d70495e782483fadc36214362b2cedf58fe13439243f0848300f0b4a657d61b",
+      "median": {
+        "tp": 7,
+        "unmatched": 0,
+        "fn": 3,
+        "predictions": 7,
+        "targets": 10
+      },
+      "native": {
+        "tp": 7,
+        "unmatched": 0,
+        "fn": 3,
+        "predictions": 7,
+        "targets": 10
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\disconnected_004\\20261004_032246\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\disconnected_004\\20261004_032246\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "disconnected_020.JPG",
+      "original_sha256": "7e4f8c71796297d8e8b584fa6d6396a7ff48e39b9b8864396c0be3d3f42f470b",
+      "augmented_sha256": "bb3d311b4e9279fb08c61563686017bebe4ecd40c85cd227ed5b694a92086816",
+      "median": {
+        "tp": 10,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 10,
+        "targets": 10
+      },
+      "native": {
+        "tp": 10,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 10,
+        "targets": 10
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\disconnected_020\\20261004_032454\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\disconnected_020\\20261004_032454\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "disconnected_028.JPG",
+      "original_sha256": "5130d82349fa9375d8b1647ebdbfdd908a2fa4f98d6ed364302c7b97cc6d34ee",
+      "augmented_sha256": "a10eab217424412bdb2d126be8352ddc0a4319bb5877342918a07b4723ef8336",
+      "median": {
+        "tp": 8,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 8,
+        "targets": 8
+      },
+      "native": {
+        "tp": 8,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 8,
+        "targets": 8
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\disconnected_028\\20261004_032649\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\disconnected_028\\20261004_032649\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "disconnected_034.JPG",
+      "original_sha256": "1916faec36fffd4d7f1dfe4c8caee2865ae78d1ed6cd91d863b80d077428bd05",
+      "augmented_sha256": "4d47509dfeb9a206f920beb995ede26935993bb390026efe1f709371ef3317b3",
+      "median": {
+        "tp": 9,
+        "unmatched": 0,
+        "fn": 1,
+        "predictions": 9,
+        "targets": 10
+      },
+      "native": {
+        "tp": 9,
+        "unmatched": 0,
+        "fn": 1,
+        "predictions": 9,
+        "targets": 10
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\disconnected_034\\20261004_032824\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\disconnected_034\\20261004_032824\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "disconnected_036.JPG",
+      "original_sha256": "1003485eb15b0969f981f8292d7be68bbbb37778aefdac5f9ef4ad5fa3b13f17",
+      "augmented_sha256": "0038b9c8dadc7e74e95a6a2b877d56e9bf7b073d7d7cbc6ee8d03b7a12a191fe",
+      "median": {
+        "tp": 7,
+        "unmatched": 0,
+        "fn": 3,
+        "predictions": 7,
+        "targets": 10
+      },
+      "native": {
+        "tp": 8,
+        "unmatched": 0,
+        "fn": 2,
+        "predictions": 8,
+        "targets": 10
+      },
+      "added": 1,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\disconnected_036\\20261004_033104\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\disconnected_036\\20261004_033104\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "disconnected_037.JPG",
+      "original_sha256": "f64082edb5914cb685d5e4196968ad3f068ec8f0b08a99888a7d687ae7681fb2",
+      "augmented_sha256": "916731673a93b1b5d44e448369d2343f25fcc56839472bc6d7db7b9d56bc6eb2",
+      "median": {
+        "tp": 8,
+        "unmatched": 0,
+        "fn": 2,
+        "predictions": 8,
+        "targets": 10
+      },
+      "native": {
+        "tp": 8,
+        "unmatched": 0,
+        "fn": 2,
+        "predictions": 8,
+        "targets": 10
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\disconnected_037\\20261004_033342\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\disconnected_037\\20261004_033342\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "disconnected_040.JPG",
+      "original_sha256": "438ce372adda5d9937e55d05988573f94384e944dca661c891b54be14ae4e40e",
+      "augmented_sha256": "0d8ab8ab03956269b62b06fa560733ec16a1eda781bb7c0d03e410c9ff6047ef",
+      "median": {
+        "tp": 8,
+        "unmatched": 0,
+        "fn": 2,
+        "predictions": 8,
+        "targets": 10
+      },
+      "native": {
+        "tp": 8,
+        "unmatched": 0,
+        "fn": 2,
+        "predictions": 8,
+        "targets": 10
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\disconnected_040\\20261004_033628\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\disconnected_040\\20261004_033628\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "disconnected_046.JPG",
+      "original_sha256": "8988d66bbf32df7618b0a58a1e541bb267fe126832a4b82dfdddc03d73a3fbcc",
+      "augmented_sha256": "8a464afd6613ce155f34ba19191dab597909f56edce439155d52927ee37448ec",
+      "median": {
+        "tp": 10,
+        "unmatched": 0,
+        "fn": 2,
+        "predictions": 10,
+        "targets": 12
+      },
+      "native": {
+        "tp": 10,
+        "unmatched": 0,
+        "fn": 2,
+        "predictions": 10,
+        "targets": 12
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\disconnected_046\\20261004_033832\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\disconnected_046\\20261004_033832\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "misrouted_005.JPG",
+      "original_sha256": "7a3ad13f3cdffcf72bc3a3d32352d081dc36631f4581010a0608d54315208fbb",
+      "augmented_sha256": "8f2b485986dc7998702fa3d83b0505ae10933ab794596ae9eea77485cdaede56",
+      "median": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\misrouted_005\\20261004_034005\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\misrouted_005\\20261004_034005\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "misrouted_010.JPG",
+      "original_sha256": "8deda1ecc6256f9effebf7b423f62672b43ca62b04649877fb1dcd43d2f5b930",
+      "augmented_sha256": "b9258cab820b52093543084beb0860a508644ea37aa1290925090cd26df7210d",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\misrouted_010\\20261004_034156\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\misrouted_010\\20261004_034156\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "misrouted_017.JPG",
+      "original_sha256": "dc5b7d9006ebb8825ea32710afb501ab513b43b05f2f6a422f3dcff9f7baee00",
+      "augmented_sha256": "75cc46fe0fdcb27e6225db97807b0f17027e31cc15c65eb9f991ca5034eb4a7e",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\misrouted_017\\20261004_034347\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\misrouted_017\\20261004_034347\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "misrouted_023.JPG",
+      "original_sha256": "598c56da379bf05b916f7ece7c4d38deda62783286f6ac66fc12ba5acdada84c",
+      "augmented_sha256": "f0e03532fdc0c14b794b3c11493089f44b1c0110689bcb8e3c12fcb847aeec8a",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\misrouted_023\\20261004_034529\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\misrouted_023\\20261004_034529\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "misrouted_027.JPG",
+      "original_sha256": "166d7fcfdb3177a1b82fdb3cc60516a39a0139754b55c967cfd5e6769d2cabd2",
+      "augmented_sha256": "ce712c1459cc285a2f6cd1bcb8c5c7f3823bf6d75fe012735131d9a6c5f8f0b0",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\misrouted_027\\20261004_034724\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\misrouted_027\\20261004_034724\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "misrouted_028.JPG",
+      "original_sha256": "00eae940a59aac6ebab871bc41e8504f9615975397064e64d4649a865d6161ac",
+      "augmented_sha256": "a5c81b3c6f203a388a150914d7f7426dbc044663958d25883db717245f6a981c",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\misrouted_028\\20261004_034921\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\misrouted_028\\20261004_034921\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "misrouted_039.JPG",
+      "original_sha256": "d2a3b38ef8f3f550aa3af89113b089a5bd076bedf2521e55ddc054a132a31843",
+      "augmented_sha256": "ad0a069637111c5433396394dac2bffa263df3f193f2609fcb8feb8f16a0f374",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\misrouted_039\\20261004_035122\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\misrouted_039\\20261004_035122\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "misrouted_042.JPG",
+      "original_sha256": "c8bf89caa770b752ecc5f6714e8316d0385cad6ac1dfc688a928c86323a5e6b5",
+      "augmented_sha256": "52ddb8adf43686f344bd1b814afb2f68423d418c25b44fe09e9960c9dd16089b",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\misrouted_042\\20261004_035327\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\misrouted_042\\20261004_035327\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "normal_011.JPG",
+      "original_sha256": "1ba6fe2edb9a3d225e42f3871d87905d2c4a7ec8882cb2df81598f737ad3a082",
+      "augmented_sha256": "5874d4d3a166f8bb7b858733fc90b7fff970bc04174dfb7fd456a7a38f1e1624",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_011\\20261004_035531\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_011\\20261004_035531\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "normal_014.JPG",
+      "original_sha256": "0551446e237dd2cda2e798e92b7c273f717f10f09c54a30bb411a747758eb37d",
+      "augmented_sha256": "3528c848ace77d39bf3485cf5730b71e43bd7f29d9e0a62e25188c4459fc07ff",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_014\\20261004_035608\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_014\\20261004_035608\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "normal_024.JPG",
+      "original_sha256": "6c2de475c452bbd41f46f1da7226e618afde909ee02fc7cc2bd4ce184c2436d8",
+      "augmented_sha256": "8c78744c40adf0472fc265c1e67d80967d7bfc385e396b89fcd1f5b861738ca5",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_024\\20261004_035646\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_024\\20261004_035646\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "normal_028.JPG",
+      "original_sha256": "d9e363ea8cf4858b56a0b44055f34611f72625d9d4d46eceed97982e3806edba",
+      "augmented_sha256": "3cb03685b3d316e753c9a5cf623951194ae13464a2dc9d55d5577a6294cb8f73",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_028\\20261004_035724\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_028\\20261004_035724\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "normal_030.JPG",
+      "original_sha256": "2e282b0693c9ebf2a6d463d7d7a13d3ea06c2bf095eb81274179209179ffae92",
+      "augmented_sha256": "2dc879742f66df38af35838e7bc29c2e6168538a1579e70ae44ab48dd8be1264",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_030\\20261004_035803\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_030\\20261004_035803\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "normal_038.JPG",
+      "original_sha256": "07384e3ae4f0e755e712f00a3df335a178225c97dc42af2f953a05941dab7be0",
+      "augmented_sha256": "9ef9cd6c57be5b5be1893a4a63241d5256d4906c3e94dfa0bfc06a68b4b785c5",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_038\\20261004_035843\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_038\\20261004_035843\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "normal_042.JPG",
+      "original_sha256": "b7784ce18f96498d4c3eeb51606005c8facb2fa4ceb2b81e178e8970a0a96a6d",
+      "augmented_sha256": "07f739c8f1c170ec68cd8519f2fdf269dc0ab563833bfce06845ae8a8b4ca675",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_042\\20261004_035921\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_042\\20261004_035921\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "normal_043.JPG",
+      "original_sha256": "82af4c48c9e9fb26afb237049fdf37c802ea74e12d9f2c8d90e8c5770cf296b4",
+      "augmented_sha256": "3f88868cb518b152203a0ec9d2b69bb057f8d2c1b5a53933dffca0237d79b90c",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_043\\20261004_035959\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_043\\20261004_035959\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "normal_047.JPG",
+      "original_sha256": "92450543d2ef1208cf5a5c028234db0722cf19fa4f59e4861dfd9c2287e02835",
+      "augmented_sha256": "994bd041c5d02b4ba1891802baf633a25f051d3f8894193c101047afb3b1bedc",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_047\\20261004_040042\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_047\\20261004_040042\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "normal_049.JPG",
+      "original_sha256": "d051b318567e1fc3788fd3f60c110623598b5f3ad5595074970a3ffeabe43fdc",
+      "augmented_sha256": "9beb7a91a18324a02e7140942aa0f9d6e5f874a96b7078e7ea9e55a3190f1904",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_049\\20261004_040130\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_049\\20261004_040130\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "normal_053.JPG",
+      "original_sha256": "1055ec2b6e2fd6aba2ee1808fad6ca0dca6ac5b9bf210309dd5205540cda1aea",
+      "augmented_sha256": "6f33eea600f31674f4f5d937134847c269768ffad5abfcc99e665c2f9b4e32a0",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_053\\20261004_040222\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_053\\20261004_040222\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "normal_059.JPG",
+      "original_sha256": "fc4395ffec0e1b56276e92cdff17b95e445d671ad826ae7c0926527b641f6b5d",
+      "augmented_sha256": "d30f423f5bc8ffa275cb074148239b328066e5b8c5938c967696f72618b140e7",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_059\\20261004_040300\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_059\\20261004_040300\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "normal_060.JPG",
+      "original_sha256": "0c3dfcba67d7e170412562ec97cfdc9a3369522fd16d3c102fcd84705e1969e5",
+      "augmented_sha256": "cb47eef8bea6cb5c11ed08e88cc0f6a1f99ad32bcc4474cf8dc2107e139d0d63",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_060\\20261004_040339\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_060\\20261004_040339\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "normal_072.JPG",
+      "original_sha256": "d2959028363662be6888db77f778600d932cc5a5938050b138302b63f96f71a6",
+      "augmented_sha256": "cddd8805525804986320bf8553b0ad2bbc39d0ec536d4184d84e45bea283af3b",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_072\\20261004_040416\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_072\\20261004_040416\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "normal_084.JPG",
+      "original_sha256": "aaafedc1b9f20f3d2cd908b473a498d23b962f6caebc8a0f239e5f3aa2c1349a",
+      "augmented_sha256": "1470c73c1922e869ddb9ee3a2ac1ad2cad825b050fb653ef4d3f9301e7841c47",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_084\\20261004_040455\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_084\\20261004_040455\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "normal_093.JPG",
+      "original_sha256": "2a8e17050dc81dcca88de2849751ed5ac2fb89a2def74c016cde78669a8d353d",
+      "augmented_sha256": "7c6d471efaaf96a13acd2956f66c06e98a1c2890397ea16feadf8d79f9168416",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_093\\20261004_040534\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_093\\20261004_040534\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "normal_107.JPG",
+      "original_sha256": "bf0b3ad0e718935a261e4a7082c26c830ddd27eeb137c7b0d550205e8828028b",
+      "augmented_sha256": "9f52582613d3cd3bea47a80b666363ef10112f353965d8d8d679e4c828e76a58",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_107\\20261004_040614\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_107\\20261004_040614\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "normal_113.JPG",
+      "original_sha256": "8342f7a7c086ae05c6463b2a2f02668c35012fdd2eff78d635777d52a292a29b",
+      "augmented_sha256": "f3d82a8cf433f114524eaf43f2a25575d37f9e9ca177f86e4adf698c78fc54d6",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_113\\20261004_040654\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_113\\20261004_040654\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "normal_115.JPG",
+      "original_sha256": "d97e0580fe63a15ecbe5d26de8b0ce0cfb2437fa8223cc96ae2726ac0d543430",
+      "augmented_sha256": "9d987b70638f3e032d45ce6b7e31463fbe1f0f07ba35ddab2041b6e5ab3349c8",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_115\\20261004_040733\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_115\\20261004_040733\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "normal_120.JPG",
+      "original_sha256": "dbd7b94ac560e64638c06fe40d8795658e6dfaf3e3435545eb61e0e6cfb7e281",
+      "augmented_sha256": "44753d8d0f693a240a6a5881cc9237197f23aff125638ce2b79c4064fac7466c",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_120\\20261004_040812\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_120\\20261004_040812\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "normal_124.JPG",
+      "original_sha256": "cd915feaf35914cfdb6480891f2039b50a36013c8cc6ee55f6da3ed9e863f49b",
+      "augmented_sha256": "dc2b1aea1a82f9e8e040fa3de247771c64d9155fa4a91da111e05abae51ed5bf",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_124\\20261004_040852\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_124\\20261004_040852\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "normal_129.JPG",
+      "original_sha256": "49936f7778fb81f9c2a646c4791932c19abc1bd6f5359669ee1f708c14ea0b80",
+      "augmented_sha256": "a1af00b8d1976233dbbde036b948ddc674954b46aaad53905596bf5adee6471f",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_129\\20261004_040932\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_129\\20261004_040932\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "normal_138.JPG",
+      "original_sha256": "393d8e24af9da0b79c53cdd551d77bbcf33bea482356aefd4fdb93d5315c25f8",
+      "augmented_sha256": "0c7e81f4076dc0f2f089a3bd43780286f390f15570b1206c6274f9b592b8a256",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_138\\20261004_041010\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_138\\20261004_041010\\native_pose_ports.json"
+    },
+    {
+      "stage": "inner",
+      "image": "normal_148.JPG",
+      "original_sha256": "49ab375d8ab34670996579f8102ef5273c748d9cf4279d10f9eb28e1d6fb704d",
+      "augmented_sha256": "7a95ce5ce0ef86e26307e116fd114d6d3761253dbe02b35cb51259893b6d4f2f",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_148\\20261004_041050\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_148\\20261004_041050\\native_pose_ports.json"
+    },
+    {
+      "stage": "outer",
+      "image": "damaged_007.JPG",
+      "original_sha256": "fe47d64d920f9e4a03d599eb4d78e9c9e35751736fa78833fa6e78a7c1225031",
+      "augmented_sha256": "d9e5ce24969f3b080227d7fcac94fbbc731855abad4a55d3afc193f73f538638",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\damaged_007\\20261004_041131\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\damaged_007\\20261004_041131\\native_pose_ports.json"
+    },
+    {
+      "stage": "outer",
+      "image": "damaged_012.JPG",
+      "original_sha256": "aebd3db9492adbffd703404099ab2ea7b6b2edeb8d3aa78a4f36ad0223ba3b03",
+      "augmented_sha256": "d4957865de32a283910a3f912434fd63d61204f2b5c402e47d423999db26ded2",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\damaged_012\\20261004_041357\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\damaged_012\\20261004_041357\\native_pose_ports.json"
+    },
+    {
+      "stage": "outer",
+      "image": "damaged_020.JPG",
+      "original_sha256": "804cb34d743963571dd0d5b83c83303c09f7e3484544b04ee9980b24e623d965",
+      "augmented_sha256": "305035c515a56dd6a1b6a171deffb5906515b39e78258d5f02fd6022b201daa6",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\damaged_020\\20261004_041649\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\damaged_020\\20261004_041649\\native_pose_ports.json"
+    },
+    {
+      "stage": "outer",
+      "image": "damaged_031.JPG",
+      "original_sha256": "1c43e0b7e13f50013acb4ca13c5a0cefcae6b5f7a7c28785aba9014a1ddb7974",
+      "augmented_sha256": "ddffbb288e4e7941d68c389bfb6527a0a7b02895f4ac2b003de2935377a4bc22",
+      "median": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\damaged_031\\20261004_041919\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\damaged_031\\20261004_041919\\native_pose_ports.json"
+    },
+    {
+      "stage": "outer",
+      "image": "damaged_035.JPG",
+      "original_sha256": "7ba0f1dd0dab53f691f1df8b22b65dd903897d3ebbc8a2eb662a3c286b39f12b",
+      "augmented_sha256": "af0c3c35766bcf8b9f94910bda15b6205810b26a7ff4ea9dd86fdff2581f3993",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\damaged_035\\20261004_042152\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\damaged_035\\20261004_042152\\native_pose_ports.json"
+    },
+    {
+      "stage": "outer",
+      "image": "disconnected_002.JPG",
+      "original_sha256": "21a5d15783144163c45c2c407faec1749541f1c600ed57c22103c7643d6028de",
+      "augmented_sha256": "ada4cfb1979122f4e64b113a56d482b7e148f348d06011cdbec7a60e03f8ba27",
+      "median": {
+        "tp": 6,
+        "unmatched": 0,
+        "fn": 3,
+        "predictions": 6,
+        "targets": 9
+      },
+      "native": {
+        "tp": 6,
+        "unmatched": 0,
+        "fn": 3,
+        "predictions": 6,
+        "targets": 9
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\disconnected_002\\20261004_042419\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\disconnected_002\\20261004_042419\\native_pose_ports.json"
+    },
+    {
+      "stage": "outer",
+      "image": "disconnected_006.JPG",
+      "original_sha256": "247cb2763124cedb042f2d2b6a0043f16f03eb424dec2a236507d0fa1ac85d21",
+      "augmented_sha256": "f6915f89d76ee00108d98d1ec83f1fabd2708d70269167843d370da088d53c69",
+      "median": {
+        "tp": 8,
+        "unmatched": 0,
+        "fn": 4,
+        "predictions": 8,
+        "targets": 12
+      },
+      "native": {
+        "tp": 8,
+        "unmatched": 0,
+        "fn": 4,
+        "predictions": 8,
+        "targets": 12
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\disconnected_006\\20261004_042741\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\disconnected_006\\20261004_042741\\native_pose_ports.json"
+    },
+    {
+      "stage": "outer",
+      "image": "disconnected_011.JPG",
+      "original_sha256": "55e5aabc92477389e8ae353e2316e6e53842e64ebe67472077810f67394d5e1a",
+      "augmented_sha256": "0bae87862cbdaf250925c2ccb774d40f9c22e42cb50df3216c99f25ab51e297e",
+      "median": {
+        "tp": 10,
+        "unmatched": 0,
+        "fn": 4,
+        "predictions": 10,
+        "targets": 14
+      },
+      "native": {
+        "tp": 10,
+        "unmatched": 0,
+        "fn": 4,
+        "predictions": 10,
+        "targets": 14
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\disconnected_011\\20261004_043144\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\disconnected_011\\20261004_043144\\native_pose_ports.json"
+    },
+    {
+      "stage": "outer",
+      "image": "disconnected_027.JPG",
+      "original_sha256": "8bd43c6126551663a7f1593fa8867ab9c4d30ef96c295862f8d4107b35a3d8b8",
+      "augmented_sha256": "08b446c9424bc04b95c6c9ae57390b63a5d33e273bb9523bec1bfd5f3f8eab50",
+      "median": {
+        "tp": 7,
+        "unmatched": 0,
+        "fn": 2,
+        "predictions": 7,
+        "targets": 9
+      },
+      "native": {
+        "tp": 7,
+        "unmatched": 0,
+        "fn": 2,
+        "predictions": 7,
+        "targets": 9
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\disconnected_027\\20261004_043508\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\disconnected_027\\20261004_043508\\native_pose_ports.json"
+    },
+    {
+      "stage": "outer",
+      "image": "disconnected_048.JPG",
+      "original_sha256": "2e12bec6767e0c809df2dd38951c963c765f25af693161fcdb8541bdb60942b8",
+      "augmented_sha256": "cb4d4da95b0b0f102e4f8c098e4a54bebb78a00b0f1ca489e7a9dcc2d6ad8152",
+      "median": {
+        "tp": 7,
+        "unmatched": 0,
+        "fn": 5,
+        "predictions": 7,
+        "targets": 12
+      },
+      "native": {
+        "tp": 8,
+        "unmatched": 0,
+        "fn": 4,
+        "predictions": 8,
+        "targets": 12
+      },
+      "added": 1,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\disconnected_048\\20261004_043806\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\disconnected_048\\20261004_043806\\native_pose_ports.json"
+    },
+    {
+      "stage": "outer",
+      "image": "misrouted_012.JPG",
+      "original_sha256": "8c64daf54611173e0b0e79c419226b62bc398b161df2c01281513b59ba2420cb",
+      "augmented_sha256": "1fa79ee2b645ed945bb27715aa3cdfab17c521e7d3e10498345498f91c71a1ca",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\misrouted_012\\20261004_044253\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\misrouted_012\\20261004_044253\\native_pose_ports.json"
+    },
+    {
+      "stage": "outer",
+      "image": "misrouted_025.JPG",
+      "original_sha256": "af2ef0128ca9db98e6c692bade32912dc57c5e8962adbf88ffef3b47002045e1",
+      "augmented_sha256": "5341c97a137cf7152c784c4cf548d9a7e813d9a4b4a265418283b233c80eb6f6",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\misrouted_025\\20261004_044524\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\misrouted_025\\20261004_044524\\native_pose_ports.json"
+    },
+    {
+      "stage": "outer",
+      "image": "misrouted_034.JPG",
+      "original_sha256": "6b4a0abc5805411723703e1d1c8372b6cd2227b2fade15e6197e3b4c48b8777e",
+      "augmented_sha256": "0ffdafd433cbd0625b27cdfcb2ae3e73672310d88987f982baf6ca995278f2d0",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\misrouted_034\\20261004_044744\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\misrouted_034\\20261004_044744\\native_pose_ports.json"
+    },
+    {
+      "stage": "outer",
+      "image": "misrouted_040.JPG",
+      "original_sha256": "bff0544f34bb6dfbe913ce95d50bc14b13571bdc73114a77103ce806a4d8524c",
+      "augmented_sha256": "e400d202f31f86b013b6cbd2683fc1e5634f05ce6fea53d02ab2156b6615f3e7",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\misrouted_040\\20261004_045031\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\misrouted_040\\20261004_045031\\native_pose_ports.json"
+    },
+    {
+      "stage": "outer",
+      "image": "misrouted_050.JPG",
+      "original_sha256": "6cb6ac66c22c9bc9fcf66b9aba19c866553093428d5eb9e14c63ba29d2e91054",
+      "augmented_sha256": "19eb07d49ed77bcea4657f389a817f48ce8dbe43f2ab5f2255af8e57361afd69",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "applied",
+      "upstream_reason": null,
+      "native_reason": null,
+      "safety_abstention": false,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\misrouted_050\\20261004_045306\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\misrouted_050\\20261004_045306\\native_pose_ports.json"
+    },
+    {
+      "stage": "outer",
+      "image": "normal_001.JPG",
+      "original_sha256": "c01fe31fa2c7cf3ba8fc6584d703bed087c6629d434fa9c936f14b751036fc58",
+      "augmented_sha256": "47a4a67586ad36ce7819dfec5a006bfc9190bdff915dca998c193bb361b42e06",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_001\\20261004_045552\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_001\\20261004_045552\\native_pose_ports.json"
+    },
+    {
+      "stage": "outer",
+      "image": "normal_004.JPG",
+      "original_sha256": "0ad24668d8194b75d2d8d61028d4b8a4b1d129e8cbb9ecfa94793cafadea2416",
+      "augmented_sha256": "45e36d14fa0c358c232fa6c830886c9b2bcf4af432dab01878877847f50eedf8",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_004\\20261004_045643\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_004\\20261004_045643\\native_pose_ports.json"
+    },
+    {
+      "stage": "outer",
+      "image": "normal_007.JPG",
+      "original_sha256": "4745577a97c8e9408314f1934be3cf07b2b731f6d0326c80b6629cfa89e2511b",
+      "augmented_sha256": "ac010de9c815a190496ddeaaccdd15aa33d9388540bb02dbb4919df8da63aa39",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_007\\20261004_045731\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_007\\20261004_045731\\native_pose_ports.json"
+    },
+    {
+      "stage": "outer",
+      "image": "normal_036.JPG",
+      "original_sha256": "770096d26add84bc0b99cf2ea0e368da078cc94b7e5fb65829c9ef101c96d0dc",
+      "augmented_sha256": "938837457d876f3bb0ca61446180f03dbbbcfa9f31643d0761fa02906b833658",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_036\\20261004_045815\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_036\\20261004_045815\\native_pose_ports.json"
+    },
+    {
+      "stage": "outer",
+      "image": "normal_041.JPG",
+      "original_sha256": "4f16216debe5b7eec9442a495c24d6ce55dc209f775b01ec442e9eeb1eff7029",
+      "augmented_sha256": "fd315442ffd1a6bebc1a4a039e181fc003c40942884d5222e3fcd54aaf2672c7",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_041\\20261004_045907\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_041\\20261004_045907\\native_pose_ports.json"
+    },
+    {
+      "stage": "outer",
+      "image": "normal_061.JPG",
+      "original_sha256": "54432c8da1acc8fe6397edcb360b807fc3d19fcdee4897dea1d3a74e87f92de8",
+      "augmented_sha256": "9d6ff4fefa38789d5cfbc4fff78db23bcef4487afe23cb6700164e8395cdf0b2",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_061\\20261004_045950\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_061\\20261004_045950\\native_pose_ports.json"
+    },
+    {
+      "stage": "outer",
+      "image": "normal_067.JPG",
+      "original_sha256": "c0dd25ecd349cf4e0a2bec9e9dc0a8ac5145fc3d5169084acda97284ff0306d5",
+      "augmented_sha256": "6efa4cb0e0408567d21103bd2475e06717854a5d878bf1933e0a2651e291ebd3",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_067\\20261004_050029\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_067\\20261004_050029\\native_pose_ports.json"
+    },
+    {
+      "stage": "outer",
+      "image": "normal_078.JPG",
+      "original_sha256": "6e40d8903db803f1b6cf0327a0e0b37792503122e51ea743baae0369114d219e",
+      "augmented_sha256": "09f458aa8852dd108e1a6917887981d3603d09830938ae708a88e9f79e01b53c",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_078\\20261004_050105\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_078\\20261004_050105\\native_pose_ports.json"
+    },
+    {
+      "stage": "outer",
+      "image": "normal_082.JPG",
+      "original_sha256": "029c675e68537ae710a3a3aa86b1cf3e55fd8e8b3370f9ad7948cf08027190a2",
+      "augmented_sha256": "57589fc65db5b9cd686b97e7feaf0bd17c77a301c6867d6310ff0770f73570db",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_082\\20261004_050139\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_082\\20261004_050139\\native_pose_ports.json"
+    },
+    {
+      "stage": "outer",
+      "image": "normal_083.JPG",
+      "original_sha256": "cc68f3e1fa1a5aaccced5ae417649f49e9b0f1d090321ab8d39247dac7330aaf",
+      "augmented_sha256": "883ff74b75516b754049113d807c12d582c8febd50708d57ce02d283b4218a01",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_083\\20261004_050216\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_083\\20261004_050216\\native_pose_ports.json"
+    },
+    {
+      "stage": "outer",
+      "image": "normal_099.JPG",
+      "original_sha256": "050137d1be779afcb81cecb419e48e8c146b463507739e54bc35e0ca9b088add",
+      "augmented_sha256": "e9bc76583afcc9f3684a5957685bf46dc6e2611aa958df0f300f11186f1a22ec",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_099\\20261004_050247\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_099\\20261004_050247\\native_pose_ports.json"
+    },
+    {
+      "stage": "outer",
+      "image": "normal_100.JPG",
+      "original_sha256": "5cde7ae803f6e02a3ae83c44bbb55ce128ccdf147e0b2647cde2ca200787086b",
+      "augmented_sha256": "4127a712e5801863ff5b5529a52dc60b69f48851872c0e4ca481ef60a703aa6a",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_100\\20261004_050313\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_100\\20261004_050313\\native_pose_ports.json"
+    },
+    {
+      "stage": "outer",
+      "image": "normal_105.JPG",
+      "original_sha256": "732e611416218ce0a558a2dac2175ff8c27d055b82920d52675128882d085e58",
+      "augmented_sha256": "a84a4a7748a07e678a555066d1490e8dc145ffaa31fba9d86af5108239f2301c",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_105\\20261004_050340\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_105\\20261004_050340\\native_pose_ports.json"
+    },
+    {
+      "stage": "outer",
+      "image": "normal_126.JPG",
+      "original_sha256": "29c87e0a428f9271e51490e7fa8ad2b57dc56609a36701093ad518109be8a9c8",
+      "augmented_sha256": "1c3246ce6f68ec9dc05b3833b0075192a41ff5761c0cf063716d0b216c575617",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_126\\20261004_050406\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_126\\20261004_050406\\native_pose_ports.json"
+    },
+    {
+      "stage": "outer",
+      "image": "normal_144.JPG",
+      "original_sha256": "fce5359b1ea3c786a2ccdb2420f09a9811f4432224673c6fe04bc0200024fe9c",
+      "augmented_sha256": "37d37a70360391460ae937799b6ce3a942d4caae26c228e88c944fdbe1db6a77",
+      "median": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "native": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "added": 0,
+      "upstream_status": "fallback",
+      "upstream_reason": "local_alignment_not_supported",
+      "native_reason": null,
+      "safety_abstention": true,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_144\\20261004_050433\\initial_report.json",
+      "result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_144\\20261004_050433\\native_pose_ports.json"
+    }
+  ],
+  "pins": {
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\audit_native_exposure_stress.py": "8019a50d21ab0de308a8cd8f0890412bfe68d6b8ece242bd839b797314b151c5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_preregistration_20261004\\PLAN.md": "1529713e46038f9d34ba036d1fff2f951bff81327d56bf0437facc3e16880acf",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_073.JPG": "09f81923e44089603ccfb5989e370d07cc27f2e929ebfc70de945a08947b19ac",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\actual_port_native_rows.py": "ab1518c37defade43ac0fa8ea46d92de7086ea8ada4feed4cefc55d09f18dcf5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\paired_graph_hint_link.py": "23cc12fc66551d29528c8c514b24c3d1cbd7ab218974928a1d1074dafc280ac5",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_016.JPG": "23c0e19214df3f7151388a0e1cd213758e076551a5205d484526fe05746b8da8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\damaged_016\\exposure085.png": "e683f45d544e5a8f70a23dba176c35358707b2a1d138f1fc0a0ae672ec7b1cc9",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_016.txt": "886bab7c50f3a4915bbec8ace5482c9b5e6166e534990401bef0566a58183c48",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_017.JPG": "de1cb2473a843091d4a84fd4802b52ba11e712703bf9622b6f634df4341314ef",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\damaged_017\\exposure085.png": "7e6fd7764b0b49268d54a796cbddfe51c232b0d54f462fb8d65c1fba826e3a16",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_017.txt": "3eced356987bd7800ec25d03071d0b71385bb9bceaf9df6811a432fe0ffb62c6",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_018.JPG": "142e124209d6ae8e8f9d939c41ed32e2154f41eaee48498a8067c4e4f6752868",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\damaged_018\\exposure085.png": "d01bc13af456d0a3282ea4cd35108f510116811c318d40ce758f0b5a8cb61366",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_018.txt": "37e97e7448eac6d962495f436044157a0e1ff704a07f555469dd47dd54f3f413",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_024.JPG": "80e47fdd5a1a90c01a3d61aa13ed93edabf18a0384bb558ec6e70631a7e49faa",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\damaged_024\\exposure085.png": "707ce9b49c1488c13704078566d8ce8f0a3e3bdda9fe1125c61f6c652d9501c7",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_024.txt": "aad9ceb5a60bd8f32b57b205c6c36caf1b2e476ad6809094d432d2a1a86013cd",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_026.JPG": "a1e2437ed68fa0ed58edd707d074a70c7d41b77227269e5b9b216d9974d77447",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\damaged_026\\exposure085.png": "ac1daf41488162463556c85c8846fd70e24cad4529759f6b26c05e4258061e5c",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_026.txt": "547d57eda1a589aeba69a8489f73ccf28b8658de596e7278ee5d3204c0871a5f",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_037.JPG": "420ae43e29720a8bf303b9623df0011c8edeb5f5604e13c008ed48c96e7a1bc2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\damaged_037\\exposure085.png": "c8b172bda6b249be458ff463545a6122b69d29b27006f5b622b557446ec6a6b8",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_037.txt": "50669e1cf1f60b3626e6197e07c811a779b1a929dbbe4c528259e4fffb2df184",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_040.JPG": "554f867c5e96970b692594e16bfc0bccbcc9c1e0892443b1308d8ed8b860bfc3",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\damaged_040\\exposure085.png": "9e28498997bb439418991a8816666a113a24e4145b77d8e74598fb8483a6640d",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_040.txt": "4037662bebef56c4f05a194f2fb985d5802fb8037772f3378dbf6e354400f74e",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_045.JPG": "92cee28b856f84102158dc18567a570e91dccfad23ef2255e4d9766db394d293",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\damaged_045\\exposure085.png": "b8eb0d8a1d29806157858b9570df5052f80d638f59585cd229fb86851652ad8f",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_045.txt": "6a6065e443f481d5074748f223e014fa8c048ecdc5f9725e94d95b309469af29",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_004.JPG": "2c017f4033f04a58b776b99b318e838358b43c14bbf75b157a71e32cdd1632dc",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\disconnected_004\\exposure085.png": "1d70495e782483fadc36214362b2cedf58fe13439243f0848300f0b4a657d61b",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_004.txt": "2c60adb2c5bb7f1fe0372db65452ac09eb098352fe1022acdd6ab42c32374721",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_020.JPG": "7e4f8c71796297d8e8b584fa6d6396a7ff48e39b9b8864396c0be3d3f42f470b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\disconnected_020\\exposure085.png": "bb3d311b4e9279fb08c61563686017bebe4ecd40c85cd227ed5b694a92086816",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_020.txt": "1e47c623c47d75b24fcea56ec8b753f1d57312d65c477ecaacaf56b005964ed9",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_028.JPG": "5130d82349fa9375d8b1647ebdbfdd908a2fa4f98d6ed364302c7b97cc6d34ee",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\disconnected_028\\exposure085.png": "a10eab217424412bdb2d126be8352ddc0a4319bb5877342918a07b4723ef8336",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_028.txt": "811db8ab60f3ecb164c5fcabcd5f2872ccb5d1c534a30a1ce1a51d78bf4392f0",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_034.JPG": "1916faec36fffd4d7f1dfe4c8caee2865ae78d1ed6cd91d863b80d077428bd05",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\disconnected_034\\exposure085.png": "4d47509dfeb9a206f920beb995ede26935993bb390026efe1f709371ef3317b3",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_034.txt": "92b12f674bd1838af1680e615e913d875adea48dd2f4b40af7cef595fd301d20",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_036.JPG": "1003485eb15b0969f981f8292d7be68bbbb37778aefdac5f9ef4ad5fa3b13f17",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\disconnected_036\\exposure085.png": "0038b9c8dadc7e74e95a6a2b877d56e9bf7b073d7d7cbc6ee8d03b7a12a191fe",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_036.txt": "23ba99480b2ced66267696caba64cf48ef040b86d7e8f02a8fff3dfecf029f23",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_037.JPG": "f64082edb5914cb685d5e4196968ad3f068ec8f0b08a99888a7d687ae7681fb2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\disconnected_037\\exposure085.png": "916731673a93b1b5d44e448369d2343f25fcc56839472bc6d7db7b9d56bc6eb2",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_037.txt": "b0fa9b857d6d46d1b007a7d4c1822e7896bd3b5eb0008c0ddc70953e06a23e39",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_040.JPG": "438ce372adda5d9937e55d05988573f94384e944dca661c891b54be14ae4e40e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\disconnected_040\\exposure085.png": "0d8ab8ab03956269b62b06fa560733ec16a1eda781bb7c0d03e410c9ff6047ef",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_040.txt": "9b3d40fa5fff7da1c5b4c3a34fde8e2502fec7159f6613d7243327f6320587f3",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_046.JPG": "8988d66bbf32df7618b0a58a1e541bb267fe126832a4b82dfdddc03d73a3fbcc",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\disconnected_046\\exposure085.png": "8a464afd6613ce155f34ba19191dab597909f56edce439155d52927ee37448ec",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_046.txt": "d75768adbf41a9ae515302c1d8639cfb9931c7ec138a6bff8d15d0f00e33b6fc",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\misrouted_005.JPG": "7a3ad13f3cdffcf72bc3a3d32352d081dc36631f4581010a0608d54315208fbb",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\misrouted_005\\exposure085.png": "8f2b485986dc7998702fa3d83b0505ae10933ab794596ae9eea77485cdaede56",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_005.txt": "cad199086a2301e100bf0527db719bacd988a21a10415faf6e09ed704a9de332",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\misrouted_010.JPG": "8deda1ecc6256f9effebf7b423f62672b43ca62b04649877fb1dcd43d2f5b930",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\misrouted_010\\exposure085.png": "b9258cab820b52093543084beb0860a508644ea37aa1290925090cd26df7210d",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_010.txt": "173e033a5c83fd46782b636e7d0e97a578ce954827dc0cb096e8b0ebe10479d0",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\misrouted_017.JPG": "dc5b7d9006ebb8825ea32710afb501ab513b43b05f2f6a422f3dcff9f7baee00",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\misrouted_017\\exposure085.png": "75cc46fe0fdcb27e6225db97807b0f17027e31cc15c65eb9f991ca5034eb4a7e",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_017.txt": "942ce752f9d026c8102b7c9c5d4ff3968c3cc6c86fa886582e184a156c11a6d1",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\misrouted_023.JPG": "598c56da379bf05b916f7ece7c4d38deda62783286f6ac66fc12ba5acdada84c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\misrouted_023\\exposure085.png": "f0e03532fdc0c14b794b3c11493089f44b1c0110689bcb8e3c12fcb847aeec8a",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_023.txt": "b617de63d3827b3adba2ed23ac711a490f04ff473f01e222c868576ce29c88c8",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\misrouted_027.JPG": "166d7fcfdb3177a1b82fdb3cc60516a39a0139754b55c967cfd5e6769d2cabd2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\misrouted_027\\exposure085.png": "ce712c1459cc285a2f6cd1bcb8c5c7f3823bf6d75fe012735131d9a6c5f8f0b0",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_027.txt": "582df0a3f578d3a5811b5ba3cdc0278aa42bd1320920e4f92bef04d1b5abec4a",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\misrouted_028.JPG": "00eae940a59aac6ebab871bc41e8504f9615975397064e64d4649a865d6161ac",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\misrouted_028\\exposure085.png": "a5c81b3c6f203a388a150914d7f7426dbc044663958d25883db717245f6a981c",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_028.txt": "b28cbacd42fa5c33ebaf0b7b35181469da40428125fc5369bcb04f518442fd80",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\misrouted_039.JPG": "d2a3b38ef8f3f550aa3af89113b089a5bd076bedf2521e55ddc054a132a31843",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\misrouted_039\\exposure085.png": "ad0a069637111c5433396394dac2bffa263df3f193f2609fcb8feb8f16a0f374",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_039.txt": "f7569ccb037b114f94328e6d7c80454dc0aa5e9a5f1dd94f6c3b006c87bb75a9",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\misrouted_042.JPG": "c8bf89caa770b752ecc5f6714e8316d0385cad6ac1dfc688a928c86323a5e6b5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\misrouted_042\\exposure085.png": "52ddb8adf43686f344bd1b814afb2f68423d418c25b44fe09e9960c9dd16089b",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_042.txt": "e2aff43311c35b271462a0b697975530598827c7f7ca001adf0216d595354f6b",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_011.JPG": "1ba6fe2edb9a3d225e42f3871d87905d2c4a7ec8882cb2df81598f737ad3a082",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_011\\exposure085.png": "5874d4d3a166f8bb7b858733fc90b7fff970bc04174dfb7fd456a7a38f1e1624",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_011.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_014.JPG": "0551446e237dd2cda2e798e92b7c273f717f10f09c54a30bb411a747758eb37d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_014\\exposure085.png": "3528c848ace77d39bf3485cf5730b71e43bd7f29d9e0a62e25188c4459fc07ff",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_014.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_024.JPG": "6c2de475c452bbd41f46f1da7226e618afde909ee02fc7cc2bd4ce184c2436d8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_024\\exposure085.png": "8c78744c40adf0472fc265c1e67d80967d7bfc385e396b89fcd1f5b861738ca5",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_024.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_028.JPG": "d9e363ea8cf4858b56a0b44055f34611f72625d9d4d46eceed97982e3806edba",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_028\\exposure085.png": "3cb03685b3d316e753c9a5cf623951194ae13464a2dc9d55d5577a6294cb8f73",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_028.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_030.JPG": "2e282b0693c9ebf2a6d463d7d7a13d3ea06c2bf095eb81274179209179ffae92",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_030\\exposure085.png": "2dc879742f66df38af35838e7bc29c2e6168538a1579e70ae44ab48dd8be1264",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_030.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_038.JPG": "07384e3ae4f0e755e712f00a3df335a178225c97dc42af2f953a05941dab7be0",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_038\\exposure085.png": "9ef9cd6c57be5b5be1893a4a63241d5256d4906c3e94dfa0bfc06a68b4b785c5",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_038.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_042.JPG": "b7784ce18f96498d4c3eeb51606005c8facb2fa4ceb2b81e178e8970a0a96a6d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_042\\exposure085.png": "07f739c8f1c170ec68cd8519f2fdf269dc0ab563833bfce06845ae8a8b4ca675",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_042.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_043.JPG": "82af4c48c9e9fb26afb237049fdf37c802ea74e12d9f2c8d90e8c5770cf296b4",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_043\\exposure085.png": "3f88868cb518b152203a0ec9d2b69bb057f8d2c1b5a53933dffca0237d79b90c",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_043.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_047.JPG": "92450543d2ef1208cf5a5c028234db0722cf19fa4f59e4861dfd9c2287e02835",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_047\\exposure085.png": "994bd041c5d02b4ba1891802baf633a25f051d3f8894193c101047afb3b1bedc",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_047.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_049.JPG": "d051b318567e1fc3788fd3f60c110623598b5f3ad5595074970a3ffeabe43fdc",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_049\\exposure085.png": "9beb7a91a18324a02e7140942aa0f9d6e5f874a96b7078e7ea9e55a3190f1904",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_049.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_053.JPG": "1055ec2b6e2fd6aba2ee1808fad6ca0dca6ac5b9bf210309dd5205540cda1aea",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_053\\exposure085.png": "6f33eea600f31674f4f5d937134847c269768ffad5abfcc99e665c2f9b4e32a0",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_053.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_059.JPG": "fc4395ffec0e1b56276e92cdff17b95e445d671ad826ae7c0926527b641f6b5d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_059\\exposure085.png": "d30f423f5bc8ffa275cb074148239b328066e5b8c5938c967696f72618b140e7",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_059.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_060.JPG": "0c3dfcba67d7e170412562ec97cfdc9a3369522fd16d3c102fcd84705e1969e5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_060\\exposure085.png": "cb47eef8bea6cb5c11ed08e88cc0f6a1f99ad32bcc4474cf8dc2107e139d0d63",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_060.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_072.JPG": "d2959028363662be6888db77f778600d932cc5a5938050b138302b63f96f71a6",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_072\\exposure085.png": "cddd8805525804986320bf8553b0ad2bbc39d0ec536d4184d84e45bea283af3b",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_072.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_084.JPG": "aaafedc1b9f20f3d2cd908b473a498d23b962f6caebc8a0f239e5f3aa2c1349a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_084\\exposure085.png": "1470c73c1922e869ddb9ee3a2ac1ad2cad825b050fb653ef4d3f9301e7841c47",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_084.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_093.JPG": "2a8e17050dc81dcca88de2849751ed5ac2fb89a2def74c016cde78669a8d353d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_093\\exposure085.png": "7c6d471efaaf96a13acd2956f66c06e98a1c2890397ea16feadf8d79f9168416",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_093.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_107.JPG": "bf0b3ad0e718935a261e4a7082c26c830ddd27eeb137c7b0d550205e8828028b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_107\\exposure085.png": "9f52582613d3cd3bea47a80b666363ef10112f353965d8d8d679e4c828e76a58",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_107.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_113.JPG": "8342f7a7c086ae05c6463b2a2f02668c35012fdd2eff78d635777d52a292a29b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_113\\exposure085.png": "f3d82a8cf433f114524eaf43f2a25575d37f9e9ca177f86e4adf698c78fc54d6",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_113.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_115.JPG": "d97e0580fe63a15ecbe5d26de8b0ce0cfb2437fa8223cc96ae2726ac0d543430",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_115\\exposure085.png": "9d987b70638f3e032d45ce6b7e31463fbe1f0f07ba35ddab2041b6e5ab3349c8",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_115.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_120.JPG": "dbd7b94ac560e64638c06fe40d8795658e6dfaf3e3435545eb61e0e6cfb7e281",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_120\\exposure085.png": "44753d8d0f693a240a6a5881cc9237197f23aff125638ce2b79c4064fac7466c",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_120.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_124.JPG": "cd915feaf35914cfdb6480891f2039b50a36013c8cc6ee55f6da3ed9e863f49b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_124\\exposure085.png": "dc2b1aea1a82f9e8e040fa3de247771c64d9155fa4a91da111e05abae51ed5bf",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_124.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_129.JPG": "49936f7778fb81f9c2a646c4791932c19abc1bd6f5359669ee1f708c14ea0b80",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_129\\exposure085.png": "a1af00b8d1976233dbbde036b948ddc674954b46aaad53905596bf5adee6471f",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_129.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_138.JPG": "393d8e24af9da0b79c53cdd551d77bbcf33bea482356aefd4fdb93d5315c25f8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_138\\exposure085.png": "0c7e81f4076dc0f2f089a3bd43780286f390f15570b1206c6274f9b592b8a256",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_138.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_148.JPG": "49ab375d8ab34670996579f8102ef5273c748d9cf4279d10f9eb28e1d6fb704d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\inner\\normal_148\\exposure085.png": "7a95ce5ce0ef86e26307e116fd114d6d3761253dbe02b35cb51259893b6d4f2f",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_148.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\val01\\damaged_007.JPG": "fe47d64d920f9e4a03d599eb4d78e9c9e35751736fa78833fa6e78a7c1225031",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\damaged_007\\exposure085.png": "d9e5ce24969f3b080227d7fcac94fbbc731855abad4a55d3afc193f73f538638",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\val01\\damaged_007.txt": "907d77854318d2341739484fce2b0685881bf4e1676868b958668644eed8671b",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\val01\\damaged_012.JPG": "aebd3db9492adbffd703404099ab2ea7b6b2edeb8d3aa78a4f36ad0223ba3b03",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\damaged_012\\exposure085.png": "d4957865de32a283910a3f912434fd63d61204f2b5c402e47d423999db26ded2",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\val01\\damaged_012.txt": "d25f93b7af7c472bc6abc9cd392fc5f3e24bb43ef2e3cd9209c62c089e96bbd8",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\val01\\damaged_020.JPG": "804cb34d743963571dd0d5b83c83303c09f7e3484544b04ee9980b24e623d965",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\damaged_020\\exposure085.png": "305035c515a56dd6a1b6a171deffb5906515b39e78258d5f02fd6022b201daa6",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\val01\\damaged_020.txt": "80126449eea48991c8b709d4d45df151adc4882ac447e4f405a0ac9ee8e52078",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\val01\\damaged_031.JPG": "1c43e0b7e13f50013acb4ca13c5a0cefcae6b5f7a7c28785aba9014a1ddb7974",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\damaged_031\\exposure085.png": "ddffbb288e4e7941d68c389bfb6527a0a7b02895f4ac2b003de2935377a4bc22",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\val01\\damaged_031.txt": "bc73364ea30b1684a286fa8b2953fe136f04a29c288248d41d8a19ed0b898b7b",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\val01\\damaged_035.JPG": "7ba0f1dd0dab53f691f1df8b22b65dd903897d3ebbc8a2eb662a3c286b39f12b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\damaged_035\\exposure085.png": "af0c3c35766bcf8b9f94910bda15b6205810b26a7ff4ea9dd86fdff2581f3993",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\val01\\damaged_035.txt": "251ad812d230acbba4b13ea69115f0b4fd4ffa13e0e7e69201aceb60231441ff",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\val01\\disconnected_002.JPG": "21a5d15783144163c45c2c407faec1749541f1c600ed57c22103c7643d6028de",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\disconnected_002\\exposure085.png": "ada4cfb1979122f4e64b113a56d482b7e148f348d06011cdbec7a60e03f8ba27",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\val01\\disconnected_002.txt": "4bcbdbd752e054316634979cf224c963eeff213991cfe737a4d62b9a13617e69",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\val01\\disconnected_006.JPG": "247cb2763124cedb042f2d2b6a0043f16f03eb424dec2a236507d0fa1ac85d21",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\disconnected_006\\exposure085.png": "f6915f89d76ee00108d98d1ec83f1fabd2708d70269167843d370da088d53c69",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\val01\\disconnected_006.txt": "dbb471066286bfb43a3b705566b7c00d70b89b2ae19ebb73e1a73208ad1b16e6",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\val01\\disconnected_011.JPG": "55e5aabc92477389e8ae353e2316e6e53842e64ebe67472077810f67394d5e1a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\disconnected_011\\exposure085.png": "0bae87862cbdaf250925c2ccb774d40f9c22e42cb50df3216c99f25ab51e297e",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\val01\\disconnected_011.txt": "7989ef6db26d544128aeff090cc71de0183e8a1f9c5e8defb09838bc34c111f2",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\val01\\disconnected_027.JPG": "8bd43c6126551663a7f1593fa8867ab9c4d30ef96c295862f8d4107b35a3d8b8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\disconnected_027\\exposure085.png": "08b446c9424bc04b95c6c9ae57390b63a5d33e273bb9523bec1bfd5f3f8eab50",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\val01\\disconnected_027.txt": "799da622ba16564a1684757d73e94994682e0014f0ad01f7ef2d836b10638761",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\val01\\disconnected_048.JPG": "2e12bec6767e0c809df2dd38951c963c765f25af693161fcdb8541bdb60942b8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\disconnected_048\\exposure085.png": "cb4d4da95b0b0f102e4f8c098e4a54bebb78a00b0f1ca489e7a9dcc2d6ad8152",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\val01\\disconnected_048.txt": "0a7c194a3da32659f089e53f7db913557c7928e58fda755ee0c960b2955e25d1",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\val01\\misrouted_012.JPG": "8c64daf54611173e0b0e79c419226b62bc398b161df2c01281513b59ba2420cb",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\misrouted_012\\exposure085.png": "1fa79ee2b645ed945bb27715aa3cdfab17c521e7d3e10498345498f91c71a1ca",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\val01\\misrouted_012.txt": "b55c8d3b1e5bcb629d877c80199707701aefc95188af420ac0390789f829fae4",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\val01\\misrouted_025.JPG": "af2ef0128ca9db98e6c692bade32912dc57c5e8962adbf88ffef3b47002045e1",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\misrouted_025\\exposure085.png": "5341c97a137cf7152c784c4cf548d9a7e813d9a4b4a265418283b233c80eb6f6",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\val01\\misrouted_025.txt": "1156dd4f413533d3a7e78ab9269b1c5a34a2baadf19e072a4a88395ea6ae1b30",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\val01\\misrouted_034.JPG": "6b4a0abc5805411723703e1d1c8372b6cd2227b2fade15e6197e3b4c48b8777e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\misrouted_034\\exposure085.png": "0ffdafd433cbd0625b27cdfcb2ae3e73672310d88987f982baf6ca995278f2d0",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\val01\\misrouted_034.txt": "15a4d40dfeff549db7b79a8d2a4ffeb9b3e78068f937693b41f1536a6b308349",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\val01\\misrouted_040.JPG": "bff0544f34bb6dfbe913ce95d50bc14b13571bdc73114a77103ce806a4d8524c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\misrouted_040\\exposure085.png": "e400d202f31f86b013b6cbd2683fc1e5634f05ce6fea53d02ab2156b6615f3e7",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\val01\\misrouted_040.txt": "38b8ab921ac4fb8392480df38e493c70e14504133a4478f6271c49dfb03cee67",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\val01\\misrouted_050.JPG": "6cb6ac66c22c9bc9fcf66b9aba19c866553093428d5eb9e14c63ba29d2e91054",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\misrouted_050\\exposure085.png": "19eb07d49ed77bcea4657f389a817f48ce8dbe43f2ab5f2255af8e57361afd69",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\val01\\misrouted_050.txt": "d85e0bd64625744ea871d83119197bf730fc48740d02bb7ace9a9558cf1ddb94",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\val01\\normal_001.JPG": "c01fe31fa2c7cf3ba8fc6584d703bed087c6629d434fa9c936f14b751036fc58",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_001\\exposure085.png": "47a4a67586ad36ce7819dfec5a006bfc9190bdff915dca998c193bb361b42e06",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\val01\\normal_001.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\val01\\normal_004.JPG": "0ad24668d8194b75d2d8d61028d4b8a4b1d129e8cbb9ecfa94793cafadea2416",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_004\\exposure085.png": "45e36d14fa0c358c232fa6c830886c9b2bcf4af432dab01878877847f50eedf8",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\val01\\normal_004.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\val01\\normal_007.JPG": "4745577a97c8e9408314f1934be3cf07b2b731f6d0326c80b6629cfa89e2511b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_007\\exposure085.png": "ac010de9c815a190496ddeaaccdd15aa33d9388540bb02dbb4919df8da63aa39",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\val01\\normal_007.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\val01\\normal_036.JPG": "770096d26add84bc0b99cf2ea0e368da078cc94b7e5fb65829c9ef101c96d0dc",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_036\\exposure085.png": "938837457d876f3bb0ca61446180f03dbbbcfa9f31643d0761fa02906b833658",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\val01\\normal_036.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\val01\\normal_041.JPG": "4f16216debe5b7eec9442a495c24d6ce55dc209f775b01ec442e9eeb1eff7029",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_041\\exposure085.png": "fd315442ffd1a6bebc1a4a039e181fc003c40942884d5222e3fcd54aaf2672c7",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\val01\\normal_041.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\val01\\normal_061.JPG": "54432c8da1acc8fe6397edcb360b807fc3d19fcdee4897dea1d3a74e87f92de8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_061\\exposure085.png": "9d6ff4fefa38789d5cfbc4fff78db23bcef4487afe23cb6700164e8395cdf0b2",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\val01\\normal_061.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\val01\\normal_067.JPG": "c0dd25ecd349cf4e0a2bec9e9dc0a8ac5145fc3d5169084acda97284ff0306d5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_067\\exposure085.png": "6efa4cb0e0408567d21103bd2475e06717854a5d878bf1933e0a2651e291ebd3",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\val01\\normal_067.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\val01\\normal_078.JPG": "6e40d8903db803f1b6cf0327a0e0b37792503122e51ea743baae0369114d219e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_078\\exposure085.png": "09f458aa8852dd108e1a6917887981d3603d09830938ae708a88e9f79e01b53c",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\val01\\normal_078.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\val01\\normal_082.JPG": "029c675e68537ae710a3a3aa86b1cf3e55fd8e8b3370f9ad7948cf08027190a2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_082\\exposure085.png": "57589fc65db5b9cd686b97e7feaf0bd17c77a301c6867d6310ff0770f73570db",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\val01\\normal_082.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\val01\\normal_083.JPG": "cc68f3e1fa1a5aaccced5ae417649f49e9b0f1d090321ab8d39247dac7330aaf",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_083\\exposure085.png": "883ff74b75516b754049113d807c12d582c8febd50708d57ce02d283b4218a01",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\val01\\normal_083.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\val01\\normal_099.JPG": "050137d1be779afcb81cecb419e48e8c146b463507739e54bc35e0ca9b088add",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_099\\exposure085.png": "e9bc76583afcc9f3684a5957685bf46dc6e2611aa958df0f300f11186f1a22ec",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\val01\\normal_099.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\val01\\normal_100.JPG": "5cde7ae803f6e02a3ae83c44bbb55ce128ccdf147e0b2647cde2ca200787086b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_100\\exposure085.png": "4127a712e5801863ff5b5529a52dc60b69f48851872c0e4ca481ef60a703aa6a",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\val01\\normal_100.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\val01\\normal_105.JPG": "732e611416218ce0a558a2dac2175ff8c27d055b82920d52675128882d085e58",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_105\\exposure085.png": "a84a4a7748a07e678a555066d1490e8dc145ffaa31fba9d86af5108239f2301c",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\val01\\normal_105.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\val01\\normal_126.JPG": "29c87e0a428f9271e51490e7fa8ad2b57dc56609a36701093ad518109be8a9c8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_126\\exposure085.png": "1c3246ce6f68ec9dc05b3833b0075192a41ff5761c0cf063716d0b216c575617",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\val01\\normal_126.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\val01\\normal_144.JPG": "fce5359b1ea3c786a2ccdb2420f09a9811f4432224673c6fe04bc0200024fe9c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\native_exposure_stress_20261004\\outer\\normal_144\\exposure085.png": "37d37a70360391460ae937799b6ce3a942d4caae26c228e88c944fdbe1db6a77",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\val01\\normal_144.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "runtime": {
+    "accepted": {
+      "accepted": {
+        "accepted": {
+          "accepted_feature": {
+            "accepted": {
+              "teacher": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+              "student": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+              "manifest": "362fe4ae4a4d9f14ceefee4bd2184fd54efe1de18a02a557583b669eb523196e",
+              "support_code": "aae3fb97dc7735042370245ac591bd8ef68ed92b43182c368bcf8b472b4529db",
+              "context_code": "fbcf4f4b529e0617d69939704a7c494fc1c6a00a44d3fa66c0ea7bb24e508342",
+              "calibration": "bf8a034e398402de4e9c22ed13dedcbb410e717989f2202b1adc49712844e86d"
+            },
+            "feature": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+            "manifest": "115219f1f41b7675c2fb85401caba62b1d3dc2720b3647e297b0f1636b34abcc",
+            "feature_code": "0af358788bf2da0e49169544f2ce7c024334c2274dc1eac6af858ffdcd14e79c"
+          },
+          "resolution_code": "56e1c14f32e6e67cb1eb66ba4e02427c8c90e679aff1883772a8541def66f222",
+          "resolution_manifest": "478cda48b165b5eb4142bddf57d7399dd68fa3dde559950a5d32cbd6718f4866",
+          "predict_code": "093b0c9ec940c48a4863a302d98ed0fe36e6e6d0f4f68c1da96a80a406a168dd",
+          "tiling_code": "113a9b57ec431103afb35153f1f07868417715cd6829756a1350471cba8a239d"
+        },
+        "head": "238f517bfdbe5e81f6c98e28c33750fa02de75cf25ec0c93b8876fe72657004a",
+        "manifest": "2b716d54aaf4a0f12d37b2bc5a79c505b872308205850e438238d41c10f96637",
+        "backend": "ca5c08414b2721e01fb701ac4067efbac55d1f7df03e2dc3076410ee80115269",
+        "features": "da8b7e3d1f351ba85b6391c47ae42df8a6d1f95dc7ef5adf039d849d4d84ec75",
+        "encoder": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+      },
+      "head": "238f517bfdbe5e81f6c98e28c33750fa02de75cf25ec0c93b8876fe72657004a",
+      "encoder": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+      "manifest": "7bca50fff73d7448bad5c4dc7e370adcab0bd0745108b79b5174dfcfb4e3a582",
+      "backend": "def85003b459eea6d2185ade90e836763c605796355d1dfd930a31d423367014",
+      "geometry": "6e488dea2c324c69b3e9bc1f8420e1fc7ec4806cc956d1d72c3585492fc9414e"
+    },
+    "head": "9459ba29715a9f511ddc48a9a99014d2a239cfe65ccc32fe5e2de9122ab72467",
+    "encoder": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+    "manifest": "ad8daa84d3c7d8cd499635226f1c4bc716369d2366c1f1efbeef5bb0038db9e3",
+    "backend": "b6c59369ec3d6ae51dfc0ad577b4cb508454c452e295e8e7129feea368cdbc11",
+    "geometry": "3d96b6e6ce941f8e1468bdfd57ecc93b2679d43c282f66bf8b7df8499457c023"
+  },
+  "exposure_multiplier": 0.85,
+  "safety_abstentions": 39,
+  "no_training": true,
+  "no_deployment": true,
+  "no_SAM_recomputation": true,
+  "field_accuracy": false,
+  "seconds": 6842.56
+}

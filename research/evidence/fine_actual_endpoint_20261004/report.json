@@ -1,0 +1,534 @@
+{
+  "status": "rejected",
+  "qualifies": false,
+  "summary": {
+    "baseline": {
+      "tp": 67,
+      "unmatched": 4,
+      "fn": 9,
+      "predictions": 71,
+      "targets": 76
+    },
+    "trial": {
+      "tp": 69,
+      "unmatched": 11,
+      "fn": 7,
+      "predictions": 80,
+      "targets": 76
+    }
+  },
+  "cases": [
+    {
+      "image": "damaged_029.JPG",
+      "baseline": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "trial": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "selected": 0,
+      "added": 0,
+      "gained": [],
+      "lost": [],
+      "safety_abstention": false,
+      "reason": null,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\damaged_029\\20261004_041203\\initial_report.json",
+      "baseline_result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\damaged_029\\20261004_041203\\baseline_native_ports.json",
+      "trial_result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\damaged_029\\20261004_041203\\fine_actual_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\damaged_029\\20261004_041203\\fine_diagnostic_evidence.json"
+    },
+    {
+      "image": "damaged_030.JPG",
+      "baseline": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "trial": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "selected": 0,
+      "added": 0,
+      "gained": [],
+      "lost": [],
+      "safety_abstention": false,
+      "reason": null,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\damaged_030\\20261004_041443\\initial_report.json",
+      "baseline_result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\damaged_030\\20261004_041443\\baseline_native_ports.json",
+      "trial_result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\damaged_030\\20261004_041443\\fine_actual_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\damaged_030\\20261004_041443\\fine_diagnostic_evidence.json"
+    },
+    {
+      "image": "damaged_033.JPG",
+      "baseline": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "trial": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "selected": 0,
+      "added": 0,
+      "gained": [],
+      "lost": [],
+      "safety_abstention": false,
+      "reason": null,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\damaged_033\\20261004_041741\\initial_report.json",
+      "baseline_result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\damaged_033\\20261004_041741\\baseline_native_ports.json",
+      "trial_result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\damaged_033\\20261004_041741\\fine_actual_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\damaged_033\\20261004_041741\\fine_diagnostic_evidence.json"
+    },
+    {
+      "image": "damaged_034.JPG",
+      "baseline": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "trial": {
+        "tp": 0,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 1,
+        "targets": 0
+      },
+      "selected": 0,
+      "added": 0,
+      "gained": [],
+      "lost": [],
+      "safety_abstention": false,
+      "reason": null,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\damaged_034\\20261004_042010\\initial_report.json",
+      "baseline_result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\damaged_034\\20261004_042010\\baseline_native_ports.json",
+      "trial_result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\damaged_034\\20261004_042010\\fine_actual_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\damaged_034\\20261004_042010\\fine_diagnostic_evidence.json"
+    },
+    {
+      "image": "disconnected_001.JPG",
+      "baseline": {
+        "tp": 8,
+        "unmatched": 0,
+        "fn": 2,
+        "predictions": 8,
+        "targets": 10
+      },
+      "trial": {
+        "tp": 8,
+        "unmatched": 2,
+        "fn": 2,
+        "predictions": 10,
+        "targets": 10
+      },
+      "selected": 2,
+      "added": 2,
+      "gained": [],
+      "lost": [],
+      "safety_abstention": false,
+      "reason": null,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\disconnected_001\\20261004_042329\\initial_report.json",
+      "baseline_result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\disconnected_001\\20261004_042329\\baseline_native_ports.json",
+      "trial_result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\disconnected_001\\20261004_042329\\fine_actual_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\disconnected_001\\20261004_042329\\fine_diagnostic_evidence.json"
+    },
+    {
+      "image": "disconnected_003.JPG",
+      "baseline": {
+        "tp": 8,
+        "unmatched": 0,
+        "fn": 2,
+        "predictions": 8,
+        "targets": 10
+      },
+      "trial": {
+        "tp": 8,
+        "unmatched": 1,
+        "fn": 2,
+        "predictions": 9,
+        "targets": 10
+      },
+      "selected": 1,
+      "added": 1,
+      "gained": [],
+      "lost": [],
+      "safety_abstention": false,
+      "reason": null,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\disconnected_003\\20261004_042826\\initial_report.json",
+      "baseline_result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\disconnected_003\\20261004_042826\\baseline_native_ports.json",
+      "trial_result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\disconnected_003\\20261004_042826\\fine_actual_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\disconnected_003\\20261004_042826\\fine_diagnostic_evidence.json"
+    },
+    {
+      "image": "disconnected_029.JPG",
+      "baseline": {
+        "tp": 8,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 8,
+        "targets": 8
+      },
+      "trial": {
+        "tp": 8,
+        "unmatched": 1,
+        "fn": 0,
+        "predictions": 9,
+        "targets": 8
+      },
+      "selected": 1,
+      "added": 1,
+      "gained": [],
+      "lost": [],
+      "safety_abstention": false,
+      "reason": null,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\disconnected_029\\20261004_043352\\initial_report.json",
+      "baseline_result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\disconnected_029\\20261004_043352\\baseline_native_ports.json",
+      "trial_result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\disconnected_029\\20261004_043352\\fine_actual_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\disconnected_029\\20261004_043352\\fine_diagnostic_evidence.json"
+    },
+    {
+      "image": "disconnected_031.JPG",
+      "baseline": {
+        "tp": 7,
+        "unmatched": 0,
+        "fn": 1,
+        "predictions": 7,
+        "targets": 8
+      },
+      "trial": {
+        "tp": 7,
+        "unmatched": 1,
+        "fn": 1,
+        "predictions": 8,
+        "targets": 8
+      },
+      "selected": 1,
+      "added": 1,
+      "gained": [],
+      "lost": [],
+      "safety_abstention": false,
+      "reason": null,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\disconnected_031\\20261004_043834\\initial_report.json",
+      "baseline_result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\disconnected_031\\20261004_043834\\baseline_native_ports.json",
+      "trial_result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\disconnected_031\\20261004_043834\\fine_actual_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\disconnected_031\\20261004_043834\\fine_diagnostic_evidence.json"
+    },
+    {
+      "image": "disconnected_032.JPG",
+      "baseline": {
+        "tp": 9,
+        "unmatched": 0,
+        "fn": 1,
+        "predictions": 9,
+        "targets": 10
+      },
+      "trial": {
+        "tp": 9,
+        "unmatched": 1,
+        "fn": 1,
+        "predictions": 10,
+        "targets": 10
+      },
+      "selected": 1,
+      "added": 1,
+      "gained": [],
+      "lost": [],
+      "safety_abstention": false,
+      "reason": null,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\disconnected_032\\20261004_044251\\initial_report.json",
+      "baseline_result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\disconnected_032\\20261004_044251\\baseline_native_ports.json",
+      "trial_result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\disconnected_032\\20261004_044251\\fine_actual_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\disconnected_032\\20261004_044251\\fine_diagnostic_evidence.json"
+    },
+    {
+      "image": "disconnected_041.JPG",
+      "baseline": {
+        "tp": 9,
+        "unmatched": 0,
+        "fn": 1,
+        "predictions": 9,
+        "targets": 10
+      },
+      "trial": {
+        "tp": 9,
+        "unmatched": 1,
+        "fn": 1,
+        "predictions": 10,
+        "targets": 10
+      },
+      "selected": 1,
+      "added": 1,
+      "gained": [],
+      "lost": [],
+      "safety_abstention": false,
+      "reason": null,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\disconnected_041\\20261004_044705\\initial_report.json",
+      "baseline_result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\disconnected_041\\20261004_044705\\baseline_native_ports.json",
+      "trial_result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\disconnected_041\\20261004_044705\\fine_actual_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\disconnected_041\\20261004_044705\\fine_diagnostic_evidence.json"
+    },
+    {
+      "image": "disconnected_042.JPG",
+      "baseline": {
+        "tp": 9,
+        "unmatched": 0,
+        "fn": 1,
+        "predictions": 9,
+        "targets": 10
+      },
+      "trial": {
+        "tp": 10,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 10,
+        "targets": 10
+      },
+      "selected": 1,
+      "added": 1,
+      "gained": [
+        0
+      ],
+      "lost": [],
+      "safety_abstention": false,
+      "reason": null,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\disconnected_042\\20261004_045150\\initial_report.json",
+      "baseline_result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\disconnected_042\\20261004_045150\\baseline_native_ports.json",
+      "trial_result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\disconnected_042\\20261004_045150\\fine_actual_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\disconnected_042\\20261004_045150\\fine_diagnostic_evidence.json"
+    },
+    {
+      "image": "disconnected_044.JPG",
+      "baseline": {
+        "tp": 9,
+        "unmatched": 0,
+        "fn": 1,
+        "predictions": 9,
+        "targets": 10
+      },
+      "trial": {
+        "tp": 10,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 10,
+        "targets": 10
+      },
+      "selected": 1,
+      "added": 1,
+      "gained": [
+        4
+      ],
+      "lost": [],
+      "safety_abstention": false,
+      "reason": null,
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\disconnected_044\\20261004_045730\\initial_report.json",
+      "baseline_result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\disconnected_044\\20261004_045730\\baseline_native_ports.json",
+      "trial_result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\disconnected_044\\20261004_045730\\fine_actual_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\disconnected_044\\20261004_045730\\fine_diagnostic_evidence.json"
+    },
+    {
+      "image": "normal_002.JPG",
+      "baseline": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "trial": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "selected": 0,
+      "added": 0,
+      "gained": [],
+      "lost": [],
+      "safety_abstention": true,
+      "reason": "baseline_abstention_or_shared_budget_full",
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\normal_002\\20261004_050058\\initial_report.json",
+      "baseline_result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\normal_002\\20261004_050058\\baseline_native_ports.json",
+      "trial_result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\normal_002\\20261004_050058\\fine_actual_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\normal_002\\20261004_050058\\fine_diagnostic_evidence.json"
+    },
+    {
+      "image": "normal_003.JPG",
+      "baseline": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "trial": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "selected": 0,
+      "added": 0,
+      "gained": [],
+      "lost": [],
+      "safety_abstention": true,
+      "reason": "baseline_abstention_or_shared_budget_full",
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\normal_003\\20261004_050131\\initial_report.json",
+      "baseline_result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\normal_003\\20261004_050131\\baseline_native_ports.json",
+      "trial_result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\normal_003\\20261004_050131\\fine_actual_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\normal_003\\20261004_050131\\fine_diagnostic_evidence.json"
+    },
+    {
+      "image": "normal_005.JPG",
+      "baseline": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "trial": {
+        "tp": 0,
+        "unmatched": 0,
+        "fn": 0,
+        "predictions": 0,
+        "targets": 0
+      },
+      "selected": 0,
+      "added": 0,
+      "gained": [],
+      "lost": [],
+      "safety_abstention": true,
+      "reason": "baseline_abstention_or_shared_budget_full",
+      "report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\normal_005\\20261004_050203\\initial_report.json",
+      "baseline_result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\normal_005\\20261004_050203\\baseline_native_ports.json",
+      "trial_result": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\normal_005\\20261004_050203\\fine_actual_ports.json",
+      "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_20261004\\normal_005\\20261004_050203\\fine_diagnostic_evidence.json"
+    }
+  ],
+  "pins": {
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\run_fine_actual_endpoint.py": "0cd288be7a1ee9001dae0fb54d1c494161372cfefdc1e4f784bd40bf65222a58",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_actual_endpoint_preregistration_20261004\\PLAN.md": "c87804038fc425a4dca0d3f4578d2e5de132561fa3e4a16cbd1fdcba3f1d05f2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\port_training_multiscale_20261002\\protocol.json": "56447e7f5dc8ac0242a9d4d9b82eb96ab0bf5e70de214f72f808336f9b3b4eb6",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_073.JPG": "09f81923e44089603ccfb5989e370d07cc27f2e929ebfc70de945a08947b19ac",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_native_consensus_20261004\\report.json": "8049e493e0deb488818a9a718d59892b128f052c60e6b94b5618b6e6966f2ff6",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_native_consensus_20261004\\train\\report.json": "162083d638dd4350bd004626c37be3c294bff5341890311a8b509a7160ebe080",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_fine_tile_views_20261003\\full\\report.json": "4c5078a36f33dfb3a3cfccec6b522cead1b2a740a8ba0104c4840836103fd575",
+    "E:\\PythonProject10\\output\\paired_pose_native_20261004\\last_head.pt": "9459ba29715a9f511ddc48a9a99014d2a239cfe65ccc32fe5e2de9122ab72467",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\raw_pose_consensus.py": "6c182d1c6f6b096354b2048a8a51c01e4eee4b47e139389c470d31bad7356d80",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\actual_port_native_rows.py": "ab1518c37defade43ac0fa8ea46d92de7086ea8ada4feed4cefc55d09f18dcf5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\paired_graph_hint_link.py": "23cc12fc66551d29528c8c514b24c3d1cbd7ab218974928a1d1074dafc280ac5",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_029.JPG": "f2cbe8a151852a8fe7f1d78b76db183e0a25f4aec448b90a061a9998ecf69bf2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_fine_tile_views_20261003\\full\\train\\damaged_029_predictions.json": "06b1187e8618753d4c37b3b7a328897942828f7c23c94439f22cf4f485544493",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_029.txt": "af69fac429bc6c7f724123ed721872191e0d36f43ae89dca6f774c0d830a04ce",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_030.JPG": "53e08cc9fb17a9c4814dc3de0e4839ae91bf1abafac3efefecc2443f125c8d67",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_fine_tile_views_20261003\\full\\train\\damaged_030_predictions.json": "d7fff0888840d52913921cb52380349470f92452cfb01b2c78a63ee70075427e",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_030.txt": "af07f5623124f69b71daac0d162f63063b84c4a99cfb951c8f815680673cf76c",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_033.JPG": "65a56eb09b8f17caee156a6709bacfb8aa7d9a277d78a40280176a08d94225a9",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_fine_tile_views_20261003\\full\\train\\damaged_033_predictions.json": "c1d7cd90a7d7ee42b9d01c24fa61d0d3ca65be2000a394842d679e5a6789f7b0",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_033.txt": "f520ebd983e0959f6607fc26e736ae148461a9a1eaf8fcfc16d6e02b362d4ff2",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_034.JPG": "9c173802906155fdd7d9a66b3e067e6610c46e69abf180e052174ccf396e1361",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_fine_tile_views_20261003\\full\\train\\damaged_034_predictions.json": "7bd6e7666f615ad64f30562ca5f9e372b7641d2c839efd0edb8892c1a01bda49",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_034.txt": "c74007b0b04699b4c8cf25f79600e6d26d4d63a60da00c4925297363c1af561a",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_001.JPG": "1b4f5f35073af643524578f18aff934793ba1487e62246a02b969fb7169a024d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_fine_tile_views_20261003\\full\\train\\disconnected_001_predictions.json": "a7f162482e4f72759d64bc15f886788d4c9891f3af2ef235fa66971b72989b19",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_001.txt": "76e5a782d7b33f9ee5288d78df3aea8e690ddb6d142f4bc12df9eec7b7dcf125",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_003.JPG": "c43bea91ae66c7227b6a79b91612043d7141c6c5e9934ce8b9b861be843e8e65",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_fine_tile_views_20261003\\full\\train\\disconnected_003_predictions.json": "04a4b0b34d6af44fae701ad8c76294764aec62ee8f9f8e20c5fc5faedad827e7",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_003.txt": "00d09d7a8ec34801a9b6b60dc52282dcfb80d40abac84c1747beb7a6a58cccf2",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_029.JPG": "ece7b170492ff1717256828ef9360a8a81c9bb87a496e13d9975e6f5f288ac19",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_fine_tile_views_20261003\\full\\train\\disconnected_029_predictions.json": "586b06c6dc03d388949a262c1be7f70795ffcd2388180dd6d9830087459b1376",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_029.txt": "f136cdf79676ecfa979bcb344359346849c1194b78e6a95c5f70408cd7d9a966",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_031.JPG": "8744da809baff520133aa299966beec832dd842a05f70c90b2e590f370f19e9e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_fine_tile_views_20261003\\full\\train\\disconnected_031_predictions.json": "d2402eda7b67459e23ccee1f9c17b9d57931bf282273fc80a554c635ebe9ba4f",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_031.txt": "5d0f21a43b7f4ce2881a908cd96c879a415326916b31627535d743d4f2df22fd",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_032.JPG": "1ff7d68f93e6f8e9695bf9de312a74a9ca530409df4334f34709ef94d1435327",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_fine_tile_views_20261003\\full\\train\\disconnected_032_predictions.json": "731998a4a5452561f58261757652c0fe4ad881b4e21d7f23e2c8cdd84b0a6db5",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_032.txt": "d2945580daa5b0be6ee41c2c58be9b9cca0ed7235c3df0e663cd123990ebd0db",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_041.JPG": "80474146d1c8cb56d9bdf7544591bc8ca7b451425de7d53b73d105566e287813",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_fine_tile_views_20261003\\full\\train\\disconnected_041_predictions.json": "95f035a0ea91bbf3f8f9640cd41b9b6d6cf61f6af1d4ddd3e17825e7c12adf4b",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_041.txt": "5628a62a02f7309eb94ec6905233bf3b491439231b4379abf2a93b93a5eaffb6",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_042.JPG": "d8b0b8f689ce8734b9cd1cca2cb95a671bd708b3441b31ef12778ab9b28a5d3e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_fine_tile_views_20261003\\full\\train\\disconnected_042_predictions.json": "59ed2c418783d48cda9c860f4393ee45de37932910db3d742ee8835bd3847b0f",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_042.txt": "5078bed4a303034a4406ce9c17f8dca70af36c1edaf9ba0d63ab83b75efc37ba",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_044.JPG": "dceeb71dfe2c90f8baaf0ec5886cc600f2d465b8720ae2c659056955af82b828",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_fine_tile_views_20261003\\full\\train\\disconnected_044_predictions.json": "277784c206ccd458f2105cc7e3c45f1d56c044f7ae6182b2e68f4fc404854876",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_044.txt": "5c799e654eea963fe1e2fc66313672e85b03352aaecfc92dc87a633a4cbc2bc6",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_002.JPG": "573e90834cb39b97bcc6952a5a54b3a3c53fd95ac08a4c985f8ca436bfe00638",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_002.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_003.JPG": "e201ef854c0e0623a33a115703f9627631acdce41cd6dfef57590af320ccdba4",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_003.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_005.JPG": "0a39f4517cf7c35f696e04d532f5f55fb2e3e39320652e97ad8bfa1725bd5a8d",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_005.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "runtime": {
+    "accepted": {
+      "accepted": {
+        "accepted": {
+          "accepted_feature": {
+            "accepted": {
+              "teacher": "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+              "student": "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4",
+              "manifest": "362fe4ae4a4d9f14ceefee4bd2184fd54efe1de18a02a557583b669eb523196e",
+              "support_code": "aae3fb97dc7735042370245ac591bd8ef68ed92b43182c368bcf8b472b4529db",
+              "context_code": "fbcf4f4b529e0617d69939704a7c494fc1c6a00a44d3fa66c0ea7bb24e508342",
+              "calibration": "bf8a034e398402de4e9c22ed13dedcbb410e717989f2202b1adc49712844e86d"
+            },
+            "feature": "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+            "manifest": "115219f1f41b7675c2fb85401caba62b1d3dc2720b3647e297b0f1636b34abcc",
+            "feature_code": "0af358788bf2da0e49169544f2ce7c024334c2274dc1eac6af858ffdcd14e79c"
+          },
+          "resolution_code": "56e1c14f32e6e67cb1eb66ba4e02427c8c90e679aff1883772a8541def66f222",
+          "resolution_manifest": "478cda48b165b5eb4142bddf57d7399dd68fa3dde559950a5d32cbd6718f4866",
+          "predict_code": "093b0c9ec940c48a4863a302d98ed0fe36e6e6d0f4f68c1da96a80a406a168dd",
+          "tiling_code": "113a9b57ec431103afb35153f1f07868417715cd6829756a1350471cba8a239d"
+        },
+        "head": "238f517bfdbe5e81f6c98e28c33750fa02de75cf25ec0c93b8876fe72657004a",
+        "manifest": "2b716d54aaf4a0f12d37b2bc5a79c505b872308205850e438238d41c10f96637",
+        "backend": "ca5c08414b2721e01fb701ac4067efbac55d1f7df03e2dc3076410ee80115269",
+        "features": "da8b7e3d1f351ba85b6391c47ae42df8a6d1f95dc7ef5adf039d849d4d84ec75",
+        "encoder": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+      },
+      "head": "238f517bfdbe5e81f6c98e28c33750fa02de75cf25ec0c93b8876fe72657004a",
+      "encoder": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+      "manifest": "7bca50fff73d7448bad5c4dc7e370adcab0bd0745108b79b5174dfcfb4e3a582",
+      "backend": "def85003b459eea6d2185ade90e836763c605796355d1dfd930a31d423367014",
+      "geometry": "6e488dea2c324c69b3e9bc1f8420e1fc7ec4806cc956d1d72c3585492fc9414e"
+    },
+    "head": "9459ba29715a9f511ddc48a9a99014d2a239cfe65ccc32fe5e2de9122ab72467",
+    "encoder": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+    "manifest": "ad8daa84d3c7d8cd499635226f1c4bc716369d2366c1f1efbeef5bb0038db9e3",
+    "backend": "b6c59369ec3d6ae51dfc0ad577b4cb508454c452e295e8e7129feea368cdbc11",
+    "geometry": "3d96b6e6ce941f8e1468bdfd57ecc93b2679d43c282f66bf8b7df8499457c023"
+  },
+  "normal_added": 0,
+  "selected_train_only_not_population_accuracy": true,
+  "old_source_failure_not_revoked": true,
+  "no_training": true,
+  "no_SAM_recomputation": true,
+  "no_deployment": true,
+  "field_accuracy": false,
+  "seconds": 3034.53
+}

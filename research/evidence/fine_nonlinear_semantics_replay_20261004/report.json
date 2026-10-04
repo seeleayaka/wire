@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "experiment_status": "rejected",
+  "train_sources": 192,
+  "raw_examples": 969,
+  "curated_examples": 9808,
+  "additions": 10,
+  "summary": {
+    "current": {
+      "tp": 295,
+      "unmatched": 4,
+      "fn": 49,
+      "predictions": 299,
+      "targets": 344
+    },
+    "trial": {
+      "tp": 297,
+      "unmatched": 12,
+      "fn": 47,
+      "predictions": 309,
+      "targets": 344
+    }
+  },
+  "source_group_tensor_score_and_GT_replay": true,
+  "no_full_head_or_validation": true,
+  "source_report_sha256": "a6fff43da39eb88f769a2addab77a51c5a15caf1fc520df78ded8693991859de",
+  "auditor_sha256": "b4a1a1111a50b805139683f5ba22ab44461ae239b78191ded0761807de130ff8",
+  "no_deployment": true,
+  "not_whole_detector_independent_OOF": true,
+  "field_accuracy": false
+}

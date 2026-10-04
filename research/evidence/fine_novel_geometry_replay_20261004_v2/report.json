@@ -1,0 +1,32 @@
+{
+  "status": "pass",
+  "sources": 192,
+  "fine_proposals": 969,
+  "source_report_sha256": "851af0abbba5b66875216745491c7e42923711f953e2affd8769262875cea484",
+  "duplicate_summary": {
+    "current": {
+      "tp": 295,
+      "unmatched": 4,
+      "fn": 49,
+      "predictions": 299,
+      "targets": 344
+    },
+    "trial": {
+      "tp": 297,
+      "unmatched": 5,
+      "fn": 47,
+      "predictions": 302,
+      "targets": 344
+    }
+  },
+  "geometry_summary": {
+    "missed_targets": 49,
+    "original_possible_coverage": 3,
+    "union_possible_coverage": 3,
+    "newly_possible_targets": 0
+  },
+  "independent_IoMin_selector_relative_decode_vote_and_GT_replay": true,
+  "fresh_semantics_not_run": true,
+  "no_deployment": true,
+  "field_accuracy": false
+}

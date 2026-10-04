@@ -1,0 +1,1206 @@
+{
+  "status": "complete",
+  "total": {
+    "training": 9808,
+    "raw": 969
+  },
+  "invalid": {
+    "training": 2,
+    "raw": 0
+  },
+  "cases": [
+    {
+      "image": "damaged_001.JPG",
+      "cases": []
+    },
+    {
+      "image": "damaged_002.JPG",
+      "cases": []
+    },
+    {
+      "image": "damaged_003.JPG",
+      "cases": []
+    },
+    {
+      "image": "damaged_004.JPG",
+      "cases": []
+    },
+    {
+      "image": "damaged_006.JPG",
+      "cases": []
+    },
+    {
+      "image": "damaged_008.JPG",
+      "cases": []
+    },
+    {
+      "image": "damaged_009.JPG",
+      "cases": []
+    },
+    {
+      "image": "damaged_010.JPG",
+      "cases": []
+    },
+    {
+      "image": "damaged_011.JPG",
+      "cases": []
+    },
+    {
+      "image": "damaged_013.JPG",
+      "cases": []
+    },
+    {
+      "image": "damaged_015.JPG",
+      "cases": []
+    },
+    {
+      "image": "damaged_021.JPG",
+      "cases": []
+    },
+    {
+      "image": "damaged_022.JPG",
+      "cases": []
+    },
+    {
+      "image": "damaged_023.JPG",
+      "cases": []
+    },
+    {
+      "image": "damaged_025.JPG",
+      "cases": []
+    },
+    {
+      "image": "damaged_027.JPG",
+      "cases": []
+    },
+    {
+      "image": "damaged_028.JPG",
+      "cases": []
+    },
+    {
+      "image": "damaged_029.JPG",
+      "cases": []
+    },
+    {
+      "image": "damaged_030.JPG",
+      "cases": []
+    },
+    {
+      "image": "damaged_033.JPG",
+      "cases": []
+    },
+    {
+      "image": "damaged_034.JPG",
+      "cases": []
+    },
+    {
+      "image": "damaged_038.JPG",
+      "cases": []
+    },
+    {
+      "image": "damaged_039.JPG",
+      "cases": []
+    },
+    {
+      "image": "damaged_041.JPG",
+      "cases": []
+    },
+    {
+      "image": "damaged_042.JPG",
+      "cases": []
+    },
+    {
+      "image": "damaged_043.JPG",
+      "cases": []
+    },
+    {
+      "image": "damaged_044.JPG",
+      "cases": []
+    },
+    {
+      "image": "damaged_046.JPG",
+      "cases": []
+    },
+    {
+      "image": "damaged_047.JPG",
+      "cases": []
+    },
+    {
+      "image": "damaged_048.JPG",
+      "cases": []
+    },
+    {
+      "image": "damaged_049.JPG",
+      "cases": []
+    },
+    {
+      "image": "damaged_050.JPG",
+      "cases": []
+    },
+    {
+      "image": "disconnected_001.JPG",
+      "cases": []
+    },
+    {
+      "image": "disconnected_003.JPG",
+      "cases": []
+    },
+    {
+      "image": "disconnected_008.JPG",
+      "cases": []
+    },
+    {
+      "image": "disconnected_009.JPG",
+      "cases": []
+    },
+    {
+      "image": "disconnected_010.JPG",
+      "cases": []
+    },
+    {
+      "image": "disconnected_012.JPG",
+      "cases": []
+    },
+    {
+      "image": "disconnected_013.JPG",
+      "cases": []
+    },
+    {
+      "image": "disconnected_014.JPG",
+      "cases": []
+    },
+    {
+      "image": "disconnected_015.JPG",
+      "cases": []
+    },
+    {
+      "image": "disconnected_017.JPG",
+      "cases": []
+    },
+    {
+      "image": "disconnected_018.JPG",
+      "cases": []
+    },
+    {
+      "image": "disconnected_019.JPG",
+      "cases": []
+    },
+    {
+      "image": "disconnected_021.JPG",
+      "cases": []
+    },
+    {
+      "image": "disconnected_022.JPG",
+      "cases": []
+    },
+    {
+      "image": "disconnected_023.JPG",
+      "cases": []
+    },
+    {
+      "image": "disconnected_024.JPG",
+      "cases": []
+    },
+    {
+      "image": "disconnected_025.JPG",
+      "cases": []
+    },
+    {
+      "image": "disconnected_026.JPG",
+      "cases": [
+        {
+          "kind": "training",
+          "index": 5473,
+          "box": [
+            1876.0036991999998,
+            2434.022208,
+            1979.5164288000003,
+            2621.1974400000004
+          ],
+          "coverage": [
+            1.0,
+            0.840531561461794
+          ],
+          "counts": [
+            4096,
+            3036
+          ],
+          "gradient_support": [
+            4096,
+            2880
+          ]
+        },
+        {
+          "kind": "training",
+          "index": 5533,
+          "box": [
+            1876.0036991999998,
+            2434.022208,
+            1979.5164288000003,
+            2621.1974400000004
+          ],
+          "coverage": [
+            1.0,
+            0.840531561461794
+          ],
+          "counts": [
+            4096,
+            3036
+          ],
+          "gradient_support": [
+            4096,
+            2880
+          ]
+        }
+      ]
+    },
+    {
+      "image": "disconnected_029.JPG",
+      "cases": []
+    },
+    {
+      "image": "disconnected_030.JPG",
+      "cases": []
+    },
+    {
+      "image": "disconnected_031.JPG",
+      "cases": []
+    },
+    {
+      "image": "disconnected_032.JPG",
+      "cases": []
+    },
+    {
+      "image": "disconnected_033.JPG",
+      "cases": []
+    },
+    {
+      "image": "disconnected_038.JPG",
+      "cases": []
+    },
+    {
+      "image": "disconnected_039.JPG",
+      "cases": []
+    },
+    {
+      "image": "disconnected_041.JPG",
+      "cases": []
+    },
+    {
+      "image": "disconnected_042.JPG",
+      "cases": []
+    },
+    {
+      "image": "disconnected_043.JPG",
+      "cases": []
+    },
+    {
+      "image": "disconnected_044.JPG",
+      "cases": []
+    },
+    {
+      "image": "disconnected_045.JPG",
+      "cases": []
+    },
+    {
+      "image": "disconnected_049.JPG",
+      "cases": []
+    },
+    {
+      "image": "disconnected_050.JPG",
+      "cases": []
+    },
+    {
+      "image": "misrouted_002.JPG",
+      "cases": []
+    },
+    {
+      "image": "misrouted_003.JPG",
+      "cases": []
+    },
+    {
+      "image": "misrouted_004.JPG",
+      "cases": []
+    },
+    {
+      "image": "misrouted_006.JPG",
+      "cases": []
+    },
+    {
+      "image": "misrouted_007.JPG",
+      "cases": []
+    },
+    {
+      "image": "misrouted_008.JPG",
+      "cases": []
+    },
+    {
+      "image": "misrouted_009.JPG",
+      "cases": []
+    },
+    {
+      "image": "misrouted_011.JPG",
+      "cases": []
+    },
+    {
+      "image": "misrouted_013.JPG",
+      "cases": []
+    },
+    {
+      "image": "misrouted_014.JPG",
+      "cases": []
+    },
+    {
+      "image": "misrouted_015.JPG",
+      "cases": []
+    },
+    {
+      "image": "misrouted_016.JPG",
+      "cases": []
+    },
+    {
+      "image": "misrouted_018.JPG",
+      "cases": []
+    },
+    {
+      "image": "misrouted_019.JPG",
+      "cases": []
+    },
+    {
+      "image": "misrouted_021.JPG",
+      "cases": []
+    },
+    {
+      "image": "misrouted_022.JPG",
+      "cases": []
+    },
+    {
+      "image": "misrouted_026.JPG",
+      "cases": []
+    },
+    {
+      "image": "misrouted_029.JPG",
+      "cases": []
+    },
+    {
+      "image": "misrouted_030.JPG",
+      "cases": []
+    },
+    {
+      "image": "misrouted_031.JPG",
+      "cases": []
+    },
+    {
+      "image": "misrouted_032.JPG",
+      "cases": []
+    },
+    {
+      "image": "misrouted_033.JPG",
+      "cases": []
+    },
+    {
+      "image": "misrouted_037.JPG",
+      "cases": []
+    },
+    {
+      "image": "misrouted_038.JPG",
+      "cases": []
+    },
+    {
+      "image": "misrouted_041.JPG",
+      "cases": []
+    },
+    {
+      "image": "misrouted_043.JPG",
+      "cases": []
+    },
+    {
+      "image": "misrouted_044.JPG",
+      "cases": []
+    },
+    {
+      "image": "misrouted_045.JPG",
+      "cases": []
+    },
+    {
+      "image": "misrouted_046.JPG",
+      "cases": []
+    },
+    {
+      "image": "misrouted_047.JPG",
+      "cases": []
+    },
+    {
+      "image": "misrouted_048.JPG",
+      "cases": []
+    },
+    {
+      "image": "misrouted_049.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_002.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_003.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_005.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_008.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_010.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_012.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_013.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_015.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_016.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_018.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_019.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_020.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_021.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_022.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_023.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_025.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_026.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_027.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_029.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_031.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_032.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_033.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_034.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_035.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_037.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_039.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_040.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_045.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_046.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_048.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_051.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_052.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_054.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_055.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_056.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_057.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_058.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_063.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_064.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_065.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_068.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_069.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_070.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_071.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_073.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_074.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_075.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_076.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_077.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_080.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_081.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_085.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_087.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_088.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_089.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_090.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_091.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_092.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_094.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_095.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_097.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_098.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_101.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_103.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_106.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_108.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_109.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_110.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_111.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_112.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_114.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_116.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_117.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_118.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_121.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_122.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_123.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_125.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_127.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_128.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_130.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_131.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_133.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_134.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_135.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_137.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_139.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_140.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_141.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_142.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_143.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_145.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_146.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_147.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_149.JPG",
+      "cases": []
+    },
+    {
+      "image": "normal_150.JPG",
+      "cases": []
+    }
+  ],
+  "pins": {
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\audit_core_ring_coverage.py": "c539e339e50b933bbc7515da6e14b7448d51d621817691464b2e71787bec9014",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_pose_training_20261004\\training\\samples.json": "19f26108b8f90907d36d9fea550939634772304cb965a1767f8f64aeb66e034b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\fine_pose_training_20261004\\training\\raw_samples.json": "30cfc6353b9d11f2d63ecc94c6e03d809621618ca26336872e09916bcd6b4a47",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_073.JPG": "09f81923e44089603ccfb5989e370d07cc27f2e929ebfc70de945a08947b19ac",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_core_ring_preregistration_20261004\\PLAN.md": "129807fc93778d8a87dcb7ca9d5a5b45eb3245edf7460787bd539bcd861da0d7",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\paired_core_ring.py": "0c8a1eb2d3ee9a393a1f0e2718088c9095e5e4efed2658ab28547ebd9a254ba8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\damaged_001_source.json": "f7f1c012dba7ca757deefe64cd0055a99a567aa9203ccfcad94eecddae92d16b",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_001.JPG": "b24ba092807c12588e297ca7b806c78687dc117c0ee4e013ec72b5a849e79784",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\damaged_002_source.json": "5e882b27bf46086d1ca24f704c8739805554f17917401c3f72323660bd3510a8",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_002.JPG": "c8469a24ea443629fc456ac2e817c4de0172273ac56d206ec5cd5aa27678368f",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\damaged_003_source.json": "6f3194d9bf24ec5d72d717681ed8e8e434f9d84da0cc406c1ed220ebe64e2770",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_003.JPG": "d55febcddeda0e7b344ae52576bab1df612f3d490d46b1ba48c5d57c4e8e492c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\damaged_004_source.json": "508f79afc86c44e31f175594072defb8d375ae7bf4c6c4d9e53f74d19cb958dc",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_004.JPG": "fdad2363c31f422e815a698f27b5ad2fd66d82a69d492bc8b9f007c99095b125",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\damaged_006_source.json": "ecced8ae0819dac6b12f51963214f42b635cad8537819d8a0ba0a0448b9a20ff",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_006.JPG": "fc5c935700601622e078555ec09deb2db8d1c82237dedbcb1dfe6f43dc321f8d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\damaged_008_source.json": "3741c266fdfc13ca080683a79d6978866fabb495ea0294df8742302fc0651d3a",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_008.JPG": "9247a323c41d5dc1566768f001bec92e599dc21ef322848f2c994c2dcaa0d03e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\damaged_009_source.json": "2da04603a7e48a47f2fa63e278869073ab7d4ca7afcee9b9187d116aa0c6e6fb",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_009.JPG": "ab467beee927a53ac7e9cb51c00bccc293f357516efeb0e8b6586c6bb69a42da",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\damaged_010_source.json": "b473568e03aae5d42da527feb19fab60ffd4efa19fe39d9db3426e1c21a895c6",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_010.JPG": "2f8bafe2e4f7e4c8335654d148bceef3ed3734e89da45ff65f1b81fef228aa0b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\damaged_011_source.json": "dc0a102fbefd8e3c7f615d9b068e6851530f9a2f9dd10ebd0c072e42028f87af",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_011.JPG": "a0d8f2256cf8ae2a3e7e9e65a7ff3124161e1bfd646b2914d173d0b913d7ce99",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\damaged_013_source.json": "8b250267bb7fc005abfda32cd75ce334045d72c7720d3b437d43c1a0bed25d44",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_013.JPG": "f6ff85d59a48bb02ad7ec98f24f68c8369071dab002155e5351d40066870f102",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\damaged_015_source.json": "c8a14350ac408f1e5b0f6cc2a293f2a78aaf5607666a32edb041ade9c6be8b71",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_015.JPG": "feafa7d7b5187c602a19213b22a9a0ab114b33f18d5e3a01ba6e907093484d6a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\damaged_021_source.json": "d978bd2aa5f2ee633dd6a1238f0543cc5c1a9fbf6cb5814243427a9bb1c0a2ce",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_021.JPG": "78b5956451abc8043d0aa39ca9a223bf6178583c6433912f41588c4a42196d95",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\damaged_022_source.json": "c3dbafdd65e5c58dbc2ef0c2df0f6024b530180869deb3b31718a16979534a64",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_022.JPG": "f6cc51544174f49cedcfc0e23dc8f655cd0f2c8a00393a1287860460ac9e688d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\damaged_023_source.json": "46b73bbc83db7e69ab2c2178c8c682503c034628cf02893a3980e653916f3f0b",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_023.JPG": "761d4bb5e4889c809ba67a60f7e1aa57399830f3f11575a5b1c4f28358073d76",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\damaged_025_source.json": "cd334cec760f278964788f1051a243a427aa31a16814a3fe702b43c27f3a91b4",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_025.JPG": "d54f90ba2156df18f6de2c805f4b934f4de219ec4de7043ea28fff48262612b7",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\damaged_027_source.json": "ebca35e272dd271fa36953e98308cae70710be4bb1104dbdee3633587128c753",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_027.JPG": "855329490f7782b62a7dbba7360e2d7ff030634c049e1b6bd36e0651cd13d45a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\damaged_028_source.json": "61a36d7660d3c8515aae3aa27d645bfe3fba4fd2b17d74bf688081bce34a194c",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_028.JPG": "31b8d8e41064f99a570264871fdbd8f0501e69d19816084e3c7f73857855558e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\damaged_029_source.json": "e9d5224efa25a46906d9e33a150aff5863a918b1836c95e8213fc25e33797289",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_029.JPG": "f2cbe8a151852a8fe7f1d78b76db183e0a25f4aec448b90a061a9998ecf69bf2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\damaged_030_source.json": "09480bbd8ef7e76999b6bbb2a0aa80f0257501f00058d38b656be0ad8cc8082a",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_030.JPG": "53e08cc9fb17a9c4814dc3de0e4839ae91bf1abafac3efefecc2443f125c8d67",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\damaged_033_source.json": "4b1da8446d7b03ea59717407609d6a2af94d303cfdb312df54c1fd98901cf546",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_033.JPG": "65a56eb09b8f17caee156a6709bacfb8aa7d9a277d78a40280176a08d94225a9",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\damaged_034_source.json": "703d3c834eefc8bddb8e978dd1f1733977a7f646c1f34329d62e043871880ca6",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_034.JPG": "9c173802906155fdd7d9a66b3e067e6610c46e69abf180e052174ccf396e1361",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\damaged_038_source.json": "4f8b92ef1b6a2323fc8781c9e58e9929db5f839ffc0331d9e51294480eff2e0a",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_038.JPG": "7c8ef11a45a17b6ba8c9d063bb0f5ac2c93250fc3faf8b5fe2027c0875b516ed",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\damaged_039_source.json": "51b53777bc092abc07356dfae0a8cd6fec8147069c9879d29cc1deb27d8aafa9",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_039.JPG": "1d8c957654e520f8c3f95fbd12ca9664cb3f7ce485b3d4cce20c34fec0c234cf",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\damaged_041_source.json": "ad5b457420bf4fe3947fa7d9204643afda3f9fc5bea541441b970c7f58759033",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_041.JPG": "9d1b04927594c8989020e15d3acaac3b7a1e19686f17c5b0cf8e64389d90ab3e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\damaged_042_source.json": "9566ad249f1d36869cd3c87c8fe8765f49649bbfb227e15114ff3036cdfc23fa",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_042.JPG": "3ec58e359ca01b82e238e0a05f28a1368e9bea892696443634899bcf427aba7c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\damaged_043_source.json": "3baf0027100620bce247471441e1ab831a54e90735a18c9757098133e8db4dbe",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_043.JPG": "a41a2ac757370edc82adbee60a3c325b16cf07f995e5aa799f5e2a5a0f41edbb",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\damaged_044_source.json": "2bed3a5cebd0dcd45ca5e71056257f859214da62dcd5dfb0cefb52bb8ac8a1f2",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_044.JPG": "ebfc65fa9b257f6248620e01a08c9ac5c43097737c2eb9616c8d144cdfeeddfb",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\damaged_046_source.json": "4b959c6128fd5ce68a506fcad9f71c6ef37035357ac1ced07beb5d59a430cfa1",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_046.JPG": "08e7eae28dfb21c47bf334c70ff69472b2fc2c270d0382fba6c0c3b578ded8ba",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\damaged_047_source.json": "00661aee86afc198d0916e935b565e7f4e15d43608ba0dddb5757d4a47f55637",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_047.JPG": "03433f7ca28072a6bf5ab9cecd375dde9c9d5b9222fc9b2d5f623e74190c3d38",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\damaged_048_source.json": "9f21fd04109ba93193473235f306a69605961e911ffd3bb253ae0c6b58b41bcc",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_048.JPG": "22d3e5d5e9d83835c0babcc57c67075ed5b5fe00f17e0f9817fba347a79cf874",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\damaged_049_source.json": "9c9d47429f584fa3c6e4221c68a83216fae0ddbd71d54762614c50286661d5f5",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_049.JPG": "c1d83e344d1499e6c542662a8cf4b49657fa8adb01c0d4d259626665d1ea81b1",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\damaged_050_source.json": "6c97de46ef07a8ea0396e973755b4e1e83615c6f7d41b8a0c10a65ffa8d722d1",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\damaged_050.JPG": "bba8eeca6040d0c31781e1baa6ec30377ff2f46ec174d70e528ee2bbf18c3e48",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\disconnected_001_source.json": "fb42b34e2c2707651a03411c4fd2b5ad8ea463e747fbf47abd7d6b378119f326",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_001.JPG": "1b4f5f35073af643524578f18aff934793ba1487e62246a02b969fb7169a024d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\disconnected_003_source.json": "4247f268bf51ca69a9fc4d86fb3cdfd38db7a30ea639ed1836e2eadfefb57174",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_003.JPG": "c43bea91ae66c7227b6a79b91612043d7141c6c5e9934ce8b9b861be843e8e65",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\disconnected_008_source.json": "8f84cd294b742fba3190edd284bae1590159c5ccc84d216de7c51af6e65f0db0",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_008.JPG": "6dcd5ab2ab9d89786f894ed681fedf57abc7c9b34bb3d1ece25fd77dccd4999a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\disconnected_009_source.json": "4431bbaa2a75b7f4e5b7d56332fa3101709ac9ea6353fa647fa0633890e1890a",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_009.JPG": "bcbd88a740530fb637e5288cfc4db8d21c3d876e708de7f44659cff465bfe72e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\disconnected_010_source.json": "bd085d4a512004f0b2b2546bee855e0ad423892c4595bc6aed508d1c95430b6a",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_010.JPG": "95c2ab78fb2d671819cf355e4829505c7b073678448d2bcf8cd6fd7080f2d9d4",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\disconnected_012_source.json": "e494f932cf0711688de43007a7388f4df7b855c2af92731731c84bf247648d77",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_012.JPG": "0f8a867a7e977dd87e2691978025d8c3897e3ea981c4181300772e6ae1301b1f",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\disconnected_013_source.json": "be2dee074d69137142855892b159150dfd540c6c3ce7796503424939ed946e48",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_013.JPG": "69c95ad71d5c52f0e95a7b9b0cde2b3789f51317aa33e98b548d27d7c1715ec6",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\disconnected_014_source.json": "b58279f1395b95194c249365e489fff810bbc3ba45ada9fe691843291569d431",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_014.JPG": "c33424500e03ddd88fce1779f67be826666aea3d102a328a88d3b887661d6ba8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\disconnected_015_source.json": "d2b63351a6fca8d0040429348c290beff90ccf915a080e5c1a9913e488754c55",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_015.JPG": "99b729db0c4561e01529beafe4f94c1e27c3832d434b634adc09af57cfdae5bc",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\disconnected_017_source.json": "dd25ba235742e5ce4a9feb4989e6746c042d282573075eb02651e129f553b075",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_017.JPG": "2de7617d2e6c0b53b2a4b3e431c9b6dbe233598db47d278854295bf5ddb7de11",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\disconnected_018_source.json": "f6343efb6e8d25f5398a100b7b279ceceec3e1ef9a1998da9ae6f1ca9890f02f",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_018.JPG": "efbe6552792feecc1de4867935e66dff2cbb70f9feaf18fb035d56e2d223101d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\disconnected_019_source.json": "2a48b301aab72902bdf021b69d2a13cc4d58078eac2509046514fe3b7389623f",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_019.JPG": "564223e2a53bab5d0f98f863433b77c09fee883c52ad42990694cf4cb4b02dd1",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\disconnected_021_source.json": "81eb6e82f1418dd532442ce2527a51b2a164a45a25e4908d52197ee479166672",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_021.JPG": "d160859dd5543b8387788c96f8c8f172a7065cd84f163a5df90fbfd78b894e09",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\disconnected_022_source.json": "db3a88b93bfbc92c54c073a212b2354876fb25272120bf5e3acb76ab4480b020",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_022.JPG": "02d69c8f5f8d9ba2b8900ef94e54a9beb8482ea92209d9cb55f78266c08fcddd",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\disconnected_023_source.json": "62ecfaa39aacb1204411be6feddfc30be32c7c25ef0a4cf0f60dc23bd2ee3ec6",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_023.JPG": "cda0b8b2596096ef14152cc9cc2e6aa173d506f59af4d74221ef309b35bc220e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\disconnected_024_source.json": "3a49699d3b2b656cce369e9ebc277b0bed6240ad325a377cd50418d3cee9683a",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_024.JPG": "4ed232aaecb4f51328e3e84426403f79877965e7bad39233c58517ee9aec70b2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\disconnected_025_source.json": "b0fcaa2a4b99323aa065577b906830651ac6d7bd751816d9f239f82f85c40c45",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_025.JPG": "651bb5b47b618fe906595491185b4de73951580180f81fd23a9bdc4f912ee1fd",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\disconnected_026_source.json": "7421957aad893a23c95fc3441bb61a989e4750c6a356c57ce32d2cd90aabb319",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_026.JPG": "2bdf4429efb7399a1d0a618dc619d3038e7a939af4f6d25888724d53dfd3633a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\disconnected_029_source.json": "ed728a27fda8c65c7bf1020dfd254c4e820ec32670e7e0ae5bc70f1c09c5c4ea",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_029.JPG": "ece7b170492ff1717256828ef9360a8a81c9bb87a496e13d9975e6f5f288ac19",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\disconnected_030_source.json": "c7515d82c4889e4c3129877fb5a03dc166aa0cca9ee3e2bc07269272e4a8bf9f",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_030.JPG": "d9d02fb4750caacb8e277828a6392763d40ac3399f16960f7af362cab714f358",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\disconnected_031_source.json": "f808d463548826b2cdf30294f8c217f651a77bd6e2dbdf27189d77a650b2cb84",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_031.JPG": "8744da809baff520133aa299966beec832dd842a05f70c90b2e590f370f19e9e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\disconnected_032_source.json": "f9894386cbea5678feb96c47d95dd32441dc913aee4843cb9cda24a12c1c7bbd",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_032.JPG": "1ff7d68f93e6f8e9695bf9de312a74a9ca530409df4334f34709ef94d1435327",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\disconnected_033_source.json": "2ef431767bf02dafa40fde7b5c74df6941202147ef96438478eb5a5062576102",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_033.JPG": "bbf177ef96072aafa907dc884a39beaae44d3b844fb00fc5fd6d7f0b1eebff35",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\disconnected_038_source.json": "e51bc17d9cc5b6f8cf80d291747cc07321a155c0fd41714637e731c4aa584175",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_038.JPG": "aadd789db2c8158ecf34b75d86cba476d94e6a65b4992e2fb0456c73588b0152",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\disconnected_039_source.json": "686f5bebde4029384eb4be4ed49c1889559f3e428c41ff9be9e08924cda7b019",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_039.JPG": "3ee2a0873d02d066be25b2c01e17a17a298420fa35fc9730a660f179dc59c54d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\disconnected_041_source.json": "1b8fbb364dcb1c0e830266152550b41dcf1e23292c550318dafe18555801c6d8",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_041.JPG": "80474146d1c8cb56d9bdf7544591bc8ca7b451425de7d53b73d105566e287813",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\disconnected_042_source.json": "15da1aa18258206f4bfc5e22bc9b4d9dd0c48c753bd66d6819323843d8396086",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_042.JPG": "d8b0b8f689ce8734b9cd1cca2cb95a671bd708b3441b31ef12778ab9b28a5d3e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\disconnected_043_source.json": "923ced042d462e5649ea2e1a1092eacee1b4cf658bf54db3c41dc8bfb786090f",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_043.JPG": "ab9250f00fc0d17e1795a4dc5821d863422139b1d47ac7eb399149b3c616c772",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\disconnected_044_source.json": "d01502f42c23de43d7dd4d7078ae75aa32cdafa276e805b098c13b571a6f28e7",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_044.JPG": "dceeb71dfe2c90f8baaf0ec5886cc600f2d465b8720ae2c659056955af82b828",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\disconnected_045_source.json": "f2daf927dde08a141d19067226e504db7f7f3f971569b4e0e536c26e474daf80",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_045.JPG": "634f60ad62300c927ef96667cbc08b3f8c97184e9f9a99bdf4d6e0b084db9110",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\disconnected_049_source.json": "f71a3a7c2ef17106ffc5b02e14e90f5ea021adaa816d56e6a672b097916661b4",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_049.JPG": "a4e74c013dbbef4dd9135de4a162e14804d1c0f0ae5ecdfa3e7eedd131930713",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\disconnected_050_source.json": "7a7e80b26c477ebad9fe5296d160fb7872b47b5bf3029bddd79f77135e6ccc0e",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\disconnected_050.JPG": "1d2a6cdf50dc05fe6dbdd60e0741c1dc21f61fcd43e0c2130504e0e88d1230c3",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\misrouted_002_source.json": "d8b1b2174822f518c9ae31358d56f70ab0330212997c3eac9fee5397af5eed7a",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\misrouted_002.JPG": "f803292ec4cbba7698789219861c369b87acaf00739e64988cea628f2ac2718d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\misrouted_003_source.json": "c6ebc994a1a8e383d9ed4fffe19d50244adeb623e62d1b52a54222eb8cd2fc5f",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\misrouted_003.JPG": "d4e874a48f01de32531d337051d1aa5fd9c1dfcda596ec6952ec19128e2474dc",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\misrouted_006_source.json": "cbdbef523e9f678b1b4e6b4f611e7e89dcf841e5d63e275ab5d005971c74b2b2",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\misrouted_006.JPG": "8f9a25252e0c1f9f4c14b660167487674c139ebe431513a07f8688fbf4afb905",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\misrouted_007_source.json": "1f4391f45732c5321e019327e688f00388e93ab5a832a6b70a2cf33a7406cb99",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\misrouted_007.JPG": "f1b8da1d4f85b860ed95453b4e77f0de6ce4f17eba4e042889a2936b8113551c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\misrouted_008_source.json": "5523dc5487f46df896f4db5e9dca1f184863115df05dd22a2f6a09ed6b24b55e",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\misrouted_008.JPG": "068db2b5f88d70af242701aeb7b5670967e256bb7fdd24fc89d0866400ba2775",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\misrouted_011_source.json": "8713aff58b35c9b678f21c340280ae3f2c04ed3bf14c80b32591ca7406d4cdb2",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\misrouted_011.JPG": "5178357cc927cac8c917789667ec90b76fc8ccc5c7ef84193627c3787b2da325",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\misrouted_013_source.json": "44d353b6bade78c0787af5fb5b7fd5e0c04ee71b286b1a1811d4550d53363632",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\misrouted_013.JPG": "64eb590daa172beb5aa18ed1978e021716b2075203767458aa85af8cb9c318af",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\misrouted_019_source.json": "1d9d0eedc662d1ac37baca1237e0029f1ab66a214e8f8d293bde1c0e31bf553b",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\misrouted_019.JPG": "b263614361881d915c054aa1388d888a122ad9b278ce3a6a93db880fb82902c5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\misrouted_021_source.json": "170e5b0d071b5f2ee8915e5e2801ffb227f04c4f7bb7dc358f582025b1320eac",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\misrouted_021.JPG": "66a795728098e7b6a310e21dda520cea51b9d399d32546f9280044f41078136c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\misrouted_029_source.json": "3c194eaa3ccf96572759991d6baa5393b977970a6e1e07647ee747e99a6840fb",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\misrouted_029.JPG": "d0a68ae551d319bbb40a887f32f4065578f0e9c38f59fedca755f1862ce917f0",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\misrouted_030_source.json": "1c22c7ded348514036a8119d3b112fdc1554e362e3a076315ded72636f4ec767",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\misrouted_030.JPG": "2779d883dc33a03b04494468d67c317f8018fb0607ad360c5cdff06509f53fa7",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\misrouted_031_source.json": "745711280afeb84055e3b08605e7925dab30fde28b1d9722e9800d3cc4e63164",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\misrouted_031.JPG": "1551144a0f1a5a1f7d2fe5f28543c59c0a65bd78f8ccd2843cb976849522ef7e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\misrouted_032_source.json": "4c83dc91c1c580dc0ac391c167ea8a51a3aa7a71703cf454561a6ab895a2099b",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\misrouted_032.JPG": "229f2e46b056149d822040adc3815cf24465f26c9a24b8faab9debcef9c60647",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\misrouted_033_source.json": "d071dbb3128b8cc42632569f630a7d220e092cbcc413461423dd80fd57a5f20f",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\misrouted_033.JPG": "c053f84c73541d5ccc1b5e1b753a5f68e028de3058986523621210b6b473c5fe",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\misrouted_037_source.json": "fdb71d4859b905d03c736a7841dfbaddf1d9c4e509040c64bcb171326b7bbbe4",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\misrouted_037.JPG": "739fd4cd4d2ed4a6f7e3524610540094077b86ad4e379defa030d80bd63a1f43",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\misrouted_038_source.json": "3edea15c43c0b2782b88c0834d073bc78d01163eac39eda47ffb556feb1a3e66",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\misrouted_038.JPG": "7b8455ec6bb9c3cb760071369b9715dd25b36920f75c9e5a8fe4421eab413bab",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\misrouted_041_source.json": "9daec876df7ab7f402082aae33fb27531f45da4cc894636a0253f5ef5f296e67",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\misrouted_041.JPG": "80e9fd4ad6a16b182f53d0723a1664ede7c6cd6773b2934fc439624665f8e9a5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\misrouted_043_source.json": "878429857053b73fa7c78a77e56d8f85fd9b74839535d184a1e79f1bf0b6ed26",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\misrouted_043.JPG": "f3a8ba030e001ba2393a137c5fb5399f759ba793ef956b87a27cbbb93785ce3f",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\misrouted_044_source.json": "d5ff154e1971fb5487d1d6a9f487e399e45a5ff8ed095d674348d305322547ed",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\misrouted_044.JPG": "da11dc3fc3917c3e2bfe6c24583fd1b989abc920be95b4ced2e6c2a6d6946b5c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\misrouted_045_source.json": "eeca1c625fa2302ec02c64c69266f4b2809e540f8d54e52048f60718b305cffc",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\misrouted_045.JPG": "94e731c97bfa79177ddacde18129e7292a5992148b016c8742365ef4fff1eb20",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\misrouted_046_source.json": "08a8896a20f7dbe0dbe4f446fe07516f05d5d36ba528b4209a92fc43570a2f47",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\misrouted_046.JPG": "1c3fb2a08c93f79b4b5b7f5b60cf40ee8464b039797c8bdfdd06b203b1e6536e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\misrouted_047_source.json": "8d77ec10e901deb1c301563f569ed59c5c3295beb523953b7984b71fb5a34830",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\misrouted_047.JPG": "74c9d184576f1969e0f314cfdc762535edf4b05a83e83bda7e09da21c98716de",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\misrouted_048_source.json": "b1255ca8363a39bd214b0602de53b356f39f4c56762587182a1cfb3ef73b0dd5",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\misrouted_048.JPG": "b1b19189de481670cf5dba506d88f5ce9a26799aa4cdd33b7f193ccddda1833a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\misrouted_049_source.json": "aa6612a5093f6f4582f9ddea21fb53b15bbad7c6550df047562ab7ed2e0d490d",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\misrouted_049.JPG": "89d0ff0aae785eb2a2f9dd0661553c986157eb397c8bfd8ef3f3b9e53b8406c8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_002_source.json": "90beef85ea316a4e3ff4011eb41fc876123bd07bfaed500e9cb03ef8377b752f",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_002.JPG": "573e90834cb39b97bcc6952a5a54b3a3c53fd95ac08a4c985f8ca436bfe00638",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_003_source.json": "9dc9ca96f585f12f35ccaa02be840370f0be06ac22706490417a71e2e184b90f",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_003.JPG": "e201ef854c0e0623a33a115703f9627631acdce41cd6dfef57590af320ccdba4",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_005_source.json": "6eefbea9d5cd23cd2d32865621765063947ade80e570efff27f8dd54254ca218",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_005.JPG": "0a39f4517cf7c35f696e04d532f5f55fb2e3e39320652e97ad8bfa1725bd5a8d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_008_source.json": "fd85aaf7756de6d8332beb48b4db6a7d0d864f5ac58fe1a16fc95b699a4e18f8",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_008.JPG": "325c69c38f43be574a1bc80099ced1a485b8616013b04116f99898909db2a949",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_010_source.json": "c6d23bb85c2179d1e5276613d7c7ae92dddd2f9fdb63b564cf1bc9381812db57",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_010.JPG": "da06eecfc96c6ec9ae6e6afdc295bf78c5a63b0e6baf44633bc39a45ff63c573",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_012_source.json": "0c032e2cc51cc8a161c9b1c1530b8d3aa2e204388db02439fa1e891cbfed2258",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_012.JPG": "c3f8e92c92f8a93c9f89d48ea887e3b4c3c7112f59744e839124fdb050a90bf8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_013_source.json": "4e24b6354d40729a7b9d54b476a7c77e8bb0b4e0306b7fb847375b318d08fa2a",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_013.JPG": "de5b7d1b67d689166e1cdcd0169725e4fedf3186346473cf9c28b2957ab656c6",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_015_source.json": "3e56835c920dd234cac6ee3697d374bc9a54b6110b651fc34f02584c68d226b7",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_015.JPG": "503c56a5f8cc530cbb8ae61dad7fb68ae3d20f85d7c7564353606accc0a14b2d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_016_source.json": "da4a1867e1b9d60c696a524ad541748c46545232e741110a4755d4e173e0c9dd",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_016.JPG": "2d7c8f0ff27c0d531b0f6f3bc9d0e313ca39c08e328707ca536fa242df56acba",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_018_source.json": "fdc2a6209779ecf8b35979e1bb3001542eadcf0eeef521469208bbc51e922778",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_018.JPG": "ab65de27afeed5af6e4312d429cfe9c952390aa272713a6f91434caf1e35ea70",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_019_source.json": "a376c19bbe87d065743c8b40547b4c9143e63169f18dccd7febab4b5e7881c23",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_019.JPG": "bd482df48c4993cf90c47a08b26be97bf42cc1777e103e78c9c556004fff6d7d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_020_source.json": "f029021c01dc24c91a7cf998166e7932bf896d7c6d423c7b9fd22ac326b259f4",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_020.JPG": "1f382447b892114bd9263f301e869dca5c6c5420d9a30e6db1e6fb30fdf72325",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_021_source.json": "44a70569b92740ae36e14c928216094216735a650c9ea3af8f72845ae954d92b",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_021.JPG": "cce81f38ac5ce09b0678e9d99d544f2bbab14046adfcb932c6a540d615670cc0",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_022_source.json": "b76702ac0d2b57304450a7ebadf99b54d90f41c2c96d23763a7b294bdfcc67e8",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_022.JPG": "33375edbbc7390b5594279d2c7ddc1e1c80b5b0a8b737c033418dd3ee1ed060f",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_023_source.json": "0ca912dd97108f70f808e2de17064cdae32a6d7495c89e719c2edd81961202d9",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_023.JPG": "e0e8d00e8c0cf1e34356895f55096ad5222c3e3bf163369e5b4c35bc14e0aedd",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_025_source.json": "21a4cf20fcc617d436eea7313cae74bc557461904b6ae4bb67f10ce5e0f45620",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_025.JPG": "0a4487cb149be51e1a59814deeb632ba5aafd7e6959efeb874bf9b2297491f4a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_026_source.json": "7f874b5f726cb281db8b04174f43d5d8991c9ee779e80c9158dfb3d6475524bb",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_026.JPG": "2ca1450093787494db20526803a2f480a65d466f7511418cfd013d6f16ccd8af",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_027_source.json": "8095852d2a72d3fc8c02c3e7c5150b148df75bfa05d6862f6eb9f29c246d62da",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_027.JPG": "d2bddfb2eb8b89c3c997384484adef19f56581e2c1c47b407ed39c7e5c08606c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_029_source.json": "b14cdc03e805f7fc2de775aecbda10770e69c1bc7ffaf9229c8424242208aad2",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_029.JPG": "b5ce158a4e767a580cc69d1b4800b16f8dc398674ec3bc9b6a2ecd7ef32940cf",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_031_source.json": "a3191aa32cc10d81849f1176eb13b4af2db0ac28ea481c62e6eb2754ae67f3eb",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_031.JPG": "373c9709b3fcb3b6dff1895b9b7ef7531a91c3141afb5033a41cf29719f915df",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_032_source.json": "dec78baabea109789deb97e75c844c5c6e4fee16ef8426fe09a38db6cfa200ce",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_032.JPG": "997fab400395ec82c8a1583a4cdcd0358ca937ddb095fc391d9b123e241aed5a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_033_source.json": "508a00cc4099622de99e879adceecdf6ca948f5885656e200fa33ce0f8bf3836",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_033.JPG": "ea6c4bbee1547fab07ca9bb6fd731387ceba07209e1fa6bd11df7dc007da5021",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_034_source.json": "9c7c7916da3ed533a3ea978db02541f5b6ef9facbe70c73e283d16587273c338",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_034.JPG": "9b0278d0526ac53d1649a934969e1ef8a62a785c49eb87cc9728578ebc4737bd",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_035_source.json": "71d83dccc5e413309b7a385ae308c4fcab4b4999cb5495948306b2153b1e7783",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_035.JPG": "17971321cce2c777d8b1dbab78b8403d269df28af7a8e7b3b82f7fec1600be45",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_037_source.json": "0d27328625ceabb44d44b5ad6ce80a01655d4754d94fcfd2c7febfef81e5dbad",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_037.JPG": "69f8c05aef9333b6af30592e48e548690407f1925978a726c6fe1bfd5d224767",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_039_source.json": "ecfdb02f805b1fd4dff98f3d77d2de16f0307f600d3a1b6362523def0b3070ef",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_039.JPG": "4930f1b5f4a28368bd52fad160ed7bb9230ab95cf6d1ab773902152db580b110",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_040_source.json": "efcae9533b8fe88d3b29b1fefdfa71db2cc4b85dcac5e7e50d48c18380376b64",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_040.JPG": "e333ee4d6d95737e71a93619f96dcafb6370bbde6d4c9c2808750ed1a1fa1714",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_045_source.json": "3cbb36a75384cc2fb251d15c83069692f01cb49893c7328400799478fe9a4587",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_045.JPG": "c9e6dbf3d49c56338fda97e7680adeab7d16bec4fd4a3e62db13cf830bf1c6b7",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_046_source.json": "dc7cb4e1fd3f1d570df67ddef4e946f03af7c7f9ecc43de369cd5c1df9bb0e1f",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_046.JPG": "3e1b61386d3aebee44c3b6d34c83cc8b29739aa1267aec3e66e244562a7ddf6c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_048_source.json": "ebac2eae95c9f64c4d7cdf83e246e233080a9fe18f149abf5c609c53c643fc96",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_048.JPG": "fee2f30cd525411ff58103c23fa34b43e057b2657c5f69b05bec3d102ba2fb34",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_051_source.json": "c3ad6340a38d7773c14d1923f5368d36769c9056c0961f1593592d4439404162",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_051.JPG": "cd467f125191a2ab2618a38a3edfd99d23f1e96abf42d444cc303a1845f3d417",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_052_source.json": "9c2d81f91a12ad9dd822452b1151c9515416b17e9e5345365724ea574ef7cc08",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_052.JPG": "7f57a27e004746b5acbfee2b79befb2253a398248308c594f65628ac8ce51ff7",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_054_source.json": "b8bca8ef9d71d274078348f220ea549e3cc796200dd86bf9f8dd0b0f4810eb41",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_054.JPG": "629c05a520d0964815d1ef5027d12868f2b8ed2f2671fc1ebfac3f45c9248b99",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_055_source.json": "4f1b22536990da86411e42aa8db97dd1fe058a3a3ca5e89be967be41879101b2",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_055.JPG": "76abb8d1e45252db735f33bff49e95dfcd5acc1ac49ee7032c934e68d4b34fb1",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_056_source.json": "b0d344a46e81b2a5f425ddd91e0aa6dbddf87889af660d820f1e10cff267df3f",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_056.JPG": "2911031e291c58c1af909277e6e18121347c9009317ef6feb9853097e7bb82a2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_057_source.json": "4174ef7d8e84c5ac4d71d7ce4c1c4f561b3973295a6502dc9e211148470899ae",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_057.JPG": "356346a2a2fa4fb9424d883b58b4a68469d2c18f71420c20630920f632f486c3",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_058_source.json": "2478ce19f27bd70829b9c749fec976067fbb036fbc2f8bd9780c4d970bd39f4b",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_058.JPG": "c8a5dfb4055bf69271e745cea7ea85ed755437ce2d307a48185a2283a03e3c39",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_063_source.json": "9c855131ed4386f3dbecc80d3db4baef5bd72d21935801fbe9c89e9abf574dd0",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_063.JPG": "84214bafdd32ab621db984f22d4085b1e9e5ccafb0058daee435ccea723a5712",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_064_source.json": "486c7cd962082d49bf8a72335513c1d77547df83fe914cb60d1121b191daa8d1",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_064.JPG": "a88f9e046fbd6cbc27f54dbbc2a8208783ea684c80f86e9d127ffdd11de9ae43",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_065_source.json": "543691d0ffbd09abbe0db3a2a9f7a1b0a602533c24eda095ddfe32cdef2f66b5",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_065.JPG": "d952dd08d442a42eddb7fc0ce22ee047d7b66765db66ca491c12ce165ad0a0bf",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_068_source.json": "3f08b182126ae27ae972746ce3dd9575235d1c737f8db6f088133c8cf58d39fc",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_068.JPG": "399edbb81ad3b628e389a2b973e6a89966e67435d971c0ba8581916f7d60c271",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_069_source.json": "2127188c29f0e5292298760918dec881f462911a47400676e587c7e87e356244",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_069.JPG": "c467d6eec1979cd30726c0bca3ca691ebc58d35e5747796ed415664b6e08d57e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_070_source.json": "26ed4a8a61c8772ea4c2663c90f7cffe820498429e5416c2cda537a98c9b5375",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_070.JPG": "cd82b753a8955c4b7513a1e9ff14aece82f97eb1b152b7c6b05ec595d8ae6a97",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_071_source.json": "415769ed7a469e5db20bafb004200a578db45a7430d147c71d17322e1a1dd425",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_071.JPG": "d1c93f9e959da0db4a3b37b80ca46dd869d15da30d86839cf3a3d3c52ec4e3b6",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_073_source.json": "533725a43e34f834292185d9b66b4f0f1de15277554a598eb9b45f56969e4459",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_074_source.json": "8dc70b071269050c5daaee3b2f08bd57e38b6599a093bfeccdf860b4e843830c",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_074.JPG": "8b7ccf1d04475ba6a554d2c84602f35fc0ec0ed16ffa1742ce11c4ae767b0e8d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_075_source.json": "8e7fdbe7c48370b9e9f7f741d27ee818ad73230253fe923780108ee384864918",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_075.JPG": "600eede011642c9bad453e642b4c43d87cc1b61565f961cff6111cc8fca48a0d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_076_source.json": "fc55cff0cd1e758bb886a53142c1876b3c4b5d78e468e1a58ebf18056de6b55d",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_076.JPG": "589ee3635d215ddbdb11741d17e1056bc2f43029b67f8c56270f7a3cc97c8fcc",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_077_source.json": "5f5d64f6a09908d860cdf392fd20f29dcd3945c6f838662bef733b76417e77f7",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_077.JPG": "42f2a2b291b7e34a9973c2d2e9d4c3909cb8df3c50b411457d9957526d4182f0",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_080_source.json": "267ef4d3a39807afc9e3aaf24560f036316bbbc18ad0d8bfb9a525ff45acf21e",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_080.JPG": "adba8241b94bf907c7417cc45d3dda4208a7aabd3ae5cc0deca5115fa432cbc0",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_081_source.json": "d7ce77681147b0551c18549e9bc852771f92f09cb58ede028f5d982aaf89def8",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_081.JPG": "0e8767b638403411450fc071faf3992e23468fd939d2c6f9e471b62cedc1670e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_085_source.json": "5462245af07aae2ea96865263ca317ce245b261ac769d55451a9920f58adce40",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_085.JPG": "973aab0a85534d77026afe15549fc2806aee05a826e07b1e5478de33b84ba47c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_087_source.json": "6756d7b9d6fa9499138f638355f4b18a85432ab18824f096cef269f6bfd84212",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_087.JPG": "4fe2295182c13a8d913d1e7a92059b5e12c26e5ffa27c80d6e2ccd5d215c6e07",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_088_source.json": "19db48e2bc890fd4ee159d64d96c4c193b4005342c0aa9715889bbbb21dac1f1",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_088.JPG": "7213624d13d3f668f07b2d0b447e1787e1db1c99ecb030221f066ac9a1004038",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_089_source.json": "c5501d2eb115d711b693629eac57ef5a169a4276534c8cf05848d8c68a88c849",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_089.JPG": "ded7c620b71438d6f1a0eed6b38e0a1e1442b05d8896d9850950efc8d1a2864f",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_090_source.json": "50d5daea63aa80e8d87d855b21a700b4237178474d155ddb46db5a3ab42599d7",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_090.JPG": "1c0542f6668e02a529284cfd5afdbcc3522eb150b6c6d495302d4aa4034bb49a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_091_source.json": "f4e514b98431eccf43a92eb63fd8612afec42cf247600bef4b007f7fb0d45158",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_091.JPG": "34981c61206e1bb5d9e9fde2fde533b3f6c1ca4fcbd4671af5776cc02dec3cb7",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_092_source.json": "d08b79b9029b743a712a236c82e45b708d79a0c84d549a8beae0b75eb948353e",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_092.JPG": "7348a7178a0e68b25d1b89c4af1da37bba345a65bad2abfa08a72b5fca092929",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_094_source.json": "8970c5a89649820f7fc970742ef8324c288e38fbb7312fb9154c73192fe0eec7",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_094.JPG": "a1c1f3c3de25a4da49316a32e76507cbadfc6b049351d8309d71ddfc24a27fa8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_095_source.json": "4aa63a08ba61144c9bb7930de064aa62a5660247d60e0dd13ad6c1dcaafcc4cb",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_095.JPG": "3a1346a625120f27de145e1082db33e8ea5e9ed9ae81ea3fc3ee62a48353cf76",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_097_source.json": "806d342ac53b9c2644764b1799baca57243da2fe4fec5262c1969fe40c565192",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_097.JPG": "c268dd167e6272a969db20c07542df55101eeb3330e8925f45815c97d8e7ba82",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_098_source.json": "a77398ced05db560cac4782294a31d338cfab5e604160586929062480050098d",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_098.JPG": "7e4d3fc63ee7dfa89f59aff85fe74f1d1a7cae3a671e6fecbf63f88bc4663a81",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_101_source.json": "314387541c187c54cf686171247e7ec10ae63da9bb624d38f689b5b1b179089e",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_101.JPG": "9289a3ce4fec86c76f15a8ef3349de8d6694ad9e11614c0145c4536ac22fa32b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_103_source.json": "9ae01911c8f7d68e68cac2206871c5aa37e1dfe6bf415ea16907e63a0860472d",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_103.JPG": "3d7af830ac0e411ea8606ae5aa3f97079fb8711518c2ce875e8134e2408335d8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_106_source.json": "c268daf7443ddc6f11d8ea36dce4435629cbbf03b9113af653e2125d9dc09448",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_106.JPG": "b481ddf9260dd4ae4aa86ccff1228f2865c7a70814b8cb0ea186b0d26e2fe3da",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_108_source.json": "e02a9e269b591939582d263f8d3e4dc2a1bf44cd016ae2537aed7f01ee4688ab",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_108.JPG": "600cdf53c1cabc57a53290b3fded4f9c64feb83a7ccc78bb874e23edd050d052",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_109_source.json": "31718e63becd77426124230ff8586f0700ded2a119c168859bfee704623efd49",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_109.JPG": "e6b1ef3fe84ac748a44e1e5e99367065f5870d96dd8634b50770a94d4df997b6",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_110_source.json": "9e70db4ab5e920a657fcdc62a2dad9d4c39a80a0fc9f2124bbf6f81f4e6738ab",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_110.JPG": "7fb537746b981954ab0497208b6faae95c233869336a147e15ff18a054b40a15",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_111_source.json": "b4fc30b26a5e9cb71e5ea9fe9dbcc44bd65ca01e140b3db2dabd9264561dbe95",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_111.JPG": "74726a9d41486cb4a2d0cbe7b857f8da59b290380cc456fcb057810f2fdcf1ea",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_112_source.json": "29dcd0094cca9955c9c35fff86c6caf9aa9225291610f332bda99aaef734dd3a",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_112.JPG": "65f01a714ad25f0b355d06574e9f23b96facc6df80a0eed5cf5659d6f22d928f",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_114_source.json": "48980f12c888e5bb1c21c51fecee9b272f6c9822e1dcee61f972bfe8148bc54c",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_114.JPG": "834eb9fc88fd75feffc6dbe20ce250de8eff390322a0d91112bd374de0251b9b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_116_source.json": "fa1466e920b751dbb8b0aa55e6309789cb75847c398f3f543786b9ee479b8a1c",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_116.JPG": "5ca897b6521f27dd23f6ee46a2cec8ce350d54c798218cb0c83b695560eb7dbf",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_117_source.json": "a185ecbffe3e3bc6218672e3f60200a237fc52279ffb542c8cd87499a2070d0e",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_117.JPG": "8cce1a0dce4d1c3aeb0f9dcfdeae5add9e47f6d0f2e30eb54e3501197c13e2ce",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_118_source.json": "1889ac2bc8f4ba581835d51773b6b771518271578270592fee18763c5576a22c",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_118.JPG": "12cba41f8d57a2860ffde3fe199d076927e7c38cf92d006fc96e89fc65559f83",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_121_source.json": "85e6bf193dedaa41bbed5d4d0f41d18a9d5c84c70914d20ebc531d4cbc297347",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_121.JPG": "ad71a8a06e6c5f02bfe74c0852c638e951d25d43501d1bd796ef801520b8e9d4",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_122_source.json": "d5ae0a01fead294fcacf789c78fe5af5f176f4df0b9327207ff45c397e11fc9d",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_122.JPG": "a3558dd841e5d4ef6d914166bb19e5ed62a8a100d109a211af1eedf4d3e1aff0",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_123_source.json": "0dfb322e50685ac52ce2ac41bceb65a92951d354321f1589e736fa2f36a776e6",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_123.JPG": "c27efbe9ebde9eefb2fcef03d7efe6ef66d53a89a8a5cfbe51124c2aa267eed1",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_125_source.json": "011ac6c67052355db5d3ad00ee730a706bd0136a309464379a9dc1c7e5d00e08",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_125.JPG": "f09a891b2d067b1f32b2d3d7e254d295138250ead6c312fd1bb3bb3571b3431c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_127_source.json": "b8c0f821c4b88f603bc3f4c30d5fcc03d6779871cbfe73cb9f470ecec119870c",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_127.JPG": "94bc8ee57c887a2223ccff75f415939a91501a170cf872a108ec4abfe3543ee1",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_128_source.json": "dfbcbc11054ceda621e67389bfdf14e00c6021c9663750c045d4ff7b700c85e5",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_128.JPG": "ab3cc26fe28f1bcbcdb4e92bd582aba11596e4eb2a2c0791638d5be00dc2f5e2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_130_source.json": "002d2a619785123042d2cde5b4e4f62c9b8ff15d3a5851cf4fcaca257db800d0",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_130.JPG": "66b4dea25dd5a30895c0cfc9e5acbd24ca308f14d175a1f066e73de933e288c8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_131_source.json": "052107de636d51160194d181b8af41f7e922ad8327e145b044dfde8fdeadbe07",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_131.JPG": "9f9a6497cd3c0a9a81c324d10eec850fe197c0d110ab7e9f6d64e0b0a52ffa0d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_133_source.json": "26c5cef609f6987543d56929271956b62122f654dae8acc03074b5ac9dffaec2",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_133.JPG": "22b2867970a8c5e0cb1a9e0153c84e1028c74d59d41f869897c4ce647993e669",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_134_source.json": "6bfa65e5cdef47fe5c5c20dc613ef316da3adf11d4b4f2b14ab4c96e4cab9395",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_134.JPG": "52fbcef10e7242ea656a0a4e6de7ed4db0f5b5b0223f669f62ccc8dfa40297c5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_135_source.json": "e40759b304539366ea61f45fede4646f170cbfc195325f7560b93754a13834ee",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_135.JPG": "dec8335ace1ce36fc88169f11da61a6e31ca39011d11fe3d5c4430d58debf7f0",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_137_source.json": "23897bb3bde7fc12e4db37bae6ac043d12f815efa87607359ff73f428d3d7735",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_137.JPG": "0ecd55480120bb14e0a39a5c46ddd1f6520863c91879d53ca409a3185807dab9",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_139_source.json": "d9148acdce6323296c1cfddf4465ec435b17ec051f4a2360fc2b6672dd0246f2",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_139.JPG": "fa3c4f47da15820525c4016e80d6e01c1aae291ccc3f9386b5a174f03cb4ede4",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_140_source.json": "6068a3fd2eff9f350f1939c703d658470aad0cee42cd2e0173a68da39b769593",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_140.JPG": "325d71ec902a0bd5c2e1700652a26b65835c9046f69361359aeb14c0f6c30e5a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_141_source.json": "eedb7c60f952d7e5a3ed50f2b656f05a938076052f18d70a9f5a0fc0f30b78eb",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_141.JPG": "0adf4e518e9b294ab5077a565f700d8c5ff51755ea243c7b50f0a7af28b1a47b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_142_source.json": "3577d2445b89c2e488fb7dd610b5354773e931f2c5562b2d75c87db7cc1a397b",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_142.JPG": "154ec71d85e0b0c0622577b1a0ae2914b46aae76d6becfa74c0f94865a8db6f3",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_143_source.json": "1b011a94f9606e7e43d2d638d7cf0aa2af1d3302a8368d7ea073f9ac8e8462a6",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_143.JPG": "db3f9e6d9ee121a7cdf2abb644f895575c7e669bc8cf904cfdfb9329b058dcb6",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_145_source.json": "5c00d059b32e058ad9cec483a4f0b98d522f709a1882378d160411e4a49f4a8c",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_145.JPG": "aed007d4bd23683161f00f90c98091583e63ef89adacc61f0adbfd0f754f631f",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_146_source.json": "dc8f3d4c6813d0d655a342c4c46cb884fd520e05a97ef648e46516e53a5f0141",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_146.JPG": "fa31487a90f1f2b305b28cf2ac2911b4e044ea19e3650432f49bd952c7cc2253",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_147_source.json": "c8a54710c54388c42c74e5981c0f3d536b78dfc41e2639e1d013b694362e93d1",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_147.JPG": "858cedae2cb545231c2a2384d19e454226586343b1f2d9afcadc6836d3a77e63",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_149_source.json": "720a3072f1f0d1a005e7cdddab3c1036dd09628072280ffb308e866b8f97be7f",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_149.JPG": "be9e0c8fd40552dd2640f0fb037ad7fd7954c053b4d51bfdee8f2ed982836501",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_port_semantics_20261003\\features_train\\normal_150_source.json": "6f4136a5c72327ac8bf7cbbe102b21f003a4d4c7ab04c90f72acaebc080fd664",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\images\\train01\\normal_150.JPG": "bcc9ef4db221ad9ee45976e56517613f03c71cd00c07a084c0a891f0b8df9602"
+  },
+  "seconds": 203.02,
+  "no_labels_used": true,
+  "no_training": true,
+  "no_deployment": true,
+  "field_accuracy": false
+}

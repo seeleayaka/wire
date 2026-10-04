@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "train_sources": 192,
+  "cached_native_features": 679,
+  "positive_examples": 2667,
+  "summary": {
+    "missed_targets": 49,
+    "original_possible_coverage": 2,
+    "union_possible_coverage": 2,
+    "newly_possible_targets": 0
+  },
+  "independent_regression_tensor_head_vote_geometry_and_GT_replay": true,
+  "supplemental_all192_alternative_input_hashes_verified": true,
+  "source_report_sha256": "1f616c44ff9cecfedaabc35a59360aab51db49a2a5f521543e870492cfacd12e",
+  "no_classifier_accuracy_measured": true,
+  "no_deployment": true,
+  "field_accuracy": false
+}

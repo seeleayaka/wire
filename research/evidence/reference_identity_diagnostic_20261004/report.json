@@ -1,0 +1,2659 @@
+{
+  "status": "complete",
+  "sources": 192,
+  "proposals": 2002,
+  "reference_identity_class_counts": [
+    2001,
+    0,
+    1
+  ],
+  "reference_identity_confident_positive": 0,
+  "added_cues": 2,
+  "added_cues_reference_confident_other": 2,
+  "cases": [
+    {
+      "image": "damaged_001.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "damaged_002.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "damaged_003.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "damaged_004.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "damaged_006.JPG",
+      "proposals": 12,
+      "reference_identity_class_counts": [
+        12,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "damaged_008.JPG",
+      "proposals": 77,
+      "reference_identity_class_counts": [
+        77,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 1,
+      "added_cues_reference_confident_other": 1,
+      "additions": [
+        {
+          "box": [
+            2111.9263916015625,
+            850.6896514892578,
+            2228.6959228515625,
+            948.4032745361328
+          ],
+          "class_id": 0,
+          "reference_identity_probabilities": [
+            0.9998989105224609,
+            9.74961367319338e-05,
+            3.63047229257063e-06
+          ]
+        }
+      ]
+    },
+    {
+      "image": "damaged_009.JPG",
+      "proposals": 70,
+      "reference_identity_class_counts": [
+        70,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "damaged_010.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "damaged_011.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "damaged_013.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "damaged_015.JPG",
+      "proposals": 21,
+      "reference_identity_class_counts": [
+        21,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "damaged_021.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "damaged_022.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "damaged_023.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "damaged_025.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "damaged_027.JPG",
+      "proposals": 28,
+      "reference_identity_class_counts": [
+        28,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "damaged_028.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "damaged_029.JPG",
+      "proposals": 21,
+      "reference_identity_class_counts": [
+        21,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "damaged_030.JPG",
+      "proposals": 28,
+      "reference_identity_class_counts": [
+        28,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "damaged_033.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "damaged_034.JPG",
+      "proposals": 21,
+      "reference_identity_class_counts": [
+        21,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "damaged_038.JPG",
+      "proposals": 42,
+      "reference_identity_class_counts": [
+        42,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "damaged_039.JPG",
+      "proposals": 53,
+      "reference_identity_class_counts": [
+        53,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "damaged_041.JPG",
+      "proposals": 28,
+      "reference_identity_class_counts": [
+        28,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "damaged_042.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "damaged_043.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "damaged_044.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "damaged_046.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "damaged_047.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "damaged_048.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "damaged_049.JPG",
+      "proposals": 28,
+      "reference_identity_class_counts": [
+        28,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "damaged_050.JPG",
+      "proposals": 35,
+      "reference_identity_class_counts": [
+        35,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "disconnected_001.JPG",
+      "proposals": 36,
+      "reference_identity_class_counts": [
+        36,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "disconnected_003.JPG",
+      "proposals": 47,
+      "reference_identity_class_counts": [
+        47,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "disconnected_008.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "disconnected_009.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "disconnected_010.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "disconnected_012.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "disconnected_013.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "disconnected_014.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "disconnected_015.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "disconnected_017.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "disconnected_018.JPG",
+      "proposals": 73,
+      "reference_identity_class_counts": [
+        73,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "disconnected_019.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "disconnected_021.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "disconnected_022.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "disconnected_023.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "disconnected_024.JPG",
+      "proposals": 67,
+      "reference_identity_class_counts": [
+        67,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "disconnected_025.JPG",
+      "proposals": 42,
+      "reference_identity_class_counts": [
+        42,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "disconnected_026.JPG",
+      "proposals": 48,
+      "reference_identity_class_counts": [
+        48,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "disconnected_029.JPG",
+      "proposals": 86,
+      "reference_identity_class_counts": [
+        86,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "disconnected_030.JPG",
+      "proposals": 3,
+      "reference_identity_class_counts": [
+        3,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "disconnected_031.JPG",
+      "proposals": 12,
+      "reference_identity_class_counts": [
+        12,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "disconnected_032.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "disconnected_033.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "disconnected_038.JPG",
+      "proposals": 28,
+      "reference_identity_class_counts": [
+        28,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "disconnected_039.JPG",
+      "proposals": 30,
+      "reference_identity_class_counts": [
+        30,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "disconnected_041.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "disconnected_042.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "disconnected_043.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "disconnected_044.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "disconnected_045.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "disconnected_049.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "disconnected_050.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "misrouted_002.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "misrouted_003.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "misrouted_004.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "misrouted_006.JPG",
+      "proposals": 35,
+      "reference_identity_class_counts": [
+        35,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "misrouted_007.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "misrouted_008.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "misrouted_009.JPG",
+      "proposals": 28,
+      "reference_identity_class_counts": [
+        28,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "misrouted_011.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "misrouted_013.JPG",
+      "proposals": 35,
+      "reference_identity_class_counts": [
+        35,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "misrouted_014.JPG",
+      "proposals": 21,
+      "reference_identity_class_counts": [
+        21,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "misrouted_015.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "misrouted_016.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "misrouted_018.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "misrouted_019.JPG",
+      "proposals": 45,
+      "reference_identity_class_counts": [
+        45,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "misrouted_021.JPG",
+      "proposals": 35,
+      "reference_identity_class_counts": [
+        34,
+        0,
+        1
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "misrouted_022.JPG",
+      "proposals": 35,
+      "reference_identity_class_counts": [
+        35,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "misrouted_026.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "misrouted_029.JPG",
+      "proposals": 56,
+      "reference_identity_class_counts": [
+        56,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "misrouted_030.JPG",
+      "proposals": 28,
+      "reference_identity_class_counts": [
+        28,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "misrouted_031.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "misrouted_032.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "misrouted_033.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "misrouted_037.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "misrouted_038.JPG",
+      "proposals": 96,
+      "reference_identity_class_counts": [
+        96,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "misrouted_041.JPG",
+      "proposals": 63,
+      "reference_identity_class_counts": [
+        63,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "misrouted_043.JPG",
+      "proposals": 28,
+      "reference_identity_class_counts": [
+        28,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "misrouted_044.JPG",
+      "proposals": 34,
+      "reference_identity_class_counts": [
+        34,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "misrouted_045.JPG",
+      "proposals": 21,
+      "reference_identity_class_counts": [
+        21,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "misrouted_046.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "misrouted_047.JPG",
+      "proposals": 33,
+      "reference_identity_class_counts": [
+        33,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "misrouted_048.JPG",
+      "proposals": 28,
+      "reference_identity_class_counts": [
+        28,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "misrouted_049.JPG",
+      "proposals": 27,
+      "reference_identity_class_counts": [
+        27,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "normal_002.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_003.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_005.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_008.JPG",
+      "proposals": 33,
+      "reference_identity_class_counts": [
+        33,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "normal_010.JPG",
+      "proposals": 35,
+      "reference_identity_class_counts": [
+        35,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "normal_012.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_013.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_015.JPG",
+      "proposals": 63,
+      "reference_identity_class_counts": [
+        63,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "normal_016.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_018.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_019.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_020.JPG",
+      "proposals": 21,
+      "reference_identity_class_counts": [
+        21,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "normal_021.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_022.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_023.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_025.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_026.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_027.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_029.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_031.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_032.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_033.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_034.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_035.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_037.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_039.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_040.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_045.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_046.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_048.JPG",
+      "proposals": 28,
+      "reference_identity_class_counts": [
+        28,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "normal_051.JPG",
+      "proposals": 46,
+      "reference_identity_class_counts": [
+        46,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "normal_052.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_054.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_055.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_056.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_057.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_058.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_063.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_064.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_065.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_068.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_069.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_070.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_071.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_073.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_074.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_075.JPG",
+      "proposals": 28,
+      "reference_identity_class_counts": [
+        28,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 1,
+      "added_cues_reference_confident_other": 1,
+      "additions": [
+        {
+          "box": [
+            2095.992919921875,
+            817.0684814453125,
+            2240.401611328125,
+            931.9261474609375
+          ],
+          "class_id": 0,
+          "reference_identity_probabilities": [
+            0.9997795224189758,
+            0.00021132132678758353,
+            9.144656360149384e-06
+          ]
+        }
+      ]
+    },
+    {
+      "image": "normal_076.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_077.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_080.JPG",
+      "proposals": 35,
+      "reference_identity_class_counts": [
+        35,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "normal_081.JPG",
+      "proposals": 28,
+      "reference_identity_class_counts": [
+        28,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "normal_085.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_087.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_088.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_089.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_090.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_091.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_092.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_094.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_095.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_097.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_098.JPG",
+      "proposals": 28,
+      "reference_identity_class_counts": [
+        28,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "normal_101.JPG",
+      "proposals": 27,
+      "reference_identity_class_counts": [
+        27,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "normal_103.JPG",
+      "proposals": 25,
+      "reference_identity_class_counts": [
+        25,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "normal_106.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_108.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_109.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_110.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_111.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_112.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_114.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_116.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_117.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_118.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_121.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_122.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_123.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_125.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_127.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_128.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_130.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_131.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_133.JPG",
+      "proposals": 21,
+      "reference_identity_class_counts": [
+        21,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0,
+      "additions": []
+    },
+    {
+      "image": "normal_134.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_135.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_137.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_139.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_140.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_141.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_142.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_143.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_145.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_146.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_147.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_149.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    },
+    {
+      "image": "normal_150.JPG",
+      "proposals": 0,
+      "reference_identity_class_counts": [
+        0,
+        0,
+        0
+      ],
+      "reference_identity_confident_positive": 0,
+      "added_cues": 0,
+      "added_cues_reference_confident_other": 0
+    }
+  ],
+  "pins": {
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\audit_reference_identity.py": "f06494e8c237500db5a8eb2986ed9d145c64aecad4dd43c124fb1a2a1aa5b5fb",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\report.json": "8e59736f0dce01dca3162f3c1a5ece8f9db39054de4833b13a41ade33d333bc5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_replay_20261004\\report.json": "0d7bf91ab631e141090fcfacbc85275b0893c7d16d84179b057e8e6122781fed",
+    "E:\\PythonProject10\\output\\paired_pose_native_20261004\\last_head.pt": "9459ba29715a9f511ddc48a9a99014d2a239cfe65ccc32fe5e2de9122ab72467",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_001_predictions.json": "c543b1ceda226742f7180b03b50e0ecc190459ace9e8abdee7ebffb80f225d31",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_002_predictions.json": "31a7bdba2072dcc53a869c88321975cef87a5eeb172a88ad8a898eb19c1c3b19",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_003_predictions.json": "6a9966081d03aec38ae8cfd0d21c582f2f7247bf7f5c2dc933c0247ef16e0170",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_004_predictions.json": "3bbfeb85680d4dfd4ccced633fec4369d5e0352baf7f9f67e0169489979e1820",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_006_predictions.json": "48ba74b5295513754b3a4f2db91525fe6cec99b02dc405c3e62df9b33d6141c9",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_006_features.pt": "9622c062d0addde64ccdc92c9e99ca2f9f71ce86988c5ab2c3fd2ce7b0e7e94d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_008_predictions.json": "a950a3118dc56bffbf3103b6add421dcc2964ecdbb4c70d8f22e3f3760d77848",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_008_features.pt": "d0b341cc56dcbfab57c448c57e2aa9cfa7fa2c00d7d6a8bad49fa213a887757f",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_009_predictions.json": "d0b997e6fe5798fdcd5c10c1cd6d35fa9aee4ccc407a1f63efe181662e8b6b1a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_009_features.pt": "a85dbd5b47daa86e77ba31fc2343c09ae3ae08d27299b1a27c8196003edb5d86",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_010_predictions.json": "97f73b24f2ca3bc70aa2885445d7a1feccf5d1f5aa22eaf18aadc47ae7011882",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_011_predictions.json": "9fc5e423bfbe4d860cc54d7565cc46f8a249a9f500d8296ea09d32d95177bced",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_013_predictions.json": "ead518be36fcc4e0011bd64399f52455b14e4042acf9df1577bb4f846f0bbe55",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_015_predictions.json": "17957b89fb1d5646810151be4ebefc203c03dacca1e734aad74016301082db28",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_015_features.pt": "b5e9afab0cf57bf8c95da3ddd47fadbdcc3f9d8f163f49c7b3bfc1da067fc950",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_021_predictions.json": "ee74dd619a68a2985feb46ad8de266b35217af8fad932ea735ff27e231cb7bfa",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_022_predictions.json": "90b0aa8d41fa239e550b75373fdb87c0d7828a185578e0440cc6d9c3aaf8c8c0",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_023_predictions.json": "500bb6b3d996527e4c1c62a24268df57fc8cc2cb6422832c6eee863b2fdecc69",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_025_predictions.json": "eb22f1a20f3631f64d145938a332cd0e00192260aaf324f14ecfb5479d288c18",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_027_predictions.json": "e8d536572bf2dfaa20420ed5603fa6aa5470a3d5b580dd29194ff7d1aea4f2f2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_027_features.pt": "4696784022f0c585f91b063e680355a362edfe5023abba6fc50169ec36746b86",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_028_predictions.json": "a858afed67c3f87e07dbf43a47b0ab758be454a909885d9a1e7d54e669dd109c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_029_predictions.json": "7c03a84e63b7da008dd6e13ad348aaf5aa95b84e8c9d433a53400d64bafb7488",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_029_features.pt": "fd9a5b8d57a306e20e8541bc1367fa51dc03e54e3bfa6cada7615ae19501483b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_030_predictions.json": "b6e154cae39577902144a94c3c6a24adc4942a22977ee4f628f06dbb80dd55f1",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_030_features.pt": "392441bc8388379df9aa69cb6476d27811a0848483fd2510b1b56ffa3e6db565",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_033_predictions.json": "9c85f10b396e4882ee30919502530ca27408f949d1b3842404c6f649edc364f5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_034_predictions.json": "36eab136bf02476fa30b830cc003a78bf3ecc90a4afe5d553047f6efb459ed9c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_034_features.pt": "538312ca53e1560f10304b048b3d88b8a1610dc905cb361c5a17a0f7b71b64a5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_038_predictions.json": "39dc655b71cff8514d5f6455254eb15660089bbd09fd9983c0fd03b234451f17",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_038_features.pt": "c5ac649b6e704f7252347588569c2b15828ff4bf2b810a7aeea7bf07ca438464",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_039_predictions.json": "610f52e0ba643597f33d8c77150ca4bc777a5a13afe5696d2195f734ca6636da",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_039_features.pt": "9a06d697f5e78b60a2da60e49c662f364e9844465a4fa975501e9f8f3897ec68",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_041_predictions.json": "de07012a6c361c4e561652913142149be8807c3823ffce521baed53ad880d913",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_041_features.pt": "9fb604e0fd7720d35cefec48fd201badfe17d885dfa07954d5b2c38b378c6508",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_042_predictions.json": "f61399f468aa32c247510d5e8886eea99d893929df47a9ab6617f5853a676269",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_043_predictions.json": "090992f16d68d5eecf9c3ab66c916ffcb361285d33fc600b0e27e3b6259b0f4c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_044_predictions.json": "8e3e8d0e2b4d102b461bd606a30dd6f566f12c4576273204b5bb19661e38ca90",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_046_predictions.json": "c76a12fec1da443bde72120cc7e159b432346f1d28b6d78cf15499d381050b08",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_047_predictions.json": "9e7ca9479937523a0cc738a02b7678c0fc3451e5bf09279d9e465a3aa2c5c74b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_048_predictions.json": "f93a71e8a9e0dc39bff85ee82f10cb83a6fb9a759f8127ec5917ff1ddb16885d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_049_predictions.json": "446506bf33a8fdd82095e9b458b4a20a8d086cd33d8de893f0e71a6e603140dc",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_049_features.pt": "7269a60f90a16eed505f5be6a088b4e0c4c341125fc29063ecd1516ee0d84616",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_050_predictions.json": "0c656d6f6d24758ae112df35adc83f7808d9fc74162e3418a710105671654f83",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_050_features.pt": "75c03fa0051102628a2a6c0b632de5bbe8a38a89f9c1c10e3f3bf73c547f0af9",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_001_predictions.json": "7f7170174b7c3169d62b3b56954fbff7b3e13a5e89a581c58c79ba280d3b01ae",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_001_features.pt": "1f27b4b5f91c523d14d1b37f10208069db7e410af47e121c1b24a0512ebad8d0",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_003_predictions.json": "e3053c12458740e360419fd01d0aa94792879a1bbff6558b4e2732ae152aa516",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_003_features.pt": "a17f44bfd40c8b8d24bb6cf46892cde6b2d9b4cef7eb035a2ebf38794a6ea263",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_008_predictions.json": "73d95fce9d7bb7314313cd01cea202169072170a5efd90b0311e97c862571eea",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_009_predictions.json": "907a9037dcf73f4f6d36faa16eec863a4c900674a56c514f70870cbaaf98b5e4",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_010_predictions.json": "999dbd2a0fad92737173aa1649974d99c684935ff87bb265570eca6cc1459425",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_012_predictions.json": "390821d3b816c8ffd3d3cc5e6caadadca57cfe2224b7c1576db1ad0980b9f630",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_013_predictions.json": "3fb1ac9f984755b9791cae7040915b8c799cc75535e05be5a9663b053256ae76",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_014_predictions.json": "0ecd82d27ce73d1e94f1e698391ae5500f9a15a035bc999b469ff388cbc4c673",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_015_predictions.json": "c0e318b60d3d71deb663ac8a3c2c288c58d89e7c2e64ac2e49200436236d0fb5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_017_predictions.json": "49dc8dbab448a9ddf22d0b7342681fc0aecb05f1168072aaa3d02efd6112e48a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_018_predictions.json": "8d5ab3554727c521c1f5663ba70fd4b2cab01afe360afde6354fe11a119c7049",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_018_features.pt": "b7e6337992738922f11d668d4c53c91acc017565ef259cca39261bd6a6116cd6",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_019_predictions.json": "8b2f18e62678fd5472d0346fbbe2e37b061f9faed30cfb8129ec8c27cb9ca612",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_021_predictions.json": "25d610260ebe5f84437566986e1121efcd5bce9796a8a9ffcaa27d5fbe565e19",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_022_predictions.json": "3940e8e4ade50a38f5d3e925aa71e6b8a7a529d7ccbba2c7295c42391271a6f0",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_023_predictions.json": "5b4f9bcf9e3ddbf33214bbbe8949ff4327464814ccecdf1b1c2e8ab96641a2d4",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_024_predictions.json": "b6785a38cc263d3f8f23144bb108478610faf0ca2459315188db954296a07170",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_024_features.pt": "b5a3339427a66a4cfe822af334f846f41c11f791546fd544a8cf789035056d3b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_025_predictions.json": "9b477952d6bddf9e5b43ac38dca641599982ae5452ba2972c1b502aa9a27b370",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_025_features.pt": "7a5679a81078b971c581f4fcb6063d669358e1455dec706f0b3c802532a68335",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_026_predictions.json": "3db8a61f1ee7c4d4606113ecbf4f335dd483e502aae76f2bec40c3d36d1073af",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_026_features.pt": "67b9275efea040eb414a3c924e34abe60ec1167d88a729b9648952fd5b0c82bf",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_029_predictions.json": "7411170ba6f3ae82f15efb998797bd23c6b8f0f8d9ae07c97c5b5c034d8ca4a5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_029_features.pt": "586f1943ca00ae77affe59c664863dd8992969dc1e37d10484a7d237ddbbc22b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_030_predictions.json": "64c02e0c473e87e5f564cd5b4ffd36f71e5762b7ee619f570f1423075ab8dc02",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_030_features.pt": "a8bc10f3e8f78473ba56775bb8fa6d20f3cc29de33f2914bd5d77d425f01450c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_031_predictions.json": "6ed8f755ff3d8f23d55ec1e51e7afed3b0094825161a58249a300edbbfa26efe",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_031_features.pt": "f19933c718431e7e3031c283fce7f869ba1429a7d0cdf32e14b2ee691fe0d836",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_032_predictions.json": "8775f2dddde1498334a1e06bf552c027c5f67a31fff1aa496991973c7065f1f8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_033_predictions.json": "2035ce908a68633f58e08f766abafa265229677db10b8e8a933ecb7b23d7f069",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_038_predictions.json": "c3d742e89e5e2c3d4b729dbc5a56be7ed5778ca1c1059ee62157c9fe2fc8c84e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_038_features.pt": "7351e8f1753327a9daa0b8c8ab494910906d792ec8515bf880210e2135236687",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_039_predictions.json": "d29ad1efd2957282eb105fb4ea3e5ec2183d93e7ac52a3dfd2bf656bf185f9fa",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_039_features.pt": "90cd08c133e35b7208c478ff2149f417cdc26d4c0526b1376372764fa17ee6b2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_041_predictions.json": "6596a4b069e1418a658f81bc78d890bd210eb2c4860f461c7fd23479dff53545",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_042_predictions.json": "ee82873b416e09d46843309dda43462a0f10c883abbd9336afd370121db5327b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_043_predictions.json": "614c8822e342e3184dd5619b1ae93d3689cba58e91709cd5b0dfe5b98b39df21",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_044_predictions.json": "8950050eaf05e7738225690cfcefb47113aaebb3cd1dbd8ad1db00124f1afa08",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_045_predictions.json": "9d19cc39814377557be687e0a8c11b10dadc3febe7ca154d3986541c8f94f5f2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_049_predictions.json": "061737eaabf79adf7ccdd537f4a742a4dd9bdf23d4c18b5160233eaaebf26070",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_050_predictions.json": "bee73a88b334ca19e6187484f6ac900107116bfb9e375c3c57331d64769ee2ab",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_002_predictions.json": "6212a301d96710f47b02cb62a6e3544e7e2a3c43215fd93e9a3c729f7965545a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_003_predictions.json": "8715b3a9d29b245c745473ab47a70640639434591ccdb3d4d5a829abf08c0182",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_004_predictions.json": "d011ac550a488c335e473abcf070d010ffe8244af6fbaea494b4698d99784ea5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_006_predictions.json": "ff0a565910b7d79a4497a5f649acb5612b21de9aa719f910ce025601174f9915",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_006_features.pt": "31fe5979404e297b735014f2cf5d9ab87cb84c01ae924159aa2a274876a8cd5a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_007_predictions.json": "863541dce18340f6e6fc9194ac03908b2e86571261d66720db64554c6dda3614",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_008_predictions.json": "94fdff18650973be167b5f5bdc238a8bfe825ac190f073291bd7f280c16cd9ed",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_009_predictions.json": "0c54e6bd5dc87e50c9ea7d1aa74ccb02823859e59e24f5d579219672b44eba68",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_009_features.pt": "2f848404abfc90760cef7797584993b39a0d7f6b3d9c9f6b9646225438e04674",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_011_predictions.json": "e85f4b52cf58e10d283712b32d3f025d6646de36373c80a22b55b1aaffc54e9f",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_013_predictions.json": "6e826d6bfaffdff091ac3fde0bb41258509ce09142a9450b8a5310fffdc32190",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_013_features.pt": "1a8fdcdca9eaf663dbac56b57dd64dcdc1d6ad524fbc57d4abe8bb571ea9e47e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_014_predictions.json": "cd1cbbd44abfed1c9c5ba1b07117a6bbbb4c9315f0ec33f60e895f86b26dcede",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_014_features.pt": "f2b2e1d969eb873cd2f558d2b84b0b373da5823d6159525de2edf043157ba570",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_015_predictions.json": "317be07426f4c1a0ddc35b4ed2699162832221059d64298c3352fe92fdd307d4",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_016_predictions.json": "5ab454c31039f4e6e9eca456d0deee6064b538c53a308b201f8ffb022905a82b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_018_predictions.json": "5a38d672a045b78659b55008bde50531f842d9f19777ef37bc2b9296f397fb6a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_019_predictions.json": "54ffb46cf84348ba0da72053d5f37c19a6d5570ba4c3012db0bde0b183a3b6c9",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_019_features.pt": "93d0ce3117184f042b727298878526dd8dff7ff7519914c6867057130239045e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_021_predictions.json": "b3cbd69cead903331fcb935817a56533e3e99b450255e713c0b47c7504a384c9",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_021_features.pt": "e038d376c72d45b925a38d5a151585765139b2a2f8ca468638f1943fde4da7bf",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_022_predictions.json": "11f0ac464d1ec7e452eb1f07d8625a805a92ecfcffab3672b0879d1601a91330",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_022_features.pt": "7a16e5b91dc76b4f33ded59f3d51cd44de54997fe91178f9c3e65cd4f4513656",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_026_predictions.json": "76a9a9759e8e4ba57728552ed2d841ccff8a60323845e0f7f7450182d3982ea1",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_029_predictions.json": "8fb57d81e5bc631bd8ef42a03200c6db2844c8d4b6a0a277d59cd26b3b1b29b8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_029_features.pt": "fc13fa98953cae48802ff65ed275d3d7d428948a75ff08365f86be0ed57261a2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_030_predictions.json": "c7886ab6cfada7ff9d86f98ca2b754c8fc2ed05ef09eaf70ffbfa3063cee464a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_030_features.pt": "ec9cc1c8613e9b8e76f97c93bd2f473074d19f5cc772ea015a1ab6626f5e371e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_031_predictions.json": "bacc228e4de54a1f27033c1345d77b659c0b677cbe55e3563df0eb595ad1f96a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_032_predictions.json": "c24d5c325eb5c5f2998f7ac42ce7a7e3e00ff3af8fb69074aec08855aa9953cc",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_033_predictions.json": "4d4293e3ef35c5c134bd4b8d6d82d8477460497c42b30cd96d82e21632e72d35",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_037_predictions.json": "af11463e789f24e7d6d76f5b7536c8de185fcfed9e657925f514ee4e00a57fed",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_038_predictions.json": "7a35e85433b379788c7cf80cde7de65be985b48deb55e7972c5eff5335c5b055",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_038_features.pt": "e95633c1bd5671ff03eaf5ee5ba2376753fde339c61580f6147f1b0f5a287cbf",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_041_predictions.json": "2e6fa33f4c51bd933310a02cdb3d7a02916ad14fb0431f9c8a6581e69520f70d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_041_features.pt": "48b57e5bc1e9ecbba56d6f8a2e1a72890db60db98b1d810c772393557d2d52dd",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_043_predictions.json": "f8f4f444f433ac6a0d15e278a70166e8012ccefb306ce4c1a56b9427c3d01b56",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_043_features.pt": "894dbc2a92a5971da660bfbeb6eb519cda95a15515497462c0b7abe75f36648a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_044_predictions.json": "e4d5cf0f1513e4477afaa6f0d5b6fb5643be846c893734b6e7e50075464e5a11",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_044_features.pt": "41c3a7115f9e0aa87f4861434bfee8a06712ca0d83c4a2e74ad6e0aede394eaf",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_045_predictions.json": "f509f9454ad955a7bc4ceda62fe547642718418de480b7d428f47e1b7e52a255",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_045_features.pt": "30ea981de49d8f0b1c85b9271e6d8a0cd1f5b161ba16cb1a9339497590f1a230",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_046_predictions.json": "3dcdbed21a7b629863f8d84b8d3a53c0252e18da5985420ea4bd361930784753",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_047_predictions.json": "378a65ceb0c07573708dcd438b08e73d49b143c0e8d16e1a1afd637c9309451e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_047_features.pt": "b9f652cbddf27882e656008e174d06d17d26abdfd5f82cc8146cbeef20315ec4",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_048_predictions.json": "553894a503916aab2751765454b77136ac2f37734152c1e286a58fca78c6e1ea",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_048_features.pt": "dcc09d21c285a99255d86970bf37b73d76b188d704637867aeba255fd3825a60",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_049_predictions.json": "4797471810b4e2462035828b243beae355e7396fc205ed8a5e01e747a014ac21",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_049_features.pt": "4a91d50c21e7495e537d568b3ee733dbeab3020c59fdf29b3a8fa1825052fd25",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_002_predictions.json": "5afbf44134f87eb71e73c9048ca10ab1ac401e82b2e0e688c1bf30d9b1006bc0",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_003_predictions.json": "165b90805f57b262dc16a2891203dfb9ad0f80dda80ed5bae12b180c6a549f69",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_005_predictions.json": "411eb47f9ecaf82c3a2fa2d3396a9400a17a50b0410f902abeb3a4fac2656a67",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_008_predictions.json": "acbffc70fc1f12b36a7288dfcb74f7a29f59512a3c6a9da2835eaac951ae2085",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_008_features.pt": "fbb7303587b30bb54940d47734fe65e196dff6d49897919bb9c3692391603072",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_010_predictions.json": "64e1df7b7d22dc814949a878d24825a34e50f04f156f18978bf5c865df533eb7",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_010_features.pt": "497e70f1155235faf3d143e7a70ac3ba387f206b127109e6c458d0dea62fb2b1",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_012_predictions.json": "88f40ba673a6fb5ccace47e370f00f91b510580560c524b80dc0456f5e8f77be",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_013_predictions.json": "22579289bf664caa3fa43f5ddaa9de52dc5c8d4607e814f56db544b7324ed954",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_015_predictions.json": "ecd6f54900ad92012a39755084afa0ac93e0a05e42c4932d47e9decb21f5e5ca",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_015_features.pt": "d3be90b5c2b919f05b74de528a09e9eb291bbccf7f0104ae0af940c3f9722242",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_016_predictions.json": "08d6fcb741d0d10b81ae5bd9bfb44939b70b705bd2243c2af3e1d97c3b555510",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_018_predictions.json": "5ed948255033c6a12390fbaf0e056caa9e8e88856f99b7b2c22b3ed4d741756c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_019_predictions.json": "d8106c5c466ed677d20bfac2598a4deba18e56265201ba9d3b8055af56c33e15",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_020_predictions.json": "e9ac4e0aaf95cec2328c2135555900e2a68a879a962d8be853ef6cab873bf892",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_020_features.pt": "9dfc57aa9940559247f601c961aaa36c7e429396c5b652a497ef6ff404699463",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_021_predictions.json": "2449a88ac71109699fdd8fb3dd190336a67b090942091d433e36346943672975",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_022_predictions.json": "3cedba02c4fea7685c2a1fef2b5dfb6260357220ca45cc0005178fea1909037e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_023_predictions.json": "dc77cac1ecb3782ff4c58735531d0d0e2f3873d11979814a6e46af37830202f0",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_025_predictions.json": "ed6b483d3588fbc77b3cfa8d41d6230e81f5d42b8b29f27aecdaaff5d3f2e182",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_026_predictions.json": "8f6b257a3a3883cc9e828cda0b6309859b79eb6194343fa5e770c61f133e9eb6",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_027_predictions.json": "4601cb66bc8503671cbc5ec20d9196ad26127e29bd6a701fd43f00c1c0e164b2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_029_predictions.json": "fae47bf01108a8b8d13d96404a0c787a8dda804407aa4945d75c0c27b3e12c79",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_031_predictions.json": "ee3f8ec9f143055d8925afcf3308e6a9f0b3ade42e1e0430be6a72c00eb42459",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_032_predictions.json": "e24253d966aaf004e8160d0502697e5be485f57f872e44a1120ad9b31bf6e967",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_033_predictions.json": "94cd0e599286c0a1721af622d8cb28c8d183716753bc62e6f22d48e9dc01448d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_034_predictions.json": "a380c9d2d3155e830aa025b7b62f100875ec29a0593647412cf3654a5327c0f9",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_035_predictions.json": "0715267052d42158e027880cd12e2c2aaf12f69aeb8557b72e90cd1ddb6f59b3",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_037_predictions.json": "8fff6b6a17bdc888c15965c997f64ba8572ecd04cbd0dad381aa8822b8a081b9",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_039_predictions.json": "eef1908a6a485532e6bb13cf0f735d7b6181aca0e3c3dc8fe09008bbb9f1e0a5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_040_predictions.json": "615ee5eff69967c99195d7bb30804199bcbf0250a1fe9e7b3187a80d1506e772",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_045_predictions.json": "8c2b3210f01d87a684aefc93b6a6faf5c91c2812c679668c7dbddf12c6f3d713",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_046_predictions.json": "ee0048b537ae4ba935f65554ce4617b5ef1e89f52ddf3b517cbfd459a2f291fc",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_048_predictions.json": "8586b3ffcaecafb163a75a637aa49a43256454ac84b41a3d03c47854062380e4",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_048_features.pt": "a1193809b1d52d160620d86122cb3e516040707813dcdb731e787f5797ff7124",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_051_predictions.json": "b156590ee58506241cd798ae0ea7df3eef1f63b979bcd62ffb1de8cc4e3787da",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_051_features.pt": "c7133a30e892f317136db61286096760a33227b9eb6255131b18f87a5ada6a15",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_052_predictions.json": "35c598de1ed08645439dcc83c541d7493ba6c2f1d00b04d87311f3a20fba2a6e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_054_predictions.json": "1b5f9ade8116b4f3d3907ff5c254bcebcc6a716532cde3291bc704b0f73c4d73",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_055_predictions.json": "a2d291a08997e3c553ff6403a96813d07ec2e83b3714099cca441cf25918577d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_056_predictions.json": "decc366970c597055a2f297f85b6b48555f3a60cbfe353138caf2fcc78a3d11c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_057_predictions.json": "e625c8960900d6d4753251087383d59af35cc1dabaf85c3881fdfca9e5d99470",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_058_predictions.json": "77808d95e27caba9befb906f943ffc3c7a8857e2412307705fe8c4d34a4a9f62",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_063_predictions.json": "f1b47c1ac74168bc2f1ded86b3aee9057558c9211cda9be359722f976b29044a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_064_predictions.json": "fb545470498188d7c90f22f3944c01b82b7a0605dbc5766d879e850287b5d3e9",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_065_predictions.json": "ae540b3ccf9728bccb0030d26f456284508fa9c654affa8e0b7ef1eee06c6afc",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_068_predictions.json": "71af3c092249ec530db786e8719be3bc7966cdd42fa42bba2610aa3e633a37ce",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_069_predictions.json": "38aa8287d0a336990dacca638021280f30e125bc2cbf7e70bbce7cbddeecf30d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_070_predictions.json": "42c421df1af2ed14278881f3f40f5943366b5aa15a7c86b4cc4981f8fc3fc923",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_071_predictions.json": "d30a50d0cc2423c7b5c5a7841f4effc29df6dc70327fafd2f4eb9aeaab62605e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_073_predictions.json": "73effe25b55a9044f4a04ec188c5b71ff8e99a63e5c3f40f13fadb6c7871596e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_074_predictions.json": "b45a38f73edeeb3f688fe4e3002a55d502849a9734eef59b2327f6cff7237bc2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_075_predictions.json": "8c865e22c7d69a7ffe1df2d6e78472766d5d0ead18b4ef38cab9fcdc944a8e18",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_075_features.pt": "059a15aaeb58fb7277dfc6cc8fd73481010fdb7f16cd83f68c6eb9a9f5b2b8ad",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_076_predictions.json": "34f16195d5d9f65b47b34fec9b9b388136aa5e917df8c3303a4e65f8df8b4e8c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_077_predictions.json": "3f0dba48e625320115e7169337c301e4939dd01ccdc9107e2a7a2bf776895b8c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_080_predictions.json": "2ceccd8983fba26e939754337fe45825c921a83baaa902ef5e915fd6add0e66c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_080_features.pt": "7cb56549fd2d47da2072a3180152a5fc33626d58aaeb1e58627498705fde5c29",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_081_predictions.json": "78f5b167357ca3b1273424106aa3adadf14d665466e25e8ff331dd2ca6e0e866",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_081_features.pt": "6a1f0ffa2c5695bddd8f0949b3b36fd8047637318e08f5ca5e73091ba586ff7b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_085_predictions.json": "9655cc2e778295c28c9dc46b32207c000f80594ce916dae93b9843be0df87e34",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_087_predictions.json": "316d156dfb5b79fc8c373a70d096b9837065fa1502f68b1d12c7d1de6074591b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_088_predictions.json": "aa91c5b7b3c8a7538e9186e3979ed9ce78f2742d0d15fbf1ec1a44614e109824",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_089_predictions.json": "24c82d2c5aed23c6cb87d34fc02c6d23a49f6f2e482c6bfd1b720e824736714e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_090_predictions.json": "1f7305cf8e9b802cc8f464ad054307b30a3269edfacb54c1f199e326c9327148",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_091_predictions.json": "850ec09b02a77b67f0254ea4b2ead456170e24b05c50c7fba766a78415bed317",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_092_predictions.json": "dd01a8c5df17f5ecc938c238d64b3bc69202e0ade8e84174be6ab2bd4ceb1cc2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_094_predictions.json": "d8468a05b6a7f034a6624351fdbe24ffe81e66a8a786790c8cecc24f021ca7f6",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_095_predictions.json": "04578b523690c4cb828748b8e2bd8b341a72a058e44384b2dc9a7c7910169f58",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_097_predictions.json": "aeb365400d8bceb8a9d8918eeb6f2f26bf87585f8f7a333d3b5716560bdb62e6",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_098_predictions.json": "425c9ed02a27059e9f4d2d6bc206ec24dcd8986fc0af5f6bc79720ea2c1c58e2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_098_features.pt": "d8af23fad60a30d1673d70c0803cf1000966b9dbda6a3e0e4ffc8fd134e7c8eb",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_101_predictions.json": "d840ea12b08c62d40b3c2368a3666f631b316c3bc88acd23fd663cd7bf27b6f7",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_101_features.pt": "b37008ab5f3d0ae8446d3c97430ff94287d3b90784e73f1032f79e2aee0625ae",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_103_predictions.json": "d61179578f962e611184589c8491bf57cec1c1647060f905d16856932ed272a8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_103_features.pt": "fa3cbae80dc74336907e16e431d77dd8356c9d73628df22b72f76838a589dc02",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_106_predictions.json": "61a0870e3a085d85f11c71486c23d72bfa911d4d06e6ae74d64ba41a117276f5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_108_predictions.json": "019e171f5ec36df4d4ded1605f349699583c107cc792ed81fb733e8bc0ca6fd8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_109_predictions.json": "8945019d647d726c355950bf50df6433c42b3ea9cf156b0cc3a54978b0741919",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_110_predictions.json": "d5c4f059c1a9ebf8de1c38d2b446269ca150831949308d602a60658907cceba3",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_111_predictions.json": "2c2206c5d4aaefc384927997d2eda62d22aae2d44294102842f6cc0c9f5c991d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_112_predictions.json": "2f55b5ca7bad83b13cd8bbb926668dab48e05a102c220ffa284f6645f3b436df",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_114_predictions.json": "23bcef783f966396d26b8d3e696e93ce7eb5b4f89b35d75c393571d9d7a44d36",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_116_predictions.json": "1ea88d9dd9ba2db44f4920a7ed8234864cae1e44b4eded45396a636a084b6e56",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_117_predictions.json": "3d137f3adb70cbc8a2547116b271bc39d627e500388f9ede44d595c9c3d4357e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_118_predictions.json": "267e6aa54c5caa8f43817b9e3911c4ff193bed20954cfc3b8a722888317a09f1",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_121_predictions.json": "47cdf4e4c75abd729960ea4d434e8abc70752967f7a979ded82e3fbb783d25a5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_122_predictions.json": "1b9714c49e082f7919126dfb4d6c68ab7bd76ce1819dddd7dd63cbbd10a4d90e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_123_predictions.json": "158d76c1c17a96198fe3c8f6416d2eff7405832142cf5c4e4dbe626896f5d8f2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_125_predictions.json": "ac34170a663eea7127349c3870784ba7e4e01d5aab8f10c28891ee75fee9f87c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_127_predictions.json": "9572b0d7999daa5fc31ef7ef00d1c46d9754b0ede7d77b0f5d11dcfe4a1c2bfe",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_128_predictions.json": "d28b76700a01fe60e4ac2d80553659a9146bcf12b6a16c6b0352779765a2fef7",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_130_predictions.json": "c17d13e0d9a1f3fa93cf4e73a1ede07b19e7312a8258277800c68cfb6b7bd6e5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_131_predictions.json": "66b41789b9e8b8cd64cc099f5a9d934d0cba373459cda2ba3aa381a66d368f9c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_133_predictions.json": "d0fa33404bef23aeaeeda9262ec7704fc160066488e927e77a8f23967e47aeb2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_133_features.pt": "4b76e81cee74249c05f54b14cb210b1ddf770e8a9bbf2a36acb59c35c64d9a30",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_134_predictions.json": "365faa35b749668810bb76a6ce1e5adba2d728cd73a027fd19a51c8ea3988353",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_135_predictions.json": "50e353dffac0788341189c5d25605da56a8b81a71fd5e090bc13b0b8672d1bc6",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_137_predictions.json": "5487ce5dffd7e1545aed18ddc417d5ffb1414679617cfd5e4c18f954ee046479",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_139_predictions.json": "da5e31c6a53448ace67bb59339ecd202310cdff2272c7cf96667756eac1fe789",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_140_predictions.json": "36b1d5c6070dc953953da551ad1e7f12704fb343253eeffbc8d1f5d08f71bdea",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_141_predictions.json": "bd0fa6c6fad742039aad33bebcf095186077425008662cf74f811adea2590174",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_142_predictions.json": "56ea213debe044902a50aa24d06667bfb2f22e4abae90fd8c927f177f536a171",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_143_predictions.json": "0ba525457dca1f725f228686d52c20b22ba4b87e202c7929afb8c30b5517b867",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_145_predictions.json": "a6dfb6cf8682fe7b266175542e63098f29181bcd4a82db820f9be7af7f570779",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_146_predictions.json": "b9157d9f76fa3455e4c37bc0d9fc54d4154bdb479628699f120bcc522cd8f0c0",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_147_predictions.json": "4d91eb9476d0872326a1958cc939f27268dd15d4686c7aa21f71f66a693de400",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_149_predictions.json": "87abe222104bac8146f21e3675c8d2954bdaeaa1ac9ce61ebbd16141961e9989",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_150_predictions.json": "9cd17db26061a4218bc10641e1d976636eb25d753ccb31e1d574baab9909853d"
+  },
+  "no_GT_read": true,
+  "no_policy_or_threshold_change": true,
+  "cached_feature_identity_not_new_pixel_inference": true,
+  "field_accuracy": false
+}

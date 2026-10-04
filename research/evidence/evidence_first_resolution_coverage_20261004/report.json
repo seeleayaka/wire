@@ -1,0 +1,1805 @@
+{
+  "status": "complete",
+  "source_report_sha256": "8e59736f0dce01dca3162f3c1a5ece8f9db39054de4833b13a41ade33d333bc5",
+  "ALL_TRAIN_research_prefix_misses": 46,
+  "available_budget_misses": 16,
+  "reasons": {
+    "missing_checkpoints_still_fail_after_covering_ROI": 2,
+    "not_all_missing_checkpoints_queried_over_target": 5,
+    "budget_full": 30,
+    "no_acquired_view_covers_target": 9
+  },
+  "available_budget_reasons": {
+    "missing_checkpoints_still_fail_after_covering_ROI": 2,
+    "not_all_missing_checkpoints_queried_over_target": 5,
+    "no_acquired_view_covers_target": 9
+  },
+  "votes_increased": 0,
+  "cases": [
+    {
+      "image": "disconnected_001.JPG",
+      "target_index": 6,
+      "remaining_budget": 2,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.6740579236746015,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.565845317106479
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.6740579236746015,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.565845317106479
+      },
+      "before_vote_count": 2,
+      "after_vote_count": 2,
+      "missing_checkpoints": [
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824"
+      ],
+      "covered_checkpoint_views": [
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824"
+      ],
+      "strict_interior_checkpoint_views": [
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824"
+      ],
+      "maximum_target_area_covered": 1.0,
+      "diagnostic_reason": "missing_checkpoints_still_fail_after_covering_ROI",
+      "gained": false
+    },
+    {
+      "image": "disconnected_001.JPG",
+      "target_index": 7,
+      "remaining_budget": 2,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.0
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.0
+      },
+      "before_vote_count": 0,
+      "after_vote_count": 0,
+      "missing_checkpoints": [
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4"
+      ],
+      "covered_checkpoint_views": [
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824"
+      ],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.9812082448526119,
+      "diagnostic_reason": "not_all_missing_checkpoints_queried_over_target",
+      "gained": false
+    },
+    {
+      "image": "disconnected_003.JPG",
+      "target_index": 5,
+      "remaining_budget": 2,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.9169328534525121,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.9253553925123252
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.9169328534525121,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.9253553925123252
+      },
+      "before_vote_count": 2,
+      "after_vote_count": 2,
+      "missing_checkpoints": [
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824"
+      ],
+      "covered_checkpoint_views": [
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824"
+      ],
+      "strict_interior_checkpoint_views": [
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824"
+      ],
+      "maximum_target_area_covered": 1.0,
+      "diagnostic_reason": "missing_checkpoints_still_fail_after_covering_ROI",
+      "gained": false
+    },
+    {
+      "image": "disconnected_003.JPG",
+      "target_index": 7,
+      "remaining_budget": 2,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.0
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.0
+      },
+      "before_vote_count": 0,
+      "after_vote_count": 0,
+      "missing_checkpoints": [
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4"
+      ],
+      "covered_checkpoint_views": [
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824"
+      ],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 1.0,
+      "diagnostic_reason": "not_all_missing_checkpoints_queried_over_target",
+      "gained": false
+    },
+    {
+      "image": "disconnected_008.JPG",
+      "target_index": 3,
+      "remaining_budget": 0,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.42495552606318354,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.5195163168592699
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.42495552606318354,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.5195163168592699
+      },
+      "before_vote_count": 1,
+      "after_vote_count": 1,
+      "missing_checkpoints": [
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4"
+      ],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "budget_full",
+      "gained": false
+    },
+    {
+      "image": "disconnected_008.JPG",
+      "target_index": 11,
+      "remaining_budget": 0,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.569990365065637,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.6878207379190479,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.6491658833499999
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.569990365065637,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.6878207379190479,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.6491658833499999
+      },
+      "before_vote_count": 3,
+      "after_vote_count": 3,
+      "missing_checkpoints": [],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "budget_full",
+      "gained": false
+    },
+    {
+      "image": "disconnected_009.JPG",
+      "target_index": 5,
+      "remaining_budget": 0,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.45110979639192855,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.7288739218336439
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.45110979639192855,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.7288739218336439
+      },
+      "before_vote_count": 1,
+      "after_vote_count": 1,
+      "missing_checkpoints": [
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4"
+      ],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "budget_full",
+      "gained": false
+    },
+    {
+      "image": "disconnected_009.JPG",
+      "target_index": 9,
+      "remaining_budget": 0,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.7823204974215344,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.0
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.7823204974215344,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.0
+      },
+      "before_vote_count": 1,
+      "after_vote_count": 1,
+      "missing_checkpoints": [
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824"
+      ],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "budget_full",
+      "gained": false
+    },
+    {
+      "image": "disconnected_010.JPG",
+      "target_index": 6,
+      "remaining_budget": 0,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.0
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.0
+      },
+      "before_vote_count": 0,
+      "after_vote_count": 0,
+      "missing_checkpoints": [
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4"
+      ],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "budget_full",
+      "gained": false
+    },
+    {
+      "image": "disconnected_010.JPG",
+      "target_index": 7,
+      "remaining_budget": 0,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.5320818881823535
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.5320818881823535
+      },
+      "before_vote_count": 1,
+      "after_vote_count": 1,
+      "missing_checkpoints": [
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4"
+      ],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "budget_full",
+      "gained": false
+    },
+    {
+      "image": "disconnected_012.JPG",
+      "target_index": 1,
+      "remaining_budget": 0,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.6432043644428322,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.633919417242119,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.7719263816297396
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.6432043644428322,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.633919417242119,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.7719263816297396
+      },
+      "before_vote_count": 3,
+      "after_vote_count": 3,
+      "missing_checkpoints": [],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "budget_full",
+      "gained": false
+    },
+    {
+      "image": "disconnected_012.JPG",
+      "target_index": 5,
+      "remaining_budget": 0,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.2579375463020191,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.5604909141360771
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.2579375463020191,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.5604909141360771
+      },
+      "before_vote_count": 1,
+      "after_vote_count": 1,
+      "missing_checkpoints": [
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4"
+      ],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "budget_full",
+      "gained": false
+    },
+    {
+      "image": "disconnected_012.JPG",
+      "target_index": 9,
+      "remaining_budget": 0,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.0
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.0
+      },
+      "before_vote_count": 0,
+      "after_vote_count": 0,
+      "missing_checkpoints": [
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4"
+      ],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "budget_full",
+      "gained": false
+    },
+    {
+      "image": "disconnected_012.JPG",
+      "target_index": 11,
+      "remaining_budget": 0,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.6782396358159761,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.6307601535762851
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.6782396358159761,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.6307601535762851
+      },
+      "before_vote_count": 2,
+      "after_vote_count": 2,
+      "missing_checkpoints": [
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824"
+      ],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "budget_full",
+      "gained": false
+    },
+    {
+      "image": "disconnected_013.JPG",
+      "target_index": 5,
+      "remaining_budget": 0,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.56912356720271,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.6637489104796646
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.56912356720271,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.6637489104796646
+      },
+      "before_vote_count": 2,
+      "after_vote_count": 2,
+      "missing_checkpoints": [
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824"
+      ],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "budget_full",
+      "gained": false
+    },
+    {
+      "image": "disconnected_013.JPG",
+      "target_index": 7,
+      "remaining_budget": 0,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.0
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.0
+      },
+      "before_vote_count": 0,
+      "after_vote_count": 0,
+      "missing_checkpoints": [
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4"
+      ],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "budget_full",
+      "gained": false
+    },
+    {
+      "image": "disconnected_013.JPG",
+      "target_index": 8,
+      "remaining_budget": 0,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.6991483161964926,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.6616102145872852,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.7325327359801501
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.6991483161964926,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.6616102145872852,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.7325327359801501
+      },
+      "before_vote_count": 3,
+      "after_vote_count": 3,
+      "missing_checkpoints": [],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "budget_full",
+      "gained": false
+    },
+    {
+      "image": "disconnected_013.JPG",
+      "target_index": 11,
+      "remaining_budget": 0,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.46649091526134395,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.45173443229074717
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.46649091526134395,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.45173443229074717
+      },
+      "before_vote_count": 0,
+      "after_vote_count": 0,
+      "missing_checkpoints": [
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4"
+      ],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "budget_full",
+      "gained": false
+    },
+    {
+      "image": "disconnected_014.JPG",
+      "target_index": 3,
+      "remaining_budget": 0,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.7351202650022757,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.7911802933474523,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.7755211649419862
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.7351202650022757,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.7911802933474523,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.7755211649419862
+      },
+      "before_vote_count": 3,
+      "after_vote_count": 3,
+      "missing_checkpoints": [],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "budget_full",
+      "gained": false
+    },
+    {
+      "image": "disconnected_014.JPG",
+      "target_index": 4,
+      "remaining_budget": 0,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.5249034244077185,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.3433180002195275
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.5249034244077185,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.3433180002195275
+      },
+      "before_vote_count": 1,
+      "after_vote_count": 1,
+      "missing_checkpoints": [
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824"
+      ],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "budget_full",
+      "gained": false
+    },
+    {
+      "image": "disconnected_014.JPG",
+      "target_index": 9,
+      "remaining_budget": 0,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.8803120805906371,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.887517902908155,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.8046687075320006
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.8803120805906371,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.887517902908155,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.8046687075320006
+      },
+      "before_vote_count": 3,
+      "after_vote_count": 3,
+      "missing_checkpoints": [],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "budget_full",
+      "gained": false
+    },
+    {
+      "image": "disconnected_014.JPG",
+      "target_index": 11,
+      "remaining_budget": 0,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.5853200363950288,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.406064193597665
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.5853200363950288,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.406064193597665
+      },
+      "before_vote_count": 1,
+      "after_vote_count": 1,
+      "missing_checkpoints": [
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824"
+      ],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "budget_full",
+      "gained": false
+    },
+    {
+      "image": "disconnected_015.JPG",
+      "target_index": 1,
+      "remaining_budget": 0,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.8984842752582558,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.9126971083648071,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.8184635490148913
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.8984842752582558,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.9126971083648071,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.8184635490148913
+      },
+      "before_vote_count": 3,
+      "after_vote_count": 3,
+      "missing_checkpoints": [],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "budget_full",
+      "gained": false
+    },
+    {
+      "image": "disconnected_015.JPG",
+      "target_index": 2,
+      "remaining_budget": 0,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.30694191376795943,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.4619584703911629
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.30694191376795943,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.4619584703911629
+      },
+      "before_vote_count": 0,
+      "after_vote_count": 0,
+      "missing_checkpoints": [
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4"
+      ],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "budget_full",
+      "gained": false
+    },
+    {
+      "image": "disconnected_015.JPG",
+      "target_index": 3,
+      "remaining_budget": 0,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.687147626724936,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.396919865972252
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.687147626724936,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.396919865972252
+      },
+      "before_vote_count": 1,
+      "after_vote_count": 1,
+      "missing_checkpoints": [
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824"
+      ],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "budget_full",
+      "gained": false
+    },
+    {
+      "image": "disconnected_015.JPG",
+      "target_index": 10,
+      "remaining_budget": 0,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.943316064694761,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.9414006816935208,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.9179921614655043
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.943316064694761,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.9414006816935208,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.9179921614655043
+      },
+      "before_vote_count": 3,
+      "after_vote_count": 3,
+      "missing_checkpoints": [],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "budget_full",
+      "gained": false
+    },
+    {
+      "image": "disconnected_017.JPG",
+      "target_index": 8,
+      "remaining_budget": 0,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.39862386398504124,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.41222606188474376,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.47509848386743214
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.39862386398504124,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.41222606188474376,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.47509848386743214
+      },
+      "before_vote_count": 0,
+      "after_vote_count": 0,
+      "missing_checkpoints": [
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4"
+      ],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "budget_full",
+      "gained": false
+    },
+    {
+      "image": "disconnected_017.JPG",
+      "target_index": 9,
+      "remaining_budget": 0,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.6789132296861807,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.6941917176298211
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.6789132296861807,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.6941917176298211
+      },
+      "before_vote_count": 2,
+      "after_vote_count": 2,
+      "missing_checkpoints": [
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824"
+      ],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "budget_full",
+      "gained": false
+    },
+    {
+      "image": "disconnected_017.JPG",
+      "target_index": 10,
+      "remaining_budget": 0,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.7288641135949918,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.8534990740572644
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.7288641135949918,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.8534990740572644
+      },
+      "before_vote_count": 2,
+      "after_vote_count": 2,
+      "missing_checkpoints": [
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824"
+      ],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "budget_full",
+      "gained": false
+    },
+    {
+      "image": "disconnected_017.JPG",
+      "target_index": 12,
+      "remaining_budget": 0,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.9009920216159207,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.8750684882214466,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.9158792367094352
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.9009920216159207,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.8750684882214466,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.9158792367094352
+      },
+      "before_vote_count": 3,
+      "after_vote_count": 3,
+      "missing_checkpoints": [],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "budget_full",
+      "gained": false
+    },
+    {
+      "image": "disconnected_018.JPG",
+      "target_index": 2,
+      "remaining_budget": 4,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.0
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.0
+      },
+      "before_vote_count": 0,
+      "after_vote_count": 0,
+      "missing_checkpoints": [
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4"
+      ],
+      "covered_checkpoint_views": [
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc"
+      ],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.9659298811749952,
+      "diagnostic_reason": "not_all_missing_checkpoints_queried_over_target",
+      "gained": false
+    },
+    {
+      "image": "disconnected_018.JPG",
+      "target_index": 3,
+      "remaining_budget": 4,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.0
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.0
+      },
+      "before_vote_count": 0,
+      "after_vote_count": 0,
+      "missing_checkpoints": [
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4"
+      ],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "no_acquired_view_covers_target",
+      "gained": false
+    },
+    {
+      "image": "disconnected_019.JPG",
+      "target_index": 3,
+      "remaining_budget": 2,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.0
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.0
+      },
+      "before_vote_count": 0,
+      "after_vote_count": 0,
+      "missing_checkpoints": [
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4"
+      ],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "no_acquired_view_covers_target",
+      "gained": false
+    },
+    {
+      "image": "disconnected_019.JPG",
+      "target_index": 7,
+      "remaining_budget": 2,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.7982169850636445
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.7982169850636445
+      },
+      "before_vote_count": 1,
+      "after_vote_count": 1,
+      "missing_checkpoints": [
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4"
+      ],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "no_acquired_view_covers_target",
+      "gained": false
+    },
+    {
+      "image": "disconnected_024.JPG",
+      "target_index": 1,
+      "remaining_budget": 1,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.0
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.0
+      },
+      "before_vote_count": 0,
+      "after_vote_count": 0,
+      "missing_checkpoints": [
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4"
+      ],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "no_acquired_view_covers_target",
+      "gained": false
+    },
+    {
+      "image": "disconnected_025.JPG",
+      "target_index": 3,
+      "remaining_budget": 1,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.0
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.0
+      },
+      "before_vote_count": 0,
+      "after_vote_count": 0,
+      "missing_checkpoints": [
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4"
+      ],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "no_acquired_view_covers_target",
+      "gained": false
+    },
+    {
+      "image": "disconnected_026.JPG",
+      "target_index": 9,
+      "remaining_budget": 1,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.0
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.0
+      },
+      "before_vote_count": 0,
+      "after_vote_count": 0,
+      "missing_checkpoints": [
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4"
+      ],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "no_acquired_view_covers_target",
+      "gained": false
+    },
+    {
+      "image": "disconnected_030.JPG",
+      "target_index": 6,
+      "remaining_budget": 1,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.6729936169043537,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.0
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.6729936169043537,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.0
+      },
+      "before_vote_count": 1,
+      "after_vote_count": 1,
+      "missing_checkpoints": [
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824"
+      ],
+      "covered_checkpoint_views": [
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824"
+      ],
+      "strict_interior_checkpoint_views": [
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824"
+      ],
+      "maximum_target_area_covered": 1.0,
+      "diagnostic_reason": "not_all_missing_checkpoints_queried_over_target",
+      "gained": false
+    },
+    {
+      "image": "disconnected_031.JPG",
+      "target_index": 1,
+      "remaining_budget": 3,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.0
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.0
+      },
+      "before_vote_count": 0,
+      "after_vote_count": 0,
+      "missing_checkpoints": [
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4"
+      ],
+      "covered_checkpoint_views": [
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824"
+      ],
+      "strict_interior_checkpoint_views": [
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824"
+      ],
+      "maximum_target_area_covered": 1.0,
+      "diagnostic_reason": "not_all_missing_checkpoints_queried_over_target",
+      "gained": false
+    },
+    {
+      "image": "disconnected_038.JPG",
+      "target_index": 5,
+      "remaining_budget": 1,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.12056180857796081,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.5370641470035468,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.5410660231837238
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.12056180857796081,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.5370641470035468,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.5410660231837238
+      },
+      "before_vote_count": 2,
+      "after_vote_count": 2,
+      "missing_checkpoints": [
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824"
+      ],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "no_acquired_view_covers_target",
+      "gained": false
+    },
+    {
+      "image": "disconnected_039.JPG",
+      "target_index": 7,
+      "remaining_budget": 1,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.4629996775606994
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.4629996775606994
+      },
+      "before_vote_count": 0,
+      "after_vote_count": 0,
+      "missing_checkpoints": [
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4"
+      ],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "no_acquired_view_covers_target",
+      "gained": false
+    },
+    {
+      "image": "disconnected_041.JPG",
+      "target_index": 0,
+      "remaining_budget": 1,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.9116060947042298
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.9116060947042298
+      },
+      "before_vote_count": 1,
+      "after_vote_count": 1,
+      "missing_checkpoints": [
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4"
+      ],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "no_acquired_view_covers_target",
+      "gained": false
+    },
+    {
+      "image": "disconnected_049.JPG",
+      "target_index": 3,
+      "remaining_budget": 0,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.9215874937252642,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.9248132860563433,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.9274367414005101
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.9215874937252642,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.9248132860563433,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.9274367414005101
+      },
+      "before_vote_count": 3,
+      "after_vote_count": 3,
+      "missing_checkpoints": [],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "budget_full",
+      "gained": false
+    },
+    {
+      "image": "disconnected_049.JPG",
+      "target_index": 10,
+      "remaining_budget": 0,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.0
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.0
+      },
+      "before_vote_count": 0,
+      "after_vote_count": 0,
+      "missing_checkpoints": [
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4"
+      ],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "budget_full",
+      "gained": false
+    },
+    {
+      "image": "disconnected_050.JPG",
+      "target_index": 3,
+      "remaining_budget": 0,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.7112828449864239,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.7062636217195024,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.8666698152186876
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.7112828449864239,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.7062636217195024,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.8666698152186876
+      },
+      "before_vote_count": 3,
+      "after_vote_count": 3,
+      "missing_checkpoints": [],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "budget_full",
+      "gained": false
+    },
+    {
+      "image": "disconnected_050.JPG",
+      "target_index": 5,
+      "remaining_budget": 0,
+      "before_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.0
+      },
+      "after_best_IoU": {
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824": 0.0,
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4": 0.0,
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc": 0.0
+      },
+      "before_vote_count": 0,
+      "after_vote_count": 0,
+      "missing_checkpoints": [
+        "18ab6c4c4327cc0b3d9870f5fe36efc6a93d78a6e341ecae05ae703deb4537dc",
+        "9ed5ae77c940a78869e084639c55294b05fc65a78e3723f84af2fdc8189ed824",
+        "f519a566d98756d988372c3f24dd827480ea41ac7cdb9fd12a97a426756d55b4"
+      ],
+      "covered_checkpoint_views": [],
+      "strict_interior_checkpoint_views": [],
+      "maximum_target_area_covered": 0.0,
+      "diagnostic_reason": "budget_full",
+      "gained": false
+    }
+  ],
+  "pins": {
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\experiments\\diagnose_resolution_coverage.py": "3bccb36d8292d00ecd2023677da39d2ec4977a07e4990bda5a5c8792e41b9d62",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\report.json": "8e59736f0dce01dca3162f3c1a5ece8f9db39054de4833b13a41ade33d333bc5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_replay_20261004\\report.json": "0d7bf91ab631e141090fcfacbc85275b0893c7d16d84179b057e8e6122781fed",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\disconnected_001_seeds.json": "5414c79049781308d7bfe418a95417802d90f7e481f749889ce7752a5b02e41d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_001_predictions.json": "7f7170174b7c3169d62b3b56954fbff7b3e13a5e89a581c58c79ba280d3b01ae",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_001.txt": "76e5a782d7b33f9ee5288d78df3aea8e690ddb6d142f4bc12df9eec7b7dcf125",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\disconnected_003_seeds.json": "b243399c7a4fa6d4ea0e09d8d15e2431fa314c5431a1fb7e885294a4103ac74e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_003_predictions.json": "e3053c12458740e360419fd01d0aa94792879a1bbff6558b4e2732ae152aa516",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_003.txt": "00d09d7a8ec34801a9b6b60dc52282dcfb80d40abac84c1747beb7a6a58cccf2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\disconnected_008_seeds.json": "41a6c50353fa3ea9896d79524cb8620a06bcd71fa6c9f02c80c94da5a72c4a60",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_008_predictions.json": "73d95fce9d7bb7314313cd01cea202169072170a5efd90b0311e97c862571eea",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_008.txt": "b93472e6747b440da88eed92c75db36d6124f98e7ced2fd98ff7970681e0a3d0",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\disconnected_009_seeds.json": "2a0003b5459c6c1e169ac9982e01d190d3813d707428fad6105744641867ff3f",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_009_predictions.json": "907a9037dcf73f4f6d36faa16eec863a4c900674a56c514f70870cbaaf98b5e4",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_009.txt": "5b44f3e10d657e215565afcd04e11c9f80fecc3d13abd38f7fa93b10fccecd3a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\disconnected_010_seeds.json": "3cf0152518b28d77aaecf95f9f4957b47ef1ed712d4965f5113b0fca49c017b7",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_010_predictions.json": "999dbd2a0fad92737173aa1649974d99c684935ff87bb265570eca6cc1459425",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_010.txt": "0d8a0270f3b8a60e776c9610d3c8f0c69a5ea3faae488efcbb4e98b5967c2b43",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\disconnected_012_seeds.json": "d1c2f7cbffa813a67f2013030f50fec045dd8b0b52ffbf7b05c921b26671d03e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_012_predictions.json": "390821d3b816c8ffd3d3cc5e6caadadca57cfe2224b7c1576db1ad0980b9f630",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_012.txt": "30caee926440b1a88cc4e4b8e9971445c3eefb94f7a83feba337525401fc9d6b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\disconnected_013_seeds.json": "d5d26bdc1389cfe03b48f345f2f53ad9122249e999b05e5eefff4eed70ad5022",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_013_predictions.json": "3fb1ac9f984755b9791cae7040915b8c799cc75535e05be5a9663b053256ae76",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_013.txt": "e6f20b372a5ed4a87babd5bcec35462c48e6f324caedc3aad8b15f0f44564494",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\disconnected_014_seeds.json": "c95cd5af8d05d495c24bc3aef7561df754b4bb619944089f8077bc2705e8c536",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_014_predictions.json": "0ecd82d27ce73d1e94f1e698391ae5500f9a15a035bc999b469ff388cbc4c673",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_014.txt": "d927f866b1d3a714a45a01d64371e9c29e2534edaf26f97c40dbfd52ed025822",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_002_seeds.json": "99b1bccc891af7472b4815db12022a874a4f0ab865746ffa5137381913edf88c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_002_predictions.json": "5afbf44134f87eb71e73c9048ca10ab1ac401e82b2e0e688c1bf30d9b1006bc0",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_002.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_003_seeds.json": "978804e74a087347c2ad96dac1ceff772699f7deb8d91fe0c741d7d481c966d1",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_003_predictions.json": "165b90805f57b262dc16a2891203dfb9ad0f80dda80ed5bae12b180c6a549f69",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_003.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_005_seeds.json": "d2f2917ede1f5b1a154e9d4c97d7593d9c41887dbbfaf6a808d78c19ba5242df",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_005_predictions.json": "411eb47f9ecaf82c3a2fa2d3396a9400a17a50b0410f902abeb3a4fac2656a67",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_005.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_008_seeds.json": "4b1aeec604b2da03bf094334e1d8cd6b5151d65a90e66ddc097581aa390de9eb",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_008_predictions.json": "acbffc70fc1f12b36a7288dfcb74f7a29f59512a3c6a9da2835eaac951ae2085",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_008.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_010_seeds.json": "6d87d9c4d4203fc5bb445e3f00a14d0d73c542557257991ff104a16f7286e0d2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_010_predictions.json": "64e1df7b7d22dc814949a878d24825a34e50f04f156f18978bf5c865df533eb7",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_010.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_012_seeds.json": "9fcafdaeeeb2f11cf8c94fdce90c6195032d2472402263295867ea9847e63d03",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_012_predictions.json": "88f40ba673a6fb5ccace47e370f00f91b510580560c524b80dc0456f5e8f77be",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_012.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_013_seeds.json": "ace929b596d491fda877838212bcc64e846b522aa2070fbd16bfdb7b96fe3994",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_013_predictions.json": "22579289bf664caa3fa43f5ddaa9de52dc5c8d4607e814f56db544b7324ed954",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_013.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_015_seeds.json": "ed417ec1ab8d54194c2447d2fd03c6cc528130760f0d894bd13e04dfc0807855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_015_predictions.json": "ecd6f54900ad92012a39755084afa0ac93e0a05e42c4932d47e9decb21f5e5ca",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_015.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\damaged_001_seeds.json": "8a55b34c9da1e55dff7b6edd20ad17a53a29367d86be3c21cc65394414eefb68",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_001_predictions.json": "c543b1ceda226742f7180b03b50e0ecc190459ace9e8abdee7ebffb80f225d31",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_001.txt": "0d3a24d5b4f09a315e2fe81282e1692a91a12abc7b457365f6967ad08e89426e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\damaged_002_seeds.json": "5325d8d6d3cd943044d772afe4227ec6db47f9aae002045540e29bfee9ecca40",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_002_predictions.json": "31a7bdba2072dcc53a869c88321975cef87a5eeb172a88ad8a898eb19c1c3b19",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_002.txt": "ea6d0ec63137a9389d73ebced42386c86d2c252bcf25548ff6ca2597b80e982f",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\damaged_003_seeds.json": "35f73c6aec8a2097788c47d8547c9ed089d480f7014b7ecf32eca11610b72a7c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_003_predictions.json": "6a9966081d03aec38ae8cfd0d21c582f2f7247bf7f5c2dc933c0247ef16e0170",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_003.txt": "38ce221182a2fc16b2c462dcd400032677470e1861dc946c5029ac815cba05b5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\damaged_004_seeds.json": "541a713b020d380201fb4feee25a8c7471f4dca0802dd731b58d145599c3c0c1",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_004_predictions.json": "3bbfeb85680d4dfd4ccced633fec4369d5e0352baf7f9f67e0169489979e1820",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_004.txt": "b26fb9242e52a00c62a536d80bf55d90fd9a3ec0affc21cc768b7c3c6e585d1e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\damaged_006_seeds.json": "34e5acbe1165f413432fcb66751ea5d403f16dc86173e304b20f7d4133827172",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_006_predictions.json": "48ba74b5295513754b3a4f2db91525fe6cec99b02dc405c3e62df9b33d6141c9",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_006.txt": "c79c86d5b886ef26f8aa03446b51c4b43a32963ce4e0b5d154633fe10419f7ae",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\damaged_008_seeds.json": "8c1e87f2342c293cc9bf7db8f38d8d157ec65b6d51acbbea12a21ae2568d1c02",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_008_predictions.json": "a950a3118dc56bffbf3103b6add421dcc2964ecdbb4c70d8f22e3f3760d77848",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_008.txt": "8aa33d58936b21691b9cc63c5db1a8a9c319901c76b721dd14f1a1fcbd7f2c6b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\damaged_009_seeds.json": "dde1e2174a9f27d9eca99bd0c7c7ee5b6a89224ceaea9f9dda0c17421b4aa9c1",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_009_predictions.json": "d0b997e6fe5798fdcd5c10c1cd6d35fa9aee4ccc407a1f63efe181662e8b6b1a",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_009.txt": "7386e3130f7d75084db5a736e36a2bf3b9e8e0dd6a73782abc1fce60ba335577",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\damaged_010_seeds.json": "0ec95710b1d159420d9e98d853f0e2f1399cebf2c6cd419069c06a002560a17b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_010_predictions.json": "97f73b24f2ca3bc70aa2885445d7a1feccf5d1f5aa22eaf18aadc47ae7011882",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_010.txt": "7d70351e053189154f3000da329949ecd91bc8646fd273494e49d8f4f2ba63b2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\misrouted_002_seeds.json": "6ec0bdd98f475d5c7619479a5138486189f8bd5c84581c9db503e7461f64e85a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_002_predictions.json": "6212a301d96710f47b02cb62a6e3544e7e2a3c43215fd93e9a3c729f7965545a",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_002.txt": "b121927a2b4b2eb8faff16fd37b2bb667b6af0e6b0c59f2a1213848c5598b69a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\misrouted_003_seeds.json": "3012b8e1434b95437d1a4480d7d4ee52f9a8856649ed8e898fa36081723ed378",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_003_predictions.json": "8715b3a9d29b245c745473ab47a70640639434591ccdb3d4d5a829abf08c0182",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_003.txt": "94ad24e3868a2359e216bb5ef5380ca0587149604f8b028f687ac09e5e284f4c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\misrouted_004_seeds.json": "9a6a7bfe596f950c1d3d9a44e2cea846469470e3efc4f839bb71a8b7fca74156",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_004_predictions.json": "d011ac550a488c335e473abcf070d010ffe8244af6fbaea494b4698d99784ea5",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_004.txt": "9b76f818cef4240e42734a49e242db1a93e4712cdf9e7a95d51a9f7d06541a63",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\misrouted_006_seeds.json": "756433f28bd8cd5ca458fb9d4683d24ef8c702d599c92eb5c7df5e35b7dde491",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_006_predictions.json": "ff0a565910b7d79a4497a5f649acb5612b21de9aa719f910ce025601174f9915",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_006.txt": "d0ec12d49532cbea06e6f4d5e0116f133eab401b7592f3dd23ae270c34035d08",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\misrouted_007_seeds.json": "13995a97d7e812a58745b4744433eeccb204403ace0ea07781624d2e178ac9ba",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_007_predictions.json": "863541dce18340f6e6fc9194ac03908b2e86571261d66720db64554c6dda3614",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_007.txt": "ed8e3d4421a8f00a8004bb8a2615bb03edf9a8dcf20a3eb6bc847c030846e562",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\misrouted_008_seeds.json": "a2b2524709fc5c7e118a12bb829ebdec3005ce8170f81c9c38165433acb7d50c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_008_predictions.json": "94fdff18650973be167b5f5bdc238a8bfe825ac190f073291bd7f280c16cd9ed",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_008.txt": "94261fd0e6e8ac0e01117d6b26b341545d62fdce113a0f46c0aae449b316507b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\misrouted_009_seeds.json": "54250972c220084ea01f752c0ef3b9a58f7a7fec639ca370facb0b0f567f3a71",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_009_predictions.json": "0c54e6bd5dc87e50c9ea7d1aa74ccb02823859e59e24f5d579219672b44eba68",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_009.txt": "daa271d206f356129eff76f3858a052748b07de62deb39ad75b7c9d37277fe94",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\misrouted_011_seeds.json": "ebabdf2740bcd62215bb84cc6060e0056d63d99dafc0fd5ac18d0ddae60fa633",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_011_predictions.json": "e85f4b52cf58e10d283712b32d3f025d6646de36373c80a22b55b1aaffc54e9f",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_011.txt": "c79fd4d3f364aec794cbe6f11a77d4cc9870b436adf09ffe8280045b9246964a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\damaged_011_seeds.json": "2377bbed87173b231227fd09cc069d7f58404368bc0b5b4a12975fe107001f98",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_011_predictions.json": "9fc5e423bfbe4d860cc54d7565cc46f8a249a9f500d8296ea09d32d95177bced",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_011.txt": "c891a466e553a66d64953809e0d11a2f62f4936cbce5b8cb34f0f235f60b682d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\damaged_013_seeds.json": "82e0c27df4031172a5a80a6009f7dd8e8a7170e0cbd54921cdc04a1b23d7b255",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_013_predictions.json": "ead518be36fcc4e0011bd64399f52455b14e4042acf9df1577bb4f846f0bbe55",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_013.txt": "4d2c2f304d42ded12dcdd81f2aa18cf465e8eb6860f2faa336509200feee179c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\damaged_015_seeds.json": "75c145d8b7d038baf0f2932769626661478e43fee90f7765ced298986dfe3ec3",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_015_predictions.json": "17957b89fb1d5646810151be4ebefc203c03dacca1e734aad74016301082db28",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_015.txt": "626a47dcbd0733427f950613829cc8d1f7b4a24870b9cb2105e21d87da8328ea",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\damaged_021_seeds.json": "6d4c89b4756a3b0d8150b60c3eee8579c8a075d429ad2d8aca5a798d40ba6fc5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_021_predictions.json": "ee74dd619a68a2985feb46ad8de266b35217af8fad932ea735ff27e231cb7bfa",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_021.txt": "011419ffa1034e7f296d28777f92c321d4130fa4c006e09ed971494330351a96",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\damaged_022_seeds.json": "7d501235d561685775c0b2bf7262e8f4344ff488bb98dd01caa78c2223d3b51e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_022_predictions.json": "90b0aa8d41fa239e550b75373fdb87c0d7828a185578e0440cc6d9c3aaf8c8c0",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_022.txt": "82d683569749997c9eeee978abd64f73e716d762825e7c81fd97713ec743f304",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\damaged_023_seeds.json": "7b700dace0e4260e1114c0e5552d092b27cfaa24afc3ef1ae1a35e75ec54c1dc",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_023_predictions.json": "500bb6b3d996527e4c1c62a24268df57fc8cc2cb6422832c6eee863b2fdecc69",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_023.txt": "e0e1ac02d8ffac3e930337b2a7b7ac1dd1c92aec3cc9fbe5133e68b8cc6ac131",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\damaged_025_seeds.json": "f58c98e5fe614312fb624ddc88558904e3144421500a737dff13ded929d1b865",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_025_predictions.json": "eb22f1a20f3631f64d145938a332cd0e00192260aaf324f14ecfb5479d288c18",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_025.txt": "c267a031b3ba066c5fa6750fc917075b5d1225e315870baf34849aa2f858ab8f",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\damaged_027_seeds.json": "9790a69a13d922ea68a81ee2e8cd4c44e79f9022aa51d6c244c72b06e0f58ea1",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_027_predictions.json": "e8d536572bf2dfaa20420ed5603fa6aa5470a3d5b580dd29194ff7d1aea4f2f2",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_027.txt": "582e47136aaf0c1d9de8b1faecf3711c560c7860dde88a686911488d5bf8dd13",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\damaged_028_seeds.json": "de9c62389dea908650d2e7f0b6b6314b4de04ee7bc69bfce7932131d88829de0",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_028_predictions.json": "a858afed67c3f87e07dbf43a47b0ab758be454a909885d9a1e7d54e669dd109c",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_028.txt": "21644495d8e135b6f93a1ca52360d0c630ddf96170f88cfe37bcc8b549bfdac4",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\damaged_029_seeds.json": "58461030499dca4c9639df8f5bd2df22f377b0909ac1030dea8d9f1fe58c5aa5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_029_predictions.json": "7c03a84e63b7da008dd6e13ad348aaf5aa95b84e8c9d433a53400d64bafb7488",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_029.txt": "af69fac429bc6c7f724123ed721872191e0d36f43ae89dca6f774c0d830a04ce",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\damaged_030_seeds.json": "a29fb7fde0734df30525204e85251b3ac4b6b67b63095f6d6c4ec63888111d9c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_030_predictions.json": "b6e154cae39577902144a94c3c6a24adc4942a22977ee4f628f06dbb80dd55f1",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_030.txt": "af07f5623124f69b71daac0d162f63063b84c4a99cfb951c8f815680673cf76c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\damaged_033_seeds.json": "ec780e9e5455f1985562b76952baffc6c983e29d56535d65ef2c98b4ad73c719",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_033_predictions.json": "9c85f10b396e4882ee30919502530ca27408f949d1b3842404c6f649edc364f5",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_033.txt": "f520ebd983e0959f6607fc26e736ae148461a9a1eaf8fcfc16d6e02b362d4ff2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\damaged_034_seeds.json": "ad900e25d80d28e2f24a760901f7057510a23a3e8668f1a66bfe756def23b831",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_034_predictions.json": "36eab136bf02476fa30b830cc003a78bf3ecc90a4afe5d553047f6efb459ed9c",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_034.txt": "c74007b0b04699b4c8cf25f79600e6d26d4d63a60da00c4925297363c1af561a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\damaged_038_seeds.json": "127534723589a09637776070fc7fec326b9a64b78c98f1febbaaf11674fa99f1",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_038_predictions.json": "39dc655b71cff8514d5f6455254eb15660089bbd09fd9983c0fd03b234451f17",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_038.txt": "674235b6aac79a270a295fd8ec9f3debe4ddd1152095721a5458b318e2e89176",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\damaged_039_seeds.json": "77c8468fb99d83d2ef33f6bc073a3e27bd09ba6ddd9692d6c7f8c8fc7a5e1e21",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_039_predictions.json": "610f52e0ba643597f33d8c77150ca4bc777a5a13afe5696d2195f734ca6636da",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_039.txt": "ccb3f0d1861ba144fa978cb42ad96e2b3c82edc934e10a61b014a9d1785289cb",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\damaged_041_seeds.json": "0fc0fa0fdd868a0811a8120e3dc9944364abb9492322b4bee5fccd61198b77aa",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_041_predictions.json": "de07012a6c361c4e561652913142149be8807c3823ffce521baed53ad880d913",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_041.txt": "d65a21d91fb1438375d0c92fcbd0177fa3ee56d3c22404c74f72e46da8556c55",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\damaged_042_seeds.json": "c0a512c9e670c78cd69b471be6b60ee674a178a9bf979dc93fbdd1d8e79b74f2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_042_predictions.json": "f61399f468aa32c247510d5e8886eea99d893929df47a9ab6617f5853a676269",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_042.txt": "40ea48a4ab6736c3b527c56301eb17b10002f318e20f21d88c8275e9db738301",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\damaged_043_seeds.json": "2540b65c7cbe541fa8dc096bbd230ccfe75a4cf0ec112995cd53d44799dd5e4d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_043_predictions.json": "090992f16d68d5eecf9c3ab66c916ffcb361285d33fc600b0e27e3b6259b0f4c",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_043.txt": "4c5843f7959b2b8f5e9937f567017f550bf7b0022c9575e3a73b2fe20809b4cb",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\damaged_044_seeds.json": "80f49c727afb439bfa38bda456cdfa90456c3458bee7779dd652faa00795f23e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_044_predictions.json": "8e3e8d0e2b4d102b461bd606a30dd6f566f12c4576273204b5bb19661e38ca90",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_044.txt": "0d19da1de9f088c35f1abe0bec93f54c027516e04dc23db73e0372ef57f2eb2b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\damaged_046_seeds.json": "02ff196ba483a7effc61854cd556cae0853c9ef8537f4a7e7ec961bd725c4d8f",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_046_predictions.json": "c76a12fec1da443bde72120cc7e159b432346f1d28b6d78cf15499d381050b08",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_046.txt": "eafebb9ff4e7d2a3b9c5be1fbe974ca2b9fd17b97604cfca121974a971b071c0",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\damaged_047_seeds.json": "654e73ac60538e11b270f06dadb3e3e02b59b4f6bb3c832cfde78e002b522add",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_047_predictions.json": "9e7ca9479937523a0cc738a02b7678c0fc3451e5bf09279d9e465a3aa2c5c74b",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_047.txt": "e4bef6f018d44d251eac5c2da3fde105f779f471ae6d2aaa8fd90af66b37ba04",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\damaged_048_seeds.json": "513dd1e64cebe9f61ee5e4e0b402f49beb4527231da938d5f1444183d190323c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_048_predictions.json": "f93a71e8a9e0dc39bff85ee82f10cb83a6fb9a759f8127ec5917ff1ddb16885d",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_048.txt": "cda356519a7b37a0a867f0256e0f634fe4a51f6aef6fb8349cee86776471898c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\damaged_049_seeds.json": "1da377cfa9da625df57eae01454d145f4df92dba58352ff984ff80834b3f4ef5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_049_predictions.json": "446506bf33a8fdd82095e9b458b4a20a8d086cd33d8de893f0e71a6e603140dc",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_049.txt": "d6112fe166f94e6821c0e0e43ff2936b47ed46ea742b675afe091ba15eee9b6c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\damaged_050_seeds.json": "b40c21d9e009d2110fca530eac360c99bb6e7c6de63adb63fa64098b02e85d7d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\damaged_050_predictions.json": "0c656d6f6d24758ae112df35adc83f7808d9fc74162e3418a710105671654f83",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\damaged_050.txt": "4ef66a7410dff030e92abda5674163947fc7cac58caf1cea8ff52e4da1178a74",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\misrouted_013_seeds.json": "e64cd6c0207e40b38259d3efc5204c7eaaaab0740fbba293214fc8a99414fdb6",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_013_predictions.json": "6e826d6bfaffdff091ac3fde0bb41258509ce09142a9450b8a5310fffdc32190",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_013.txt": "0acd9a387f506ee40211bc383cfcb918789ad21ebade2084741de91ea3781c57",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\misrouted_014_seeds.json": "9acbfbe9ad43101bb446b44a4e81b5a1742ecccf1da93ed2f073d064f984baed",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_014_predictions.json": "cd1cbbd44abfed1c9c5ba1b07117a6bbbb4c9315f0ec33f60e895f86b26dcede",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_014.txt": "8a41d6b1c3551122f5a4a8d745534e4af684168e39135ef45e9a4cee17cd5479",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\misrouted_015_seeds.json": "f4912228745ef53351a4d50f390a385f2e8378ee21a83419e3e3d4b1d5b28eb3",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_015_predictions.json": "317be07426f4c1a0ddc35b4ed2699162832221059d64298c3352fe92fdd307d4",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_015.txt": "d7f46b5d7c713855bb47344f1f9be581df55f258db1a1e891ffb28b352904851",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\misrouted_016_seeds.json": "1377abe3ec8622fbbb5a349e51d5d31238797a77d6014110fb7475b35bc25548",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_016_predictions.json": "5ab454c31039f4e6e9eca456d0deee6064b538c53a308b201f8ffb022905a82b",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_016.txt": "37611f1a548a063b64c8fa616f1210f54b4bd903d5bb5e2317e7c7279c0adf0e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\misrouted_018_seeds.json": "4319e0b238c03da1477d9b170c78f1e781105a6f2baf4cfd41878cc15e6fe27a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_018_predictions.json": "5a38d672a045b78659b55008bde50531f842d9f19777ef37bc2b9296f397fb6a",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_018.txt": "9d9ca74ffa2f11b1e84ff4efd958a06e9757d30e8519c13e902faa1d2e04b062",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\misrouted_019_seeds.json": "98bf1780e9984829565adc0b3cefb2830c59c35d185504fa6b5f572b01ce7732",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_019_predictions.json": "54ffb46cf84348ba0da72053d5f37c19a6d5570ba4c3012db0bde0b183a3b6c9",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_019.txt": "cf444da774765e67f991c20e1455e188780dc7173966e85240e8aadd9b858c5d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\misrouted_021_seeds.json": "3cc651bfe6a40acea9826acac25155f6175b79b261346285e830695c315e3224",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_021_predictions.json": "b3cbd69cead903331fcb935817a56533e3e99b450255e713c0b47c7504a384c9",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_021.txt": "d171e24665447169250a39d30bf408f1035a7f013151b022a7835a09305aab41",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\misrouted_022_seeds.json": "cde20507a7f1529b62d2915157cc726492938c97998aa43b8c55eb1b76fccf5d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_022_predictions.json": "11f0ac464d1ec7e452eb1f07d8625a805a92ecfcffab3672b0879d1601a91330",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_022.txt": "c2696cab3909a5d224921f443cd369cdd3fdbdb248bc197db42b37af2e6770aa",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\misrouted_026_seeds.json": "e90797bbd935afb37aa832dd940dd71064396c56160ce2e109c12623dcc23cdf",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_026_predictions.json": "76a9a9759e8e4ba57728552ed2d841ccff8a60323845e0f7f7450182d3982ea1",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_026.txt": "8b92b2856f678db519727cff523c246719c02074076979020fc40e39669d70c2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\misrouted_029_seeds.json": "aed8b9bf0df58e4b828e26adc3cfb547fcbed34d71dc51d887a20bb66c8deef3",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_029_predictions.json": "8fb57d81e5bc631bd8ef42a03200c6db2844c8d4b6a0a277d59cd26b3b1b29b8",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_029.txt": "1dde238c991e61d42b22f907a7d27a9911f2428289e3ed22088529164a082475",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\misrouted_030_seeds.json": "d9aa21594113ad1479479b2f8b538670c921f15ded5ed5e106f992ebb8ddb3d9",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_030_predictions.json": "c7886ab6cfada7ff9d86f98ca2b754c8fc2ed05ef09eaf70ffbfa3063cee464a",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_030.txt": "1450a8f6b590d3b7166af36cf0b68d3a5ea83fae0fdb95b1370512c4939bd4dd",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\misrouted_031_seeds.json": "8d54878b0a1edadb8f8ea06c6c5bd2c02b0d2621ca3da0bf18baa8d14d63ce0d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_031_predictions.json": "bacc228e4de54a1f27033c1345d77b659c0b677cbe55e3563df0eb595ad1f96a",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_031.txt": "6294628f4b277231bc9cac92fbd06296dedbf7209090b6da0f0a96850fc9745a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\misrouted_032_seeds.json": "02ae953534293f508042cbe6287e665964663e0383fa27f50c42dd2d75256761",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_032_predictions.json": "c24d5c325eb5c5f2998f7ac42ce7a7e3e00ff3af8fb69074aec08855aa9953cc",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_032.txt": "a4d9d14ef740d98bbdc213884a4d3289bc4b2331bd005a55f23331c7bb50d8d6",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\misrouted_033_seeds.json": "6e92f31bc9c0e054525dfb7e2030f148be3c833caa0e1911c3e5c9c6d0e0ffff",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_033_predictions.json": "4d4293e3ef35c5c134bd4b8d6d82d8477460497c42b30cd96d82e21632e72d35",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_033.txt": "17a2c9822a1c7fc9ea31b0dd99fecc3d6c5391bf79fa15dc1c5c2f9afdd0abce",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\misrouted_037_seeds.json": "d47d25a6c6d5d7dcfd4aedb9b036ab2f4831a59af0b8f4ffde8aac62c081983b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_037_predictions.json": "af11463e789f24e7d6d76f5b7536c8de185fcfed9e657925f514ee4e00a57fed",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_037.txt": "8cedc9492421e7056368ab87da796000bd0fead303ba72aa01f284ea4a343ab4",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\misrouted_038_seeds.json": "21ebbac092cb35ca11780ec3b6ef9cd2a80601c74b430818927e2372cd37ad0d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_038_predictions.json": "7a35e85433b379788c7cf80cde7de65be985b48deb55e7972c5eff5335c5b055",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_038.txt": "bf1ccf935ba5227d3e51695f8fb4c3e8337209c1323517ab74bdc619a2742f02",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\misrouted_041_seeds.json": "17d15b7327b4ae9e41d9ceb90e085274fd2e969b50b6657065cf0a31a89047c4",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_041_predictions.json": "2e6fa33f4c51bd933310a02cdb3d7a02916ad14fb0431f9c8a6581e69520f70d",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_041.txt": "bdca0e7777aad5e09641b7f7a22b100a5b04e7025f7d57a459e902b7103a9dee",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\misrouted_043_seeds.json": "12325eda8734b277017b6a9665c601cf24b76a2f57d60e2b652f3bb92cafe47b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_043_predictions.json": "f8f4f444f433ac6a0d15e278a70166e8012ccefb306ce4c1a56b9427c3d01b56",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_043.txt": "29d3881589dcd240c736bdd8498f655718ddf594915cd9cbdd4beb82c873e664",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\misrouted_044_seeds.json": "d8bfc2a7c930ca2c6ea0a8eb058f1c1ec279d8d81d2b06ffe97e3ef0844c28c5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_044_predictions.json": "e4d5cf0f1513e4477afaa6f0d5b6fb5643be846c893734b6e7e50075464e5a11",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_044.txt": "06c7d34edd7a68cb7da73145c09f727cbaa6f6eb233b5ec06f10edecc1f1d0ea",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\misrouted_045_seeds.json": "dac81781af336d5ef89c70a1053937c57ce4c5204690c7cea5961709351a49b3",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_045_predictions.json": "f509f9454ad955a7bc4ceda62fe547642718418de480b7d428f47e1b7e52a255",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_045.txt": "85434d4cee2bd5287899d1604b70568fee4c926df66c888e9dedf714b9983715",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\misrouted_046_seeds.json": "e0fe18ad5d9b2b40dc6aead785a1bc634c35e4caffecf498f0d786f4bfb41727",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_046_predictions.json": "3dcdbed21a7b629863f8d84b8d3a53c0252e18da5985420ea4bd361930784753",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_046.txt": "11e5d8f49255e4dd1c083f2f7a3cd6ff1a4a2eba6ef7f1ae622cac6ec33f36a5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\misrouted_047_seeds.json": "e73129497aebba6c91c1c9ea8accc37970bd767e06e26843d4794925ffab6307",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_047_predictions.json": "378a65ceb0c07573708dcd438b08e73d49b143c0e8d16e1a1afd637c9309451e",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_047.txt": "fce170461e0b8007798715ee613a74c551e7e874ba23444dc9fb243fcc5d7ba5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\misrouted_048_seeds.json": "6df0fa2aa63109dbfc8e82976fe4bed8e6ee2ae0e74adc1ebf510d17394f00a6",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_048_predictions.json": "553894a503916aab2751765454b77136ac2f37734152c1e286a58fca78c6e1ea",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_048.txt": "6403682a33281aa226c530709d6b7832fa2820d40d3d759f22a64605b2b2a4ca",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\misrouted_049_seeds.json": "24db235007c48e0b1f1f253c4f3d98b0959c02698e27a1db176b7bcc8cb287f9",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\misrouted_049_predictions.json": "4797471810b4e2462035828b243beae355e7396fc205ed8a5e01e747a014ac21",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\misrouted_049.txt": "05422fc6b0ba9ad946f940a50e131a85c01d66859e5bb7f70f42488f92ca8666",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_016_seeds.json": "93b8da1760d75ccd3cd0f0ddc6a46adb708d1078da79bea692a214dce8244735",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_016_predictions.json": "08d6fcb741d0d10b81ae5bd9bfb44939b70b705bd2243c2af3e1d97c3b555510",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_016.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_018_seeds.json": "425617a2f4d275f906be606a7e29849cc93d7b60eb4de2fd9efeda10cd2f82b9",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_018_predictions.json": "5ed948255033c6a12390fbaf0e056caa9e8e88856f99b7b2c22b3ed4d741756c",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_018.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_019_seeds.json": "92358f72cf614c9578e35a7a0254675b6a18b7cf291ef0c5b1f6cc76f2661622",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_019_predictions.json": "d8106c5c466ed677d20bfac2598a4deba18e56265201ba9d3b8055af56c33e15",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_019.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_020_seeds.json": "4318fd8c959af786551e8a372ebb2abea0a4be65a460fee91334abd2d2bde727",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_020_predictions.json": "e9ac4e0aaf95cec2328c2135555900e2a68a879a962d8be853ef6cab873bf892",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_020.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_021_seeds.json": "4b4d8bcd32885b1d6dd52d78159e1f1d1c1d40697efbc9099ed89048b7754bd9",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_021_predictions.json": "2449a88ac71109699fdd8fb3dd190336a67b090942091d433e36346943672975",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_021.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_022_seeds.json": "f2559c8c0a35e4a6ed75b1963c88bf4839abbe0f6422eb3c58b8c683ee8414a7",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_022_predictions.json": "3cedba02c4fea7685c2a1fef2b5dfb6260357220ca45cc0005178fea1909037e",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_022.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_023_seeds.json": "37c05ccdf41d09df41a901c6c4e834debaf0a6e0a16cddde93db77dad009d5c7",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_023_predictions.json": "dc77cac1ecb3782ff4c58735531d0d0e2f3873d11979814a6e46af37830202f0",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_023.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_025_seeds.json": "832e320e9f91d36fb7e5f982145c83fce0aa5b5b02a0dcb89516252b1512679c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_025_predictions.json": "ed6b483d3588fbc77b3cfa8d41d6230e81f5d42b8b29f27aecdaaff5d3f2e182",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_025.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_026_seeds.json": "abcd5e4f39629d50fc37b30098469c7571c1a8f8711d46f40ea397e634eac408",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_026_predictions.json": "8f6b257a3a3883cc9e828cda0b6309859b79eb6194343fa5e770c61f133e9eb6",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_026.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_027_seeds.json": "39446056a18a388e5b53d048e5665fd9102017b676554066e566f433e9436386",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_027_predictions.json": "4601cb66bc8503671cbc5ec20d9196ad26127e29bd6a701fd43f00c1c0e164b2",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_027.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_029_seeds.json": "6610c72433781339988c7fe4f0f5f6f6c6d7153bf2aea63b4a640a989ac39ab5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_029_predictions.json": "fae47bf01108a8b8d13d96404a0c787a8dda804407aa4945d75c0c27b3e12c79",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_029.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_031_seeds.json": "da8bbc0843a09e4f5a8df4e33f1eb03bcfa338d4fb5cd91af07d7c1fd791410b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_031_predictions.json": "ee3f8ec9f143055d8925afcf3308e6a9f0b3ade42e1e0430be6a72c00eb42459",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_031.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_032_seeds.json": "be0b64741a7f61bf8a51f9436d8b0866768388e377afd921f8b717bc6c5a0024",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_032_predictions.json": "e24253d966aaf004e8160d0502697e5be485f57f872e44a1120ad9b31bf6e967",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_032.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_033_seeds.json": "61a355c3c25000722bc4a64a404ead216fc228167caef328b6b325fd1be5e2ba",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_033_predictions.json": "94cd0e599286c0a1721af622d8cb28c8d183716753bc62e6f22d48e9dc01448d",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_033.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_034_seeds.json": "5c0b5010d11cb423660b279f29c48a3a65793ada2712aea359fbbd6a20dbf058",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_034_predictions.json": "a380c9d2d3155e830aa025b7b62f100875ec29a0593647412cf3654a5327c0f9",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_034.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_035_seeds.json": "834ffa21800e851ab6473b14624c3a19be9b118ea50ee667941a58c0a9f043ec",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_035_predictions.json": "0715267052d42158e027880cd12e2c2aaf12f69aeb8557b72e90cd1ddb6f59b3",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_035.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_037_seeds.json": "82325da4bc44646893f684ad2ae21e3fd33f8495a78f2791106c538572b60f2b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_037_predictions.json": "8fff6b6a17bdc888c15965c997f64ba8572ecd04cbd0dad381aa8822b8a081b9",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_037.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_039_seeds.json": "3eac75b1f4559e6b0422c7862210398a70aa2954ad15daa5c274a94db21db6de",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_039_predictions.json": "eef1908a6a485532e6bb13cf0f735d7b6181aca0e3c3dc8fe09008bbb9f1e0a5",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_039.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_040_seeds.json": "ac686d41ef5acda964889f08e9f3490238f999673a1f58455f4a682f4270ca81",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_040_predictions.json": "615ee5eff69967c99195d7bb30804199bcbf0250a1fe9e7b3187a80d1506e772",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_040.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_045_seeds.json": "d37a87bf64e05f667bf6057041338c1f62f1bde040976e53b76134b43e6d3a6a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_045_predictions.json": "8c2b3210f01d87a684aefc93b6a6faf5c91c2812c679668c7dbddf12c6f3d713",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_045.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_046_seeds.json": "8c4b68ad70cb10aadf71afb9b9719f14d47f3a6b9f3cab7316e812ee9d0a13f7",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_046_predictions.json": "ee0048b537ae4ba935f65554ce4617b5ef1e89f52ddf3b517cbfd459a2f291fc",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_046.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_048_seeds.json": "1d90382389ff1ca0a5cfced5ba72c5343c2f09f2f920a9ed7f80437b4dc45242",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_048_predictions.json": "8586b3ffcaecafb163a75a637aa49a43256454ac84b41a3d03c47854062380e4",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_048.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_051_seeds.json": "5f49b556355b4d6c457460165cef523c7c63cc18cfde00fccf189014da92095a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_051_predictions.json": "b156590ee58506241cd798ae0ea7df3eef1f63b979bcd62ffb1de8cc4e3787da",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_051.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_052_seeds.json": "955fb9a85030f634161e9447ac769da2cd1f68ffe9a2537fd8a30d8177c4639f",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_052_predictions.json": "35c598de1ed08645439dcc83c541d7493ba6c2f1d00b04d87311f3a20fba2a6e",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_052.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_054_seeds.json": "ad151c07609ac6e3568c9236caae194cc584cbdb45714df3a7625006a2af10da",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_054_predictions.json": "1b5f9ade8116b4f3d3907ff5c254bcebcc6a716532cde3291bc704b0f73c4d73",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_054.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_055_seeds.json": "558f7ef19b2fc19fb4acd9bcb8f259972df06d6bb8e97bd26de1a270c80c9074",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_055_predictions.json": "a2d291a08997e3c553ff6403a96813d07ec2e83b3714099cca441cf25918577d",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_055.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_056_seeds.json": "6354cf28c6741fd908b4f77b54cd055ac282cb5086ff6b8b4b2bfd907495596d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_056_predictions.json": "decc366970c597055a2f297f85b6b48555f3a60cbfe353138caf2fcc78a3d11c",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_056.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_057_seeds.json": "fdda5da39f37f8673cf6b3dda5d3084614f015364191bf4b84465c0dfcb7b504",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_057_predictions.json": "e625c8960900d6d4753251087383d59af35cc1dabaf85c3881fdfca9e5d99470",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_057.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_058_seeds.json": "59e6788dc4cb64cb7d21c5e1e0c5bb76662a45f230de5e011b3eed38848edfbd",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_058_predictions.json": "77808d95e27caba9befb906f943ffc3c7a8857e2412307705fe8c4d34a4a9f62",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_058.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_063_seeds.json": "bbcb6891cc84d600e0684d9e99e503004c959c6b8dc83377b74542a48dd80f97",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_063_predictions.json": "f1b47c1ac74168bc2f1ded86b3aee9057558c9211cda9be359722f976b29044a",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_063.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_064_seeds.json": "cbf881d4cb928e8ffe263fe34f1003449c635332fd7b3bb44022cae4ed7f7f38",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_064_predictions.json": "fb545470498188d7c90f22f3944c01b82b7a0605dbc5766d879e850287b5d3e9",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_064.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_065_seeds.json": "518905fc89a1902659e50dc48b6ab9c260e87e9d479b9ed82565c4d879749797",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_065_predictions.json": "ae540b3ccf9728bccb0030d26f456284508fa9c654affa8e0b7ef1eee06c6afc",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_065.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_068_seeds.json": "b63892086459ce03c40fe756cdb65826ed7fc61942a740acc7cc164b83722595",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_068_predictions.json": "71af3c092249ec530db786e8719be3bc7966cdd42fa42bba2610aa3e633a37ce",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_068.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_069_seeds.json": "751595e42f6e0da5ea46f86a0764cf5dd6e48541cd90d2afdb7f1b78d87d9691",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_069_predictions.json": "38aa8287d0a336990dacca638021280f30e125bc2cbf7e70bbce7cbddeecf30d",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_069.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_070_seeds.json": "744f5397e04057b1230475c810e8aff307b44302b429334417eb7fb71ed12143",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_070_predictions.json": "42c421df1af2ed14278881f3f40f5943366b5aa15a7c86b4cc4981f8fc3fc923",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_070.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_071_seeds.json": "e7632861254bc2bdaa1f6006961aab2f40a88c575e12ac9f5d0e014edeefb1cf",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_071_predictions.json": "d30a50d0cc2423c7b5c5a7841f4effc29df6dc70327fafd2f4eb9aeaab62605e",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_071.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_073_seeds.json": "256acc76ae9d1cf95215e9166940de01dff654ff3e95da7c5aa1423e1b6c14c3",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_073_predictions.json": "73effe25b55a9044f4a04ec188c5b71ff8e99a63e5c3f40f13fadb6c7871596e",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_073.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_074_seeds.json": "c3232e3ee5d622278e2f3bdb350c76ac91bacc6aeafa78dd779c3cd581e8f012",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_074_predictions.json": "b45a38f73edeeb3f688fe4e3002a55d502849a9734eef59b2327f6cff7237bc2",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_074.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_075_seeds.json": "99b56d0a6b80151bfa44f2db64691fdc7c0ff7fbe9e480de364302e47f59c194",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_075_predictions.json": "8c865e22c7d69a7ffe1df2d6e78472766d5d0ead18b4ef38cab9fcdc944a8e18",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_075.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_076_seeds.json": "ae679be72a2906640d1d73fa8cada459d35f6709a9f39f3062b5986f4dcc33d6",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_076_predictions.json": "34f16195d5d9f65b47b34fec9b9b388136aa5e917df8c3303a4e65f8df8b4e8c",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_076.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_077_seeds.json": "73740a12fc5deeb5dd72f83f400039839ecc7d9e2a0cbbff193998d6b1b7439b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_077_predictions.json": "3f0dba48e625320115e7169337c301e4939dd01ccdc9107e2a7a2bf776895b8c",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_077.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_080_seeds.json": "e5fb0822de389b983a2196d248f6ebf6ad7a4e9044d4693f238b3e5c9455c32b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_080_predictions.json": "2ceccd8983fba26e939754337fe45825c921a83baaa902ef5e915fd6add0e66c",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_080.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_081_seeds.json": "207d42252af7112de387123d8f9ae7b13bbfa1e5de2105b735569a02abe04974",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_081_predictions.json": "78f5b167357ca3b1273424106aa3adadf14d665466e25e8ff331dd2ca6e0e866",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_081.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_085_seeds.json": "d4d73042326444eb852ee9bf322eef510487f88b4e41883ab0aa131f61711efa",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_085_predictions.json": "9655cc2e778295c28c9dc46b32207c000f80594ce916dae93b9843be0df87e34",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_085.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_087_seeds.json": "70b2f6f62dadcc82528b888f9918637ff33e40744203e82ddca9e43a525bef2c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_087_predictions.json": "316d156dfb5b79fc8c373a70d096b9837065fa1502f68b1d12c7d1de6074591b",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_087.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_088_seeds.json": "7b996d4d47e25ea86356bf52ff3e2a21a1643681ae994e83b2749c4726770d67",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_088_predictions.json": "aa91c5b7b3c8a7538e9186e3979ed9ce78f2742d0d15fbf1ec1a44614e109824",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_088.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_089_seeds.json": "a7cd4a5fb14d70b21c1d1eb5e0c69589833ab78792f6c7065b8cd060c70dd127",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_089_predictions.json": "24c82d2c5aed23c6cb87d34fc02c6d23a49f6f2e482c6bfd1b720e824736714e",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_089.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_090_seeds.json": "70fa010ab9d6e0ee51d831f2ff63052a65df29bb6896cef4e568395febf658e3",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_090_predictions.json": "1f7305cf8e9b802cc8f464ad054307b30a3269edfacb54c1f199e326c9327148",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_090.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_091_seeds.json": "53d883d2789fdced4981a97df0fd5ac4e79155604f7aa2ddaa65797a3bac2aab",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_091_predictions.json": "850ec09b02a77b67f0254ea4b2ead456170e24b05c50c7fba766a78415bed317",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_091.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_092_seeds.json": "2e79b92af273fee1d360e5f54552560ee618839362f495e0d5869e4b0fc1cd7a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_092_predictions.json": "dd01a8c5df17f5ecc938c238d64b3bc69202e0ade8e84174be6ab2bd4ceb1cc2",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_092.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_094_seeds.json": "a545bf582354f5b87e2b1ec57b4b6770c5793ab05ad6f07179dc2eb3163a6e8d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_094_predictions.json": "d8468a05b6a7f034a6624351fdbe24ffe81e66a8a786790c8cecc24f021ca7f6",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_094.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_095_seeds.json": "303bff5857c5519ccf25f77f710c7fed3ae49dd76d0fb09a67190d13f3c6eece",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_095_predictions.json": "04578b523690c4cb828748b8e2bd8b341a72a058e44384b2dc9a7c7910169f58",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_095.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_097_seeds.json": "fbf71eb06240ef7f8280003e912a5b201cb6acf9f45e2d1b6631a5d0b77dfebb",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_097_predictions.json": "aeb365400d8bceb8a9d8918eeb6f2f26bf87585f8f7a333d3b5716560bdb62e6",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_097.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_098_seeds.json": "6c4f04fa0b5f676b5240abf67f72ad574f1106707b5cfcb511bebddccf5938e3",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_098_predictions.json": "425c9ed02a27059e9f4d2d6bc206ec24dcd8986fc0af5f6bc79720ea2c1c58e2",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_098.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_101_seeds.json": "296492916b1db96141a799625212d5cad92e5a5c1c4894a119405902f3bdfec6",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_101_predictions.json": "d840ea12b08c62d40b3c2368a3666f631b316c3bc88acd23fd663cd7bf27b6f7",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_101.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_103_seeds.json": "d2765f4e9807acc36dbaad107b7641350d26bd7b8eb89676c6171504fe71771b",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_103_predictions.json": "d61179578f962e611184589c8491bf57cec1c1647060f905d16856932ed272a8",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_103.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_106_seeds.json": "078cb4324afde067ee3af32763fd7729cb4eaea06ca442ab863d2e0e0e742f9c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_106_predictions.json": "61a0870e3a085d85f11c71486c23d72bfa911d4d06e6ae74d64ba41a117276f5",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_106.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_108_seeds.json": "3861e890a30a1df58163a01651d126e1a1651981e7eda5c046dc6d83d23d93cb",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_108_predictions.json": "019e171f5ec36df4d4ded1605f349699583c107cc792ed81fb733e8bc0ca6fd8",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_108.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_109_seeds.json": "57d31c1bbddd1eeb13f3b15ade0a560a68644b58300a54f6d9410737a9f80c31",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_109_predictions.json": "8945019d647d726c355950bf50df6433c42b3ea9cf156b0cc3a54978b0741919",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_109.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_110_seeds.json": "f81b33028fc3b44794e16bd2bd526edd65d9ff6d79fff737b78b9e884b1191f3",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_110_predictions.json": "d5c4f059c1a9ebf8de1c38d2b446269ca150831949308d602a60658907cceba3",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_110.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_111_seeds.json": "93ae35259c6be899b54e8ce25f7289e649e3711919bb27d0c286933f2d67cfdb",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_111_predictions.json": "2c2206c5d4aaefc384927997d2eda62d22aae2d44294102842f6cc0c9f5c991d",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_111.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_112_seeds.json": "2394a42adfab627fdfb2fbfb911b5b5e10552234f75f36a9426e4b65c4741320",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_112_predictions.json": "2f55b5ca7bad83b13cd8bbb926668dab48e05a102c220ffa284f6645f3b436df",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_112.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_114_seeds.json": "2ef808b2e5b0c6e1386cf12b73fb3568f3c6bd0280cf9fa43c1b25edd220d97c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_114_predictions.json": "23bcef783f966396d26b8d3e696e93ce7eb5b4f89b35d75c393571d9d7a44d36",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_114.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_116_seeds.json": "7daded6611977d652fb94a9be4c3fac87067981c61e437b8845375d714613808",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_116_predictions.json": "1ea88d9dd9ba2db44f4920a7ed8234864cae1e44b4eded45396a636a084b6e56",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_116.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_117_seeds.json": "74c16e34ec7fc739456d73cf5df5a19d714000bf579f5af30998c678515acf97",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_117_predictions.json": "3d137f3adb70cbc8a2547116b271bc39d627e500388f9ede44d595c9c3d4357e",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_117.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_118_seeds.json": "d0effa76d6870980177e4d16be71b8fe67a674b4deeb050ed2ee8662aa491288",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_118_predictions.json": "267e6aa54c5caa8f43817b9e3911c4ff193bed20954cfc3b8a722888317a09f1",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_118.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_121_seeds.json": "d3022b3b7c1ba0d65e5c9969f70d8f310d9d6fad8c2f7783340a2ddafd14aacb",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_121_predictions.json": "47cdf4e4c75abd729960ea4d434e8abc70752967f7a979ded82e3fbb783d25a5",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_121.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_122_seeds.json": "09d06506f81235a76d70d09bfe3e5b7519588829ff3efaf53d529d04e241b53d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_122_predictions.json": "1b9714c49e082f7919126dfb4d6c68ab7bd76ce1819dddd7dd63cbbd10a4d90e",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_122.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_123_seeds.json": "920dd842be993c2102858e957f04a7beade1613a2d1601a4df4a9de1111ba78f",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_123_predictions.json": "158d76c1c17a96198fe3c8f6416d2eff7405832142cf5c4e4dbe626896f5d8f2",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_123.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_125_seeds.json": "063e4cb15e0670225c69cf17a4f807ebce72824e2b969d51809183077e580786",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_125_predictions.json": "ac34170a663eea7127349c3870784ba7e4e01d5aab8f10c28891ee75fee9f87c",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_125.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_127_seeds.json": "4f416db7d7016b8f85ff4d85de0b85a01e09bdf492b7b3b7fee97cf831a569a1",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_127_predictions.json": "9572b0d7999daa5fc31ef7ef00d1c46d9754b0ede7d77b0f5d11dcfe4a1c2bfe",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_127.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_128_seeds.json": "2fa885c2f025fcbb7a0913356666964201cbf05694646c231c51ea98d515319e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_128_predictions.json": "d28b76700a01fe60e4ac2d80553659a9146bcf12b6a16c6b0352779765a2fef7",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_128.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_130_seeds.json": "2d2b244aa351abf029f4fc894a7a25ec1d65c77a6260f4e6dff6b732f1cc7363",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_130_predictions.json": "c17d13e0d9a1f3fa93cf4e73a1ede07b19e7312a8258277800c68cfb6b7bd6e5",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_130.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_131_seeds.json": "de4b05174318e78ee75203fd653892267d13d26f05f875ae4fe3570782496905",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_131_predictions.json": "66b41789b9e8b8cd64cc099f5a9d934d0cba373459cda2ba3aa381a66d368f9c",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_131.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_133_seeds.json": "01751175cd9aaadc9326b24b93bcc5fa1ff0811f376039c9a62400fdd395e7fe",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_133_predictions.json": "d0fa33404bef23aeaeeda9262ec7704fc160066488e927e77a8f23967e47aeb2",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_133.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_134_seeds.json": "2a500e475bd7db9a83e97fd2999d6ac1d98d9b0963f074f4e534d43f1213b8fd",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_134_predictions.json": "365faa35b749668810bb76a6ce1e5adba2d728cd73a027fd19a51c8ea3988353",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_134.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_135_seeds.json": "a428fbd2cae4f2e355bf8763149621c9bc9cec1c718b8bcfe5e84afe521f47e5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_135_predictions.json": "50e353dffac0788341189c5d25605da56a8b81a71fd5e090bc13b0b8672d1bc6",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_135.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_137_seeds.json": "2173d1312621c9b80b3494b00aa6eef1b4b896e38e98dbc7ba4771d7233c0af0",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_137_predictions.json": "5487ce5dffd7e1545aed18ddc417d5ffb1414679617cfd5e4c18f954ee046479",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_137.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_139_seeds.json": "31e7ab4f2a856c1b1f25aac95f07ad624da141f05ff9bfcd23bf4edc3b46b38a",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_139_predictions.json": "da5e31c6a53448ace67bb59339ecd202310cdff2272c7cf96667756eac1fe789",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_139.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_140_seeds.json": "cc76168f175669e0f62585ac64df9dc30be38b3b5f8167680323746d8d6bc247",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_140_predictions.json": "36b1d5c6070dc953953da551ad1e7f12704fb343253eeffbc8d1f5d08f71bdea",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_140.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_141_seeds.json": "55704e7f94685c9461a1372b1cf1fe215cf25e72191c45eb1b7594a6728bf4aa",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_141_predictions.json": "bd0fa6c6fad742039aad33bebcf095186077425008662cf74f811adea2590174",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_141.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_142_seeds.json": "3424a36562e2c98a411b5bd3d08e0f5bdfd594abb8854b3d08953b33aeaee670",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_142_predictions.json": "56ea213debe044902a50aa24d06667bfb2f22e4abae90fd8c927f177f536a171",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_142.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_143_seeds.json": "a60fe729821c5cbf8f1fe8f3859c48e86cad1eb9030445dc7d69ea2e594ddc17",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_143_predictions.json": "0ba525457dca1f725f228686d52c20b22ba4b87e202c7929afb8c30b5517b867",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_143.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_145_seeds.json": "9733024ec4f3c8afd91359b5769d462316b30df6293a28043d4ab09a18de8169",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_145_predictions.json": "a6dfb6cf8682fe7b266175542e63098f29181bcd4a82db820f9be7af7f570779",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_145.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_146_seeds.json": "d48b3e6b06d529a8280476fa7a76d7147d5f626293eb5994f78b306f684dd2f0",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_146_predictions.json": "b9157d9f76fa3455e4c37bc0d9fc54d4154bdb479628699f120bcc522cd8f0c0",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_146.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_147_seeds.json": "908d0cdb5583c70f14c2c14e6978ce5d8742a1d70f82cc59af1139eee4af6900",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_147_predictions.json": "4d91eb9476d0872326a1958cc939f27268dd15d4686c7aa21f71f66a693de400",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_147.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_149_seeds.json": "719166ca2a2859b27989f5357ead99d93a075df830b8c9d81164450f5a6a3043",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_149_predictions.json": "87abe222104bac8146f21e3675c8d2954bdaeaa1ac9ce61ebbd16141961e9989",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_149.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\normal_150_seeds.json": "dcec9bb81a799217833baa482f3196caffbadc80a3e14bbe0c725cb9511c7d42",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\normal_150_predictions.json": "9cd17db26061a4218bc10641e1d976636eb25d753ccb31e1d574baab9909853d",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\normal_150.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\disconnected_015_seeds.json": "86c775baa82ea6fc8baf7352f0e84f21cefb114104a40e230ff71ab616d309cd",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_015_predictions.json": "c0e318b60d3d71deb663ac8a3c2c288c58d89e7c2e64ac2e49200436236d0fb5",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_015.txt": "63e0e68cf341372063401a8105c33c4c051a46b40d73a98c4352b9fb50fc3572",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\disconnected_017_seeds.json": "aab083b3cfb741454968fb049cc646115ef4557f40a1bd5fbd49fee4484cb949",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_017_predictions.json": "49dc8dbab448a9ddf22d0b7342681fc0aecb05f1168072aaa3d02efd6112e48a",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_017.txt": "aec38ce9e4b18626ba4b97d7b8464aab3169a7ca1540d530bea03f2ef58a7dbd",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\disconnected_018_seeds.json": "2611456fd6c3f2aaf2cea1f470d03ef288b2a9bd35b2dadfee441659a9433d74",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_018_predictions.json": "8d5ab3554727c521c1f5663ba70fd4b2cab01afe360afde6354fe11a119c7049",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_018.txt": "b9309c5be50ffbfc2e0c67fe9b661707a78e421e334caeb759645ea1402f7057",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\disconnected_019_seeds.json": "c1170de9d3d8cf7c636e7cf859b9dded53aec1a169f7a756b4f6bf436eb02940",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_019_predictions.json": "8b2f18e62678fd5472d0346fbbe2e37b061f9faed30cfb8129ec8c27cb9ca612",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_019.txt": "25743623bdc837807f7f0a4027e9c695ff81a071e95c4dd02327879087309794",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\disconnected_021_seeds.json": "f4d48bcf7262d3d544cb0d26d65e05a4b23c71fd52ca0ef340597d627e29bf96",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_021_predictions.json": "25d610260ebe5f84437566986e1121efcd5bce9796a8a9ffcaa27d5fbe565e19",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_021.txt": "efbe9a0d0ff9839a29eaf1f28aec33e6e5c25510ee372e7253b7c14cbb2c235e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\disconnected_022_seeds.json": "d81d1767d81ad56e9e64735e39eff1fd5ec1054eeff97ad33d3d81c5dfd0b6e0",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_022_predictions.json": "3940e8e4ade50a38f5d3e925aa71e6b8a7a529d7ccbba2c7295c42391271a6f0",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_022.txt": "1813dd99d8baf528b0fa1dbe642b5ea36d0b3bbeafda09ed4e982d34c3c4e335",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\disconnected_023_seeds.json": "8b7bd5d8ed597bf548cd38e66669fe9310829538cb05769dc9c927d47cd3ab03",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_023_predictions.json": "5b4f9bcf9e3ddbf33214bbbe8949ff4327464814ccecdf1b1c2e8ab96641a2d4",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_023.txt": "e87ccb92463bb688808649db92b33c0329b5c3ecfb46dba5c2634f7d011c9782",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\disconnected_024_seeds.json": "04f9925e70083d604bf78a12680664ec252fd17bb4b906c36ca5b7b9ea7924da",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_024_predictions.json": "b6785a38cc263d3f8f23144bb108478610faf0ca2459315188db954296a07170",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_024.txt": "e6e8941b1aa81cfca7c9ea59a0c59e13f1406323c5d8f257bdbc7879a417b447",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\disconnected_025_seeds.json": "cd46dccc6015b24af1cbb0f3225b479c220e5a45e226d124fc75f3f979076ad1",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_025_predictions.json": "9b477952d6bddf9e5b43ac38dca641599982ae5452ba2972c1b502aa9a27b370",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_025.txt": "059c6bda80d53bd580dd4b73d0c4e4f50f3422a863793a67779b4d8e84293510",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\disconnected_026_seeds.json": "558b4c9d42d4473d2694e9ab20702b2b730c77d06f13d1989f09922d34c552e0",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_026_predictions.json": "3db8a61f1ee7c4d4606113ecbf4f335dd483e502aae76f2bec40c3d36d1073af",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_026.txt": "aa20d2c30026c4d223b3aaafb64454086049daad7e3364ed19ec8c68c355d23e",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\disconnected_029_seeds.json": "19bbefafd00c9e909040f6b18c4b005bcb4795ce02ffd488353845a3e36d9e14",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_029_predictions.json": "7411170ba6f3ae82f15efb998797bd23c6b8f0f8d9ae07c97c5b5c034d8ca4a5",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_029.txt": "f136cdf79676ecfa979bcb344359346849c1194b78e6a95c5f70408cd7d9a966",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\disconnected_030_seeds.json": "ab84ce0bb7eb46548ddff4ce4da17cf5e2bf7d761d14ad72ead590ecfc65c113",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_030_predictions.json": "64c02e0c473e87e5f564cd5b4ffd36f71e5762b7ee619f570f1423075ab8dc02",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_030.txt": "8d27cb4453a77d4fab88e460f94b4d29b6968e6139b6f7f88c74961ed39cac84",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\disconnected_031_seeds.json": "3c5899dca5188fee8ce4888e19023112fde6be2b77902a6ee96179379d3f3a20",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_031_predictions.json": "6ed8f755ff3d8f23d55ec1e51e7afed3b0094825161a58249a300edbbfa26efe",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_031.txt": "5d0f21a43b7f4ce2881a908cd96c879a415326916b31627535d743d4f2df22fd",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\disconnected_032_seeds.json": "bf84b2137292f770543969913218a2c836e057c8afb7217ea9cef263474ccb08",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_032_predictions.json": "8775f2dddde1498334a1e06bf552c027c5f67a31fff1aa496991973c7065f1f8",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_032.txt": "d2945580daa5b0be6ee41c2c58be9b9cca0ed7235c3df0e663cd123990ebd0db",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\disconnected_033_seeds.json": "528731b245ab93e54ab3047e1ce0e8532c9a0422e24c18995edcc39434d8b263",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_033_predictions.json": "2035ce908a68633f58e08f766abafa265229677db10b8e8a933ecb7b23d7f069",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_033.txt": "bf805b4a9c0895799c525eff85bf3691459dea7a9ec5d2fd95a186e4cf0f2c31",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\disconnected_038_seeds.json": "706adfc4ce303e032bb995f6cb2c5d07d26b9a2d027d3677bf22580052a21682",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_038_predictions.json": "c3d742e89e5e2c3d4b729dbc5a56be7ed5778ca1c1059ee62157c9fe2fc8c84e",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_038.txt": "ce2301c3d8f631c3d2f433af8063780b947677170d3ec870acc9ef6f167dd4ee",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\disconnected_039_seeds.json": "48719386c52567244c669c6f6aa026f774b5c9a81a498f703765d1caea9918c5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_039_predictions.json": "d29ad1efd2957282eb105fb4ea3e5ec2183d93e7ac52a3dfd2bf656bf185f9fa",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_039.txt": "59b3d909bc2e32eb07da39bd72aeeb85b96d031a495e8346f2b93bd05be1332f",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\disconnected_041_seeds.json": "3308bcba53fae619125bd8eeac39d66dbb007d25ad62e1bc9b3e01cfca4e134f",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_041_predictions.json": "6596a4b069e1418a658f81bc78d890bd210eb2c4860f461c7fd23479dff53545",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_041.txt": "5628a62a02f7309eb94ec6905233bf3b491439231b4379abf2a93b93a5eaffb6",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\disconnected_042_seeds.json": "4c49a1ac93f2dd4c541ec5d26e1a68694f78f2b3eefd7f376f8b1c60012558aa",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_042_predictions.json": "ee82873b416e09d46843309dda43462a0f10c883abbd9336afd370121db5327b",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_042.txt": "5078bed4a303034a4406ce9c17f8dca70af36c1edaf9ba0d63ab83b75efc37ba",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\disconnected_043_seeds.json": "a886d91830e639a14dfcfac90838830f6bfad7ec2baa8afbf3fe27ab1ffc37a5",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_043_predictions.json": "614c8822e342e3184dd5619b1ae93d3689cba58e91709cd5b0dfe5b98b39df21",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_043.txt": "64cb75ebec686458047ece8dd1efa988c01857f7ba6fd493605e426a014ad95c",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\disconnected_044_seeds.json": "cacc93b24fad068014a6e1d504a8643d9bd0913ad628bd0bc37ed76e65a828e2",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_044_predictions.json": "8950050eaf05e7738225690cfcefb47113aaebb3cd1dbd8ad1db00124f1afa08",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_044.txt": "5c799e654eea963fe1e2fc66313672e85b03352aaecfc92dc87a633a4cbc2bc6",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\disconnected_045_seeds.json": "cc75639d25de3b5913c7547d2548473d62ba06bb31dc21d4ed3c534b64cde700",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_045_predictions.json": "9d19cc39814377557be687e0a8c11b10dadc3febe7ca154d3986541c8f94f5f2",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_045.txt": "e4b512d98c7f81cf37bc0611dea684d2ead014b92cc29a46f61b8e0051609c4d",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\disconnected_049_seeds.json": "13f6da0723da999809f6dfe97d012d0af49b6ec0bf2be2bae15a58fd88cb1300",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_049_predictions.json": "061737eaabf79adf7ccdd537f4a742a4dd9bdf23d4c18b5160233eaaebf26070",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_049.txt": "f48f7a9025cfe9ab9b3480f432033af99a79fb49ef73086070a449782fcb85f8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\two_vote_resolution_preparation_20261004\\train\\disconnected_050_seeds.json": "9e096144c25994473203416304edbe32f10880aa9f86a5fc4b28333f146ea3b8",
+    "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\evidence_first_resolution_20261004\\train\\disconnected_050_predictions.json": "bee73a88b334ca19e6187484f6ac900107116bfb9e375c3c57331d64769ee2ab",
+    "E:\\PythonProject10\\data\\external_datasets\\mendeley_electrical_wiring_faults\\Predictive Maintenance for Electrical Wiring Faults\\labels\\train01\\disconnected_050.txt": "bab0b7c4df85208ed74d0c16d419447f36818921d6c1aa2d12bab9f7bf0d1306"
+  },
+  "no_GT_used_by_inference": true,
+  "coverage_not_nested_with_seed_IoU": true,
+  "no_validation_read": true,
+  "no_model_or_policy_changes": true,
+  "field_accuracy": false
+}

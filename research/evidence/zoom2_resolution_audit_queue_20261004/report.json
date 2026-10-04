@@ -1,0 +1,9 @@
+{
+  "status": "audit_complete",
+  "exit_code": 0,
+  "no_training": true,
+  "no_detector_or_DINO_inference": true,
+  "no_deployment": true,
+  "source_report_sha256": "d71d010dc2934f89158d5cb105ebe1aa3f2f056bde1e548d752c2cccba642dcc",
+  "auditor_sha256": "c7171b2be36d333a447572581a2a68f9bf73d671d719d141ec5e54cfdb4ef214"
+}

@@ -1,4 +1,197 @@
-# Current checkpoint — 2026-10-04 00:27 HK
+# Current checkpoint — 2026-10-04 native enhancement installed and verified
+
+## Latest completed results (supersedes ACTIVE/QUEUED entries below)
+
+Photometric full TRAIN192 FINISHED/rejected4319.91sec:295/4 unchanged,
+69 compensated sources,161 valid proposals,zero added cues. Independent ALL192
+pixels and original-image DINO/head score replay PASS. No held-outs/deployment.
+Relative box regression FINISHED/rejected38.89sec:679 proposals/2667 positives;
+49 missed targets original/union possible coverage2/2,zero new potential.
+Positive-only IoU improved but14 positives newly below.5; NOT accuracy gain.
+Independent ALL192 geometry/tensor/fold/vote/GT and input SHA replay PASS.
+Fine actual endpoint FINISHED/rejected3034.53sec:15 preselected TRAIN sources,
+baseline67/76TP+4unmatched versus69/76TP+11unmatched after actual normal
+reference/ROI checks. Independent all15 replay PASS; not population accuracy.
+ALL78 exposure actual endpoint FINISHED6842.56sec:INNER median67/80+1unmatched,
+native68/80+1; OUTER median38/56+1,native39/56+1. Independent ALL78 lossless
+pixel/forward-linked displayed-cue/GT score replay PASS. Normal abstentions
+are not successful recognition; synthetic same-scene evidence, not field accuracy.
+ACTIVE34932/PID17572 matched ORIGINAL ALL78 actual endpoint,8/78 at904.92sec.
+Compare identical actual endpoints only after completion; no fresh SAM.
+Installed mainline unchanged295/68/40,unmatched4/0/1,398 tests PASS.
+FAILED17264/PID21480 fixed TRAIN-only paired_core_ring_20261004:46 GT-free
+body/ring pixel descriptors + frozen6144DINO, source-grouped linear400seed0,
+same .98/3SHA/.85/5+5. Ten geometry/contrast/immutability/standardization tests
+PASS; all119 fine source alignments exactly match descriptor provenance.
+Stopped184.58sec during feature extraction: insufficient valid body/ring
+coverage, no optimizer/head/recognition metrics. Preserve code/plan/output.
+FINISHED79965 ALL192 geometry readiness203.02sec,9808training+969raw:
+2training examples (same source/box,original and reference twin) have ring
+coverage.84053156<.85; ZERO969raw candidates invalid. No GT/labels used.
+Any revision needs explicit missing-input abstention, not lower coverage or
+filtered training examples. No E changes or promised gain.
+FINISHED/rejected7042/PID12808 paired_core_ring_missing_20261004,446.72sec:
+OOF297/12 versus295/4,2TP8extra unmatched. Independent ALL192/10777pixel
+descriptors/scaling/head/selector/GT replay PASS383.58sec (shared descriptor
+implementation, independently checked grouping/scaling/score/GT). No fullhead,
+held-outs or deployment. Explicitly retain ALL
+9808 rows with zero descriptor+presence0 for missing geometry, valid46stats+
+presence1; FORCE missing raw candidates toOTHER before existing selector.
+16generic testsPASS, no coverage/semantic threshold reduction. Separate new
+plan/code/output; original failed experiment pins independently still match.
+Latest public9c3fc6327873955ae3e1943638af59c6e53399a7 PUSHED+remote verified:
+2867files,secret0,byte-drift0. Original model/SAM Release unchanged.
+ALL9 original fine additions visually reviewed, no GT edits:5individual matches
+include3already covered targets;3of4 sub-.5IoU cues also nearest an already
+covered target, one near a NEW target. Thus6duplicates/1localization miss/
+2newtarget matches, not7proven physical false faults. First render assertion
+confused individual GT matches with net gained targets; corrected separatev2.
+Fixed IoMin.5 duplicate exclusion FINISHED12.14sec:297/5 vs295/4,removes6
+extra duplicate cues but1extra unmatched remains. Relative source-OOF fine
+geometry coverage3->3,zero newpotential; reject,no semantic phase. Independent
+ALL192/969 replay PASS (first atomic progress replace sharing lock preserved;
+separatev2 bounded8x.05sec retry only, no algorithm changes).
+NEW SOURCE PASS fine_consensus_rank_20261004:298/344,4unmatched vs295/4,
+3newtargets,nooldloss,zeronormal;4.28sec. Fixed median best-voter-IoU ranking
+within parent instead of semantic-p maximization, same p98/3SHA/IoMin.5/5+5,
+original boxes/scores unchanged. ALL192/969 independent voter-IoU/median/rank/
+novelty/head-score/GT replay PASS. This is NOT installed E or field accuracy.
+ACTIVE64267/PID14892 fine_consensus_rank_holdouts_20261004: fresh ALL48INNER
+fine960/720 teacher+student, originalSIFT/DINO/head, samefixedranking; requires
+strictTP>68/noextraunmatched/nooldloss/zeronormals before conditionalALL30OUTER.
+No threshold/GT changes, training, E install or SAM run. Original actual pairing
+ACTIVE34932/PID17572 now OUTER. ALL48INNER independently replayed:original
+actual67/80+0unmatched versus exposure68/80+1,zero lost targets/one gained,
+24normal safety abstentions each. Partial-only,not field accuracy; full78pending.
+All19 novel/rank/voter source/frame/scale/ordering/probability/budget tests PASS.
+
+## Earlier checkpoint details (completed workers below are historical)
+
+Formal E:/PythonProject10 native backend and existing fourth optional switch
+are installed DEFAULT OFF. ALL20 actual and ALL20 portable gates complete:
+295/344,68/80,40/56, unmatched4/0/1, no old losses. Formal original E Qt button,
+worker/callback, SAM-pending block, Agent awaiting-human-review, stale model /
+geometry / manifest rejection passed in native_E_complete_sam_20261004:
+124.48sec, selected TRAIN003 8/10,0 unmatched,1 new cue. Reuses prior fresh
+inspection SAM only after exact SHA checks and backend AST equivalence except
+accepted manifest binding. No SAM recomputation in this last run. E380 tests
+PASS; backup8 safety tests PASS. E398tests now PASS after18 extra photo-independent
+geometry/translation/scale/ordering/vote/probability/budget safety invariants.
+Public accepted source + docs/model restore alias PUSHED30896e5cb94014646956d93bb171f85d6f2d93df,
+remote verified. No model Release replacement. Restore all weights+alias SHA PASS.
+TRAIN-only49miss taxonomy complete:19some detector coverage without3vote,
+15no rawIoU.3coverage,11three detector coverage but downstream filter/budget,
+4raw localization nearIoU.3. Raw-seed SAME7pose consensus FINISHED/rejected:
+TRAIN295->297,4unmatched;INNER68->68,0unmatched, no strict holdout gain.
+293.47sec, independentALL240cached replay complete, no deployment/OUTER run.
+Two gain cards viewed: visible candidate over weak labeled unoccupied header;
+not independent scene generalization or physical fault proof.
+TRAIN-only raw-head training63096 FINISHED157.56sec, source-classifier-OOF297/4
+and fullTRAIN297/4 versus accepted295/4, no old loss/no normal cues. Fixed raw336
+paired examples+336reference-self twins plus accepted7932 corpus=>8554 retained,
+50 duplicate pairs/0 conflicts. IndependentALL384 score/tensor/label/curation/
+source-group twin audit PASS. Source OOF ONLY new classifier; prefix and detector
+already trained on TRAIN, not whole-pipeline independent accuracy.
+Trained-head held-out76105 FINISHED/rejected129.33sec: INNER68->68,0 unmatched,
+zero additions/strict gain; independent48cached replay PASS. No OUTER run or
+E deployment. Thus neither raw-seed training variant replaces mainline.
+Fine accepted-head78554 FINISHED/rejected361.01sec:TRAIN297/11 versus295/4,
+2TP7extra unmatched, all192 independent cached replay PASS. No validation or
+deployment. Reused actual fine960/stride720 teacher/student views, not old
+rejected291/8 selection. Same3SHA/p98 head can still fail on finer/OOD crops.
+Fine hardnegative43111 FINISHED/rejected389.62sec:classifierOOF297/8 vs295/4,
+still4newunmatched. Fullhead/holds NOT run; no deployment.969paired+969self,
+9808retained/62duplicatepairs/0conflicts; independent192tensor/label/fold/
+score replayPASS. Negative precision-verifier63807 also FINISHED/rejected
+178.05sec:zero removed, unchanged295/4; independent192gate/GT auditPASS.
+ACTIVE80783/PID13004: audit_native_exposure_stress.py,
+native_exposure_stress_20261004/progress.json. ALL48INNER+30OUTER fixedRGB*.85
+losslessPNG exposure audit, actual fresh SIFT/DINO+median+native, no training,
+no new SAM; original reference unchanged, no synthetic photos published.
+New generic actual-cue forward-link helper verified ALL20 previous actual
+metrics exact; no inverse-mapping rounded boxes or scoring unaccepted proposals.
+TRAIN192 photometric math audit FINISHED143.12sec:177 both usable,15 at least
+one abstained; original105identity/72compensated/15abstained. Median normalized
+original-versus-dark MAE ratio0.0360242864 among usable pairs. Independent ALL192
+warp/estimator/statistic replay PASS (first auditor mask-contract error fixed,
+no prototype/runtime threshold changes). This is NOT recognition accuracy.
+Fifteen generic exposure/colour/changed-region/input-immutability/abstention/
+channel-permutation/global-scaling properties PASS. Photometric proposal smoke
+98392 FINISHED125.88sec,2inferred0valid proposals, no GT accuracy scored.
+ACTIVE9496/PID17372 photometric_native_proposals_20261004/full/progress.json:
+ALL192 TRAIN first; compensated DETECTOR COPY only, same original paired DINO
+features/head/p98/3uniqueSHA/5+5. No E changes/automatic deployment.
+QUEUED34932/PID17572 native_original_pairing_20261004: await completed
+ALL78 exposure audit and >=6GiB RAM, bounded6h wait. Fresh ALL78 originals same
+actual visual+median+native endpoint, compare matched exposure losses/gains.
+No SAM recomputation/source photos published. Source-candidate metrics alone
+cannot substitute for matched actual endpoint robustness comparison.
+Partial exposure actual replay23/78 PASS: all23 lossless pixel arrays, original
+SHAs, actual displayed forward-linked cues, prefixes/budgets and independent
+IoU/GT scoring. NOT final whole-cohort result. Currently68TP/1unmatched/80targets.
+Nonlinear22532 FINISHED/rejected67.75sec: source-classifierOOF297/12 versus
+295/4,2TP8extra unmatched. IndependentALL192/969/9808 fold/tensor/head-score/
+selector/GT replay PASS; no fullhead/holds/deployment. Fixed small16ReLU/.1
+head did not solve extra false cues. Three contract tests PASS.
+Initial preflight caught wrong contiguous-fold assumption before ANY optimizer
+or output creation; corrected to exactly existing modulo3, old evidence unchanged.
+ACTIVE52849/PID4296 fine_actual_endpoint_20261004: separate TRAIN-only
+actual normal-reference/ROI endpoint diagnosis of SAME rejected fine pool and
+accepted9459 head. ALL8changed TRAIN +ALL4baseline-unmatched +first3normal,
+15sources; no validation/training/SAM/E changes. Source failure stays rejected.
+First changed001 actual8/10 remains8/10 but0->2unmatched survive reference
+checks: filtering cannot simply be assumed to remove all bad source candidates.
+Remaining cohort still running; no candidate adoption or field claim.
+QUEUED41425/PID18796 paired_box_regression_queue_20261004: after finite
+photometric trial terminates and >=6GiB RAM, fixed relative6144->4 SmoothL1
+TRAIN source-OOF geometry prototype. First RAM guard safely stopped before
+ANY optimizer/output creation. Six relative geometry invariants PASS;
+ALL679 cached native features link exactly to ALL192 current proposal records.
+Supplemental ALL192 alternative model inputs SHA snapshot precedes child.
+Inference has only relative center/logsize, clamps .15/.8..1.2; recompute same
+3uniqueSHA/.85/16border/old-cue-overlap gates. Report proposal coverage potential
+ONLY, not classifier accuracy, final reference/ROI or budget allocation.
+SAHI/WBF primary papers checked via academic retrieval; proposed local trial
+is inference from literature, not claim their accuracy gains transfer here.
+TRAIN strict net gain/no extra errors before new held-out/live work. No E
+changes. Never edit pinned new-driver/head/runtime files while active.
+Source backup tests397/398: one environment-only test needs separately installed
+SAM interpreter absent from intentionally unbundled .venv. E actual398PASS;
+do not claim fresh-machine dependencies installed or public snapshot398PASS.
+Repeated same-scene development results, NOT field or cross-cabinet accuracy.
+
+## Historical backup checkpoint (all ACTIVE lines below are obsolete)
+
+Public source backup: https://github.com/seeleayaka/wire , remote main
+04cc03701d395965143b4341d900c2b91238a830. Full SAM3 3,450,062,241 bytes in
+four actual Release assets plus 37 other models ZIP, original licenses and
+restore script. All 7 remote assets SHA-256 verified; local restore verified.
+Release: https://github.com/seeleayaka/wire/releases/tag/backup-20261004 .
+Private photos/keys/venvs/caches excluded; original E dirty worktree untouched.
+User explicitly changed request: continue accuracy work AFTER upload until
+quota, not stop here. One-time current-chat morning report at Oct4 08:00 HK.
+
+ALL20 actual reference/ROI/warp/native-hint gates PASS after independently
+recovering 19 saved cases plus fresh isolated final030 control:295/344,
+68/80,40/56 versus289/65/33, unmatched4/0/1 unchanged, no lost matches.
+See ../paired_pose_native_live_recovered_20261004/report.json. Original
+incomplete run preserved: publication scan read restored binary model as
+UTF8 and exhausted memory; scanner fixed and actual030 rerun without any
+algorithm/label/threshold change. Normal3 are safety abstentions, NOT hits.
+Staged helper ALL270 proposals and ALL462 selections exact parity passed.
+
+Only ACTIVE SAM/Qt candidate acceptance: terminal44310/PID12920,
+../native_portable_complete_sam_20261004_v2/progress.json,
+experiments/verify_native_portable_complete_sam.py. Disposable fixture
+staging/native_pose_acceptance_project tests new head/helper/manifest/real
+four-checkbox button, copied pinned reference SAM and FRESH inspection SAM.
+Original E remains accepted289/65/33/default-off, NOT yet replaced.
+After exact SAM/Qt success run verify_native_portable_all_actual.py ALL20
+portable final-cue parity, then consider guarded default-off E installation
+and full regressions. Do not edit pinned active inputs or launch duplicate SAM.
+Development sets repeatedly reused; no field or cross-cabinet accuracy claim.
+
+# Historical checkpoint — 2026-10-04 00:27 HK
 
 Accepted E median remains289/344,65/80,33/56 with4/0/1, default-off,
 manual review; completed SAM/Qt536.69sec/374tests still valid. Not replaced.

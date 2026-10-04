@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "experiment_status": "rejected",
+  "counts": {
+    "train": 192,
+    "inner": 48
+  },
+  "added": 2,
+  "source_report_sha256": "7bf513844e8985c3c06d1f81015bed0a475d9a960e2980821613823ecaa38bfc",
+  "independent_scoring": true,
+  "exact_cached_selector_replay": true,
+  "unchanged_runtime": true,
+  "not_actual_reference_ROI_or_Qt_acceptance": true,
+  "field_accuracy": false
+}

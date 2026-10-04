@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "stage": "train",
+  "image": "disconnected_030.JPG",
+  "original_initial_worker_exception": true,
+  "retry_only_no_algorithm_changes": true,
+  "new_cues": 0,
+  "source_sha256": "d9d02fb4750caacb8e277828a6392763d40ac3399f16960f7af362cab714f358",
+  "reference_sha256": "09f81923e44089603ccfb5989e370d07cc27f2e929ebfc70de945a08947b19ac",
+  "initial_report": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_last_control_retry2_20261004\\initial_report.json",
+  "evidence": "C:\\Users\\HUAWEI\\Documents\\Codex\\2026-09-20\\z\\artifacts\\paired_pose_native_last_control_retry2_20261004\\native_pose_ports.json"
+}

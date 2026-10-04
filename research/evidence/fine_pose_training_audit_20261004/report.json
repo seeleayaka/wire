@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "counts": {
+    "source_train_oof": 192
+  },
+  "raw_examples": 969,
+  "normal_reference_twins": 969,
+  "retained_training_examples": 9808,
+  "duplicates": 62,
+  "conflicts": 0,
+  "source_group_twins_excluded_together": true,
+  "independent_train_label_tensor_and_score_replay": true,
+  "field_accuracy": false,
+  "no_validation_labels_read": true,
+  "no_deployment": true,
+  "source_report_sha256": "d4b912673cdf41609831f321e10ad8698c3b4297399ff7e6b693e7031ebb7ed4"
+}
