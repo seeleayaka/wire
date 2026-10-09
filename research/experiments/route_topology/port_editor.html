@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>端子与可见连接范围</title>
+<style>
+*{box-sizing:border-box}body{font:15px 'Microsoft YaHei',sans-serif;background:#f6f7f9;color:#263342;margin:0;padding:24px;max-width:1500px;margin:auto}h1{font-size:23px;margin:0 0 8px}p{color:#5b6673;line-height:1.6}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.panel{background:white;border:1px solid #dce1e6;border-radius:8px;padding:18px}h2{font-size:18px;margin-top:0}input,textarea,button{font:inherit;border:1px solid #cdd4dc;border-radius:4px;padding:7px}textarea{width:100%;height:75px}button{background:#fff;cursor:pointer}button.primary{background:#1764b1;color:white;border-color:#1764b1}label{display:block;margin:12px 0 6px}label.inline{display:inline-block;margin-right:12px}canvas{width:100%;height:auto;background:#edf0f3;touch-action:none;border:1px solid #e0e4e8}.ports{white-space:pre-wrap;font-family:monospace;font-size:13px}#status{white-space:pre-wrap;color:#9b4b12}input[type=text]{width:100%}.note{font-size:13px}.bar{display:flex;gap:12px;align-items:center;margin:20px 0}@media(max-width:800px){.grid{grid-template-columns:1fr}}
+</style>
+<h1>端子与可见连接范围</h1>
+<p>两张图分别框出实际接线孔。同一端子使用相同编号（例如 X1:1）。不框设备外壳，不把框移到模型端点上。<br>此入口需要真实人工确认；保存地图不会自动证明接线正确或实际导通。文件只在本机读取，不联网上传。</p>
+<div class="grid" id="views"></div>
+<section class="panel" style="margin-top:18px">
+<label>导入待复核草稿或旧地图（先载入对应的两张图；导入一律撤销确认） <input id="import_pair" type="file" accept="application/json,.json"></label>
+<label>场景标识 <input id="scene" type="text" value="bounded_visible_wire_review"></label>
+<label>预期接线表（每行两个端子编号，以逗号分隔；留空表示未知）</label><textarea id="edges" placeholder="X1:1,X2:3"></textarea>
+<label>复核人 <input id="reviewer" type="text" placeholder="实际复核人的姓名或标识"></label>
+<label>证据说明 <input id="note" type="text" placeholder="接线图编号、可见路径核对依据；不能用模型结果反推"></label>
+<label><input id="expected" type="checkbox"> 我已根据可追溯资料核对预期接线表</label>
+<div class="bar"><button class="primary" id="save">导出双图端子地图</button><span class="note">随后交给本地路线复核入口；未勾选项会保留证据不足。</span></div>
+<div id="status"></div>
+</section>
+<script>
+'use strict';
+const states={};
+for(const [key,title] of [['reference','参考图'],['inspection','待检图']]){
+ const el=document.createElement('section');el.className='panel';
+ el.innerHTML=`<h2>${title}</h2><input type="file" accept="image/*" data-f="file"><label>原图完整本地路径 <input data-f="path" type="text" placeholder="C:/.../source.png"></label><label>端子编号 <input data-f="id" type="text" placeholder="X1:1"></label><p class="note">输入编号后在图上拖出接线孔框。两张图独立标注，不能套用坐标。</p><canvas width="640" height="360"></canvas><div class="bar"><button data-f="undo">撤销上一框</button><button data-f="clear">清空框</button></div><div class="ports"></div><label>本次限定的可见线路范围 <input data-f="scope" type="text" placeholder="例如 X1:1 到 X2:3，可见完整路径，不包含线槽内部"></label><label>选定的 SAM 实例编号（逗号分隔，来自逐实例审计图） <input data-f="masks" type="text" placeholder="1,3"></label><label><input data-f="portsok" type="checkbox"> 已核对这些接线孔的身份</label><label><input data-f="selectionok" type="checkbox"> 已核对选定掩膜对应本范围的实际可见线段</label><label><input data-f="coverageok" type="checkbox"> 已核对本范围的可见路径完整，无遮挡缺段</label>`;
+ document.querySelector('#views').append(el);
+ const get=f=>el.querySelector(`[data-f="${f}"]`),canvas=el.querySelector('canvas'),ctx=canvas.getContext('2d');
+ const state={ports:[],image:null,binding:null,get,canvas};states[key]=state;
+ function repaint(){ctx.clearRect(0,0,canvas.width,canvas.height);if(state.image)ctx.drawImage(state.image,0,0);ctx.strokeStyle='#1764b1';ctx.lineWidth=Math.max(2,canvas.width/600);ctx.font=`${Math.max(14,canvas.width/45)}px sans-serif`;ctx.fillStyle='#1764b1';for(const p of state.ports){let[a,b,c,d]=p.bbox_xyxy;ctx.strokeRect(a,b,c-a,d-b);ctx.fillText(p.id,a,b+18);}el.querySelector('.ports').textContent=state.ports.map(p=>`${p.id}: [${p.bbox_xyxy.join(', ')}]`).join('\n');}
+ state.repaint=repaint;
+ get('file').onchange=async()=>{try{const file=get('file').files[0];if(!file)return;const bytes=await file.arrayBuffer();const digest=await crypto.subtle.digest('SHA-256',bytes);const image=new Image();const url=URL.createObjectURL(file);await new Promise((resolve,reject)=>{image.onload=resolve;image.onerror=reject;image.src=url;});URL.revokeObjectURL(url);canvas.width=image.naturalWidth;canvas.height=image.naturalHeight;state.image=image;state.ports=[];state.binding={image_sha256:[...new Uint8Array(digest)].map(x=>x.toString(16).padStart(2,'0')).join(''),image_size:[canvas.width,canvas.height],coordinate_frame:'source_image_pixels'};for(const f of ['portsok','selectionok','coverageok'])get(f).checked=false;repaint();}catch(e){document.querySelector('#status').textContent='读取失败：'+e.message;}};
+ let start=null;
+ const point=e=>{const r=canvas.getBoundingClientRect();return [Math.max(0,Math.min(canvas.width,(e.clientX-r.left)*canvas.width/r.width)),Math.max(0,Math.min(canvas.height,(e.clientY-r.top)*canvas.height/r.height))].map(Math.round);};
+ canvas.onpointerdown=e=>{if(!state.image)return;start=point(e);canvas.setPointerCapture(e.pointerId);};
+  canvas.onpointerup=e=>{if(!start)return;const end=point(e),a=start;start=null;const id=get('id').value.trim();if(!id||state.ports.some(p=>p.id===id)){document.querySelector('#status').textContent='请填写不重复的端子编号。';return;}const box=[Math.min(a[0],end[0]),Math.min(a[1],end[1]),Math.max(a[0],end[0]),Math.max(a[1],end[1])];if(box[2]<=box[0]||box[3]<=box[1])return;state.ports.push({id,roi_kind:'wire_entry_port',bbox_xyxy:box});get('portsok').checked=false;get('coverageok').checked=false;repaint();};
+ canvas.onpointercancel=()=>{start=null;};
+ get('undo').onclick=()=>{state.ports.pop();get('portsok').checked=false;get('coverageok').checked=false;repaint();};get('clear').onclick=()=>{state.ports=[];get('portsok').checked=false;get('coverageok').checked=false;repaint();};
+ get('masks').oninput=()=>{get('selectionok').checked=false;get('coverageok').checked=false;};
+ get('scope').oninput=()=>{get('selectionok').checked=false;get('coverageok').checked=false;};
+}
+document.querySelector('#import_pair').onchange=async()=>{try{
+ const file=document.querySelector('#import_pair').files[0];if(!file)return;
+ const pair=JSON.parse(await file.text());if(pair.schema_version!==1)throw Error('不支持的地图格式');
+ const checked={};
+ for(const [key,s] of Object.entries(states)){
+  const side=pair[key],sameBinding=side&&s.binding&&['image_sha256','coordinate_frame'].every(k=>side.image_binding?.[k]===s.binding[k])&&JSON.stringify(side.image_binding?.image_size)===JSON.stringify(s.binding.image_size);
+  if(!sameBinding)throw Error('地图与当前两图的指纹/尺寸不符；未导入任何一侧');
+  if(typeof side.image_path!=='string'||!side.image_path.trim()||!Array.isArray(side.ports)||!Array.isArray(side.mask_ids))throw Error('地图缺少路径、孔位或实例清单');
+  const ids=new Set();const ports=side.ports.map(p=>{const b=p.bbox_xyxy;if(typeof p.id!=='string'||!p.id.trim()||ids.has(p.id)||p.roi_kind!=='wire_entry_port'||!Array.isArray(b)||b.length!==4||b.some(v=>typeof v!=='number'||!Number.isFinite(v))||!(0<=b[0]&&b[0]<b[2]&&b[2]<=s.canvas.width&&0<=b[1]&&b[1]<b[3]&&b[3]<=s.canvas.height))throw Error('导入孔位的身份或坐标非法');ids.add(p.id);return {id:p.id,roi_kind:'wire_entry_port',bbox_xyxy:[...b]};});
+  if(side.mask_ids.some(i=>!Number.isInteger(i)||i<1)||new Set(side.mask_ids).size!==side.mask_ids.length)throw Error('导入实例编号非法');
+  checked[key]={ports,path:side.image_path,masks:side.mask_ids.join(','),scope:typeof side.scope_description==='string'?side.scope_description:''};
+ }
+ const ref=new Set(checked.reference.ports.map(p=>p.id)),ins=new Set(checked.inspection.ports.map(p=>p.id));if(ref.size!==ins.size||[...ref].some(id=>!ins.has(id)))throw Error('导入两图端子编号集合不同');
+ if(pair.expected_connections!==null&&!Array.isArray(pair.expected_connections))throw Error('预期连接须为未知或清单');
+ const expected=(pair.expected_connections||[]).map(e=>{if(typeof e.from!=='string'||typeof e.to!=='string'||!ref.has(e.from)||!ref.has(e.to)||e.from===e.to||e.from.includes(',')||e.to.includes(',')||/[\r\n]/.test(e.from+e.to))throw Error('导入预期连接引用无效');return e.from+','+e.to;}).join('\n');
+ for(const [key,s] of Object.entries(states)){const side=checked[key];s.ports=side.ports;s.get('path').value=side.path;s.get('masks').value=side.masks;s.get('scope').value=side.scope;for(const f of ['portsok','selectionok','coverageok'])s.get(f).checked=false;s.repaint();}
+ document.querySelector('#scene').value=typeof pair.scene_type==='string'?pair.scene_type:'bounded_visible_wire_review';document.querySelector('#edges').value=expected;
+ document.querySelector('#expected').checked=false;document.querySelector('#reviewer').value='';document.querySelector('#note').value='';
+ document.querySelector('#status').textContent='已导入草稿；所有身份、掩膜、覆盖和预期确认均已撤销。请重新核对真实证据。';
+ }catch(e){document.querySelector('#status').textContent='导入失败：'+e.message;}};
+for(const key of ['reviewer','note'])document.querySelector('#'+key).oninput=()=>{document.querySelector('#expected').checked=false;for(const s of Object.values(states))for(const f of ['portsok','selectionok','coverageok'])s.get(f).checked=false;};
+document.querySelector('#edges').oninput=()=>{document.querySelector('#expected').checked=false;};
+document.querySelector('#save').onclick=()=>{try{
+ const reviewer=document.querySelector('#reviewer').value.trim(),note=document.querySelector('#note').value.trim();
+ const review=confirmed=>{if(confirmed&&(!reviewer||!note))throw Error('勾选确认后必须填写实际复核人和证据说明');return {confirmed,reviewer:confirmed?reviewer:null,evidence_note:confirmed?note:null};};
+ const pair={schema_version:1,scene_type:document.querySelector('#scene').value.trim(),expected_connections:null,expected_review:review(document.querySelector('#expected').checked)};
+ const edgeText=document.querySelector('#edges').value.trim();if(edgeText)pair.expected_connections=edgeText.split(/\r?\n/).filter(x=>x.trim()).map(line=>{const ends=line.split(',').map(x=>x.trim());if(ends.length!==2||ends.some(x=>!x)||ends[0]===ends[1])throw Error('预期表每行须有两个不同的端子编号');return {from:ends[0],to:ends[1]};});
+ if(pair.expected_review.confirmed&&!pair.expected_connections)throw Error('未知预期连接不能勾选确认');
+ for(const [key,s] of Object.entries(states)){if(!s.binding||!s.get('path').value.trim())throw Error('两张图都须载入并填写真实本地路径');const ids=s.get('masks').value.trim();const mask_ids=ids?ids.split(',').map(v=>Number(v.trim())):[];if(mask_ids.some(x=>!Number.isInteger(x)||x<1)||new Set(mask_ids).size!==mask_ids.length)throw Error('SAM 编号须为不重复的正整数');pair[key]={image_path:s.get('path').value.trim(),image_binding:s.binding,ports:s.ports.map(p=>({...p,...review(s.get('portsok').checked)})),mask_ids,scope_description:s.get('scope').value.trim()||'Pending user-defined scope',selection_review:review(s.get('selectionok').checked),coverage_review:review(s.get('coverageok').checked)};}
+ const ref=new Set(pair.reference.ports.map(p=>p.id)),ins=new Set(pair.inspection.ports.map(p=>p.id));if(ref.size!==ins.size||[...ref].some(x=>!ins.has(x)))throw Error('两图端子编号集合须相同，坐标可以不同');
+ const blob=new Blob([JSON.stringify(pair,null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='paired_ports.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);document.querySelector('#status').textContent='已导出。此文件记录人工声明，仍需实际掩膜路径复核，不是正确接线认证。';
+ }catch(e){document.querySelector('#status').textContent=e.message;}};
+</script></html>

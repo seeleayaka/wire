@@ -1,0 +1,51 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>可见线路证据复核</title>
+<style>
+*{box-sizing:border-box}body{margin:24px auto;padding:0 20px;max-width:1440px;font:15px 'Microsoft YaHei',sans-serif;color:#263342;background:#f6f7f9}h1{font-size:23px}p{line-height:1.6;color:#5b6673}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.panel{padding:18px;background:white;border:1px solid #dce1e6;border-radius:8px}canvas{width:100%;height:auto;background:#f4f4f4}label{display:block;margin:8px 0}select,input,textarea,button{font:inherit;padding:7px;border:1px solid #cdd4dc;border-radius:4px}select,textarea{width:100%}textarea{height:80px}.selected{font-size:13px;color:#5b6673}.primary{background:#1764b1;color:white}#status,.detail{white-space:pre-wrap}.detail{font-size:13px;line-height:1.6}button{cursor:pointer;margin:12px 0}@media(max-width:800px){.grid{grid-template-columns:1fr}}
+</style>
+<h1>可见线路证据复核</h1>
+<p>逐个查看原始 SAM 实例和重新提取的可见路径。两边相同编号不代表同一条线；橙色圆点只是掩膜端点，不是已识别端子。<br>完整实例缺段、分叉或被裁块边缘截断时，不会通过选择某个分量把它补成连接。此页只在本机运行。</p>
+<div class="grid" id="views"></div>
+<button class="primary" id="export">导出待复核双图草稿</button>
+<p>在端子地图编辑器中载入同一对图片，再导入草稿。随后在实际接线孔上标注身份，核对期望表与可见范围；草稿不会替你勾选任何确认。</p>
+<div id="status"></div>
+<script id="evidence" type="application/json">__EMBEDDED_EVIDENCE__</script>
+<script>
+'use strict';
+const evidence=JSON.parse(document.querySelector('#evidence').textContent),states={};
+const geometryLabel=g=>({simple_visible_path:'单条可见路径',disconnected_or_empty:'空或断开的实例',branched_or_crossing:'分叉或交叠未解',not_two_ended:'未形成两个端点'}[g]||g);
+for(const [key,title] of [['reference','参考图'],['inspection','待检图']]){
+ const data=evidence[key],panel=document.createElement('section');panel.className='panel';
+ panel.innerHTML='<h2></h2><select data-f="mask"></select><label><input type="checkbox" data-f="include"> 将当前完整实例加入待复核范围</label><div class="selected"></div><canvas></canvas><div class="detail"></div><label>限定范围的草稿说明</label><textarea data-f="scope" placeholder="只描述已实际查看的有限线路；仍未确认"></textarea>';
+ panel.querySelector('h2').textContent=title;document.querySelector('#views').append(panel);
+ const select=panel.querySelector('select'),canvas=panel.querySelector('canvas'),ctx=canvas.getContext('2d'),toggle=panel.querySelector('[data-f=include]');
+ const state={selected:new Set(),scope:panel.querySelector('textarea'),ready:false};states[key]=state;
+ const original=new Image();original.src=data.data_url;
+ canvas.width=data.image_binding.image_size[0];canvas.height=data.image_binding.image_size[1];
+ data.records.forEach((record,index)=>{const option=document.createElement('option');option.value=index;option.textContent=`实例 ${index+1} · 分数 ${record.score.toFixed(3)} · ${geometryLabel(record.geometry.state)}`;select.append(option);});
+ if(!data.records.length){const option=document.createElement('option');option.textContent='没有实例证据';select.append(option);toggle.disabled=true;}
+ let generation=0;
+ async function paint(){const token=++generation;await original.decode();ctx.drawImage(original,0,0);const index=Number(select.value),record=data.records[index];
+  if(!record){panel.querySelector('.detail').textContent='没有掩膜，不生成连接。';state.ready=true;return;}
+  const binary=new Image();binary.src=data.masks[index].data_url;await binary.decode();if(token!==generation)return;
+  const off=document.createElement('canvas');off.width=canvas.width;off.height=canvas.height;const c=off.getContext('2d');c.drawImage(binary,0,0);const pix=c.getImageData(0,0,off.width,off.height);for(let i=0;i<pix.data.length;i+=4){const active=pix.data[i]>0;pix.data[i]=0;pix.data[i+1]=155;pix.data[i+2]=130;pix.data[i+3]=active?95:0;}c.putImageData(pix,0,0);ctx.drawImage(off,0,0);
+  const g=record.geometry;ctx.strokeStyle='#008c7f';ctx.lineWidth=2;if(g.path_xy.length){ctx.beginPath();g.path_xy.forEach(([x,y],i)=>i?ctx.lineTo(x,y):ctx.moveTo(x,y));ctx.stroke();}
+  ctx.strokeStyle='#d67500';for(const [x,y] of g.tips_xy){ctx.beginPath();ctx.arc(x,y,3,0,2*Math.PI);ctx.stroke();}
+  toggle.checked=state.selected.has(index+1);panel.querySelector('.selected').textContent='待复核实例：'+([...state.selected].sort((a,b)=>a-b).join(', ')||'未选择');
+  const eligible=g.state==='simple_visible_path'&&!record.boundary_truncated&&record.score>=.75;
+  const sourceKind=data.origin_evidence_kind.includes('constructed_software_fixture')?'软件构造夹具，不是实拍推理':'已核验既有掩膜，本次未重新推理';
+  panel.querySelector('.detail').textContent=`完整实例几何：${geometryLabel(g.state)}\n端点数：${g.tip_count}；分量数：${g.component_count}\n截到原图/裁块边缘：${record.boundary_truncated?'是':'否'}\n几何初筛：${eligible?'通过，但还缺端子与范围核对':'未通过，不降低原有门槛'}\n来源：${sourceKind}\n端子身份：未确认；实际连接：未确认`;
+  state.ready=true;
+  panel.dataset.paintedMask=String(index+1);
+ }
+ select.onchange=()=>paint().catch(e=>document.querySelector('#status').textContent=e.message);
+ toggle.onchange=()=>{const id=Number(select.value)+1;if(toggle.checked)state.selected.add(id);else state.selected.delete(id);paint().catch(e=>document.querySelector('#status').textContent=e.message);};
+ paint().catch(e=>document.querySelector('#status').textContent=e.message);
+}
+document.querySelector('#export').onclick=()=>{try{
+ if(Object.values(states).some(s=>!s.ready))throw Error('图像仍在载入');
+ const pair={schema_version:1,scene_type:'bounded_visible_wire_review_draft',expected_connections:null,expected_review:{confirmed:false},draft_evidence_kind:'unconfirmed_mask_selection_NOT_port_identity'};
+ for(const [key,state] of Object.entries(states)){const data=evidence[key];pair[key]={image_path:data.image_path,image_binding:data.image_binding,ports:[],mask_ids:[...state.selected].sort((a,b)=>a-b),scope_description:state.scope.value.trim()||'Pending actual visible-scope review',selection_review:{confirmed:false},coverage_review:{confirmed:false},origin_manifest_sha256:data.origin_manifest_sha256};}
+ const blob=new Blob([JSON.stringify(pair,null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='paired_ports_draft.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);document.querySelector('#status').textContent='已导出草稿：端子、期望与覆盖均未确认。';
+ }catch(e){document.querySelector('#status').textContent=e.message;}};
+</script></html>

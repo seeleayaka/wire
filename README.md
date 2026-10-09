@@ -94,3 +94,7 @@ network download.  `models/LightGlue/` contains the official LightGlue source,
 prepared for a later alignment A/B test but not yet enabled in the inspection
 pipeline.  Both model directories are intentionally ignored by Git because
 they are third-party downloadable assets.
+# 最新代码同步（2026-10-09）
+
+本次补充连接补证与遮挡研究源码，以及可选的大模型逐框判断、受本地证据约束的分级复核和Qt展示桥接。正式视觉入口保持原已验收版本；新增功能通过独立试验入口运行。详见 [研究模块与使用条件](research/STATUS_20261009.md)。照片、接口密钥和私人取证结果不在公开仓库，既有SAM模型Release保持不变。
+

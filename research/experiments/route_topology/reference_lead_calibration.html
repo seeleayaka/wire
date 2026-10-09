@@ -1,0 +1,30 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>参考图一次校准</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f6f7f9;color:#263342;font:15px 'Microsoft YaHei',sans-serif;padding:22px;max-width:1150px;margin:auto}h1{font-size:22px;margin:0 0 8px}p{line-height:1.7;color:#5a6571}.grid{display:grid;grid-template-columns:1.2fr 1fr;gap:20px}.panel{background:white;border:1px solid #dce1e6;border-radius:7px;padding:18px}canvas{width:100%;height:auto;border:1px solid #dce1e6}label{display:block;margin:12px 0 5px}input,button{font:inherit;padding:7px;border:1px solid #cbd2da;border-radius:4px}input[type=text]{width:100%}button{cursor:pointer;background:white;margin-top:14px}button.primary{background:#1764b1;color:white}table{width:100%;border-collapse:collapse;font-size:13px}td,th{text-align:left;border-bottom:1px solid #ddd;padding:8px 0}.box{width:100%}#status{white-space:pre-wrap;margin-top:12px;color:#805a15}@media(max-width:800px){.grid{grid-template-columns:1fr}}
+</style>
+<h1>参考图一次校准</h1>
+<p>只核对正常参考图。下面两个标记是待核对草稿，不是已经确认的端子。<br>风扇出线口不等于风扇内部电气端子；本范围只研究可见线束与 FAN_CPU 插座的关联，不证明导通。</p>
+<div class="grid"><section class="panel"><canvas id="canvas" width="400" height="400"></canvas><p>蓝框：主板 FAN_CPU 插座入口；橙框：风扇线束可见出线位置。可在右侧修正原图坐标。</p></section>
+<section class="panel"><table><thead><tr><th>标记</th><th>原图坐标 [左,上,右,下]</th></tr></thead><tbody id="anchors"></tbody></table>
+<label>实际复核人 <input id="reviewer" type="text" placeholder="实际核对这张参考图的人"></label>
+<label>核对依据 <input id="note" type="text" placeholder="可见参考线路或其他可追溯资料"></label>
+<label><input id="positions" type="checkbox"> 已核对两个标记的位置和身份</label>
+<label><input id="relation" type="checkbox"> 已核对参考图中这条风扇线束与 FAN_CPU 插座的关联</label>
+<button id="draft">保存未确认草稿</button> <button id="confirm" class="primary">导出已复核参考模板</button>
+<div id="status">尚未人工确认；待检图不会继承这里的确认。</div></section></div>
+<p>文件只在本机读取和下载，不联网上传。保存模板不会自动让待检图通过，待检图仍需实际图像证据。</p>
+<script>
+'use strict';
+const payload=__REFERENCE_LEAD_PAYLOAD__, scope=structuredClone(payload.scope), canvas=document.querySelector('#canvas'), ctx=canvas.getContext('2d');
+const image=new Image();image.onload=()=>{canvas.width=image.naturalWidth;canvas.height=image.naturalHeight;paint()};image.src=payload.crop_data_url;
+const revoke=()=>{document.querySelector('#positions').checked=false;document.querySelector('#relation').checked=false;document.querySelector('#status').textContent='修改后已撤销确认，请重新核对。'};
+function boxes(){return [...document.querySelectorAll('.box')].map(input=>input.value.split(',').map(v=>Number(v.trim())))}
+function validated(){const out=structuredClone(scope), all=boxes(), [w,h]=scope.reference_binding.image_size;all.forEach((b,i)=>{if(b.length!==4||b.some(v=>!Number.isFinite(v))||!(0<=b[0]&&b[0]<b[2]&&b[2]<=w&&0<=b[1]&&b[1]<b[3]&&b[3]<=h))throw Error('标记坐标非法');out.anchors[i].bbox_xyxy=b});const[a,b]=all;if(Math.min(a[2],b[2])>Math.max(a[0],b[0])&&Math.min(a[3],b[3])>Math.max(a[1],b[1]))throw Error('两个标记不能重叠');return out}
+function paint(){ctx.clearRect(0,0,canvas.width,canvas.height);if(image.complete)ctx.drawImage(image,0,0);let all;try{all=boxes()}catch(e){return}const[l,t]=payload.crop_box_xyxy;all.forEach((b,i)=>{if(b.length!==4)return;ctx.strokeStyle=i===0?'#d67500':'#1764b1';ctx.lineWidth=2;ctx.strokeRect(b[0]-l,b[1]-t,b[2]-b[0],b[3]-b[1]);ctx.fillStyle=ctx.strokeStyle;ctx.font='13px sans-serif';ctx.fillText(scope.anchors[i].id,b[0]-l,b[1]-t-5)})}
+for(const anchor of scope.anchors){const row=document.createElement('tr'), label=document.createElement('td'), cell=document.createElement('td'), input=document.createElement('input');label.textContent=anchor.id;input.className='box';input.value=anchor.bbox_xyxy.join(',');input.oninput=()=>{revoke();paint()};cell.append(input);row.append(label,cell);document.querySelector('#anchors').append(row)}
+for(const id of ['reviewer','note'])document.querySelector('#'+id).oninput=revoke;
+function save(confirmed){try{const out=validated(), reviewer=document.querySelector('#reviewer').value.trim(), note=document.querySelector('#note').value.trim();if(confirmed&&(!reviewer||!note||!document.querySelector('#positions').checked||!document.querySelector('#relation').checked))throw Error('确认须填写实际复核人、依据，并核对两个项目');out.reference_review={confirmed,reviewer:confirmed?reviewer:null,evidence_note:confirmed?note:null};const url=URL.createObjectURL(new Blob([JSON.stringify(out,null,2)],{type:'application/json'})),a=document.createElement('a');a.href=url;a.download=confirmed?'reference_visible_lead_reviewed.json':'reference_visible_lead_draft.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);document.querySelector('#status').textContent=confirmed?'已导出参考人工声明；待检图仍未验收。':'已导出未确认草稿，不作为正确连接真值。'}catch(e){document.querySelector('#status').textContent=e.message}}
+document.querySelector('#draft').onclick=()=>save(false);document.querySelector('#confirm').onclick=()=>save(true);
+</script></html>
