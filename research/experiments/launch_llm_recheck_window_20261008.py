@@ -14,12 +14,105 @@ import assembly_auto_review_dino as gui
 import llm_recheck_planner as planner
 import llm_review_priority as priority
 from PyQt5.QtWidgets import QMessageBox, QTableWidget, QTableWidgetItem, QAbstractItemView
-from PyQt5.QtGui import QColor
-from PyQt5.QtWidgets import QPushButton,QComboBox,QLabel,QWidget,QVBoxLayout,QCheckBox,QHBoxLayout,QScrollArea,QSizePolicy
-from PyQt5.QtCore import QSettings,QTimer,pyqtSignal,Qt
+from PyQt5.QtGui import QColor,QPixmap,QFont,QPainter,QPen
+from PyQt5.QtWidgets import QPushButton,QComboBox,QLabel,QWidget,QVBoxLayout,QCheckBox,QHBoxLayout,QScrollArea,QSizePolicy,QDialog,QSplitter,QTextBrowser
+from PyQt5.QtCore import QSettings,QTimer,pyqtSignal,Qt,QThread
 import private_region_review as private
 import deepseek_thinking_options as thinking
 from llm_visual_review_policy import PHOTO_FIRST
+
+def probe_model_connection(settings,api_key=None,transport=None):
+    """Tiny text-only completion; never transmits visual evidence or user metadata."""
+    import json,socket
+    from urllib.request import Request
+    from urllib.error import HTTPError,URLError
+    start=time.monotonic()
+    try:
+        token=planner.backend._api_token(settings,api_key)
+    except Exception:
+        return {'ok':False,'message':'尚未配置可用密钥，请输入或保存密钥。'}
+    try:
+        body={'model':settings.model,'messages':[{'role':'user','content':'Reply OK.'}],
+              'max_tokens':16,'stream':False,'thinking':{'type':'disabled'}}
+        req=Request(settings.endpoint,data=json.dumps(body).encode(),headers={'Content-Type':'application/json','Authorization':'Bearer '+token},method='POST')
+        response=(transport or planner.backend._post_json)(req,20)
+        content=response.get('choices',[{}])[0].get('message',{}).get('content')
+        if not isinstance(content,str) or not content.strip():return {'ok':False,'message':'服务已响应，但没有有效模型回答，请核对模型配置。'}
+        return {'ok':True,'message':'模型连接成功 · '+str(round(time.monotonic()-start,1))+' 秒（仅文字请求）'}
+    except Exception as error:
+        # Never expose exception bodies, URLs or tokens in UI/report.
+        chain=[error,getattr(error,'__cause__',None)]
+        code=next((e.code for e in chain if isinstance(e,HTTPError)),None)
+        if code in (401,403):message='密钥无效或没有访问权限，请检查密钥。'
+        elif code==404:message='接口或模型不可用，请检查配置。'
+        elif code==429:message='服务限流或账户额度不足，请稍后重试。'
+        elif any(isinstance(e,(TimeoutError,socket.timeout)) for e in chain):message='连接超时，请检查网络或服务状态。'
+        elif isinstance(error,planner.backend.DeepSeekMaskReviewError) and 'API key' in str(error):message='尚未配置可用密钥，请输入或保存密钥。'
+        else:message='模型连接失败，请检查网络、接口及模型配置。'
+        return {'ok':False,'message':message}
+
+class ConnectionProbeWorker(QThread):
+    completed=pyqtSignal(dict)
+    def __init__(self,settings,api_key,parent=None):
+        super().__init__(parent);self.settings=settings;self.api_key=api_key
+    def run(self):
+        try:self.completed.emit(probe_model_connection(self.settings,self.api_key))
+        finally:self.api_key=None
+
+class ReviewReadingDialog(QDialog):
+    """Local-only immutable result snapshot; map regions by ID, never by order."""
+    def __init__(self,result,images,parent=None):
+        super().__init__(parent)
+        self.result=copy.deepcopy(result);self.images=images
+        self.setWindowTitle('DeepSeek 复核意见与局部图片');self.resize(1200,820)
+        layout=QVBoxLayout(self);toolbar=QHBoxLayout()
+        toolbar.addWidget(QLabel('复核框'))
+        self.selector=QComboBox();self.selector.addItem('总体意见',None)
+        self.rows={r['candidate_id']:r for r in result.get('plan',{}).get('regions',[])}
+        for cid in result.get('plan',{}).get('review_order',[]):
+            if cid in self.rows:self.selector.addItem(cid,cid)
+        toolbar.addWidget(self.selector,1);toolbar.addWidget(QLabel('字号'))
+        self.font_size=QComboBox()
+        for size in [14,16,18,22,26]:self.font_size.addItem(str(size),size)
+        self.font_size.setCurrentIndex(1);toolbar.addWidget(self.font_size)
+        layout.addLayout(toolbar)
+        note=QLabel('右侧为对应复核框的本机原图对照，仅用于本地阅读，不会再次发送。模型意见是辅助复核建议。')
+        note.setWordWrap(True);note.setStyleSheet('color:#667785;padding:6px;');layout.addWidget(note)
+        split=QSplitter(Qt.Horizontal);layout.addWidget(split,1)
+        self.opinion=QTextBrowser();self.opinion.setOpenExternalLinks(False);split.addWidget(self.opinion)
+        self.picture_scroll=QScrollArea();self.picture_scroll.setWidgetResizable(True)
+        body=QWidget();self.picture_layout=QVBoxLayout(body)
+        self.picture_labels=[]
+        for title in ['参考局部图','待检局部图（对齐后）']:
+            self.picture_layout.addWidget(QLabel(title))
+            label=QLabel();label.setAlignment(Qt.AlignCenter);label.setMinimumSize(100,100)
+            self.picture_layout.addWidget(label);self.picture_labels.append(label)
+        self.picture_layout.addStretch();self.picture_scroll.setWidget(body);split.addWidget(self.picture_scroll)
+        split.setSizes([500,700])
+        self.selector.currentIndexChanged.connect(self.select_candidate)
+        self.font_size.currentIndexChanged.connect(self.change_font)
+        self.change_font();self.selector.setCurrentIndex(1 if self.selector.count()>1 else 0)
+        self.select_candidate()
+    def change_font(self):
+        self.opinion.setStyleSheet('QTextBrowser {font-size:%dpt;padding:12px;}' % self.font_size.currentData())
+        font=QFont(self.opinion.font());font.setPointSize(self.font_size.currentData());self.opinion.setFont(font)
+        self.opinion.document().setDefaultFont(font)
+    def select_candidate(self):
+        cid=self.selector.currentData();row=self.rows.get(cid)
+        if row is None:
+            text=self.result.get('answer_zh') or render_plan(self.result)
+        else:
+            text=cid+'\n\n'+row.get('observation_zh','')
+            text+='\n\n建议核查\n'+'\n'.join(planner.ACTIONS.get(x,x) for x in row.get('requested_checks',[]))
+            text+='\n\n补证问题\n'+row.get('question_zh','')
+            audit=next((r for r in self.result.get('priority_adjustment',{}).get('rows',[]) if r.get('candidate_id')==cid),None)
+            if audit:text+='\n\n当前复核等级\n'+audit.get('display_label','')+'\n'+audit.get('adjustment_reason_zh','')
+        self.opinion.setPlainText(text);self.opinion.verticalScrollBar().setValue(0)
+        pair=self.images.get(cid)
+        for i,label in enumerate(self.picture_labels):
+            label.clear()
+            if pair is None:label.setText('选择复核框查看图片' if cid is None else '对应局部图片不可用，不使用其他框替代')
+            else:label.setPixmap(QPixmap.fromImage(pair[i]).scaled(640,360,Qt.KeepAspectRatio,Qt.SmoothTransformation))
 
 def render_plan(result):
     if result.get('status')!='ok':
@@ -73,6 +166,8 @@ class PlannedWindow(gui.DINOReview):
         self.deepseek_question_input.setText('逐框风险判断、优先级建议与补证步骤')
         self.deepseek_question_input.setReadOnly(True)
         self._approved_visual_packet=None
+        self._reading_result=None;self._reading_images={};self._reading_dialogs=[]
+        self.connection_worker=None
         self.input_mode=QComboBox()
         self.input_mode.addItem('纯掩膜（默认）','binary_masks')
         self.input_mode.addItem('脱敏局部原图＋掩膜（需预览）','redacted_local_photos')
@@ -153,17 +248,110 @@ class PlannedWindow(gui.DINOReview):
                 control.setContentsMargins(8,8,8,8)
                 self.deepseek_answer_scroll.setWidget(control)
                 layout.addWidget(self.deepseek_answer_scroll)
+                self.reading_button=QPushButton('放大阅读 · 意见与图片对照')
+                self.reading_button.setEnabled(False);self.reading_button.clicked.connect(self.open_review_reading)
+                layout.addWidget(self.reading_button)
             else:layout.addWidget(control)
         self.deepseek_question_input.hide()
-        self.result_card.layout().addWidget(self.cloud_switch);self.result_card.layout().addWidget(self.cloud_body)
-        self.cloud_body.hide();self.cloud_switch.toggled.connect(self.cloud_body.setVisible)
+        self.cloud_dialog=QDialog(self);self.cloud_dialog.setWindowTitle('DeepSeek 工作台');self.cloud_dialog.resize(1040,850)
+        work_layout=QVBoxLayout(self.cloud_dialog)
+        intro=QLabel('本地检测完成后，在这里设置连接、检查外发内容并查看逐框复核结果。');intro.setWordWrap(True);work_layout.addWidget(intro)
+        from PyQt5.QtWidgets import QTabWidget
+        self.cloud_tabs=QTabWidget();work_layout.addWidget(self.cloud_tabs,1)
+        settings_scroll=QScrollArea();settings_scroll.setWidgetResizable(True);settings_scroll.setWidget(self.cloud_body)
+        self.cloud_tabs.addTab(settings_scroll,'连接与输入设置')
+        result_page=QWidget();result_layout=QVBoxLayout(result_page)
+        for control in [self.deepseek_review_button,self.deepseek_answer_scroll,self.reading_button,self.priority_table]:
+            layout.removeWidget(control);result_layout.addWidget(control)
+        result_scroll=QScrollArea();result_scroll.setWidgetResizable(True);result_scroll.setWidget(result_page)
+        self.cloud_tabs.addTab(result_scroll,'复核结果与图片')
+        self.cloud_open_button=QPushButton('打开 DeepSeek 工作台');self.cloud_open_button.setEnabled(False)
+        self.cloud_open_button.clicked.connect(self.show_cloud_workspace)
+        self.result_card.layout().addWidget(self.cloud_switch);self.result_card.layout().addWidget(self.cloud_open_button)
+        self.cloud_body.hide();self.cloud_switch.toggled.connect(self.toggle_cloud_workspace)
         feedback=QWidget();row=QHBoxLayout(feedback);row.setContentsMargins(0,0,0,0)
         self.cloud_spinner=gui.BusyIndicator(feedback)
         self.cloud_status=QLabel('尚未发送 · 完成本地检测后可开始复核');self.cloud_status.setWordWrap(True)
-        row.addWidget(self.cloud_spinner);row.addWidget(self.cloud_status,1);layout.insertWidget(0,feedback)
+        row.addWidget(self.cloud_spinner);row.addWidget(self.cloud_status,1);result_layout.insertWidget(0,feedback)
         self.cloud_elapsed=QTimer(self);self.cloud_elapsed.setInterval(1000)
         self.cloud_elapsed.timeout.connect(self._refresh_cloud_elapsed)
         self._cloud_started=None;self._cloud_phase=''
+        self.connection_test_button=QPushButton('测试模型连接（仅文字，不发图片）')
+        self.connection_test_button.clicked.connect(self.start_connection_test);layout.insertWidget(1,self.connection_test_button)
+        self.connection_status=QLabel('尚未测试');self.connection_status.setWordWrap(True);layout.insertWidget(2,self.connection_status)
+        try:
+            cfg=planner.backend.load_settings();model_notice=QLabel('当前配置模型：'+cfg.model)
+        except Exception:model_notice=QLabel('模型配置不可用，请核对配置文件。')
+        layout.insertWidget(3,model_notice)
+        layout.setAlignment(Qt.AlignTop)
+
+    def show_cloud_workspace(self):
+        if not self.cloud_switch.isChecked():return
+        self.cloud_dialog.show();self.cloud_dialog.raise_();self.cloud_dialog.activateWindow()
+
+    def toggle_cloud_workspace(self,enabled):
+        self.cloud_body.setVisible(enabled);self.cloud_open_button.setEnabled(enabled)
+        if enabled:self.show_cloud_workspace()
+        else:self.cloud_dialog.hide()
+
+    def start_connection_test(self):
+        if not self.cloud_switch.isChecked() or self.connection_worker is not None:return
+        if self.deepseek_worker is not None and self.deepseek_worker.isRunning():return
+        try:settings=planner.backend.load_settings()
+        except Exception:self.connection_status.setText('模型配置不可用，请检查配置文件。');return
+        self.connection_test_button.setEnabled(False);self.connection_status.setText('正在测试模型连接，请稍候…（网络超时设置20秒）')
+        worker=ConnectionProbeWorker(settings,self.deepseek_api_input.text().strip() or None,self)
+        self.connection_worker=worker
+        worker.completed.connect(self.finish_connection_test);worker.finished.connect(self._clear_connection_worker)
+        worker.start()
+
+    def finish_connection_test(self,result):
+        self.connection_status.setText(result['message'])
+        self.connection_status.setStyleSheet('color:#146b4a;' if result['ok'] else 'color:#94601e;')
+
+    def _clear_connection_worker(self):
+        if self.connection_worker is not None:self.connection_worker.deleteLater()
+        self.connection_worker=None;self.connection_test_button.setEnabled(True)
+
+    def closeEvent(self,event):
+        if self.connection_worker is not None and self.connection_worker.isRunning():
+            self.connection_status.setText('连接测试正在结束，请稍后再关闭主窗口。');event.ignore();return
+        self.cloud_dialog.close();super().closeEvent(event)
+
+    def _capture_reading_result(self,result,pending):
+        self._reading_result=None;self._reading_images={};self.reading_button.setEnabled(False)
+        if result.get('status')!='ok':return
+        try:
+            before=private.source_binding(pending)
+            ref=private.image(pending['report']['reference']);ins=private.image(Path(pending['output'])/'aligned.jpg')
+            if ref.size()!=ins.size():raise ValueError('Frames differ')
+            from PyQt5.QtCore import QRect
+            import math
+            images={}
+            for i,candidate in enumerate(pending['candidates'],1):
+                x1,y1,x2,y2=planner.backend._candidate_xyxy(candidate)
+                if not all(math.isfinite(v) for v in (x1,y1,x2,y2)) or not 0<=x1<x2<=ref.width() or not 0<=y1<y2<=ref.height():continue
+                pad=12;left=max(0,math.floor(x1)-pad);top=max(0,math.floor(y1)-pad)
+                rect=QRect(left,top,min(ref.width(),math.ceil(x2)+pad)-left,min(ref.height(),math.ceil(y2)+pad)-top)
+                pair=[]
+                for image in [ref,ins]:
+                    crop=image.copy(rect);p=QPainter(crop);p.setPen(QPen(QColor('#e48516'),2))
+                    p.drawRect(QRect(round(x1-left),round(y1-top),round(x2-x1),round(y2-y1)));p.end();pair.append(crop)
+                images[f'candidate_{i:03d}']=pair
+            if private.source_binding(pending)!=before:raise ValueError('Inputs changed')
+            self._reading_result=copy.deepcopy(result);self._reading_images=images
+            self._reading_output=pending['output'];self.reading_button.setEnabled(True)
+        except (OSError,ValueError,KeyError,TypeError):
+            # Missing photos must never prevent the accepted text result being read.
+            self._reading_result=copy.deepcopy(result);self._reading_output=pending['output'];self.reading_button.setEnabled(True)
+
+    def open_review_reading(self):
+        if self._reading_result is None or self.current_output!=self._reading_output:return
+        dialog=ReviewReadingDialog(self._reading_result,self._reading_images,self)
+        dialog.setAttribute(Qt.WA_DeleteOnClose)
+        self._reading_dialogs.append(dialog)
+        dialog.destroyed.connect(lambda:self._reading_dialogs.remove(dialog) if dialog in self._reading_dialogs else None)
+        dialog.show()
 
     def _on_cloud_progress(self,message):
         if self._cloud_started is None:self._cloud_started=time.monotonic()
@@ -192,6 +380,7 @@ class PlannedWindow(gui.DINOReview):
 
     def run(self):
         if self.deepseek_worker is not None and self.deepseek_worker.isRunning():return
+        self._reading_result=None;self._reading_images={};self.reading_button.setEnabled(False)
         self._approved_visual_packet=None
         self.priority_table.setRowCount(0)
         super().run()
@@ -218,6 +407,7 @@ class PlannedWindow(gui.DINOReview):
             return False
 
     def _finish_deepseek_mask_review(self,result):
+        self._reading_result=None;self._reading_images={};self.reading_button.setEnabled(False)
         self._finish_cloud_feedback(False)
         pending=self._deepseek_pending
         if pending is None or self.current_output!=pending['output']:return
@@ -254,12 +444,15 @@ class PlannedWindow(gui.DINOReview):
         self.priority_table.resizeColumnsToContents()
         super()._finish_deepseek_mask_review(result)
         if result.get('status')=='ok':
+            self._capture_reading_result(result,pending)
+            self.cloud_tabs.setCurrentIndex(1)
             self._finish_cloud_feedback(True)
             level=audit['overall_priority']
             self._set_stage('大模型复核完成 · '+(priority.LABELS[level] if level else '无候选'),False)
 
     def start_deepseek_mask_review(self):
         if not self.cloud_switch.isChecked():return
+        if self.connection_worker is not None:return
         pending=self._deepseek_pending
         if pending is None or self.current_output!=pending['output']:return
         if any(w is not None and w.isRunning() for w in [self.deepseek_worker,self.port_worker,getattr(self,'rescue_worker',None)]):return
