@@ -29,6 +29,7 @@ import assembly_auto_review_robust as robust
 import assembly_auto_review_robust_v6 as adaptive
 import deepseek_mask_review
 import sam3_wire_fusion
+from capture_advice import build_capture_advice, render_capture_advice
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -500,6 +501,11 @@ class DINOReview(adaptive.AdaptiveReview):
         self.tabs.addTab(self.port_comparison_panel, "端口局部对比")
         self.port_worker = None
         self._port_visual_report = None
+        self.capture_advice_label = QLabel("拍摄建议（本地生成，无需大模型）\n完成检测后显示针对本轮的拍摄建议。", self)
+        self.capture_advice_label.setWordWrap(True)
+        self.capture_advice_label.setTextFormat(Qt.PlainText)
+        self.capture_advice_label.setTextInteractionFlags(Qt.TextSelectableByMouse)
+        self.result_card.layout().addWidget(self.capture_advice_label)
         self.port_hint_switch = QCheckBox("启用可选端口提示", self)
         self.port_hint_switch.setChecked(False)
         self.port_hint_switch.setToolTip("完成原视觉复核后，点击生成；黄色保留原框，蓝色标出端口小框。")
@@ -815,6 +821,7 @@ class DINOReview(adaptive.AdaptiveReview):
                 self.run_button.setEnabled(True)
             self._set_stage("检测失败", False)
             self.set_decision("uncertain", "检测未完成，请人工复核", result.get("error", "unknown error"))
+            self._show_capture_advice({"decision": "detection_failed"})
             return
 
         self.current_output = Path(str(result["output"]))
@@ -869,12 +876,19 @@ class DINOReview(adaptive.AdaptiveReview):
     def _write_report(self, report: dict[str, Any]) -> None:
         if self.current_output is None:
             return
+        report = copy.deepcopy(report)
+        report["capture_advice"] = self._show_capture_advice(report)
         (self.current_output / "report.json").write_text(
             json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
         )
         self.report.setPlainText(json.dumps(report, ensure_ascii=False, indent=2))
         self._port_visual_report = copy.deepcopy(report)
         self._update_port_controls()
+
+    def _show_capture_advice(self, report: dict[str, Any]) -> dict[str, Any]:
+        advice = build_capture_advice(report)
+        self.capture_advice_label.setText(render_capture_advice(advice))
+        return advice
 
     def _update_port_controls(self):
         busy = any(worker is not None and worker.isRunning() for worker in
@@ -1125,6 +1139,7 @@ class DINOReview(adaptive.AdaptiveReview):
         if self.deepseek_worker is not None and self.deepseek_worker.isRunning():
             return
         self._deepseek_pending = None
+        self.capture_advice_label.setText("拍摄建议（本地生成，无需大模型）\n等待本轮检测结果；建议与参考图保持相同角度和取景范围。")
         self._port_visual_report = None
         self.port_hint_view.scene.clear()
         self.port_hint_view.item = None
@@ -1133,10 +1148,11 @@ class DINOReview(adaptive.AdaptiveReview):
         self.deepseek_review_button.setEnabled(False)
         self.comparison_panel.set_records([])
         reference_path, inspection_path = Path(self.reference.text().strip()), Path(self.inspection.text().strip())
-        if not reference_path.is_file() or not inspection_path.is_file() or not self.recipe.get("check_rois"):
+        if not reference_path.is_file() or not inspection_path.is_file():
             self._set_stage("等待输入", False)
-            self.set_decision("idle", "尚未检测", "请选择两张图片并添加至少一个检查区域。")
+            self.set_decision("idle", "尚未检测", "请选择正确参考图和待检图。")
             return
+        check_rois = self.recipe.get("check_rois") or [[0.0, 0.0, 1.0, 1.0]]
         continuing_task: Path | None = None
         if self.agent_task_path is not None and self.agent_task_path.is_file():
             try:
@@ -1165,7 +1181,7 @@ class DINOReview(adaptive.AdaptiveReview):
         worker = InitialReviewWorker(
             reference_path=reference_path,
             inspection_path=inspection_path,
-            check_rois=self.recipe["check_rois"],
+            check_rois=check_rois,
             parent=self,
         )
         worker.stage_changed.connect(lambda text: self._set_stage(text, True))
