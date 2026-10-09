@@ -7,6 +7,20 @@ from PyQt5.QtWidgets import QApplication
 class CloudFeedbackTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):cls.app=QApplication.instance() or QApplication([])
+    def test_long_answer_can_scroll_to_last_line(self):
+        w=ui.PlannedWindow()
+        try:
+            w.cloud_switch.setChecked(True)
+            w.deepseek_answer_label.setText('\n'.join('复核建议 '+str(i) for i in range(180))+'\n最后一条建议')
+            w.show();self.app.processEvents()
+            scroll=w.deepseek_answer_scroll
+            self.assertLessEqual(scroll.height(),260)
+            self.assertGreater(scroll.verticalScrollBar().maximum(),0)
+            scroll.verticalScrollBar().setValue(scroll.verticalScrollBar().maximum())
+            self.app.processEvents()
+            self.assertIn('最后一条建议',w.deepseek_answer_label.text())
+            self.assertEqual(scroll.verticalScrollBar().value(),scroll.verticalScrollBar().maximum())
+        finally:w.close()
     def test_busy_and_completion_feedback(self):
         w=ui.PlannedWindow()
         try:

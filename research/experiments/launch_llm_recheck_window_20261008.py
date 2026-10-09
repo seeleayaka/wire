@@ -15,8 +15,8 @@ import llm_recheck_planner as planner
 import llm_review_priority as priority
 from PyQt5.QtWidgets import QMessageBox, QTableWidget, QTableWidgetItem, QAbstractItemView
 from PyQt5.QtGui import QColor
-from PyQt5.QtWidgets import QPushButton,QComboBox,QLabel,QWidget,QVBoxLayout,QCheckBox,QHBoxLayout
-from PyQt5.QtCore import QSettings,QTimer,pyqtSignal
+from PyQt5.QtWidgets import QPushButton,QComboBox,QLabel,QWidget,QVBoxLayout,QCheckBox,QHBoxLayout,QScrollArea,QSizePolicy
+from PyQt5.QtCore import QSettings,QTimer,pyqtSignal,Qt
 import private_region_review as private
 import deepseek_thinking_options as thinking
 from llm_visual_review_policy import PHOTO_FIRST
@@ -137,7 +137,23 @@ class PlannedWindow(gui.DINOReview):
         for control in (self.deepseek_question_input,self.deepseek_review_button,self.deepseek_answer_label,self.input_mode_label,self.input_mode,self.preview_button,self.priority_table):
             old=control.parentWidget().layout()
             if old:old.removeWidget(control)
-            layout.addWidget(control)
+            if control is self.deepseek_answer_label:
+                self.deepseek_answer_scroll=QScrollArea()
+                self.deepseek_answer_scroll.setWidgetResizable(True)
+                self.deepseek_answer_scroll.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
+                self.deepseek_answer_scroll.setVerticalScrollBarPolicy(Qt.ScrollBarAsNeeded)
+                self.deepseek_answer_scroll.setMinimumHeight(160)
+                self.deepseek_answer_scroll.setMaximumHeight(260)
+                self.deepseek_answer_scroll.setStyleSheet('QScrollArea {border:1px solid #d9e4de;border-radius:6px;background:#ffffff;}')
+                control.setMaximumHeight(16777215)
+                control.setWordWrap(True)
+                control.setAlignment(Qt.AlignTop|Qt.AlignLeft)
+                control.setTextInteractionFlags(Qt.TextSelectableByMouse)
+                control.setSizePolicy(QSizePolicy.Preferred,QSizePolicy.Minimum)
+                control.setContentsMargins(8,8,8,8)
+                self.deepseek_answer_scroll.setWidget(control)
+                layout.addWidget(self.deepseek_answer_scroll)
+            else:layout.addWidget(control)
         self.deepseek_question_input.hide()
         self.result_card.layout().addWidget(self.cloud_switch);self.result_card.layout().addWidget(self.cloud_body)
         self.cloud_body.hide();self.cloud_switch.toggled.connect(self.cloud_body.setVisible)
