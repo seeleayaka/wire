@@ -1,5 +1,5 @@
 """Opt-in experimental mainline window; overrides worker only in this process."""
-import sys,copy
+import sys,copy,time
 from pathlib import Path
 
 import os
@@ -16,7 +16,7 @@ import llm_review_priority as priority
 from PyQt5.QtWidgets import QMessageBox, QTableWidget, QTableWidgetItem, QAbstractItemView
 from PyQt5.QtGui import QColor
 from PyQt5.QtWidgets import QPushButton,QComboBox,QLabel,QWidget,QVBoxLayout,QCheckBox,QHBoxLayout
-from PyQt5.QtCore import QSettings
+from PyQt5.QtCore import QSettings,QTimer,pyqtSignal
 import private_region_review as private
 import deepseek_thinking_options as thinking
 from llm_visual_review_policy import PHOTO_FIRST
@@ -34,18 +34,26 @@ def render_plan(result):
     return '\n'.join(lines)
 
 class PlannedWorker(gui.DeepSeekMaskReviewWorker):
+    progress=pyqtSignal(str)
     def __init__(self,*args,**kwargs):
         super().__init__(*args,**kwargs)
         parent=kwargs.get('parent')
         self.visual_packet=copy.deepcopy(getattr(parent,'_approved_visual_packet',None))
         self.visual_pending=getattr(parent,'_deepseek_pending',None)
         self.thinking_mode=getattr(parent,'thinking_mode',None).currentData() if getattr(parent,'thinking_mode',None) else 'disabled'
+        if parent is not None and hasattr(parent,'_on_cloud_progress'):self.progress.connect(parent._on_cloud_progress)
     def run(self):
         try:
+            self.progress.emit('正在准备复核输入')
             if self.visual_packet is not None:private.validate(self.visual_packet,self.visual_pending)
             diagnostics={}
             settings=thinking.configured_settings(planner.backend.load_settings(),self.thinking_mode)
-            sender=thinking.thinking_sender(self.thinking_mode,planner.backend._post_json,
+            def transport(req,timeout):
+                self.progress.emit('请求正在发送，等待大模型判断')
+                response=planner.backend._post_json(req,timeout)
+                self.progress.emit('服务已响应 · 请求成功，正在校验判断结果')
+                return response
+            sender=thinking.thinking_sender(self.thinking_mode,transport,
                                            PHOTO_FIRST if self.visual_packet else None,diagnostics)
             result=priority.run(self.reference_mask_path,self.inspection_mask_path,self.candidates,settings=settings,api_key=self.api_key,
                                 visual_packet=self.visual_packet,sender=sender)
@@ -83,6 +91,27 @@ class PlannedWindow(gui.DINOReview):
         self.priority_table.horizontalHeader().setStretchLastSection(True)
         self.result_card.layout().addWidget(self.priority_table)
         self._attach_cloud_settings()
+        self._annotate_optional_tabs()
+
+    def _annotate_optional_tabs(self):
+        pages={}
+        for name,message in [
+            ('port_hint_view','端口局部提示为可选工具。展开左侧“可选工具”，勾选“启用可选端口提示”，完成主检测后点击“生成端口局部提示”。'),
+            ('port_comparison_panel','此页显示端口局部原图对比。先生成端口局部提示，再从下方列表选择候选区域查看；未生成时列表为空。'),
+            ('rescue_view','独立端口补漏默认关闭。展开左侧“可选工具”，勾选“启用独立端口补漏”，完成主检测后点击“检查端口补漏”。')]:
+            view=getattr(self,name,None)
+            if view is None:continue
+            index=self.tabs.indexOf(view)
+            if index<0:continue
+            title=self.tabs.tabText(index);self.tabs.removeTab(index)
+            page=QWidget();layout=QVBoxLayout(page);layout.setContentsMargins(8,8,8,8)
+            note=QLabel(message);note.setWordWrap(True);note.setMaximumHeight(80)
+            note.setStyleSheet('padding:10px;background:#edf4f1;color:#425b50;border-radius:6px;')
+            layout.addWidget(note);layout.addWidget(view,1);view.show()
+            self.tabs.insertTab(index,page,title)
+            pages[view]=page
+        original_select=self.tabs.setCurrentWidget
+        self.tabs.setCurrentWidget=lambda widget:original_select(pages.get(widget,widget))
 
     def _attach_cloud_settings(self):
         self.cloud_switch=QCheckBox('启用 DeepSeek 辅助复核')
@@ -112,6 +141,29 @@ class PlannedWindow(gui.DINOReview):
         self.deepseek_question_input.hide()
         self.result_card.layout().addWidget(self.cloud_switch);self.result_card.layout().addWidget(self.cloud_body)
         self.cloud_body.hide();self.cloud_switch.toggled.connect(self.cloud_body.setVisible)
+        feedback=QWidget();row=QHBoxLayout(feedback);row.setContentsMargins(0,0,0,0)
+        self.cloud_spinner=gui.BusyIndicator(feedback)
+        self.cloud_status=QLabel('尚未发送 · 完成本地检测后可开始复核');self.cloud_status.setWordWrap(True)
+        row.addWidget(self.cloud_spinner);row.addWidget(self.cloud_status,1);layout.insertWidget(0,feedback)
+        self.cloud_elapsed=QTimer(self);self.cloud_elapsed.setInterval(1000)
+        self.cloud_elapsed.timeout.connect(self._refresh_cloud_elapsed)
+        self._cloud_started=None;self._cloud_phase=''
+
+    def _on_cloud_progress(self,message):
+        if self._cloud_started is None:self._cloud_started=time.monotonic()
+        self._cloud_phase=message;self.cloud_spinner.set_running(True)
+        self.cloud_elapsed.start();self.cloud_status.setStyleSheet('color:#245f82;')
+        self._refresh_cloud_elapsed()
+        self._set_stage(message,True)
+
+    def _refresh_cloud_elapsed(self):
+        seconds=int(time.monotonic()-self._cloud_started) if self._cloud_started is not None else 0
+        self.cloud_status.setText(self._cloud_phase+' · 已等待 '+str(seconds)+' 秒')
+
+    def _finish_cloud_feedback(self,ok=False):
+        self.cloud_elapsed.stop();self.cloud_spinner.set_running(False);self._cloud_started=None
+        self.cloud_status.setText('发送成功 · 大模型复核完成' if ok else '复核未完成 · 保留本地结果，请查看下方说明')
+        self.cloud_status.setStyleSheet('color:#146b4a;' if ok else 'color:#94601e;')
 
     def _save_cloud_key(self):
         token=self.deepseek_api_input.text().strip()
@@ -150,6 +202,7 @@ class PlannedWindow(gui.DINOReview):
             return False
 
     def _finish_deepseek_mask_review(self,result):
+        self._finish_cloud_feedback(False)
         pending=self._deepseek_pending
         if pending is None or self.current_output!=pending['output']:return
         self.input_mode.setEnabled(True)
@@ -185,6 +238,7 @@ class PlannedWindow(gui.DINOReview):
         self.priority_table.resizeColumnsToContents()
         super()._finish_deepseek_mask_review(result)
         if result.get('status')=='ok':
+            self._finish_cloud_feedback(True)
             level=audit['overall_priority']
             self._set_stage('大模型复核完成 · '+(priority.LABELS[level] if level else '无候选'),False)
 
@@ -208,10 +262,12 @@ class PlannedWindow(gui.DINOReview):
             '\n判断只影响复核优先级，不删除框、不修改连接结论。是否继续？',
             QMessageBox.Yes|QMessageBox.No,QMessageBox.No)
         if answer==QMessageBox.Yes:
+            self._on_cloud_progress('正在准备发送')
             super().start_deepseek_mask_review()
             if self.deepseek_worker is not None:
                 self.input_mode.setEnabled(False);self.preview_button.setEnabled(False)
                 self.cloud_switch.setEnabled(False);self.thinking_mode.setEnabled(False);self.save_key_button.setEnabled(False)
+            else:self._finish_cloud_feedback(False)
 
 def main():
     gui.DeepSeekMaskReviewWorker=PlannedWorker
