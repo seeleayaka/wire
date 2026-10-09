@@ -33,26 +33,7 @@ DECISIVE=(
     'Do not increase confidence or priority simply to satisfy this instruction. '
     'Each observation <=120 Chinese characters. Return only the original strict JSON schema. '
 )
-PHOTO_FIRST=(
-    '\nPHOTO-FIRST evidence policy: Make a specific decision about visible appearance, never electrical continuity. '
-    'A is the reference PHOTO and B the aligned inspection PHOTO. C and D are SAM reference/inspection MASKS. '
-    'SAM is FALLIBLE: masks can omit real wires, include background, split one wire or change shape because of viewing angle. '
-    'Trust clear unredacted/unpixelated photo pixels MORE than SAM mask shape or absence. '
-    'When a wire is visible in a photo but absent from its mask, treat this as possible SAM error, not an absent physical wire. '
-    'A mask discrepancy by itself does NOT establish visible physical change or justify medium confidence/high priority. '
-    'C/D were generated independently BEFORE privacy processing and remain unchanged; privacy processing of A/B cannot cause C/D missingness. '
-    'Opaque and pixelated photo patches contain UNKNOWN detail. Coarse mosaic color is NOT a resolved wire or verified geometry. '
-    'Do not reconstruct hidden/photo-pixelated parts or use their absence as evidence. '
-    'Use visible_change with medium confidence only if clear visible A/B photo pixels OUTSIDE privacy patches '
-    'show a specific additional, missing or displaced wire-like structure. State that concrete photo evidence, '
-    'its visible color if resolvable, its shape, and local relative position for EACH candidate. '
-    'If photos look similar and the only discrepancy is SAM, prefer likely_artifact with low confidence, normal priority. '
-    'If corresponding photo wire detail is hidden or unresolved, use insufficient_evidence, low confidence, normal priority '
-    'even if masks differ strongly. Do not globally abstain when some unredacted photo evidence IS clear. '
-    'Photographs can themselves suffer alignment, occlusion and perspective artifacts; do not infer cable identity or electrical correctness. '
-    'High priority means earlier human visual review, not a fault. Never increase confidence to sound decisive. '
-    'Each observation <=120 Chinese characters; return only the existing strict JSON schema. '
-)
+from llm_visual_review_policy import PHOTO_FIRST
 
 def save(path,value):path.write_text(json.dumps(value,ensure_ascii=False,indent=2),encoding='utf-8')
 

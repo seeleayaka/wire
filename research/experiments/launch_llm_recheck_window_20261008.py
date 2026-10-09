@@ -19,7 +19,7 @@ from PyQt5.QtWidgets import QPushButton,QComboBox,QLabel,QWidget,QVBoxLayout,QCh
 from PyQt5.QtCore import QSettings
 import private_region_review as private
 import deepseek_thinking_options as thinking
-from probe_mosaic_decisive_review_20261009 import PHOTO_FIRST
+from llm_visual_review_policy import PHOTO_FIRST
 
 def render_plan(result):
     if result.get('status')!='ok':
