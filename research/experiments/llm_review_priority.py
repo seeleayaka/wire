@@ -106,7 +106,7 @@ def adjust(result,evidence,current_binding):
             'overall_priority':max((LEVELS[r['adjusted_priority']] for r in audit),default=None),
             'all_candidates_retained':True,'local_decision_unchanged':True}
 
-def run(ref,ins,candidates,settings=None,api_key=None,sender=base.backend._post_json):
+def run(ref,ins,candidates,settings=None,api_key=None,sender=base.backend._post_json,visual_packet=None):
     settings=settings or base.backend.load_settings();frozen=copy.deepcopy(candidates)
     result={'status':'fallback_local_review','binding':binding(ref,ins,frozen),'plan':None,
             'notice':base.NOTICE,'requested_model':settings.model,'server_model':None,'network_requests':0,
@@ -116,7 +116,17 @@ def run(ref,ins,candidates,settings=None,api_key=None,sender=base.backend._post_
     result['diagnostic']={'failure_stage':None,'reason':None,'finish_reason':None}
     try:
         if not settings.enabled:raise ValueError('Disabled')
-        request,ids=payload(ref,ins,frozen,settings);token=base.backend._api_token(settings,api_key)
+        if visual_packet is None:
+            request,ids=payload(ref,ins,frozen,settings)
+            result['input_mode']='binary_masks'
+        else:
+            import private_region_review as private
+            request,ids=private.request_payload(visual_packet,ref,ins,frozen,settings)
+            if visual_packet['source_binding']['reference_mask_source']!=result['binding']['reference_mask_sha256'] or visual_packet['source_binding']['inspection_mask_source']!=result['binding']['inspection_mask_sha256'] or visual_packet['source_binding']['candidates']!=private.digest(frozen):
+                raise ValueError('Preview inputs changed')
+            result.update(input_mode='redacted_local_photos',visual_packet_sha256=visual_packet['packet_sha256'],
+                          visual_source_binding=visual_packet['source_binding'],operator_preview_confirmed=True)
+        token=base.backend._api_token(settings,api_key)
         req=Request(settings.endpoint,data=json.dumps(request,ensure_ascii=False).encode(),
                     headers={'Authorization':'Bearer '+token,'Content-Type':'application/json'},method='POST')
         result['network_requests']=1

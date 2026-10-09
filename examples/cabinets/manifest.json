@@ -1,0 +1,445 @@
+{
+  "publication_authorized": "User explicitly authorized cabinet photos on 2026-10-09",
+  "files": [
+    {
+      "path": "1/1.png",
+      "sha256": "d1af69f20357bb699e426d2de1dd00f7eba312b7fd410d97a5c833ac7e14334b",
+      "bytes": 888799,
+      "dimensions": [
+        620,
+        622
+      ],
+      "reference": true,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "1/ChatGPT Image 2026年8月25日 16_13_46 (1).png",
+      "sha256": "8931bdc4c51a07a5b7826db49dcbb2af1035d9b058e812e29d71252620fbb39b",
+      "bytes": 2369517,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "1/ChatGPT Image 2026年8月25日 16_13_46 (2).png",
+      "sha256": "b9e0a665963f329e1c49e5030f3277ed069759c58d2a47a8fc1e8f064987f213",
+      "bytes": 2399719,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "1/ChatGPT Image 2026年8月25日 16_13_47 (3).png",
+      "sha256": "451d414b53e7bfa351130aeb443f0237354ce1e535fc303b6d9725733493dcc0",
+      "bytes": 2430422,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "1/ChatGPT Image 2026年8月25日 16_18_03 (1).png",
+      "sha256": "e15413f8f6777b8f671ce900b3e92d3b7365b985fc4e444773c3b789b8fc4888",
+      "bytes": 2455247,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "1/ChatGPT Image 2026年8月25日 16_18_03 (2).png",
+      "sha256": "b8cb6ad7b7800a62f68a6e2326b87dab8f0cb6ab842bc3f046d43bd1fb4b2d6e",
+      "bytes": 2423000,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "1/ChatGPT Image 2026年8月25日 16_18_04 (3).png",
+      "sha256": "5e03b32889c5c09be753562e951c7836574b7af9de216820d5b222b570b478dc",
+      "bytes": 2462434,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "2/2.png",
+      "sha256": "1d8f40fa00ac722419d265ad10dbb69f994e0f473c277a04b279fbeaa845bb24",
+      "bytes": 649788,
+      "dimensions": [
+        575,
+        517
+      ],
+      "reference": true,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "2/ChatGPT Image 2026年8月25日 16_21_24 (1).png",
+      "sha256": "c3ec797d95420ce2de38062199a52037798144574e9264c0d85548ed130bde0b",
+      "bytes": 2296708,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "2/ChatGPT Image 2026年8月25日 16_21_25 (2).png",
+      "sha256": "9d0cb86f4b26e7edaa355c5e2914547272d67b82be59af43a5bcdf4a44452206",
+      "bytes": 2303116,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "2/ChatGPT Image 2026年8月25日 16_21_25 (3).png",
+      "sha256": "1994fe34678fc0babd39ea70fe73fbc27b91d92d72f8bc4bb9a350aeb1a7750f",
+      "bytes": 2289561,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "2/ChatGPT Image 2026年8月25日 16_21_26 (4).png",
+      "sha256": "9eef3c9fee5d3d479349f09fd62a0c6195364922fdcad802a430a774a576573b",
+      "bytes": 2349915,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "2/ChatGPT Image 2026年8月25日 16_23_59 (1).png",
+      "sha256": "c91bf1ed02d52bcda64efb8a5bbf7bd752685af34bcafc1d6af91441777de5d2",
+      "bytes": 2340019,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "2/ChatGPT Image 2026年8月25日 16_24_00 (2).png",
+      "sha256": "8c8912c3a0f6af075eabc23fdcef5ad23d844f0594ae37f65a5853eeeaa5e9a3",
+      "bytes": 2221716,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "2/ChatGPT Image 2026年8月25日 16_24_00 (3).png",
+      "sha256": "9bb5744bdc7d67dd067cc300e3e75bf369c3a16df22bdbdf2f81d902724706b3",
+      "bytes": 2199908,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "2/ChatGPT Image 2026年8月25日 16_24_01 (4).png",
+      "sha256": "38790bdf1da4dd86127981d1cd019c675f89a12db1acaa7f9db5d892bc805746",
+      "bytes": 2334774,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "4/right.png",
+      "sha256": "57f4eb2143f2c0e84d434f759f4fe8f5edc256b880f4ce6b8c8ef7d7535c155a",
+      "bytes": 1518136,
+      "dimensions": [
+        1080,
+        712
+      ],
+      "reference": true,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "4/right1.png",
+      "sha256": "8b6d31baa55cce81c316109f4282954c0d5f5cc668452e7629dce2239efa43a3",
+      "bytes": 2324196,
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "4/wrong.png",
+      "sha256": "b9f7f9857ea77311e37dabe9adf1d22a3d3498439b35c3448e62ef2ef336af31",
+      "bytes": 3821452,
+      "dimensions": [
+        2432,
+        1600
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "4/wrong10.png",
+      "sha256": "432c958fc6460513799139f6ecb820e5ef6294524fbbc8af17ac7eef17278826",
+      "bytes": 2271779,
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "4/wrong11.png",
+      "sha256": "6f5c62213d67dcd3cbc70c0eae5bd6631841f95b519c4282fec43bdb6ffa5ca8",
+      "bytes": 2264741,
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "4/wrong12.png",
+      "sha256": "161e6fde22defbba52391b4080bdde509d242a97f49db79b9a38bf3053659408",
+      "bytes": 2286550,
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "4/wrong13.png",
+      "sha256": "e9a2e9614a635bf5ae973f71549866fbbbfdd946c70035ebac464cb82a3c4347",
+      "bytes": 2272517,
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "4/wrong2.png",
+      "sha256": "54ef519105a982878a1e0396386a8ad4f75c048416de042b42fc28790f65341d",
+      "bytes": 3834054,
+      "dimensions": [
+        2432,
+        1600
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "4/wrong3.png",
+      "sha256": "604fd9ca84a33dee9ea41ccb175b32db6807d8bbcee930fb662f193747bdc615",
+      "bytes": 4093426,
+      "dimensions": [
+        2432,
+        1600
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "4/wrong4.png",
+      "sha256": "f136276cd13a7060f547a5d056092cfffb802521d13d4b51a643ba8c074fa6aa",
+      "bytes": 3913655,
+      "dimensions": [
+        2432,
+        1600
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "4/wrong5.png",
+      "sha256": "c6ee4d12d42345c5b0cd6f4f87badd76ea6c6bb880802ded98b32124b3950537",
+      "bytes": 3934186,
+      "dimensions": [
+        2432,
+        1600
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "4/wrong6.png",
+      "sha256": "67e44f2bf366e25e5157a95b0fedd5bb60810584fced1ecc62cf3c927c189483",
+      "bytes": 2264599,
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "4/wrong7.png",
+      "sha256": "c5f81abe10940e8edb480fa70515a3ba21c0019b87a7c0ef94dec2f6f186ac98",
+      "bytes": 2326881,
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "4/wrong8.png",
+      "sha256": "9e1e1670487c587db9514ccee5bf4d03ce7b088b72a620c2d2226b5175ee6b3b",
+      "bytes": 2330361,
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "4/wrong9.png",
+      "sha256": "fe1e673f7ed93ae4914f57dd6825af6dc99f8c5acfc5f19862a3ef2e4d955992",
+      "bytes": 2384436,
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "5/5.png",
+      "sha256": "34a44190c9f6d90ea1c9c53c616f26cb9afe57e8a281c8e5a238d0bc93b1a0c2",
+      "bytes": 747407,
+      "dimensions": [
+        582,
+        543
+      ],
+      "reference": true,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "5/ChatGPT Image 2026年8月25日 16_32_16 (1).png",
+      "sha256": "0a2339b2b4e094e787f2896d71df0285e5e2b988900e1c4832c5e6e85b1ad4e1",
+      "bytes": 2485446,
+      "dimensions": [
+        1328,
+        1184
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "5/ChatGPT Image 2026年8月25日 16_32_17 (2).png",
+      "sha256": "1694ef3d1564d5dd40c7ceb6d665db8f721e36b88d5acdf2c127933c647a7c1d",
+      "bytes": 2407603,
+      "dimensions": [
+        1326,
+        1187
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "5/ChatGPT Image 2026年8月25日 16_32_17 (3).png",
+      "sha256": "25205b2339537d92b03fa556251a3669c74349015616a701db47eb795aecb068",
+      "bytes": 2364409,
+      "dimensions": [
+        1323,
+        1189
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "5/ChatGPT Image 2026年8月25日 16_32_18 (4).png",
+      "sha256": "a6707d6b43260264ed5d3638f227a1cae2cb64f72a9f8d97c030cf7a831144d7",
+      "bytes": 2347365,
+      "dimensions": [
+        1325,
+        1187
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "5/ChatGPT Image 2026年8月25日 16_41_54 (1).png",
+      "sha256": "1ac6ae4011bd62ee32b79c77ac6d38e9711bb0a1a89d1fb644d7a78724d805dc",
+      "bytes": 2364421,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "5/ChatGPT Image 2026年8月25日 16_41_55 (2).png",
+      "sha256": "1c88a9d3eb50b0ed86ea8cd609956992b9bd560614a73988da4a4b17567b29b4",
+      "bytes": 2370000,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "5/ChatGPT Image 2026年8月25日 16_41_55 (3).png",
+      "sha256": "98762de8259b15e06c8a53643f463bd29a2aea498233107e781948dcf0ccb478",
+      "bytes": 2405468,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    },
+    {
+      "path": "5/ChatGPT Image 2026年8月25日 16_41_56 (4).png",
+      "sha256": "155886eb87224afd70879548e30b9ffc715a80453e56bd3dc035859279bd9f62",
+      "bytes": 2446248,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "reference": false,
+      "source_note": "ChatGPT Image filenames are generated inspection variants; names are not verified electrical ground truth."
+    }
+  ]
+}

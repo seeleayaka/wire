@@ -6,12 +6,14 @@ import copy
 import hashlib
 import json
 import sys
+import os
 from pathlib import Path
 from urllib.request import Request
 import numpy as np
 from PIL import Image
 
-sys.path.insert(0, 'E:/PythonProject10/prototype')
+configured_root=Path(os.environ.get('WIREMIND_PROJECT_ROOT','E:/PythonProject10'))
+if (configured_root/'prototype').is_dir():sys.path.insert(0,str(configured_root/'prototype'))
 import deepseek_mask_review as backend
 
 ACTIONS = {

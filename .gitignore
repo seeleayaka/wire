@@ -19,6 +19,8 @@ config/template_review_recipe.json
 config/dimm_review_app.json
 config/current_cabinet_assembly_template.json
 config/deepseek_mask_review.local.json
+**/*.local.json
+**/*.local.json.tmp
 
 # Downloaded third-party model sources and weights; provision them locally, do not commit them.
 models/**/*.pt
